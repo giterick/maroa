@@ -1,0 +1,72 @@
+"Procrastinar
+contactar al técnico;
+el problema
+permanece en el
+backlog mental.","One-click / one-call
+para disparar
+solicitud sin fricción.","Ofrecer botón
+“Iniciar servicio” o
+confirmación por
+SMS con “Sí”.",Cliente,"Cliente (clic) →
+Sistema Maroa",
+"No tener base de
+datos de técnicos
+confiables.","Directorio validado y
+curado por Maroa.","Curar y mantener
+base de proveedores
+con ratings y
+cobertura.",Cliente,Maroa (Ops),
+Tetris de agendas,,,,,
+Pain Point (Frustració,Gain (Estado deseado,JTBD (trabajo a ejecu,Persona que sufre el P,Responsable del JTBD,
+"Coordinar fecha con
+técnicos que tienen
+agenda llena.","Cita confirmada en la
+primera llamada.","Consultar
+disponibilidad en
+tiempo real y
+reservar slot.",Cliente,"Sistema (calendario)
++ Agente",
+"Amplias ventanas de
+espera (“llego entre
+9 y 5”).","Intervalos de
+servicio 2 h o menos.","Ruteo inteligente y
+confirmación de ETA
+live-tracking.",Cliente,"Proveedor (GPS) +
+Sistema",
+"Reprogramaciones
+de último minuto por
+parte del técnico.","Re-agendado
+automático con
+mínima intervención.","Enviar alternativas y
+re-confirmar en un
+clic.",Cliente,Sistema (workflow),
+"Múltiples activos
+requieren visitas
+separadas.","Visita combinada
+para varios equipos.","Agrupar órdenes por
+ubicación y skillset
+del técnico.",Cliente,"Agente Maroa /
+Sistema",
+"Cliente y proveedor
+usan calendarios
+distintos.","Sincronización de
+calendarios (Google,
+Outlook).","Integrar APIs de
+calendar y bloquear
+horario.",Cliente / Proveedor,Sistema Maroa,
+"Incertidumbre sobre
+llegada del técnico.","Tracking en vivo tipo
+ride-hailing.","Enviar enlace de
+seguimiento +
+contacto directo.",Cliente,Proveedor (app),
+"Pagos y facturas
+ligados a la fecha
+final del servicio.","Cobro automático
+apenas se marque
+“Trabajo
+completado”.","Trigger de
+facturación al cerrar
+ticket en app del
+técnico.",Maroa / Cliente,"Proveedor (marca
+completado) →
+Sistema",

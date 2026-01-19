@@ -1,0 +1,32 @@
+"Select Problem to Focus on
+Who",,,,,,,,,
+Persona,Declaración “Quién?” (plantilla completada),,,,,,,,
+"A. Dueño de hogar /
+Admin de oficina","Para los propietarios de viviendas y gestores de pequeños negocios que no están satisfechos con la carga
+mental, los gastos sorpresa y el tiempo perdido al coordinar múltiples cuidados y pagos dispersos, Maroa
+ofrece un asistente proactivo tipo “peace-of-mind as a service” que orquesta recordatorios, conecta
+proveedores verificados y cierra el ciclo de principio a fin en minutos.",,,,,,,,
+"B. Técnico
+independiente /
+Pyme de servicios","Para los técnicos y microempresas de mantenimiento que no están satisfechos con la dificultad de
+conseguir clientes regulares y optimizar su agenda, causada por la fragmentación de la demanda y baja
+visibilidad digital, Maroa ofrece un marketplace con leads calificados y programación inteligente que
+dispara horas facturables y reduce tiempos muertos sin inversión inicial.",,,,,,,,
+"Paso 1 · Definir la “mini-métrica”
+Table 1",,,,,,,,,
+Variable,Escala 1-5,,Pregunta guía,,,,,,
+"Esfuerzo / Capital
+(D)","1 = “podemos lanzarlo en un sprint”
+5 = “necesita IoT masivo, regulaciones, mucha $$$”",,,,,,,,
+"Impacto en la vida
+del usuario (I)","1 = mejora marginal
+5 = life-changer, le ahorra dinero/estrés grande",,,,,,,,
+"Prevalencia /
+Frecuencia (P)","1 = caso raro
+5 = lo sufre casi todo el mundo, todos los meses",,,,,,,,
+"Priority Score (PRI) = (I + P) – D
+Cuanto más alto, mejor candidato: mucho impacto + mucha prevalencia – poco esfuerzo.
+Paso 2 · Scoring rápido (back-of-the-napkin)
+Table 2",,,,,,,,,
+#,Problema (abreviado),D,,I,P,PRI,,,
+2,Overload mental: demasiados to-dos,2,,5,5,8,,,
