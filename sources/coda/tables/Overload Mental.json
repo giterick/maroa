@@ -1,0 +1,191 @@
+{
+  "table": {
+    "id": "grid-rJnGZgZ19n",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n",
+    "name": "Overload Mental",
+    "parent": {
+      "id": "canvas-D_DdNNBrn5",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-D_DdNNBrn5",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suNNBrn5",
+      "name": "Pinpoint Pain Points and Gains,  and Determine Jobs to be Done"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-8VrGbMJCGE",
+      "type": "column",
+      "name": "Pain Point (Frustraci\u00f3n)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/columns/c-8VrGbMJCGE",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-RRtwiqm2Bd",
+      "type": "column",
+      "name": "Gain (Estado deseado)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/columns/c-RRtwiqm2Bd",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-8QAdd72W-Y",
+      "type": "column",
+      "name": "JTBD (trabajo a ejecutar)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/columns/c-8QAdd72W-Y",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-3YNT7j4etj",
+      "type": "column",
+      "name": "Persona que sufre el Pain",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/columns/c-3YNT7j4etj",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-QW7w7wR8Dr",
+      "type": "column",
+      "name": "Responsable del JTBD",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/columns/c-QW7w7wR8Dr",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-4snI0S06Al",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/rows/i-4snI0S06Al",
+      "name": "Ansiedad de que un equipo vital falle justo cuando lo necesito.",
+      "index": 0,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-4snI0S06Al",
+      "values": {
+        "c-8VrGbMJCGE": "Ansiedad de que un equipo vital falle justo cuando lo necesito.",
+        "c-RRtwiqm2Bd": "Tranquilidad de que los equipos cr\u00edticos siempre funcionan.",
+        "c-8QAdd72W-Y": "Monitorear ciclos de mantenimiento y coordinar servicio preventivo antes de fallos.",
+        "c-3YNT7j4etj": "Cliente",
+        "c-QW7w7wR8Dr": "Sistema Maroa (alerta) \u2192 Agente (coordina)"
+      }
+    },
+    {
+      "id": "i-tEdlf4s0UW",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/rows/i-tEdlf4s0UW",
+      "name": "Falta de alarmas/recordatorios confiables.",
+      "index": 1,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-tEdlf4s0UW",
+      "values": {
+        "c-8VrGbMJCGE": "Falta de alarmas/recordatorios confiables.",
+        "c-RRtwiqm2Bd": "Recordatorios autom\u00e1ticos, puntuales y claros.",
+        "c-8QAdd72W-Y": "Generar y enviar notificaciones multicanal con suficiente anticipaci\u00f3n.",
+        "c-3YNT7j4etj": "Cliente",
+        "c-QW7w7wR8Dr": "Sistema Maroa"
+      }
+    },
+    {
+      "id": "i-lyXYQwsVLr",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/rows/i-lyXYQwsVLr",
+      "name": "Sensaci\u00f3n de \u201capagar fuegos\u201d constantemente.",
+      "index": 2,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-lyXYQwsVLr",
+      "values": {
+        "c-8VrGbMJCGE": "Sensaci\u00f3n de \u201capagar fuegos\u201d constantemente.",
+        "c-RRtwiqm2Bd": "Sentirse proactivo: problemas resueltos antes de volverse urgentes.",
+        "c-8QAdd72W-Y": "Planificar mantenimiento anual y visualizarlo en un calendario compartido.",
+        "c-3YNT7j4etj": "Cliente",
+        "c-QW7w7wR8Dr": "Agente Maroa (planifica)"
+      }
+    },
+    {
+      "id": "i-c8PsqKlJ-G",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/rows/i-c8PsqKlJ-G",
+      "name": "Olvidar la recurrencia o desconocer el estado del equipo.",
+      "index": 3,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-c8PsqKlJ-G",
+      "values": {
+        "c-8VrGbMJCGE": "Olvidar la recurrencia o desconocer el estado del equipo.",
+        "c-RRtwiqm2Bd": "Visibilidad en un dashboard \u201cNext Service Due\u201d.",
+        "c-8QAdd72W-Y": "Mantener historial de servicios y estado de cada activo.",
+        "c-3YNT7j4etj": "Cliente",
+        "c-QW7w7wR8Dr": "Sistema Maroa"
+      }
+    },
+    {
+      "id": "i-s_P7iW3LBm",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/rows/i-s_P7iW3LBm",
+      "name": "T\u00e9cnicos informales no atienden \u201ctrabajos peque\u00f1os\u201d.",
+      "index": 4,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-s_P7iW3LBm",
+      "values": {
+        "c-8VrGbMJCGE": "T\u00e9cnicos informales no atienden \u201ctrabajos peque\u00f1os\u201d.",
+        "c-RRtwiqm2Bd": "Acceso a red de t\u00e9cnicos dispuestos a tareas menores.",
+        "c-8QAdd72W-Y": "Asignar proveedor adecuado seg\u00fan SLA y tama\u00f1o del trabajo.",
+        "c-3YNT7j4etj": "Cliente",
+        "c-QW7w7wR8Dr": "Sistema (matching) + Proveedor"
+      }
+    },
+    {
+      "id": "i-rpkoYnXyI-",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/rows/i-rpkoYnXyI-",
+      "name": "Procrastinar contactar al t\u00e9cnico; el problema permanece en el backlog mental.",
+      "index": 5,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-rpkoYnXyI-",
+      "values": {
+        "c-8VrGbMJCGE": "Procrastinar contactar al t\u00e9cnico; el problema permanece en el backlog mental.",
+        "c-RRtwiqm2Bd": "One-click / one-call para disparar solicitud sin fricci\u00f3n.",
+        "c-8QAdd72W-Y": "Ofrecer bot\u00f3n \u201cIniciar servicio\u201d o confirmaci\u00f3n por SMS con \u201cS\u00ed\u201d.",
+        "c-3YNT7j4etj": "Cliente",
+        "c-QW7w7wR8Dr": "Cliente (clic) \u2192 Sistema Maroa"
+      }
+    },
+    {
+      "id": "i-6qB-He6LXF",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-rJnGZgZ19n/rows/i-6qB-He6LXF",
+      "name": "No tener base de datos de t\u00e9cnicos confiables.",
+      "index": 6,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-6qB-He6LXF",
+      "values": {
+        "c-8VrGbMJCGE": "No tener base de datos de t\u00e9cnicos confiables.",
+        "c-RRtwiqm2Bd": "Directorio validado y curado por Maroa.",
+        "c-8QAdd72W-Y": "Curar y mantener base de proveedores con ratings y cobertura.",
+        "c-3YNT7j4etj": "Cliente",
+        "c-QW7w7wR8Dr": "Maroa (Ops)"
+      }
+    }
+  ]
+}

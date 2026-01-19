@@ -1,0 +1,2 @@
+# Cadencia minima de ejecución
+

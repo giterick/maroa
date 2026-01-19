@@ -1,0 +1,70 @@
+{
+  "table": {
+    "id": "grid-Y38W77kH-b",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-Y38W77kH-b",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-Y38W77kH-b",
+    "name": "Who",
+    "parent": {
+      "id": "canvas-W6KDh6GdJi",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-W6KDh6GdJi",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suh6GdJi",
+      "name": "Select Problem to Focus on"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-j-4vvR2zz0",
+      "type": "column",
+      "name": "Persona",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-Y38W77kH-b/columns/c-j-4vvR2zz0",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-bfNN72Dlpf",
+      "type": "column",
+      "name": "Declaraci\u00f3n \u201cQui\u00e9n?\u201d (plantilla completada)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-Y38W77kH-b/columns/c-bfNN72Dlpf",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-7PK3lGHOaf",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-Y38W77kH-b/rows/i-7PK3lGHOaf",
+      "name": "A. Due\u00f1o de hogar / Admin de oficina",
+      "index": 0,
+      "createdAt": "2025-07-31T19:06:03.623Z",
+      "updatedAt": "2025-07-31T19:06:03.623Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-Y38W77kH-b/_rui-7PK3lGHOaf",
+      "values": {
+        "c-j-4vvR2zz0": "A. Due\u00f1o de hogar / Admin de oficina",
+        "c-bfNN72Dlpf": "Para los propietarios de viviendas y gestores de peque\u00f1os negocios que no est\u00e1n satisfechos con la carga mental, los gastos sorpresa y el tiempo perdido al coordinar m\u00faltiples cuidados y pagos dispersos, Maroa ofrece un asistente proactivo tipo \u201cpeace-of-mind as a service\u201d que orquesta recordatorios, conecta proveedores verificados y cierra el ciclo de principio a fin en minutos."
+      }
+    },
+    {
+      "id": "i-2PTnqbvdRP",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-Y38W77kH-b/rows/i-2PTnqbvdRP",
+      "name": "B. T\u00e9cnico independiente / Pyme de servicios",
+      "index": 1,
+      "createdAt": "2025-07-31T19:06:03.623Z",
+      "updatedAt": "2025-07-31T19:06:03.623Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-Y38W77kH-b/_rui-2PTnqbvdRP",
+      "values": {
+        "c-j-4vvR2zz0": "B. T\u00e9cnico independiente / Pyme de servicios",
+        "c-bfNN72Dlpf": "Para los t\u00e9cnicos y microempresas de mantenimiento que no est\u00e1n satisfechos con la dificultad de conseguir clientes regulares y optimizar su agenda, causada por la fragmentaci\u00f3n de la demanda y baja visibilidad digital, Maroa ofrece un marketplace con leads calificados y programaci\u00f3n inteligente que dispara horas facturables y reduce tiempos muertos sin inversi\u00f3n inicial."
+      }
+    }
+  ]
+}

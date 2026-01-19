@@ -1,0 +1,58 @@
+{
+  "table": {
+    "id": "grid-7UOq4LFlbR",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+    "name": "Si/No",
+    "parent": {
+      "id": "canvas-9Ub8FCdYj8",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-9Ub8FCdYj8",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suFCdYj8",
+      "name": "Entrevistas Profundas  a Clientes v2"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-LCqRPzUjK4",
+      "type": "column",
+      "name": "Si/No",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR/columns/c-LCqRPzUjK4",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-W42Jm9Vsj0",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR/rows/i-W42Jm9Vsj0",
+      "name": "S\u00ed",
+      "index": 0,
+      "createdAt": "2025-09-04T01:20:06.744Z",
+      "updatedAt": "2025-09-04T01:20:06.744Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR/_rui-W42Jm9Vsj0",
+      "values": {
+        "c-LCqRPzUjK4": "S\u00ed"
+      }
+    },
+    {
+      "id": "i-nQzMNNRoGt",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR/rows/i-nQzMNNRoGt",
+      "name": "No",
+      "index": 1,
+      "createdAt": "2025-09-04T01:20:06.744Z",
+      "updatedAt": "2025-09-04T01:20:06.744Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR/_rui-nQzMNNRoGt",
+      "values": {
+        "c-LCqRPzUjK4": "No"
+      }
+    }
+  ]
+}

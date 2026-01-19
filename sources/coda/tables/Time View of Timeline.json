@@ -1,0 +1,1835 @@
+{
+  "table": {
+    "id": "table-DKfG9edaa-",
+    "type": "table",
+    "tableType": "view",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-",
+    "name": "Time View of Timeline",
+    "parent": {
+      "id": "canvas-0cUx_4-SZT",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-0cUx_4-SZT",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_su_4-SZT",
+      "name": "Project Management"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-LGoYdy-4wK",
+      "type": "column",
+      "name": "Fase",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-LGoYdy-4wK",
+      "format": {
+        "options": [
+          {
+            "name": "Etapa 0",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Etapa 1",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Etapa 2",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Etapa 3",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-DPPyz07ad9",
+      "type": "column",
+      "name": "Workstream",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-DPPyz07ad9",
+      "format": {
+        "options": [
+          {
+            "name": "Clientes y Encaje",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Servicio y Producto",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Proveedores T\u00e9cnicos",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Operaci\u00f3n de Agentes",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Pagos y Facturaci\u00f3n",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "Datos y Sistemas",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          },
+          {
+            "name": "Legal y Tributario",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFDCDC"
+          },
+          {
+            "name": "Go-to-Market",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#F0F0F0"
+          },
+          {
+            "name": "Finanzas y Econom\u00eda",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Marca y Comunicaciones",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Riesgo y Calidad",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Extensiones (A\u00f1o 2-3)",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#FFFFFF"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-xeW4e51vIb",
+      "type": "column",
+      "name": "ID",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-xeW4e51vIb",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ye5LEEOFtf",
+      "type": "column",
+      "name": "T\u00edtulo",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-ye5LEEOFtf",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-wrKKQQ4LuS",
+      "type": "column",
+      "name": "Sprint",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-wrKKQQ4LuS",
+      "format": {
+        "options": [
+          {
+            "name": "Semana 1",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Semana 2",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Semana 3",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Semana 4",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-5hF59wevft",
+      "type": "column",
+      "name": "Tipo",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-5hF59wevft",
+      "format": {
+        "options": [
+          {
+            "name": "Tarea",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Hito",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "\u00c9pica",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-m8un-EXimD",
+      "type": "column",
+      "name": "Responsable",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-m8un-EXimD",
+      "format": {
+        "table": {
+          "id": "Global-Document-People",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/Global-Document-People",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tuGlobal-Document-People",
+          "name": "_Global Document People"
+        },
+        "type": "person",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-um2yuro7_B",
+      "type": "column",
+      "name": "Estado",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-um2yuro7_B",
+      "format": {
+        "options": [
+          {
+            "name": "Backlog",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#F0F0F0"
+          },
+          {
+            "name": "En curso",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Completada",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Bloqueada",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFDCDC"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-kDgRrC7rYv",
+      "type": "column",
+      "name": "Prioridad",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-kDgRrC7rYv",
+      "format": {
+        "options": [
+          {
+            "name": "Must Have",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFDCDC"
+          },
+          {
+            "name": "Should Have",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Nice to Have",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ZbUrefL5VI",
+      "type": "column",
+      "name": "Inicio",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-ZbUrefL5VI",
+      "format": {
+        "format": "DD/MM/YYYY",
+        "type": "date",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-46P-OovBLR",
+      "type": "column",
+      "name": "Fin",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-46P-OovBLR",
+      "format": {
+        "format": "DD/MM/YYYY",
+        "type": "date",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-a8HiV1Hes1",
+      "type": "column",
+      "name": "DoD (Definition of Done)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-a8HiV1Hes1",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-Zhq_cP2IpX",
+      "type": "column",
+      "name": "KPI impactado",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-Zhq_cP2IpX",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-Jv_WF-YHZQ",
+      "type": "column",
+      "name": "Ciudad/\u00c1rea",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-Jv_WF-YHZQ",
+      "format": {
+        "options": [
+          {
+            "name": "PC/SD",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Nacional",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Regional",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ZN7YGi_Cdm",
+      "type": "column",
+      "name": "Notas",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-ZN7YGi_Cdm",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-XryTKZ5j7Z",
+      "type": "column",
+      "name": "Depends on",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj/columns/c-XryTKZ5j7Z",
+      "format": {
+        "table": {
+          "id": "grid-0nrMF5dJxj",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-0nrMF5dJxj",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-0nrMF5dJxj",
+          "name": "Timeline"
+        },
+        "type": "lookup",
+        "isArray": true
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-tHzEKFtM-s",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-tHzEKFtM-s",
+      "name": "IMM-004",
+      "index": 9,
+      "createdAt": "2025-09-03T02:05:24.721Z",
+      "updatedAt": "2025-09-03T02:06:38.745Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-tHzEKFtM-s",
+      "values": {
+        "c-LGoYdy-4wK": "",
+        "c-DPPyz07ad9": "Clientes y Encaje",
+        "c-xeW4e51vIb": "IMM-004",
+        "c-ye5LEEOFtf": "Definir Dimensionamiento del Mercado - TAM/SAM/SOM",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "",
+        "c-m8un-EXimD": "Erick Santana",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "",
+        "c-ZbUrefL5VI": "2025-09-03T00:00:00.000-04:00",
+        "c-46P-OovBLR": "2025-09-04T00:00:00.000-04:00",
+        "c-a8HiV1Hes1": "",
+        "c-Zhq_cP2IpX": "",
+        "c-Jv_WF-YHZQ": "",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-VAXaBDoirX",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-VAXaBDoirX",
+      "name": "IMM-003",
+      "index": 8,
+      "createdAt": "2025-09-03T02:03:21.118Z",
+      "updatedAt": "2025-09-03T02:05:47.924Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-VAXaBDoirX",
+      "values": {
+        "c-LGoYdy-4wK": "",
+        "c-DPPyz07ad9": "Clientes y Encaje",
+        "c-xeW4e51vIb": "IMM-003",
+        "c-ye5LEEOFtf": "Entrevistas para validar suposiciones v2",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "",
+        "c-m8un-EXimD": "Gabriella Bairan",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "",
+        "c-ZbUrefL5VI": "2025-09-03T00:00:00.000-04:00",
+        "c-46P-OovBLR": "2025-09-11T00:00:00.000-04:00",
+        "c-a8HiV1Hes1": "",
+        "c-Zhq_cP2IpX": "",
+        "c-Jv_WF-YHZQ": "",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-V03HCpr7zE",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-V03HCpr7zE",
+      "name": "IMM-002",
+      "index": 7,
+      "createdAt": "2025-09-03T02:01:44.034Z",
+      "updatedAt": "2025-09-03T02:05:45.840Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-V03HCpr7zE",
+      "values": {
+        "c-LGoYdy-4wK": "",
+        "c-DPPyz07ad9": "Servicio y Producto",
+        "c-xeW4e51vIb": "IMM-002",
+        "c-ye5LEEOFtf": "Definir Enmarcaci\u00f3n de oportunidades",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "",
+        "c-m8un-EXimD": "Erick Santana",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "",
+        "c-ZbUrefL5VI": "2025-09-03T00:00:00.000-04:00",
+        "c-46P-OovBLR": "2025-09-04T00:00:00.000-04:00",
+        "c-a8HiV1Hes1": "",
+        "c-Zhq_cP2IpX": "",
+        "c-Jv_WF-YHZQ": "",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-FlzzMk8AxR",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-FlzzMk8AxR",
+      "name": "IMM-001",
+      "index": 6,
+      "createdAt": "2025-09-03T02:00:13.989Z",
+      "updatedAt": "2025-09-03T02:05:31.871Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-FlzzMk8AxR",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Clientes y Encaje",
+        "c-xeW4e51vIb": "IMM-001",
+        "c-ye5LEEOFtf": "Definir Perfil del cliente y puntos de dolor",
+        "c-wrKKQQ4LuS": "Semana 1",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "Erick Santana",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "",
+        "c-ZbUrefL5VI": "2025-09-03T00:00:00.000-04:00",
+        "c-46P-OovBLR": "2025-09-04T00:00:00.000-04:00",
+        "c-a8HiV1Hes1": "",
+        "c-Zhq_cP2IpX": "",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-Qe4PQ7I3JX",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-Qe4PQ7I3JX",
+      "name": "T-000",
+      "index": 0,
+      "createdAt": "2025-08-27T23:22:06.999Z",
+      "updatedAt": "2025-08-27T23:25:07.255Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-Qe4PQ7I3JX",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Servicio y Producto",
+        "c-xeW4e51vIb": "T-000",
+        "c-ye5LEEOFtf": "Contratar competencia y absorber informaci\u00f3n sobre sus productos/servicios",
+        "c-wrKKQQ4LuS": "Semana 1",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "Asirio santana",
+        "c-um2yuro7_B": "En curso",
+        "c-kDgRrC7rYv": "",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "",
+        "c-Zhq_cP2IpX": "",
+        "c-Jv_WF-YHZQ": "",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-BTLrCd1vKV",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-BTLrCd1vKV",
+      "name": "T-002",
+      "index": 2,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-27T23:22:52.465Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-BTLrCd1vKV",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Proveedores T\u00e9cnicos",
+        "c-xeW4e51vIb": "T-002",
+        "c-ye5LEEOFtf": "Entrevistas con proveedores (5)",
+        "c-wrKKQQ4LuS": "Semana 1",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "Gabriella Bairan",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "5 entrevistas y hoja de tarifas/SLA preliminar",
+        "c-Zhq_cP2IpX": "Capacidad de ejecuci\u00f3n",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-0lZgKjM2Ik",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-0lZgKjM2Ik",
+      "name": "T-003",
+      "index": 3,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-16T02:33:08.148Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-0lZgKjM2Ik",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Servicio y Producto",
+        "c-xeW4e51vIb": "T-003",
+        "c-ye5LEEOFtf": "Flujo est\u00e1ndar del servicio v0.1",
+        "c-wrKKQQ4LuS": "Semana 1",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "Erick Santana",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "2025-08-18T00:00:00.000-04:00",
+        "c-46P-OovBLR": "2025-08-19T00:00:00.000-04:00",
+        "c-a8HiV1Hes1": "Documento \u201cDiagn\u00f3stico\u2192Coordinaci\u00f3n\u2192Ejecuci\u00f3n\u2192Cierre\u2192Cobro\u201d aprobado",
+        "c-Zhq_cP2IpX": "Consistencia operativa",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-qGbi0plvob",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-qGbi0plvob",
+      "name": "T-004",
+      "index": 4,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-16T02:33:11.088Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-qGbi0plvob",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Servicio y Producto",
+        "c-xeW4e51vIb": "T-004",
+        "c-ye5LEEOFtf": "Ficha m\u00ednima del activo (plantilla)",
+        "c-wrKKQQ4LuS": "Semana 1",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "Erick Santana",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "2025-08-20T00:00:00.000-04:00",
+        "c-46P-OovBLR": "2025-08-21T00:00:00.000-04:00",
+        "c-a8HiV1Hes1": "Campos definidos, fotos requeridas, ejemplo cargado en sistema",
+        "c-Zhq_cP2IpX": "Calidad de datos",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-XkvZDze2EE",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-XkvZDze2EE",
+      "name": "T-005",
+      "index": 5,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-16T02:33:15.106Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-XkvZDze2EE",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Datos y Sistemas",
+        "c-xeW4e51vIb": "T-005",
+        "c-ye5LEEOFtf": "Tablero sin c\u00f3digo para tickets (pipeline)",
+        "c-wrKKQQ4LuS": "Semana 1",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "Erick Santana",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "2025-08-22T00:00:00.000-04:00",
+        "c-46P-OovBLR": "2025-08-23T00:00:00.000-04:00",
+        "c-a8HiV1Hes1": "Columnas/estados listos, permisos y vistas de agente creadas",
+        "c-Zhq_cP2IpX": "Visibilidad integral",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-mSbHKq0qRH",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-mSbHKq0qRH",
+      "name": "T-006",
+      "index": 10,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:13.641Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-mSbHKq0qRH",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Operaci\u00f3n de Agentes",
+        "c-xeW4e51vIb": "T-006",
+        "c-ye5LEEOFtf": "Guiones T-30 y T-7 + protocolo de objeciones",
+        "c-wrKKQQ4LuS": "Semana 2",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Guiones publicados, roleplay con 2 agentes",
+        "c-Zhq_cP2IpX": "% citas en primera interacci\u00f3n",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-iss3bI4R2_",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-iss3bI4R2_",
+      "name": "T-007",
+      "index": 11,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:13.641Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-iss3bI4R2_",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Go-to-Market",
+        "c-xeW4e51vIb": "T-007",
+        "c-ye5LEEOFtf": "Captar 20 hogares para registro de activos",
+        "c-wrKKQQ4LuS": "Semana 2",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "20 hogares con al menos 1 activo cargado",
+        "c-Zhq_cP2IpX": "Activos por cliente",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-ISTjYqgGWc",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-ISTjYqgGWc",
+      "name": "T-008",
+      "index": 12,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:13.641Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-ISTjYqgGWc",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Pagos y Facturaci\u00f3n",
+        "c-xeW4e51vIb": "T-008",
+        "c-ye5LEEOFtf": "Tokenizaci\u00f3n de tarjeta + consentimiento",
+        "c-wrKKQQ4LuS": "Semana 2",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Formulario de consentimiento, token de prueba y cargo de prueba exitoso",
+        "c-Zhq_cP2IpX": "Ciclo aprobaci\u00f3n\u2192cobro",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-at0kpc_-f0",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-at0kpc_-f0",
+      "name": "T-009",
+      "index": 13,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-at0kpc_-f0",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Pagos y Facturaci\u00f3n",
+        "c-xeW4e51vIb": "T-009",
+        "c-ye5LEEOFtf": "Primer cobro real en producci\u00f3n",
+        "c-wrKKQQ4LuS": "Semana 2",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Servicio real cobrado autom\u00e1ticamente al marcar \u201cTrabajo completado\u201d",
+        "c-Zhq_cP2IpX": "Ciclo aprobaci\u00f3n\u2192cobro",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-008"
+      }
+    },
+    {
+      "id": "i--CqVE7v66D",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i--CqVE7v66D",
+      "name": "T-010",
+      "index": 14,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui--CqVE7v66D",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Servicio y Producto",
+        "c-xeW4e51vIb": "T-010",
+        "c-ye5LEEOFtf": "10 pilotos pagados end-to-end",
+        "c-wrKKQQ4LuS": "Semana 3",
+        "c-5hF59wevft": "\u00c9pica",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "10 tickets cerrados con evidencia y cobro",
+        "c-Zhq_cP2IpX": "% cierre / Calidad",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-003,T-004,T-005,T-009"
+      }
+    },
+    {
+      "id": "i-CHrGfJZY_8",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-CHrGfJZY_8",
+      "name": "T-011",
+      "index": 15,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-16T02:41:10.988Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-CHrGfJZY_8",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Datos y Sistemas",
+        "c-xeW4e51vIb": "T-011",
+        "c-ye5LEEOFtf": "Cabina de mando v1 (4 KPIs)",
+        "c-wrKKQQ4LuS": "Semana 3",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "Erick Santana",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Panel con: % cierre, tiempo aprobaci\u00f3n\u2192cobro, activos/cliente, puntualidad t\u00e9cnico",
+        "c-Zhq_cP2IpX": "Decisi\u00f3n basada en datos",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-005"
+      }
+    },
+    {
+      "id": "i-dlHDKZkzgy",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-dlHDKZkzgy",
+      "name": "T-012",
+      "index": 16,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-16T02:41:24.188Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-dlHDKZkzgy",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Servicio y Producto",
+        "c-xeW4e51vIb": "T-012",
+        "c-ye5LEEOFtf": "Retro y eliminar top-3 fricciones",
+        "c-wrKKQQ4LuS": "Semana 4",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "Erick Santana",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Lista de fricciones priorizada y 3 mejoras implementadas",
+        "c-Zhq_cP2IpX": "Mejora continua",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-010,T-011"
+      }
+    },
+    {
+      "id": "i-blX-7yruVH",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-blX-7yruVH",
+      "name": "T-013",
+      "index": 17,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:13.641Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-blX-7yruVH",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Go-to-Market",
+        "c-xeW4e51vIb": "T-013",
+        "c-ye5LEEOFtf": "A/B propuesta comercial para condominios",
+        "c-wrKKQQ4LuS": "Semana 4",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "2 versiones probadas, tasa de aceptaci\u00f3n registrada",
+        "c-Zhq_cP2IpX": "Adquisici\u00f3n",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-d_J4IDNC2t",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-d_J4IDNC2t",
+      "name": "T-014",
+      "index": 18,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-d_J4IDNC2t",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Go-to-Market",
+        "c-xeW4e51vIb": "T-014",
+        "c-ye5LEEOFtf": "Alianza firmada con 1 condominio",
+        "c-wrKKQQ4LuS": "Semana 4",
+        "c-5hF59wevft": "Hito",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Contrato firmado y campa\u00f1a de registro activada",
+        "c-Zhq_cP2IpX": "Activos registrados",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-013"
+      }
+    },
+    {
+      "id": "i-UHtZrhRm7K",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-UHtZrhRm7K",
+      "name": "T-015",
+      "index": 19,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-UHtZrhRm7K",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Proveedores T\u00e9cnicos",
+        "c-xeW4e51vIb": "T-015",
+        "c-ye5LEEOFtf": "Onboarding de proveedores por categor\u00eda (PC/SD)",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "\u00c9pica",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "\u22652 proveedores confiables por categor\u00eda en cada zona",
+        "c-Zhq_cP2IpX": "Capacidad de ejecuci\u00f3n",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-002"
+      }
+    },
+    {
+      "id": "i-epZo5C1JpD",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-epZo5C1JpD",
+      "name": "T-016",
+      "index": 20,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-epZo5C1JpD",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Proveedores T\u00e9cnicos",
+        "c-xeW4e51vIb": "T-016",
+        "c-ye5LEEOFtf": "Est\u00e1ndares de servicio y precios por categor\u00eda",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "SLA, rango de precios, seguridad y checklists publicados",
+        "c-Zhq_cP2IpX": "Calidad / Coste",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-015"
+      }
+    },
+    {
+      "id": "i-Ru4sNbAb2o",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-Ru4sNbAb2o",
+      "name": "T-017",
+      "index": 21,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-Ru4sNbAb2o",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Operaci\u00f3n de Agentes",
+        "c-xeW4e51vIb": "T-017",
+        "c-ye5LEEOFtf": "Ritual semanal de agentes (coaching + m\u00e9tricas)",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Reuni\u00f3n fija con tablero, pr\u00e1ctica y acciones concretas",
+        "c-Zhq_cP2IpX": "% cierre / Cero tickets sin update",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-006"
+      }
+    },
+    {
+      "id": "i-tAedf6X1E7",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-tAedf6X1E7",
+      "name": "T-018",
+      "index": 22,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-tAedf6X1E7",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Pagos y Facturaci\u00f3n",
+        "c-xeW4e51vIb": "T-018",
+        "c-ye5LEEOFtf": "Reintentos de cobro + tarjeta de respaldo",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Reglas de reintentos y segunda tarjeta probadas",
+        "c-Zhq_cP2IpX": "Caja / Cobrabilidad",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-009"
+      }
+    },
+    {
+      "id": "i-pB1_mTJPRw",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-pB1_mTJPRw",
+      "name": "T-019",
+      "index": 23,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-pB1_mTJPRw",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Servicio y Producto",
+        "c-xeW4e51vIb": "T-019",
+        "c-ye5LEEOFtf": "One-click confirmaci\u00f3n para el cliente",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Bot\u00f3n \u201cConfirmar\u201d en portal o mensaje, con registro en ticket",
+        "c-Zhq_cP2IpX": "% citas en 1ra interacci\u00f3n",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-005"
+      }
+    },
+    {
+      "id": "i-79SijPAfDF",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-79SijPAfDF",
+      "name": "T-020",
+      "index": 24,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-79SijPAfDF",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Servicio y Producto",
+        "c-xeW4e51vIb": "T-020",
+        "c-ye5LEEOFtf": "Agrupar \u00f3rdenes multi-activo en una visita",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "L\u00f3gica y prueba piloto con 5 hogares",
+        "c-Zhq_cP2IpX": "Tiempo y coste por orden",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-015"
+      }
+    },
+    {
+      "id": "i-a5CIgrTEWj",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-a5CIgrTEWj",
+      "name": "T-021",
+      "index": 25,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-a5CIgrTEWj",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Datos y Sistemas",
+        "c-xeW4e51vIb": "T-021",
+        "c-ye5LEEOFtf": "Sincronizaci\u00f3n con calendarios (Google/Outlook)",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Bloqueo de horario funcionando en 2 casos reales",
+        "c-Zhq_cP2IpX": "% citas cumplidas",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-005"
+      }
+    },
+    {
+      "id": "i-e6-eEMhfm6",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-e6-eEMhfm6",
+      "name": "T-022",
+      "index": 26,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-e6-eEMhfm6",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Servicio y Producto",
+        "c-xeW4e51vIb": "T-022",
+        "c-ye5LEEOFtf": "Tracking de t\u00e9cnico con llegada estimada",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Enlace de seguimiento y confirmaci\u00f3n de llegada en 10 servicios",
+        "c-Zhq_cP2IpX": "Experiencia cliente",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-015"
+      }
+    },
+    {
+      "id": "i-zEc2Ob7nJU",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-zEc2Ob7nJU",
+      "name": "T-023",
+      "index": 27,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:13.641Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-zEc2Ob7nJU",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Legal y Tributario",
+        "c-xeW4e51vIb": "T-023",
+        "c-ye5LEEOFtf": "Formalizar contratos y pol\u00edticas m\u00ednimas",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Contratos cliente/proveedor, datos y reembolsos aprobados",
+        "c-Zhq_cP2IpX": "Confianza / Cumplimiento",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-CRWMdfpfey",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-CRWMdfpfey",
+      "name": "T-024",
+      "index": 28,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:13.641Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-CRWMdfpfey",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Finanzas y Econom\u00eda",
+        "c-xeW4e51vIb": "T-024",
+        "c-ye5LEEOFtf": "Modelos de econom\u00eda por servicio",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Margen por categor\u00eda y proveedor en hoja viva",
+        "c-Zhq_cP2IpX": "Margen / Precios",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-gYFK1-i-7l",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-gYFK1-i-7l",
+      "name": "T-025",
+      "index": 29,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:13.641Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-gYFK1-i-7l",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Finanzas y Econom\u00eda",
+        "c-xeW4e51vIb": "T-025",
+        "c-ye5LEEOFtf": "Flujo de caja semanal y disciplina de cierre",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Reporte semanal con proyecci\u00f3n 4 semanas y variaciones",
+        "c-Zhq_cP2IpX": "Caja",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-UwZnisBo_J",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-UwZnisBo_J",
+      "name": "T-026",
+      "index": 30,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-UwZnisBo_J",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Finanzas y Econom\u00eda",
+        "c-xeW4e51vIb": "T-026",
+        "c-ye5LEEOFtf": "L\u00ednea de cr\u00e9dito operativa para picos",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "L\u00ednea aprobada y pol\u00edtica de uso",
+        "c-Zhq_cP2IpX": "Caja",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-025"
+      }
+    },
+    {
+      "id": "i-RmRm9b6_U6",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-RmRm9b6_U6",
+      "name": "T-027",
+      "index": 31,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-RmRm9b6_U6",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Marca y Comunicaciones",
+        "c-xeW4e51vIb": "T-027",
+        "c-ye5LEEOFtf": "Encuesta corta de recomendaci\u00f3n integrada",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Encuesta enviada autom\u00e1ticamente al cerrar y almacenada",
+        "c-Zhq_cP2IpX": "Recomendaci\u00f3n cliente",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-011"
+      }
+    },
+    {
+      "id": "i-Ywzg05b12D",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-Ywzg05b12D",
+      "name": "T-028",
+      "index": 32,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-Ywzg05b12D",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Operaci\u00f3n de Agentes",
+        "c-xeW4e51vIb": "T-028",
+        "c-ye5LEEOFtf": "Operativizar Principios Inquebrantables",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "\u00c9pica",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Checklists y auditor\u00eda semanal de cumplimiento",
+        "c-Zhq_cP2IpX": "Consistencia",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-006"
+      }
+    },
+    {
+      "id": "i-VbmSGfSVke",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-VbmSGfSVke",
+      "name": "T-029",
+      "index": 33,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-VbmSGfSVke",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Go-to-Market",
+        "c-xeW4e51vIb": "T-029",
+        "c-ye5LEEOFtf": "3 alianzas con condominios",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Hito",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Tres contratos firmados y campa\u00f1as activas",
+        "c-Zhq_cP2IpX": "Adquisici\u00f3n",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-013,T-014"
+      }
+    },
+    {
+      "id": "i-WytJsvhVww",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-WytJsvhVww",
+      "name": "T-030",
+      "index": 34,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-WytJsvhVww",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 1",
+        "c-DPPyz07ad9": "Go-to-Market",
+        "c-xeW4e51vIb": "T-030",
+        "c-ye5LEEOFtf": "Hito: 300 hogares / 1,200 activos",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Hito",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "M\u00e9tricas alcanzadas y reportadas",
+        "c-Zhq_cP2IpX": "Tracci\u00f3n",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-015..T-029"
+      }
+    },
+    {
+      "id": "i-Y8G85AIBno",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-Y8G85AIBno",
+      "name": "T-031",
+      "index": 35,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-Y8G85AIBno",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 2",
+        "c-DPPyz07ad9": "Datos y Sistemas",
+        "c-xeW4e51vIb": "T-031",
+        "c-ye5LEEOFtf": "Automatizaci\u00f3n de ruteo y calendarizaci\u00f3n",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "\u00c9pica",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Asignaci\u00f3n autom\u00e1tica seg\u00fan zona/skill y ventanas <2h",
+        "c-Zhq_cP2IpX": "Eficiencia / Experiencia",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-021"
+      }
+    },
+    {
+      "id": "i-UwyPE71FqX",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-UwyPE71FqX",
+      "name": "T-032",
+      "index": 36,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-UwyPE71FqX",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 2",
+        "c-DPPyz07ad9": "Servicio y Producto",
+        "c-xeW4e51vIb": "T-032",
+        "c-ye5LEEOFtf": "Webhooks o flujo t\u00e9cnico automatizado",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Cerrar ticket y disparar cobro con \u201cTrabajo completado\u201d",
+        "c-Zhq_cP2IpX": "Ciclo aprobaci\u00f3n\u2192cobro",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-022"
+      }
+    },
+    {
+      "id": "i-dDjwx3tWPC",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-dDjwx3tWPC",
+      "name": "T-033",
+      "index": 37,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-dDjwx3tWPC",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 2",
+        "c-DPPyz07ad9": "Proveedores T\u00e9cnicos",
+        "c-xeW4e51vIb": "T-033",
+        "c-ye5LEEOFtf": "Programa de calidad y certificaciones",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "\u00c9pica",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Checklists auditados, badges y bonificaciones por calidad",
+        "c-Zhq_cP2IpX": "Calidad / Seguridad",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-016"
+      }
+    },
+    {
+      "id": "i-04yMC-HbZD",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-04yMC-HbZD",
+      "name": "T-034",
+      "index": 38,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-04yMC-HbZD",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 2",
+        "c-DPPyz07ad9": "Legal y Tributario",
+        "c-xeW4e51vIb": "T-034",
+        "c-ye5LEEOFtf": "Decisi\u00f3n sobre fideicomiso de administraci\u00f3n",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Hito",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Modelo financiero comparativo + decisi\u00f3n \u201cgo/no-go\u201d",
+        "c-Zhq_cP2IpX": "Riesgo / Confianza",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-025"
+      }
+    },
+    {
+      "id": "i-EY_ko3sH9K",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-EY_ko3sH9K",
+      "name": "T-035",
+      "index": 39,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:13.641Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-EY_ko3sH9K",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 2",
+        "c-DPPyz07ad9": "Extensiones (A\u00f1o 2-3)",
+        "c-xeW4e51vIb": "T-035",
+        "c-ye5LEEOFtf": "Dise\u00f1o de programa de recompra y reventa",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Proceso, precios gu\u00eda y canales definidos",
+        "c-Zhq_cP2IpX": "Nuevos ingresos",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    },
+    {
+      "id": "i-2hsByGfEOJ",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-2hsByGfEOJ",
+      "name": "T-036",
+      "index": 40,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-2hsByGfEOJ",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 2",
+        "c-DPPyz07ad9": "Datos y Sistemas",
+        "c-xeW4e51vIb": "T-036",
+        "c-ye5LEEOFtf": "Escalamiento de datos (almacenamiento ligero)",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Exportaciones y backups autom\u00e1ticos",
+        "c-Zhq_cP2IpX": "Confiabilidad",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-011"
+      }
+    },
+    {
+      "id": "i-PgtguUK_Yf",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-PgtguUK_Yf",
+      "name": "T-037",
+      "index": 41,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-PgtguUK_Yf",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 2",
+        "c-DPPyz07ad9": "Riesgo y Calidad",
+        "c-xeW4e51vIb": "T-037",
+        "c-ye5LEEOFtf": "Auditor\u00edas aleatorias de calidad",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "5% de servicios auditados mensualmente",
+        "c-Zhq_cP2IpX": "Mejora continua",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-033"
+      }
+    },
+    {
+      "id": "i-VNHTiZkn-I",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-VNHTiZkn-I",
+      "name": "T-038",
+      "index": 42,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-VNHTiZkn-I",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 2",
+        "c-DPPyz07ad9": "Go-to-Market",
+        "c-xeW4e51vIb": "T-038",
+        "c-ye5LEEOFtf": "Plan de cobertura nacional",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Mapa de ciudades, proveedores y metas trimestrales",
+        "c-Zhq_cP2IpX": "Escala",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-029"
+      }
+    },
+    {
+      "id": "i-5FOJuUiSyl",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-5FOJuUiSyl",
+      "name": "T-039",
+      "index": 43,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-5FOJuUiSyl",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 2",
+        "c-DPPyz07ad9": "Go-to-Market",
+        "c-xeW4e51vIb": "T-039",
+        "c-ye5LEEOFtf": "Hito: 5,000 hogares / 20,000 activos",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Hito",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "M\u00e9tricas alcanzadas y reportadas",
+        "c-Zhq_cP2IpX": "Escala",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-031,T-032,T-033,T-034,T-035,T-036,T-037,T-038"
+      }
+    },
+    {
+      "id": "i-Q9A_BjkPOy",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-Q9A_BjkPOy",
+      "name": "T-040",
+      "index": 44,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-Q9A_BjkPOy",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 3",
+        "c-DPPyz07ad9": "Extensiones (A\u00f1o 2-3)",
+        "c-xeW4e51vIb": "T-040",
+        "c-ye5LEEOFtf": "Piloto de trade-in y reventa",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "\u00c9pico",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "10 operaciones cerradas con satisfacci\u00f3n del cliente",
+        "c-Zhq_cP2IpX": "Nuevos ingresos",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-035"
+      }
+    },
+    {
+      "id": "i-9iVW8eNmzy",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-9iVW8eNmzy",
+      "name": "T-041",
+      "index": 45,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-9iVW8eNmzy",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 3",
+        "c-DPPyz07ad9": "Extensiones (A\u00f1o 2-3)",
+        "c-xeW4e51vIb": "T-041",
+        "c-ye5LEEOFtf": "Evaluaci\u00f3n de punto de venta liviano",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Caso de negocio y prueba en micro-showroom",
+        "c-Zhq_cP2IpX": "Ingresos / Marca",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-038"
+      }
+    },
+    {
+      "id": "i-6_Eon60XXV",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-6_Eon60XXV",
+      "name": "T-042",
+      "index": 46,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-6_Eon60XXV",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 3",
+        "c-DPPyz07ad9": "Datos y Sistemas",
+        "c-xeW4e51vIb": "T-042",
+        "c-ye5LEEOFtf": "Personalizaci\u00f3n de recordatorios y precios",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Reglas por historial y comportamiento en producci\u00f3n",
+        "c-Zhq_cP2IpX": "Retenci\u00f3n / Margen",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-011"
+      }
+    },
+    {
+      "id": "i-LqWu2wwxqd",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-LqWu2wwxqd",
+      "name": "T-043",
+      "index": 47,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-LqWu2wwxqd",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 3",
+        "c-DPPyz07ad9": "Go-to-Market",
+        "c-xeW4e51vIb": "T-043",
+        "c-ye5LEEOFtf": "Expansi\u00f3n nacional completa",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Hito",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Operaci\u00f3n estable en ciudades objetivo",
+        "c-Zhq_cP2IpX": "Escala",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-038"
+      }
+    },
+    {
+      "id": "i-uc4iMoC2xE",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-uc4iMoC2xE",
+      "name": "T-044",
+      "index": 48,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-uc4iMoC2xE",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 3",
+        "c-DPPyz07ad9": "Go-to-Market",
+        "c-xeW4e51vIb": "T-044",
+        "c-ye5LEEOFtf": "Estudio de expansi\u00f3n regional",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "2 pa\u00edses pre-seleccionados con criterios claros",
+        "c-Zhq_cP2IpX": "Estrategia",
+        "c-Jv_WF-YHZQ": "Regional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-043"
+      }
+    },
+    {
+      "id": "i-1jP4cGtRb8",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-1jP4cGtRb8",
+      "name": "T-045",
+      "index": 49,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-1jP4cGtRb8",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 3",
+        "c-DPPyz07ad9": "Go-to-Market",
+        "c-xeW4e51vIb": "T-045",
+        "c-ye5LEEOFtf": "Hito: 20k hogares / 80k activos",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Hito",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "M\u00e9tricas alcanzadas y reportadas",
+        "c-Zhq_cP2IpX": "Liderazgo",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-043"
+      }
+    },
+    {
+      "id": "i-ppN8aBT_M9",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-ppN8aBT_M9",
+      "name": "T-046",
+      "index": 50,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-ppN8aBT_M9",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 3",
+        "c-DPPyz07ad9": "Marca y Comunicaciones",
+        "c-xeW4e51vIb": "T-046",
+        "c-ye5LEEOFtf": "Hito: Recomendaci\u00f3n \u2265 60",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Hito",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Promedio trimestral \u2265 60 con plan de mejora continuo",
+        "c-Zhq_cP2IpX": "Satisfacci\u00f3n",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-027"
+      }
+    },
+    {
+      "id": "i-BK2CW6dMtZ",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-BK2CW6dMtZ",
+      "name": "T-047",
+      "index": 51,
+      "createdAt": "2025-08-15T03:30:33.585Z",
+      "updatedAt": "2025-08-15T03:41:32.940Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-BK2CW6dMtZ",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 3",
+        "c-DPPyz07ad9": "Finanzas y Econom\u00eda",
+        "c-xeW4e51vIb": "T-047",
+        "c-ye5LEEOFtf": "Hito: Recuperaci\u00f3n de adquisici\u00f3n \u2264 3 meses",
+        "c-wrKKQQ4LuS": "",
+        "c-5hF59wevft": "Hito",
+        "c-m8un-EXimD": "",
+        "c-um2yuro7_B": "Backlog",
+        "c-kDgRrC7rYv": "Media",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "M\u00e9trica alcanzada y monitoreada",
+        "c-Zhq_cP2IpX": "Salud financiera",
+        "c-Jv_WF-YHZQ": "Nacional",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": "T-024,T-025"
+      }
+    },
+    {
+      "id": "i-OUWqqShLbt",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-DKfG9edaa-/rows/i-OUWqqShLbt",
+      "name": "T-001",
+      "index": 1,
+      "createdAt": "2025-08-15T03:24:24.005Z",
+      "updatedAt": "2025-09-03T01:59:46.356Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-/_rui-OUWqqShLbt",
+      "values": {
+        "c-LGoYdy-4wK": "Etapa 0",
+        "c-DPPyz07ad9": "Clientes y Encaje",
+        "c-xeW4e51vIb": "T-001",
+        "c-ye5LEEOFtf": "Entrevistas con clientes (10 PC + 10 SD)",
+        "c-wrKKQQ4LuS": "Semana 1",
+        "c-5hF59wevft": "Tarea",
+        "c-m8un-EXimD": "Gabriella Bairan",
+        "c-um2yuro7_B": "Completada",
+        "c-kDgRrC7rYv": "Alta",
+        "c-ZbUrefL5VI": "",
+        "c-46P-OovBLR": "",
+        "c-a8HiV1Hes1": "Gu\u00eda aplicada, 20 entrevistas registradas, insights sintetizados",
+        "c-Zhq_cP2IpX": "Aprendizaje cliente",
+        "c-Jv_WF-YHZQ": "PC/SD",
+        "c-ZN7YGi_Cdm": "",
+        "c-XryTKZ5j7Z": ""
+      }
+    }
+  ]
+}

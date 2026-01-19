@@ -1,0 +1,682 @@
+{
+  "table": {
+    "id": "grid-BcvDcw9fV6",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6",
+    "name": "Responsabilidades para Co-Founders de Maroa",
+    "parent": {
+      "id": "canvas-rLXGX00vmw",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-rLXGX00vmw",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suX00vmw",
+      "name": "Co-Founder Responsibilities"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-NgsnwrYd4R",
+      "type": "column",
+      "name": "Departamento",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/columns/c-NgsnwrYd4R",
+      "display": true,
+      "format": {
+        "options": [
+          {
+            "name": "Estrategia & Direcci\u00f3n General",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Ventas & Alianzas",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Producto & Tecnolog\u00eda",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Operaciones & Log\u00edstica",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Comunicaci\u00f3n & Marca",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "Recursos Humanos",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          },
+          {
+            "name": "Finanzas & Legal",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFDCDC"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-qhsuSxcISv",
+      "type": "column",
+      "name": "Responsabilidad",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/columns/c-qhsuSxcISv",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-OHk08DOkjn",
+      "type": "column",
+      "name": "Erick \u2705",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/columns/c-OHk08DOkjn",
+      "format": {
+        "displayType": "check",
+        "type": "checkbox",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-0_hwdB7ocS",
+      "type": "column",
+      "name": "Gabby \u2705",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/columns/c-0_hwdB7ocS",
+      "format": {
+        "displayType": "check",
+        "type": "checkbox",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-MJW1abUg51",
+      "type": "column",
+      "name": "Asirio \u2705",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/columns/c-MJW1abUg51",
+      "format": {
+        "displayType": "check",
+        "type": "checkbox",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-4TC_DOBAU_",
+      "type": "column",
+      "name": "Parent",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/columns/c-4TC_DOBAU_",
+      "format": {
+        "table": {
+          "id": "grid-BcvDcw9fV6",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6",
+          "name": "Responsabilidades para Co-Founders de Maroa"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-rVnqiBm1o6",
+      "type": "column",
+      "name": "Subitems",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/columns/c-rVnqiBm1o6",
+      "calculated": true,
+      "format": {
+        "table": {
+          "id": "grid-BcvDcw9fV6",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6",
+          "name": "Responsabilidades para Co-Founders de Maroa"
+        },
+        "type": "lookup",
+        "isArray": true
+      },
+      "formula": "[Responsabilidades para Co-Founders de Maroa].Filter(Parent.Contains(thisRow))"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-XGLE3mBYym",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-XGLE3mBYym",
+      "name": "Estrategia & Direcci\u00f3n General",
+      "index": 0,
+      "createdAt": "2025-08-06T23:29:49.835Z",
+      "updatedAt": "2025-08-07T20:09:18.711Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-XGLE3mBYym",
+      "values": {
+        "c-NgsnwrYd4R": "Estrategia & Direcci\u00f3n General",
+        "c-qhsuSxcISv": "Definir visi\u00f3n, misi\u00f3n y valores",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-zFb02e__it",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-zFb02e__it",
+      "name": "Estrategia & Direcci\u00f3n General",
+      "index": 1,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-07T20:10:20.701Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-zFb02e__it",
+      "values": {
+        "c-NgsnwrYd4R": "Estrategia & Direcci\u00f3n General",
+        "c-qhsuSxcISv": "Tomar decisiones estrat\u00e9gicas clave",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": true,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-lYFJm4VWT7",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-lYFJm4VWT7",
+      "name": "Estrategia & Direcci\u00f3n General",
+      "index": 2,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:29:30.097Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-lYFJm4VWT7",
+      "values": {
+        "c-NgsnwrYd4R": "Estrategia & Direcci\u00f3n General",
+        "c-qhsuSxcISv": "Priorizar features o servicios",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-2BbRVfUpcX",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-2BbRVfUpcX",
+      "name": "Estrategia & Direcci\u00f3n General",
+      "index": 3,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:29:36.279Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-2BbRVfUpcX",
+      "values": {
+        "c-NgsnwrYd4R": "Estrategia & Direcci\u00f3n General",
+        "c-qhsuSxcISv": "Supervisar avances y mantener foco",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": true,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-bu4zc6TZd_",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-bu4zc6TZd_",
+      "name": "Ventas & Alianzas",
+      "index": 4,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:29:43.350Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-bu4zc6TZd_",
+      "values": {
+        "c-NgsnwrYd4R": "Ventas & Alianzas",
+        "c-qhsuSxcISv": "Buscar y cerrar alianzas estrat\u00e9gicas",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-e6-APNq7cn",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-e6-APNq7cn",
+      "name": "Ventas & Alianzas",
+      "index": 5,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:29:48.239Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-e6-APNq7cn",
+      "values": {
+        "c-NgsnwrYd4R": "Ventas & Alianzas",
+        "c-qhsuSxcISv": "Identificar oportunidades de negocio o expansi\u00f3n",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-_-azhvFgaw",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-_-azhvFgaw",
+      "name": "Ventas & Alianzas",
+      "index": 6,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:30:30.073Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-_-azhvFgaw",
+      "values": {
+        "c-NgsnwrYd4R": "Ventas & Alianzas",
+        "c-qhsuSxcISv": "Desarrollar estrategia de pricing",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-kcZzoF0j62",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-kcZzoF0j62",
+      "name": "Ventas & Alianzas",
+      "index": 7,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:30:00.639Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-kcZzoF0j62",
+      "values": {
+        "c-NgsnwrYd4R": "Ventas & Alianzas",
+        "c-qhsuSxcISv": "Generar oportunidades de ingresos y cross-selling",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-gaW5h5YGYG",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-gaW5h5YGYG",
+      "name": "Producto & Tecnolog\u00eda",
+      "index": 8,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:39:25.518Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-gaW5h5YGYG",
+      "values": {
+        "c-NgsnwrYd4R": "Producto & Tecnolog\u00eda",
+        "c-qhsuSxcISv": "Idear funcionalidades de la app y validar con usuarios",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-saR8eajQuh",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-saR8eajQuh",
+      "name": "Producto & Tecnolog\u00eda",
+      "index": 9,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-07T01:15:10.716Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-saR8eajQuh",
+      "values": {
+        "c-NgsnwrYd4R": "Producto & Tecnolog\u00eda",
+        "c-qhsuSxcISv": "Coordinar equipo de desarrollo",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": true,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-zSTBBg4D6t",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-zSTBBg4D6t",
+      "name": "Producto & Tecnolog\u00eda",
+      "index": 10,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-07T01:13:29.060Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-zSTBBg4D6t",
+      "values": {
+        "c-NgsnwrYd4R": "Producto & Tecnolog\u00eda",
+        "c-qhsuSxcISv": "Probar y validar entregables",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": true,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-ahwSe4HMVP",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-ahwSe4HMVP",
+      "name": "Producto & Tecnolog\u00eda",
+      "index": 11,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:30:22.519Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-ahwSe4HMVP",
+      "values": {
+        "c-NgsnwrYd4R": "Producto & Tecnolog\u00eda",
+        "c-qhsuSxcISv": "Buscar soluciones low-cost o no-code para el MVP",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": true,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-8N6683JLYg",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-8N6683JLYg",
+      "name": "Operaciones & Log\u00edstica",
+      "index": 12,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:39:40.426Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-8N6683JLYg",
+      "values": {
+        "c-NgsnwrYd4R": "Operaciones & Log\u00edstica",
+        "c-qhsuSxcISv": "Mapear flujos operativos (recepci\u00f3n, mantenimiento, entrega)",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-q7B_YBMTyo",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-q7B_YBMTyo",
+      "name": "Operaciones & Log\u00edstica",
+      "index": 13,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:30:36.831Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-q7B_YBMTyo",
+      "values": {
+        "c-NgsnwrYd4R": "Operaciones & Log\u00edstica",
+        "c-qhsuSxcISv": "Buscar proveedores y negociar condiciones",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-JxZDL8hEhc",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-JxZDL8hEhc",
+      "name": "Operaciones & Log\u00edstica",
+      "index": 14,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:39:52.846Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-JxZDL8hEhc",
+      "values": {
+        "c-NgsnwrYd4R": "Operaciones & Log\u00edstica",
+        "c-qhsuSxcISv": "Definir procesos con t\u00e9cnicos o aliados",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-r5WEBtSIy4",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-r5WEBtSIy4",
+      "name": "Operaciones & Log\u00edstica",
+      "index": 15,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:30:49.438Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-r5WEBtSIy4",
+      "values": {
+        "c-NgsnwrYd4R": "Operaciones & Log\u00edstica",
+        "c-qhsuSxcISv": "Coordinar piloto o pruebas iniciales",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": true,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-XFRtL8TAid",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-XFRtL8TAid",
+      "name": "Comunicaci\u00f3n & Marca",
+      "index": 16,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:31:11.995Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-XFRtL8TAid",
+      "values": {
+        "c-NgsnwrYd4R": "Comunicaci\u00f3n & Marca",
+        "c-qhsuSxcISv": "Dise\u00f1ar la marca y su personalidad",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": true,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-Gbn92YGOaT",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-Gbn92YGOaT",
+      "name": "Comunicaci\u00f3n & Marca",
+      "index": 17,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:30:30.073Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-Gbn92YGOaT",
+      "values": {
+        "c-NgsnwrYd4R": "Comunicaci\u00f3n & Marca",
+        "c-qhsuSxcISv": "Definir tono de voz",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-SbRmzL2quD",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-SbRmzL2quD",
+      "name": "Comunicaci\u00f3n & Marca",
+      "index": 18,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:31:25.353Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-SbRmzL2quD",
+      "values": {
+        "c-NgsnwrYd4R": "Comunicaci\u00f3n & Marca",
+        "c-qhsuSxcISv": "Crear contenido inicial (pitch, redes, presentaciones)",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": true,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-ZDdGISRPwY",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-ZDdGISRPwY",
+      "name": "Comunicaci\u00f3n & Marca",
+      "index": 19,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-27T23:31:31.216Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-ZDdGISRPwY",
+      "values": {
+        "c-NgsnwrYd4R": "Comunicaci\u00f3n & Marca",
+        "c-qhsuSxcISv": "Dise\u00f1ar experiencia de cliente",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": true,
+        "c-MJW1abUg51": true,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-VKDjR6ZeNp",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-VKDjR6ZeNp",
+      "name": "Recursos Humanos",
+      "index": 20,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:40:16.106Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-VKDjR6ZeNp",
+      "values": {
+        "c-NgsnwrYd4R": "Recursos Humanos",
+        "c-qhsuSxcISv": "Definir roles futuros y cultura organizacional",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-_ON-f34VLt",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-_ON-f34VLt",
+      "name": "Recursos Humanos",
+      "index": 21,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:40:19.524Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-_ON-f34VLt",
+      "values": {
+        "c-NgsnwrYd4R": "Recursos Humanos",
+        "c-qhsuSxcISv": "Reclutar y coordinar talentos puntuales (dise\u00f1ador, devs, etc.)",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-2RrRXztvFc",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-2RrRXztvFc",
+      "name": "Recursos Humanos",
+      "index": 22,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-07T01:14:23.035Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-2RrRXztvFc",
+      "values": {
+        "c-NgsnwrYd4R": "Recursos Humanos",
+        "c-qhsuSxcISv": "Manejar documentaci\u00f3n interna",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": true,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-XwqohgLQ96",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-XwqohgLQ96",
+      "name": "Finanzas & Legal",
+      "index": 23,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:30:30.073Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-XwqohgLQ96",
+      "values": {
+        "c-NgsnwrYd4R": "Finanzas & Legal",
+        "c-qhsuSxcISv": "Crear presupuestos y controlar gastos",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-Qz8Hdv-tkw",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-Qz8Hdv-tkw",
+      "name": "Finanzas & Legal",
+      "index": 24,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:30:30.073Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-Qz8Hdv-tkw",
+      "values": {
+        "c-NgsnwrYd4R": "Finanzas & Legal",
+        "c-qhsuSxcISv": "Manejar temas legales (registro, contratos, t\u00e9rminos de uso)",
+        "c-OHk08DOkjn": false,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-8MNwHzKfBz",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-8MNwHzKfBz",
+      "name": "Finanzas & Legal",
+      "index": 25,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:40:34.439Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-8MNwHzKfBz",
+      "values": {
+        "c-NgsnwrYd4R": "Finanzas & Legal",
+        "c-qhsuSxcISv": "Buscar financiamiento inicial (si aplica)",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-1mN_QkqmHa",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-1mN_QkqmHa",
+      "name": "Finanzas & Legal",
+      "index": 26,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:40:39.751Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-1mN_QkqmHa",
+      "values": {
+        "c-NgsnwrYd4R": "Finanzas & Legal",
+        "c-qhsuSxcISv": "Modelar costos e ingresos",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    },
+    {
+      "id": "i-ensH3dqL_k",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-BcvDcw9fV6/rows/i-ensH3dqL_k",
+      "name": "Finanzas & Legal",
+      "index": 27,
+      "createdAt": "2025-08-06T23:29:13.043Z",
+      "updatedAt": "2025-08-06T23:40:40.391Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-ensH3dqL_k",
+      "values": {
+        "c-NgsnwrYd4R": "Finanzas & Legal",
+        "c-qhsuSxcISv": "Hacer seguimiento de m\u00e9tricas financieras clave",
+        "c-OHk08DOkjn": true,
+        "c-0_hwdB7ocS": false,
+        "c-MJW1abUg51": false,
+        "c-4TC_DOBAU_": "",
+        "c-rVnqiBm1o6": ""
+      }
+    }
+  ]
+}

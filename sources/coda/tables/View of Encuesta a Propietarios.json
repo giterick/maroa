@@ -1,0 +1,1338 @@
+{
+  "table": {
+    "id": "table-Eemq7tTmD3",
+    "type": "table",
+    "tableType": "view",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3",
+    "name": "View of Encuesta a Propietarios",
+    "parent": {
+      "id": "canvas-I8TJVS57hM",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-I8TJVS57hM",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suVS57hM",
+      "name": "Entrevistas a Clientes y T\u00e9cnicos"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-AL65mnlAon",
+      "type": "column",
+      "name": "\u00bfCon qu\u00e9 frecuencia necesitas llamar a un t\u00e9cnico (ej. aire acondicionado, plomer\u00eda, electricidad, etc.)?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-mZ-9AR9ZqA/columns/c-AL65mnlAon",
+      "display": true,
+      "format": {
+        "icon": "person",
+        "maximum": 5,
+        "type": "scale",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ub1yvmB-1K",
+      "type": "column",
+      "name": "\u00bfCu\u00e1nto tiempo promedio tardas hoy en encontrar y coordinar un t\u00e9cnico confiable?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-mZ-9AR9ZqA/columns/c-ub1yvmB-1K",
+      "format": {
+        "icon": "circle",
+        "maximum": 5,
+        "type": "scale",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-o9yaxqtWWd",
+      "type": "column",
+      "name": "\u00bfQu\u00e9 tan frustrante resulta para ti este proceso de b\u00fasqueda y coordinaci\u00f3n?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-mZ-9AR9ZqA/columns/c-o9yaxqtWWd",
+      "format": {
+        "icon": "chili",
+        "maximum": 5,
+        "type": "scale",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-cr0Nwz5EwQ",
+      "type": "column",
+      "name": "\u00bfQu\u00e9 impacto tiene en tu vida/negocio cuando el t\u00e9cnico falla (llega tarde, no aparece o hace un mal trabajo)?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-mZ-9AR9ZqA/columns/c-cr0Nwz5EwQ",
+      "format": {
+        "icon": "currency",
+        "maximum": 5,
+        "type": "scale",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-lOss0UFLGF",
+      "type": "column",
+      "name": "Marca los factores m\u00e1s importantes al elegir un t\u00e9cnico (puedes elegir varios).",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-mZ-9AR9ZqA/columns/c-lOss0UFLGF",
+      "format": {
+        "options": [
+          {
+            "name": "Precio",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Puntualidad",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Calidad del trabajo",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Confianza / Reputaci\u00f3n",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Disponibilidad r\u00e1pida",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "Garant\u00eda del servicio",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          }
+        ],
+        "type": "select",
+        "isArray": true
+      }
+    },
+    {
+      "id": "c-lKIkzQeO5o",
+      "type": "column",
+      "name": "\u00bfQu\u00e9 haces actualmente para encontrar o contratar un t\u00e9cnico? (elige todas las que apliquen)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-mZ-9AR9ZqA/columns/c-lKIkzQeO5o",
+      "format": {
+        "options": [
+          {
+            "name": "Pido recomendaciones a amigos/familia",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Busco en Google",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Llamo a t\u00e9cnicos conocidos",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Pregunto en grupos de WhatsApp/Facebook",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          }
+        ],
+        "type": "select",
+        "isArray": true
+      }
+    },
+    {
+      "id": "c-wTe8A_ITGZ",
+      "type": "column",
+      "name": "Si pudieras \u201ccontratar\u201d la soluci\u00f3n ideal, \u00bfcu\u00e1l ser\u00eda tu principal motivaci\u00f3n?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-mZ-9AR9ZqA/columns/c-wTe8A_ITGZ",
+      "format": {
+        "options": [
+          {
+            "name": "Ahorrar tiempo",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Ahorrar dinero",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Mayor confiabilidad",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Tener garant\u00eda",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Gestionar todo en un solo lugar",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-1RHNfe71Gs",
+      "type": "column",
+      "name": "\u00bfCu\u00e1nto estar\u00edas dispuesto a pagar al mes por una plataforma que te conecte con t\u00e9cnicos verificados, con precios claros y garant\u00eda de servicio? (RD$)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-mZ-9AR9ZqA/columns/c-1RHNfe71Gs",
+      "format": {
+        "currencyCode": "USD",
+        "precision": 2,
+        "format": "currency",
+        "type": "currency",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-hWaZq9ovpp",
+      "type": "column",
+      "name": "Notes",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-mZ-9AR9ZqA/columns/c-hWaZq9ovpp",
+      "format": {
+        "type": "canvas",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-70fjZSFjdj",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-70fjZSFjdj",
+      "name": "3",
+      "index": 53,
+      "createdAt": "2025-09-04T12:06:49.177Z",
+      "updatedAt": "2025-09-04T12:06:49.177Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-70fjZSFjdj",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Puntualidad,Calidad del trabajo,Confianza / Reputaci\u00f3n,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$500.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-n3zGFtcU2O",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-n3zGFtcU2O",
+      "name": "3",
+      "index": 52,
+      "createdAt": "2025-09-03T13:44:16.946Z",
+      "updatedAt": "2025-09-03T13:44:16.946Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-n3zGFtcU2O",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Puntualidad,Confianza / Reputaci\u00f3n,Calidad del trabajo,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$500.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-8CGb7yWmAA",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-8CGb7yWmAA",
+      "name": "2",
+      "index": 51,
+      "createdAt": "2025-09-03T08:41:24.610Z",
+      "updatedAt": "2025-09-03T08:41:24.610Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-8CGb7yWmAA",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 2,
+        "c-o9yaxqtWWd": 2,
+        "c-cr0Nwz5EwQ": 2,
+        "c-lOss0UFLGF": "Puntualidad,Calidad del trabajo,Confianza / Reputaci\u00f3n,Disponibilidad r\u00e1pida",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$620.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-0cTUKf1ram",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-0cTUKf1ram",
+      "name": "3",
+      "index": 50,
+      "createdAt": "2025-09-02T13:51:40.688Z",
+      "updatedAt": "2025-09-02T13:51:40.688Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-0cTUKf1ram",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 4,
+        "c-cr0Nwz5EwQ": 4,
+        "c-lOss0UFLGF": "Calidad del trabajo,Confianza / Reputaci\u00f3n,Disponibilidad r\u00e1pida,Garant\u00eda del servicio,Puntualidad,Precio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$0.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-E-M7uvl8GQ",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-E-M7uvl8GQ",
+      "name": "3",
+      "index": 49,
+      "createdAt": "2025-09-02T11:19:35.748Z",
+      "updatedAt": "2025-09-02T11:19:35.748Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-E-M7uvl8GQ",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Garant\u00eda del servicio,Calidad del trabajo,Confianza / Reputaci\u00f3n",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$2,000.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-2gBJvyCxvj",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-2gBJvyCxvj",
+      "name": "3",
+      "index": 48,
+      "createdAt": "2025-09-02T02:34:58.111Z",
+      "updatedAt": "2025-09-02T02:34:58.111Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-2gBJvyCxvj",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 3,
+        "c-lOss0UFLGF": "Puntualidad,Calidad del trabajo,Confianza / Reputaci\u00f3n,Precio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$1,000.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-bnkhv_Vudr",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-bnkhv_Vudr",
+      "name": "3",
+      "index": 47,
+      "createdAt": "2025-09-02T01:25:46.204Z",
+      "updatedAt": "2025-09-02T01:25:46.204Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-bnkhv_Vudr",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Garant\u00eda del servicio,Confianza / Reputaci\u00f3n,Calidad del trabajo",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$200.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-Rzq2dEquYC",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-Rzq2dEquYC",
+      "name": "3",
+      "index": 46,
+      "createdAt": "2025-09-02T00:15:29.012Z",
+      "updatedAt": "2025-09-02T00:15:29.012Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-Rzq2dEquYC",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 4,
+        "c-lOss0UFLGF": "Calidad del trabajo,Confianza / Reputaci\u00f3n,Puntualidad",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$100.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-lr8Snj0SAb",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-lr8Snj0SAb",
+      "name": "3",
+      "index": 45,
+      "createdAt": "2025-09-01T23:58:42.700Z",
+      "updatedAt": "2025-09-01T23:58:42.700Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-lr8Snj0SAb",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Puntualidad,Calidad del trabajo,Disponibilidad r\u00e1pida,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$650.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-ijAi3ElXqR",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-ijAi3ElXqR",
+      "name": "2",
+      "index": 44,
+      "createdAt": "2025-09-01T23:47:19.440Z",
+      "updatedAt": "2025-09-01T23:47:19.440Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-ijAi3ElXqR",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Calidad del trabajo,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio,Puntualidad",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Tener garant\u00eda",
+        "c-1RHNfe71Gs": "$500.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-u8pGQEGQCv",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-u8pGQEGQCv",
+      "name": "3",
+      "index": 43,
+      "createdAt": "2025-09-01T23:45:06.583Z",
+      "updatedAt": "2025-09-01T23:45:06.583Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-u8pGQEGQCv",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 4,
+        "c-lOss0UFLGF": "Precio,Calidad del trabajo,Puntualidad,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Tener garant\u00eda",
+        "c-1RHNfe71Gs": "$0.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-6Y9xMNKa7Z",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-6Y9xMNKa7Z",
+      "name": "3",
+      "index": 42,
+      "createdAt": "2025-09-01T22:59:49.048Z",
+      "updatedAt": "2025-09-01T22:59:49.048Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-6Y9xMNKa7Z",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 2,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Puntualidad,Calidad del trabajo,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Ahorrar tiempo",
+        "c-1RHNfe71Gs": "$0.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-63wZHvXWEO",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-63wZHvXWEO",
+      "name": "3",
+      "index": 41,
+      "createdAt": "2025-09-01T22:45:16.002Z",
+      "updatedAt": "2025-09-01T22:45:16.002Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-63wZHvXWEO",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 3,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Calidad del trabajo,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Ahorrar dinero",
+        "c-1RHNfe71Gs": "$0.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-8FAxFfHoUJ",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-8FAxFfHoUJ",
+      "name": "3",
+      "index": 40,
+      "createdAt": "2025-09-01T22:26:50.880Z",
+      "updatedAt": "2025-09-01T22:26:50.880Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-8FAxFfHoUJ",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 3,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 3,
+        "c-lOss0UFLGF": "Precio,Calidad del trabajo,Confianza / Reputaci\u00f3n,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$0.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-zW9JRxcUiI",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-zW9JRxcUiI",
+      "name": "2",
+      "index": 39,
+      "createdAt": "2025-09-01T22:04:13.494Z",
+      "updatedAt": "2025-09-01T22:04:13.494Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-zW9JRxcUiI",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 4,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Puntualidad,Calidad del trabajo,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio,Disponibilidad r\u00e1pida",
+        "c-lKIkzQeO5o": "Pregunto en grupos de WhatsApp/Facebook,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Ahorrar tiempo",
+        "c-1RHNfe71Gs": "$0.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-OaU-FlgHB6",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-OaU-FlgHB6",
+      "name": "2",
+      "index": 38,
+      "createdAt": "2025-09-01T21:52:39.381Z",
+      "updatedAt": "2025-09-01T21:52:39.381Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-OaU-FlgHB6",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 4,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Calidad del trabajo,Precio,Puntualidad,Confianza / Reputaci\u00f3n,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$40.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-xfz_DHfW0n",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-xfz_DHfW0n",
+      "name": "3",
+      "index": 37,
+      "createdAt": "2025-09-01T21:49:29.949Z",
+      "updatedAt": "2025-09-01T21:49:29.949Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-xfz_DHfW0n",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$0.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-4qmWP0ZIq6",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-4qmWP0ZIq6",
+      "name": "3",
+      "index": 36,
+      "createdAt": "2025-09-01T21:44:11.172Z",
+      "updatedAt": "2025-09-01T21:44:11.172Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-4qmWP0ZIq6",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 2,
+        "c-o9yaxqtWWd": 1,
+        "c-cr0Nwz5EwQ": 4,
+        "c-lOss0UFLGF": "Puntualidad,Calidad del trabajo,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio,Disponibilidad r\u00e1pida,Precio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$150.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-SUWkInVehr",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-SUWkInVehr",
+      "name": "2",
+      "index": 35,
+      "createdAt": "2025-09-01T21:40:03.056Z",
+      "updatedAt": "2025-09-01T21:40:03.056Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-SUWkInVehr",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 2,
+        "c-o9yaxqtWWd": 2,
+        "c-cr0Nwz5EwQ": 4,
+        "c-lOss0UFLGF": "Calidad del trabajo,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$600.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-c98VlG4Vai",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-c98VlG4Vai",
+      "name": "3",
+      "index": 34,
+      "createdAt": "2025-09-01T21:36:40.936Z",
+      "updatedAt": "2025-09-01T21:36:40.936Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-c98VlG4Vai",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Calidad del trabajo,Confianza / Reputaci\u00f3n,Disponibilidad r\u00e1pida,Garant\u00eda del servicio,Puntualidad",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Busco en Google,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$1,000.09",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i--U0GoayRJ_",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i--U0GoayRJ_",
+      "name": "3",
+      "index": 33,
+      "createdAt": "2025-09-01T21:35:15.015Z",
+      "updatedAt": "2025-09-01T21:35:15.015Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui--U0GoayRJ_",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Confianza / Reputaci\u00f3n,Garant\u00eda del servicio,Calidad del trabajo,Disponibilidad r\u00e1pida",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$200.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-rBTd8Y5FK-",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-rBTd8Y5FK-",
+      "name": "2",
+      "index": 32,
+      "createdAt": "2025-09-01T21:29:10.399Z",
+      "updatedAt": "2025-09-01T21:29:10.399Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-rBTd8Y5FK-",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 1,
+        "c-o9yaxqtWWd": 1,
+        "c-cr0Nwz5EwQ": 1,
+        "c-lOss0UFLGF": "Calidad del trabajo,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Tener garant\u00eda",
+        "c-1RHNfe71Gs": "$0.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-B5AWkvvUOd",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-B5AWkvvUOd",
+      "name": "2",
+      "index": 31,
+      "createdAt": "2025-09-01T21:02:01.934Z",
+      "updatedAt": "2025-09-01T21:02:01.934Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-B5AWkvvUOd",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 4,
+        "c-lOss0UFLGF": "Confianza / Reputaci\u00f3n,Calidad del trabajo,Disponibilidad r\u00e1pida,Garant\u00eda del servicio,Precio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$100.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-tECvxAq1Nu",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-tECvxAq1Nu",
+      "name": "3",
+      "index": 30,
+      "createdAt": "2025-09-01T21:00:48.861Z",
+      "updatedAt": "2025-09-01T21:00:48.861Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-tECvxAq1Nu",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 1,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Puntualidad,Calidad del trabajo,Confianza / Reputaci\u00f3n,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$1,000.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-vU84YCnQDC",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-vU84YCnQDC",
+      "name": "3",
+      "index": 29,
+      "createdAt": "2025-09-01T20:57:35.426Z",
+      "updatedAt": "2025-09-01T20:57:35.426Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-vU84YCnQDC",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Confianza / Reputaci\u00f3n,Calidad del trabajo,Precio,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$250.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-PmNzEPU9aH",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-PmNzEPU9aH",
+      "name": "2",
+      "index": 28,
+      "createdAt": "2025-09-01T20:52:28.068Z",
+      "updatedAt": "2025-09-01T20:52:28.068Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-PmNzEPU9aH",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Confianza / Reputaci\u00f3n",
+        "c-lKIkzQeO5o": "Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$50.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-S3mPa0hB6T",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-S3mPa0hB6T",
+      "name": "2",
+      "index": 27,
+      "createdAt": "2025-09-01T20:52:16.028Z",
+      "updatedAt": "2025-09-01T20:52:16.028Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-S3mPa0hB6T",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Calidad del trabajo,Puntualidad,Precio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$250.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-s3-78sn687",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-s3-78sn687",
+      "name": "3",
+      "index": 26,
+      "createdAt": "2025-09-01T20:47:49.879Z",
+      "updatedAt": "2025-09-01T20:47:49.879Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-s3-78sn687",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 2,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Calidad del trabajo,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pregunto en grupos de WhatsApp/Facebook,Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$125.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-R-D2Ja0LQV",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-R-D2Ja0LQV",
+      "name": "2",
+      "index": 25,
+      "createdAt": "2025-09-01T20:47:09.778Z",
+      "updatedAt": "2025-09-01T20:47:09.778Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-R-D2Ja0LQV",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 2,
+        "c-o9yaxqtWWd": 4,
+        "c-cr0Nwz5EwQ": 4,
+        "c-lOss0UFLGF": "Precio,Calidad del trabajo,Confianza / Reputaci\u00f3n",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$500.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-SBXyOlVUP4",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-SBXyOlVUP4",
+      "name": "3",
+      "index": 24,
+      "createdAt": "2025-09-01T20:36:15.343Z",
+      "updatedAt": "2025-09-01T20:36:15.343Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-SBXyOlVUP4",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 2,
+        "c-cr0Nwz5EwQ": 2,
+        "c-lOss0UFLGF": "Precio,Calidad del trabajo,Puntualidad,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Ahorrar dinero",
+        "c-1RHNfe71Gs": "$500.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-JCEbpOD6Ah",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-JCEbpOD6Ah",
+      "name": "2",
+      "index": 23,
+      "createdAt": "2025-09-01T20:33:15.318Z",
+      "updatedAt": "2025-09-01T20:33:15.318Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-JCEbpOD6Ah",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 1,
+        "c-o9yaxqtWWd": 1,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Calidad del trabajo,Confianza / Reputaci\u00f3n,Disponibilidad r\u00e1pida,Precio,Puntualidad",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$1,500.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-G3pG8xN07L",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-G3pG8xN07L",
+      "name": "2",
+      "index": 22,
+      "createdAt": "2025-09-01T20:32:45.517Z",
+      "updatedAt": "2025-09-01T20:32:45.517Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-G3pG8xN07L",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 2,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Confianza / Reputaci\u00f3n,Calidad del trabajo,Garant\u00eda del servicio,Precio,Disponibilidad r\u00e1pida",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Tener garant\u00eda",
+        "c-1RHNfe71Gs": "$200.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-00hFgn1Oab",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-00hFgn1Oab",
+      "name": "3",
+      "index": 21,
+      "createdAt": "2025-09-01T20:29:14.627Z",
+      "updatedAt": "2025-09-01T20:29:14.627Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-00hFgn1Oab",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Puntualidad,Calidad del trabajo,Disponibilidad r\u00e1pida",
+        "c-lKIkzQeO5o": "Llamo a t\u00e9cnicos conocidos,Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$200.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-AAao7Yn4s5",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-AAao7Yn4s5",
+      "name": "2",
+      "index": 20,
+      "createdAt": "2025-09-01T20:26:12.708Z",
+      "updatedAt": "2025-09-01T20:26:12.708Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-AAao7Yn4s5",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 4,
+        "c-cr0Nwz5EwQ": 4,
+        "c-lOss0UFLGF": "Puntualidad,Calidad del trabajo,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Tener garant\u00eda",
+        "c-1RHNfe71Gs": "$1,000.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-WKb3wIJaOn",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-WKb3wIJaOn",
+      "name": "2",
+      "index": 19,
+      "createdAt": "2025-09-01T20:26:05.470Z",
+      "updatedAt": "2025-09-01T20:26:05.470Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-WKb3wIJaOn",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 3,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Puntualidad,Confianza / Reputaci\u00f3n,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Ahorrar dinero",
+        "c-1RHNfe71Gs": "$250.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-QDJRpI5lox",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-QDJRpI5lox",
+      "name": "3",
+      "index": 18,
+      "createdAt": "2025-09-01T20:25:28.377Z",
+      "updatedAt": "2025-09-01T20:25:28.377Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-QDJRpI5lox",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 3,
+        "c-lOss0UFLGF": "Precio,Calidad del trabajo,Puntualidad,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio,Disponibilidad r\u00e1pida",
+        "c-lKIkzQeO5o": "Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$300.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-v6Mga_dScn",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-v6Mga_dScn",
+      "name": "3",
+      "index": 17,
+      "createdAt": "2025-09-01T20:24:04.765Z",
+      "updatedAt": "2025-09-01T20:24:04.765Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-v6Mga_dScn",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Puntualidad,Calidad del trabajo,Confianza / Reputaci\u00f3n,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-eZGQPo9FEL",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-eZGQPo9FEL",
+      "name": "2",
+      "index": 16,
+      "createdAt": "2025-09-01T20:23:30.177Z",
+      "updatedAt": "2025-09-01T20:23:30.177Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-eZGQPo9FEL",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 2,
+        "c-o9yaxqtWWd": 2,
+        "c-cr0Nwz5EwQ": 1,
+        "c-lOss0UFLGF": "Disponibilidad r\u00e1pida,Precio",
+        "c-lKIkzQeO5o": "Pregunto en grupos de WhatsApp/Facebook,Busco en Google",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$0.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-IrAmpnSMoh",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-IrAmpnSMoh",
+      "name": "3",
+      "index": 15,
+      "createdAt": "2025-09-01T20:23:02.991Z",
+      "updatedAt": "2025-09-01T20:23:02.991Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-IrAmpnSMoh",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 2,
+        "c-o9yaxqtWWd": 1,
+        "c-cr0Nwz5EwQ": 1,
+        "c-lOss0UFLGF": "Precio,Puntualidad,Calidad del trabajo,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio,Disponibilidad r\u00e1pida",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-PW9uW4UHEb",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-PW9uW4UHEb",
+      "name": "3",
+      "index": 14,
+      "createdAt": "2025-09-01T20:22:03.356Z",
+      "updatedAt": "2025-09-01T20:22:03.356Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-PW9uW4UHEb",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 1,
+        "c-cr0Nwz5EwQ": 1,
+        "c-lOss0UFLGF": "Precio,Puntualidad,Calidad del trabajo,Garant\u00eda del servicio,Confianza / Reputaci\u00f3n",
+        "c-lKIkzQeO5o": "Llamo a t\u00e9cnicos conocidos,Busco en Google",
+        "c-wTe8A_ITGZ": "Tener garant\u00eda",
+        "c-1RHNfe71Gs": "$600.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-zZh3vtFFgi",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-zZh3vtFFgi",
+      "name": "2",
+      "index": 13,
+      "createdAt": "2025-09-01T20:21:31.337Z",
+      "updatedAt": "2025-09-01T20:21:31.337Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-zZh3vtFFgi",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Calidad del trabajo,Precio,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-j-KWnbUFRs",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-j-KWnbUFRs",
+      "name": "3",
+      "index": 12,
+      "createdAt": "2025-09-01T20:20:54.496Z",
+      "updatedAt": "2025-09-01T20:20:54.496Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-j-KWnbUFRs",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 4,
+        "c-lOss0UFLGF": "Disponibilidad r\u00e1pida,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio,Calidad del trabajo,Puntualidad",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$2,000.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-TRztDbBJUw",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-TRztDbBJUw",
+      "name": "3",
+      "index": 11,
+      "createdAt": "2025-09-01T20:20:43.172Z",
+      "updatedAt": "2025-09-01T20:20:43.172Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-TRztDbBJUw",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Calidad del trabajo,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Tener garant\u00eda",
+        "c-1RHNfe71Gs": "$600.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-_Pc8qJLQxg",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-_Pc8qJLQxg",
+      "name": "4",
+      "index": 10,
+      "createdAt": "2025-09-01T20:18:44.541Z",
+      "updatedAt": "2025-09-01T20:18:44.541Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-_Pc8qJLQxg",
+      "values": {
+        "c-AL65mnlAon": 4,
+        "c-ub1yvmB-1K": 3,
+        "c-o9yaxqtWWd": 2,
+        "c-cr0Nwz5EwQ": 3,
+        "c-lOss0UFLGF": "Calidad del trabajo,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$995.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-FT8lxaOtKs",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-FT8lxaOtKs",
+      "name": "",
+      "index": 9,
+      "createdAt": "2025-09-01T20:18:09.478Z",
+      "updatedAt": "2025-09-01T20:18:09.478Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-FT8lxaOtKs",
+      "values": {
+        "c-AL65mnlAon": "",
+        "c-ub1yvmB-1K": 2,
+        "c-o9yaxqtWWd": 4,
+        "c-cr0Nwz5EwQ": "",
+        "c-lOss0UFLGF": "Puntualidad,Calidad del trabajo",
+        "c-lKIkzQeO5o": "Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "$1,000.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-bhB30buOsB",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-bhB30buOsB",
+      "name": "3",
+      "index": 8,
+      "createdAt": "2025-09-01T20:17:41.162Z",
+      "updatedAt": "2025-09-01T20:17:41.162Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-bhB30buOsB",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Tener garant\u00eda",
+        "c-1RHNfe71Gs": "",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-PgngaeTwbI",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-PgngaeTwbI",
+      "name": "2",
+      "index": 7,
+      "createdAt": "2025-09-01T20:17:36.594Z",
+      "updatedAt": "2025-09-01T20:17:36.594Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-PgngaeTwbI",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 3,
+        "c-cr0Nwz5EwQ": 3,
+        "c-lOss0UFLGF": "Puntualidad,Calidad del trabajo,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-OpKGqDdN2i",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-OpKGqDdN2i",
+      "name": "2",
+      "index": 6,
+      "createdAt": "2025-09-01T20:17:11.023Z",
+      "updatedAt": "2025-09-01T20:17:11.023Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-OpKGqDdN2i",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 1,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Confianza / Reputaci\u00f3n,Calidad del trabajo,Puntualidad,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Mayor confiabilidad",
+        "c-1RHNfe71Gs": "",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-8fCfNzKaj4",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-8fCfNzKaj4",
+      "name": "3",
+      "index": 5,
+      "createdAt": "2025-09-01T20:16:40.326Z",
+      "updatedAt": "2025-09-01T20:16:40.326Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-8fCfNzKaj4",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 4,
+        "c-o9yaxqtWWd": 4,
+        "c-cr0Nwz5EwQ": 4,
+        "c-lOss0UFLGF": "Calidad del trabajo,Confianza / Reputaci\u00f3n,Puntualidad",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$1,000.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-vg6L5p2AEW",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-vg6L5p2AEW",
+      "name": "4",
+      "index": 4,
+      "createdAt": "2025-09-01T20:15:03.117Z",
+      "updatedAt": "2025-09-01T20:15:03.117Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-vg6L5p2AEW",
+      "values": {
+        "c-AL65mnlAon": 4,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Precio,Puntualidad,Disponibilidad r\u00e1pida,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$500.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-y3AcNTBYrW",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-y3AcNTBYrW",
+      "name": "2",
+      "index": 3,
+      "createdAt": "2025-09-01T20:14:15.900Z",
+      "updatedAt": "2025-09-01T20:14:15.900Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-y3AcNTBYrW",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Calidad del trabajo,Confianza / Reputaci\u00f3n,Garant\u00eda del servicio,Precio,Puntualidad,Disponibilidad r\u00e1pida",
+        "c-lKIkzQeO5o": "Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Tener garant\u00eda",
+        "c-1RHNfe71Gs": "$200.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-uV4n04uRBl",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-uV4n04uRBl",
+      "name": "3",
+      "index": 2,
+      "createdAt": "2025-09-01T20:12:37.383Z",
+      "updatedAt": "2025-09-01T20:12:37.383Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-uV4n04uRBl",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 2,
+        "c-o9yaxqtWWd": 1,
+        "c-cr0Nwz5EwQ": 1,
+        "c-lOss0UFLGF": "Puntualidad,Calidad del trabajo,Confianza / Reputaci\u00f3n",
+        "c-lKIkzQeO5o": "Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Ahorrar dinero",
+        "c-1RHNfe71Gs": "$0.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-d001sVlwFh",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-d001sVlwFh",
+      "name": "2",
+      "index": 1,
+      "createdAt": "2025-09-01T18:48:18.986Z",
+      "updatedAt": "2025-09-01T18:48:18.986Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-d001sVlwFh",
+      "values": {
+        "c-AL65mnlAon": 2,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 5,
+        "c-cr0Nwz5EwQ": 5,
+        "c-lOss0UFLGF": "Confianza / Reputaci\u00f3n,Calidad del trabajo,Puntualidad,Precio,Garant\u00eda del servicio",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Gestionar todo en un solo lugar",
+        "c-1RHNfe71Gs": "$300.00",
+        "c-hWaZq9ovpp": ""
+      }
+    },
+    {
+      "id": "i-7_8Cb9ADQ-",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-Eemq7tTmD3/rows/i-7_8Cb9ADQ-",
+      "name": "3",
+      "index": 0,
+      "createdAt": "2025-09-01T18:43:17.629Z",
+      "updatedAt": "2025-09-01T18:43:17.629Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-7_8Cb9ADQ-",
+      "values": {
+        "c-AL65mnlAon": 3,
+        "c-ub1yvmB-1K": 5,
+        "c-o9yaxqtWWd": 4,
+        "c-cr0Nwz5EwQ": 3,
+        "c-lOss0UFLGF": "Puntualidad,Calidad del trabajo,Disponibilidad r\u00e1pida",
+        "c-lKIkzQeO5o": "Pido recomendaciones a amigos/familia,Llamo a t\u00e9cnicos conocidos",
+        "c-wTe8A_ITGZ": "Ahorrar tiempo",
+        "c-1RHNfe71Gs": "$100.00",
+        "c-hWaZq9ovpp": ""
+      }
+    }
+  ]
+}

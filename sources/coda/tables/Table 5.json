@@ -1,0 +1,182 @@
+{
+  "table": {
+    "id": "grid-yJ0_4urXec",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec",
+    "name": "Table 5",
+    "parent": {
+      "id": "canvas-VmqcUdCbk6",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-VmqcUdCbk6",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suUdCbk6",
+      "name": "SLAs internos definidos"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-mbJDMLZrkz",
+      "type": "column",
+      "name": "SLA (interno)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/columns/c-mbJDMLZrkz",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-s9Ru0HwUQk",
+      "type": "column",
+      "name": "Definici\u00f3n (sin ambig\u00fcedad)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/columns/c-s9Ru0HwUQk",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-35WnYtBsiw",
+      "type": "column",
+      "name": "Target piloto",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/columns/c-35WnYtBsiw",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-wQlDwcZTsh",
+      "type": "column",
+      "name": "C\u00f3mo se mide (fuente)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/columns/c-wQlDwcZTsh",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-rqudbImZCX",
+      "type": "column",
+      "name": "Excepciones v\u00e1lidas",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/columns/c-rqudbImZCX",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ASWgSLdDvD",
+      "type": "column",
+      "name": "Escalaci\u00f3n / Acci\u00f3n cuando se rompe",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/columns/c-ASWgSLdDvD",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-5Yl3w2mm5z",
+      "type": "column",
+      "name": "Owner",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/columns/c-5Yl3w2mm5z",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-T080ajW9tk",
+      "type": "column",
+      "name": "Notas",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/columns/c-T080ajW9tk",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-TiyR_DTXKw",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/rows/i-TiyR_DTXKw",
+      "name": "Tiempo de respuesta del concierge",
+      "index": 0,
+      "createdAt": "2026-01-15T17:12:13.260Z",
+      "updatedAt": "2026-01-15T17:12:13.260Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec/_rui-TiyR_DTXKw",
+      "values": {
+        "c-mbJDMLZrkz": "Tiempo de respuesta del concierge",
+        "c-s9Ru0HwUQk": "Tiempo desde que entra un ticket(mensaje/solicitud en WhatsApp) hasta la primera respuesta \u00fatil del concierge (no solo \u201crecibido\u201d: debe incluir pr\u00f3ximos pasos o preguntas de triage).",
+        "c-35WnYtBsiw": "< 24 horas",
+        "c-wQlDwcZTsh": "Timestamps de WhatsApp (hora de entrada vs hora de respuesta) + log en Sheet/CRM.",
+        "c-rqudbImZCX": "Fuera de horario operativo (si aplica), falta de info m\u00ednima del cliente (se deja solicitado), fuerza mayor.",
+        "c-ASWgSLdDvD": "Si >24h: marcar ticket \u201cSLA roto\u201d, priorizar al inicio del d\u00eda, y registrar causa ra\u00edz. Si se repite 2+ veces/semana: ajustar capacidad/cupo.",
+        "c-5Yl3w2mm5z": "Ops/Concierge",
+        "c-T080ajW9tk": "Conectar a meta de \u201c% respuestas dentro del SLA\u201d.Maroa 100 Startup TasksMaroa 100 Startup Tasks"
+      }
+    },
+    {
+      "id": "i-mMSFGG5bLb",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/rows/i-mMSFGG5bLb",
+      "name": "Tiempo m\u00e1ximo para agendar",
+      "index": 1,
+      "createdAt": "2026-01-15T17:12:13.260Z",
+      "updatedAt": "2026-01-15T17:12:13.260Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec/_rui-mMSFGG5bLb",
+      "values": {
+        "c-mbJDMLZrkz": "Tiempo m\u00e1ximo para agendar",
+        "c-s9Ru0HwUQk": "Tiempo desde \u201cticket listo para agendar\u201d (triage m\u00ednimo completado) hasta que el cliente recibe cita confirmada(fecha + ventana + direcci\u00f3n + datos) y confirma.",
+        "c-35WnYtBsiw": "< 48 horas",
+        "c-wQlDwcZTsh": "Hora de \u201ctriage completo\u201d vs hora de \u201cAgendado/Confirmado\u201d en Sheet + WhatsApp.",
+        "c-rqudbImZCX": "Cliente pide fecha espec\u00edfica posterior, no hay disponibilidad por capacidad real, restricciones de acceso del residencial.",
+        "c-ASWgSLdDvD": "Si >48h: ofrecer 2 opciones concretas (slots), activar t\u00e9cnico backup, o limitar intake/cupo esa semana. Registrar motivo.",
+        "c-5Yl3w2mm5z": "Ops",
+        "c-T080ajW9tk": "En el doc aparece \u201cAgendamiento: 48\u201372h (normal)\u201d como referencia; aqu\u00ed lo dejamos m\u00e1s agresivo a 48h por tu definici\u00f3n.Maroa 100 Startup Tasks"
+      }
+    },
+    {
+      "id": "i-h3XMOfygps",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/rows/i-h3XMOfygps",
+      "name": "Ventana de llegada",
+      "index": 2,
+      "createdAt": "2026-01-15T17:12:13.260Z",
+      "updatedAt": "2026-01-15T17:12:13.260Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec/_rui-h3XMOfygps",
+      "values": {
+        "c-mbJDMLZrkz": "Ventana de llegada",
+        "c-s9Ru0HwUQk": "Diferencia m\u00e1xima entre la hora estimada de llegada comunicada en confirmaci\u00f3n y la llegada real del t\u00e9cnico (medida dentro de una ventana).",
+        "c-35WnYtBsiw": "Ventana de 1 hora",
+        "c-wQlDwcZTsh": "Confirmaci\u00f3n enviada (WhatsApp) + check-in \u201cEn ruta / Lleg\u00f3\u201d (WhatsApp o tracker). M\u00e9trica: % citas dentro de ventana.",
+        "c-rqudbImZCX": "Tr\u00e1fico extremo, clima, retraso por residencial (acceso), emergencia en servicio anterior documentada.",
+        "c-ASWgSLdDvD": "Si llega fuera de ventana: aviso proactivo al cliente + opci\u00f3n de reprogramar. Registrar quiebre. Si baja de umbral 2 semanas: ajustar rutas/slots.",
+        "c-5Yl3w2mm5z": "Ops + T\u00e9cnico lead",
+        "c-T080ajW9tk": "Puedes trackear \u201c% puntualidad en ventana\u201d (en el doc sugieren \u226585%).Maroa 100 Startup TasksMaroa 100 Startup Tasks"
+      }
+    },
+    {
+      "id": "i-8ZFDwAvqrI",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-yJ0_4urXec/rows/i-8ZFDwAvqrI",
+      "name": "",
+      "index": 3,
+      "createdAt": "2026-01-15T17:12:13.260Z",
+      "updatedAt": "2026-01-15T17:12:21.163Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec/_rui-8ZFDwAvqrI",
+      "values": {
+        "c-mbJDMLZrkz": "",
+        "c-s9Ru0HwUQk": "",
+        "c-35WnYtBsiw": "",
+        "c-wQlDwcZTsh": "",
+        "c-rqudbImZCX": "",
+        "c-ASWgSLdDvD": "",
+        "c-5Yl3w2mm5z": "",
+        "c-T080ajW9tk": ""
+      }
+    }
+  ]
+}

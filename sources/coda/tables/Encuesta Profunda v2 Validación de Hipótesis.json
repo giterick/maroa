@@ -1,0 +1,1059 @@
+{
+  "table": {
+    "id": "grid-cLpFJrxFTS",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS",
+    "name": "Encuesta Profunda v2 Validaci\u00f3n de Hip\u00f3tesis",
+    "parent": {
+      "id": "canvas-9Ub8FCdYj8",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-9Ub8FCdYj8",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suFCdYj8",
+      "name": "Entrevistas Profundas  a Clientes v2"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-e7MHh_G52p",
+      "type": "column",
+      "name": "Nombre entrevistado",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-e7MHh_G52p",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-qn0G31_HZL",
+      "type": "column",
+      "name": "\u00bfCu\u00e1l es tu edad?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-qn0G31_HZL",
+      "format": {
+        "precision": 22,
+        "useThousandsSeparator": true,
+        "type": "number",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-B9IPE3ekPZ",
+      "type": "column",
+      "name": "\u00bfEn qu\u00e9 ciudad/sector vives?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-B9IPE3ekPZ",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-Apthql5NWS",
+      "type": "column",
+      "name": "\u00bfTu vivienda es apartamento, casa o negocio/oficina?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-Apthql5NWS",
+      "format": {
+        "options": [
+          {
+            "name": "Apartamento",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Casa",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Negocio",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-clr4qgl-fw",
+      "type": "column",
+      "name": "\u00bfCu\u00e1ntos aires acondicionados tienes?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-clr4qgl-fw",
+      "format": {
+        "precision": 22,
+        "useThousandsSeparator": true,
+        "type": "number",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-KXp0trw3YJ",
+      "type": "column",
+      "name": "\u00bfQu\u00e9 otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-KXp0trw3YJ",
+      "format": {
+        "options": [
+          {
+            "name": "Nevera",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Lavadora",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Secadora",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Estufa",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Calentador",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "Otro",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          }
+        ],
+        "type": "select",
+        "isArray": true
+      }
+    },
+    {
+      "id": "c-B3u10eLez4",
+      "type": "column",
+      "name": "\u00bfQui\u00e9n suele tomar la decisi\u00f3n de llamar al t\u00e9cnico en tu hogar/negocio?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-B3u10eLez4",
+      "format": {
+        "options": [
+          {
+            "name": "Yo",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Pareja",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Familiar",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Otro",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-6Q5A2NQGyU",
+      "type": "column",
+      "name": "\u00bfUsas tarjeta de cr\u00e9dito regularmente para pagar servicios o compras?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-6Q5A2NQGyU",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-wQQYVikl8u",
+      "type": "column",
+      "name": "\u00bfQu\u00e9 tan c\u00f3modo te sientes usando apps o plataformas digitales?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-wQQYVikl8u",
+      "format": {
+        "icon": "thumbsup",
+        "maximum": 5,
+        "type": "scale",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-sirQCq5uG1",
+      "type": "column",
+      "name": "\u00bfLe das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al a\u00f1o?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-sirQCq5uG1",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-XoS7pQjbsX",
+      "type": "column",
+      "name": "\u00bfTienes otros equipos a los que tambi\u00e9n sueles dar mantenimiento preventivo?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-XoS7pQjbsX",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-BOpzUzoqqC",
+      "type": "column",
+      "name": "\u00bfTiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-BOpzUzoqqC",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-Z8Xqcx5JMx",
+      "type": "column",
+      "name": "\u00bfHas dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-Z8Xqcx5JMx",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-QMyLQNwQus",
+      "type": "column",
+      "name": "\u00bfAlguna vez te ha frustrado buscar y coordinar un t\u00e9cnico confiable?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-QMyLQNwQus",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-uTW2m8ooWI",
+      "type": "column",
+      "name": "\u00bfTe molesta el tiempo que pierdes coordinando llamadas y citas con t\u00e9cnicos?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-uTW2m8ooWI",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-2lETRJNzF2",
+      "type": "column",
+      "name": "\u00bfSientes que el mercado est\u00e1 fragmentado y es dif\u00edcil encontrar t\u00e9cnicos confiables?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-2lETRJNzF2",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-YkwyEK1vyD",
+      "type": "column",
+      "name": "\u00bfAlguna vez sentiste que un t\u00e9cnico intent\u00f3 cobrarte de m\u00e1s con lenguaje t\u00e9cnico o con cargos sorpresa?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-YkwyEK1vyD",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-0VYA-b1fxj",
+      "type": "column",
+      "name": "\u00bfTe ha pasado que un gasto sorpresa en un electrodom\u00e9stico desajuste tu presupuesto?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-0VYA-b1fxj",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ZdjABtZ3aT",
+      "type": "column",
+      "name": "\u00bfConf\u00edas m\u00e1s en t\u00e9cnicos informales recomendados que en empresas establecidas?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-ZdjABtZ3aT",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ZWhusxmRW0",
+      "type": "column",
+      "name": "\u00bfQu\u00e9 te motivar\u00eda m\u00e1s a mantener tus aires acondicionados al d\u00eda?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-ZWhusxmRW0",
+      "format": {
+        "options": [
+          {
+            "name": "Evitar da\u00f1os",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Ahorro energ\u00eda",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Garant\u00eda",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Evitar gastos mayores",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ZgdHoD3bYN",
+      "type": "column",
+      "name": "\u00bfQu\u00e9 es m\u00e1s importante para ti al contratar un t\u00e9cnico?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-ZgdHoD3bYN",
+      "format": {
+        "options": [
+          {
+            "name": "Calidad/garant\u00eda",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Puntualidad",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Precio",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Disponibilidad",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Confianza",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-xQyZTjEr4R",
+      "type": "column",
+      "name": "\u00bfPrefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-xQyZTjEr4R",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-DOxaCZUAIv",
+      "type": "column",
+      "name": "Si pudieras elegir, \u00bfqu\u00e9 priorizar\u00edas m\u00e1s?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-DOxaCZUAIv",
+      "format": {
+        "options": [
+          {
+            "name": "Garant\u00eda",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Tiempo",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Dinero",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-UWEAOhmtrX",
+      "type": "column",
+      "name": "\u00bfAlguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-UWEAOhmtrX",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-dXTgc-IOzD",
+      "type": "column",
+      "name": "\u00bfSientes que el d\u00eda a d\u00eda te deja poco tiempo o energ\u00eda para pensar en mantenimientos preventivos?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-dXTgc-IOzD",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-EeIHr_VXMk",
+      "type": "column",
+      "name": "\u00bfTe incomoda la acumulaci\u00f3n de tareas \u201cno urgentes pero importantes\u201d como los mantenimientos?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-EeIHr_VXMk",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ITXTc0Oajx",
+      "type": "column",
+      "name": "Cuando necesitas un t\u00e9cnico, \u00bfqu\u00e9 es lo primero que haces?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-ITXTc0Oajx",
+      "format": {
+        "options": [
+          {
+            "name": "Preguntar a familia/amigos",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Buscar en Google",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "WhatsApp/Facebook",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Llamar conocido",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-1MZAjqynXk",
+      "type": "column",
+      "name": "\u00bfHas tenido que pagar t\u00e9cnicos en efectivo o transferencia en vez de tarjeta?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-1MZAjqynXk",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-JA-nOILTwb",
+      "type": "column",
+      "name": "\u00bfTe resultar\u00eda m\u00e1s c\u00f3modo pagar estos servicios autom\u00e1ticamente con tu tarjeta de cr\u00e9dito?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-JA-nOILTwb",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-6WtPB4_5M2",
+      "type": "column",
+      "name": "Si existiera una app para esto, \u00bfla usar\u00edas realmente o preferir\u00edas seguir como hasta ahora?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-6WtPB4_5M2",
+      "format": {
+        "options": [
+          {
+            "name": "S\u00ed la usar\u00eda",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Prefiero seguir igual",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-8WDG7tquYh",
+      "type": "column",
+      "name": "\u00bfTienes un t\u00e9cnico fijo de confianza al que siempre llamas?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-8WDG7tquYh",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-GAIJOcLmFV",
+      "type": "column",
+      "name": "\u00bfConoces a alguien m\u00e1s que pudiera ayudarnos respondiendo esta misma encuesta?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-GAIJOcLmFV",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-h6INN02MbM",
+      "type": "column",
+      "name": "Notas adicionales",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-h6INN02MbM",
+      "format": {
+        "type": "canvas",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-huyzYbsZGQ",
+      "type": "column",
+      "name": "\u00bfPreferir\u00edas que alguien m\u00e1s coordinara estos mantenimientos por ti, en vez de hacerlo t\u00fa?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/columns/c-huyzYbsZGQ",
+      "format": {
+        "table": {
+          "id": "grid-7UOq4LFlbR",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-7UOq4LFlbR",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR",
+          "name": "Si/No"
+        },
+        "type": "lookup",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-iqE1KVUUpE",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/rows/i-iqE1KVUUpE",
+      "name": "Pedro Dajer",
+      "index": 7,
+      "createdAt": "2025-10-07T22:49:47.773Z",
+      "updatedAt": "2025-10-07T22:49:47.773Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-iqE1KVUUpE",
+      "values": {
+        "c-e7MHh_G52p": "Pedro Dajer",
+        "c-qn0G31_HZL": 34,
+        "c-B9IPE3ekPZ": "Punta Cana Village",
+        "c-Apthql5NWS": "Casa",
+        "c-clr4qgl-fw": 5,
+        "c-KXp0trw3YJ": "Calentador,Estufa,Secadora,Lavadora,Nevera,Otro",
+        "c-B3u10eLez4": "Yo",
+        "c-6Q5A2NQGyU": "S\u00ed",
+        "c-wQQYVikl8u": 5,
+        "c-sirQCq5uG1": "S\u00ed",
+        "c-XoS7pQjbsX": "S\u00ed",
+        "c-BOpzUzoqqC": "S\u00ed",
+        "c-Z8Xqcx5JMx": "No",
+        "c-QMyLQNwQus": "No",
+        "c-uTW2m8ooWI": "No",
+        "c-2lETRJNzF2": "S\u00ed",
+        "c-YkwyEK1vyD": "S\u00ed",
+        "c-0VYA-b1fxj": "No",
+        "c-ZdjABtZ3aT": "S\u00ed",
+        "c-ZWhusxmRW0": "Evitar gastos mayores",
+        "c-ZgdHoD3bYN": "Calidad/garant\u00eda",
+        "c-xQyZTjEr4R": "S\u00ed",
+        "c-DOxaCZUAIv": "Garant\u00eda",
+        "c-UWEAOhmtrX": "No",
+        "c-dXTgc-IOzD": "S\u00ed",
+        "c-EeIHr_VXMk": "S\u00ed",
+        "c-ITXTc0Oajx": "Llamar conocido",
+        "c-1MZAjqynXk": "S\u00ed",
+        "c-JA-nOILTwb": "S\u00ed",
+        "c-6WtPB4_5M2": "S\u00ed la usar\u00eda",
+        "c-8WDG7tquYh": "S\u00ed",
+        "c-GAIJOcLmFV": "Andr\u00e9s Amigo PC Venezuela",
+        "c-h6INN02MbM": "Empresas cobran m\u00e1s, no necesariamente ofrecen mejor servicio que los informales.",
+        "c-huyzYbsZGQ": "No"
+      }
+    },
+    {
+      "id": "i-YuZh7uRRxa",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/rows/i-YuZh7uRRxa",
+      "name": "Narciso Contreras",
+      "index": 6,
+      "createdAt": "2025-10-07T00:35:42.544Z",
+      "updatedAt": "2025-10-07T00:35:42.544Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-YuZh7uRRxa",
+      "values": {
+        "c-e7MHh_G52p": "Narciso Contreras",
+        "c-qn0G31_HZL": 36,
+        "c-B9IPE3ekPZ": "Santo Domingo, Evaristo Morales",
+        "c-Apthql5NWS": "Apartamento",
+        "c-clr4qgl-fw": 4,
+        "c-KXp0trw3YJ": "Nevera,Lavadora,Estufa,Calentador,Secadora",
+        "c-B3u10eLez4": "Yo",
+        "c-6Q5A2NQGyU": "S\u00ed",
+        "c-wQQYVikl8u": 5,
+        "c-sirQCq5uG1": "S\u00ed",
+        "c-XoS7pQjbsX": "S\u00ed",
+        "c-BOpzUzoqqC": "No",
+        "c-Z8Xqcx5JMx": "No",
+        "c-QMyLQNwQus": "S\u00ed",
+        "c-uTW2m8ooWI": "S\u00ed",
+        "c-2lETRJNzF2": "S\u00ed",
+        "c-YkwyEK1vyD": "S\u00ed",
+        "c-0VYA-b1fxj": "S\u00ed",
+        "c-ZdjABtZ3aT": "S\u00ed",
+        "c-ZWhusxmRW0": "Ahorro energ\u00eda",
+        "c-ZgdHoD3bYN": "Calidad/garant\u00eda",
+        "c-xQyZTjEr4R": "S\u00ed",
+        "c-DOxaCZUAIv": "Dinero",
+        "c-UWEAOhmtrX": "S\u00ed",
+        "c-dXTgc-IOzD": "S\u00ed",
+        "c-EeIHr_VXMk": "S\u00ed",
+        "c-ITXTc0Oajx": "Preguntar a familia/amigos",
+        "c-1MZAjqynXk": "S\u00ed",
+        "c-JA-nOILTwb": "S\u00ed",
+        "c-6WtPB4_5M2": "S\u00ed la usar\u00eda",
+        "c-8WDG7tquYh": "S\u00ed",
+        "c-GAIJOcLmFV": "",
+        "c-h6INN02MbM": "Ser\u00eda importante entender la solicitud que vas a hacer es limpieza, reparaci\u00f3n, dar detalles de lo que se va a hacer antes de que el t\u00e9cnico llegue. Transparencia.",
+        "c-huyzYbsZGQ": "No"
+      }
+    },
+    {
+      "id": "i-ydlIxD2las",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/rows/i-ydlIxD2las",
+      "name": "Damian Taveras",
+      "index": 5,
+      "createdAt": "2025-10-02T18:39:37.312Z",
+      "updatedAt": "2025-10-02T18:39:37.312Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-ydlIxD2las",
+      "values": {
+        "c-e7MHh_G52p": "Damian Taveras",
+        "c-qn0G31_HZL": 31,
+        "c-B9IPE3ekPZ": "Santo Domingo, Logro\u00f1o",
+        "c-Apthql5NWS": "Apartamento",
+        "c-clr4qgl-fw": 6,
+        "c-KXp0trw3YJ": "Nevera,Lavadora,Secadora,Estufa,Calentador",
+        "c-B3u10eLez4": "Yo",
+        "c-6Q5A2NQGyU": "S\u00ed",
+        "c-wQQYVikl8u": 5,
+        "c-sirQCq5uG1": "S\u00ed",
+        "c-XoS7pQjbsX": "S\u00ed",
+        "c-BOpzUzoqqC": "S\u00ed",
+        "c-Z8Xqcx5JMx": "S\u00ed",
+        "c-QMyLQNwQus": "No",
+        "c-uTW2m8ooWI": "No",
+        "c-2lETRJNzF2": "S\u00ed",
+        "c-YkwyEK1vyD": "S\u00ed",
+        "c-0VYA-b1fxj": "S\u00ed",
+        "c-ZdjABtZ3aT": "No",
+        "c-ZWhusxmRW0": "Ahorro energ\u00eda",
+        "c-ZgdHoD3bYN": "Disponibilidad",
+        "c-xQyZTjEr4R": "S\u00ed",
+        "c-DOxaCZUAIv": "Tiempo",
+        "c-UWEAOhmtrX": "No",
+        "c-dXTgc-IOzD": "S\u00ed",
+        "c-EeIHr_VXMk": "S\u00ed",
+        "c-ITXTc0Oajx": "Llamar conocido",
+        "c-1MZAjqynXk": "S\u00ed",
+        "c-JA-nOILTwb": "S\u00ed",
+        "c-6WtPB4_5M2": "S\u00ed la usar\u00eda",
+        "c-8WDG7tquYh": "No",
+        "c-GAIJOcLmFV": "Mi hermana y mi socio.",
+        "c-h6INN02MbM": "Considerar chat, IA o agente, intercambiar informaci\u00f3n. Pre-diagn\u00f3stico para temas sencillos.",
+        "c-huyzYbsZGQ": "S\u00ed"
+      }
+    },
+    {
+      "id": "i-ywSxSY7Hht",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/rows/i-ywSxSY7Hht",
+      "name": "Alex Abreu",
+      "index": 4,
+      "createdAt": "2025-09-30T16:01:47.071Z",
+      "updatedAt": "2025-09-30T16:01:47.071Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-ywSxSY7Hht",
+      "values": {
+        "c-e7MHh_G52p": "Alex Abreu",
+        "c-qn0G31_HZL": 30,
+        "c-B9IPE3ekPZ": "Caracoli",
+        "c-Apthql5NWS": "Apartamento",
+        "c-clr4qgl-fw": 2,
+        "c-KXp0trw3YJ": "Lavadora,Nevera,Secadora,Estufa,Calentador",
+        "c-B3u10eLez4": "Yo",
+        "c-6Q5A2NQGyU": "S\u00ed",
+        "c-wQQYVikl8u": 5,
+        "c-sirQCq5uG1": "S\u00ed",
+        "c-XoS7pQjbsX": "No",
+        "c-BOpzUzoqqC": "S\u00ed",
+        "c-Z8Xqcx5JMx": "S\u00ed",
+        "c-QMyLQNwQus": "S\u00ed",
+        "c-uTW2m8ooWI": "S\u00ed",
+        "c-2lETRJNzF2": "S\u00ed",
+        "c-YkwyEK1vyD": "S\u00ed",
+        "c-0VYA-b1fxj": "S\u00ed",
+        "c-ZdjABtZ3aT": "S\u00ed",
+        "c-ZWhusxmRW0": "Ahorro energ\u00eda",
+        "c-ZgdHoD3bYN": "Confianza",
+        "c-xQyZTjEr4R": "S\u00ed",
+        "c-DOxaCZUAIv": "Tiempo",
+        "c-UWEAOhmtrX": "S\u00ed",
+        "c-dXTgc-IOzD": "S\u00ed",
+        "c-EeIHr_VXMk": "S\u00ed",
+        "c-ITXTc0Oajx": "Llamar conocido",
+        "c-1MZAjqynXk": "S\u00ed",
+        "c-JA-nOILTwb": "S\u00ed",
+        "c-6WtPB4_5M2": "S\u00ed la usar\u00eda",
+        "c-8WDG7tquYh": "No",
+        "c-GAIJOcLmFV": "",
+        "c-h6INN02MbM": "",
+        "c-huyzYbsZGQ": "S\u00ed"
+      }
+    },
+    {
+      "id": "i-Sdu8ySQ3ew",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/rows/i-Sdu8ySQ3ew",
+      "name": "Oscar Melo",
+      "index": 3,
+      "createdAt": "2025-09-29T23:02:45.955Z",
+      "updatedAt": "2025-09-29T23:02:45.955Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-Sdu8ySQ3ew",
+      "values": {
+        "c-e7MHh_G52p": "Oscar Melo",
+        "c-qn0G31_HZL": 39,
+        "c-B9IPE3ekPZ": "Santo Domingo, Evaristo Morales",
+        "c-Apthql5NWS": "Apartamento",
+        "c-clr4qgl-fw": 2,
+        "c-KXp0trw3YJ": "Calentador,Nevera,Estufa,Lavadora,Secadora",
+        "c-B3u10eLez4": "Yo",
+        "c-6Q5A2NQGyU": "S\u00ed",
+        "c-wQQYVikl8u": 5,
+        "c-sirQCq5uG1": "No",
+        "c-XoS7pQjbsX": "No",
+        "c-BOpzUzoqqC": "No",
+        "c-Z8Xqcx5JMx": "No",
+        "c-QMyLQNwQus": "S\u00ed",
+        "c-uTW2m8ooWI": "No",
+        "c-2lETRJNzF2": "S\u00ed",
+        "c-YkwyEK1vyD": "S\u00ed",
+        "c-0VYA-b1fxj": "S\u00ed",
+        "c-ZdjABtZ3aT": "No",
+        "c-ZWhusxmRW0": "Evitar da\u00f1os",
+        "c-ZgdHoD3bYN": "Calidad/garant\u00eda",
+        "c-xQyZTjEr4R": "S\u00ed",
+        "c-DOxaCZUAIv": "Garant\u00eda",
+        "c-UWEAOhmtrX": "No",
+        "c-dXTgc-IOzD": "S\u00ed",
+        "c-EeIHr_VXMk": "S\u00ed",
+        "c-ITXTc0Oajx": "Preguntar a familia/amigos",
+        "c-1MZAjqynXk": "S\u00ed",
+        "c-JA-nOILTwb": "S\u00ed",
+        "c-6WtPB4_5M2": "S\u00ed la usar\u00eda",
+        "c-8WDG7tquYh": "S\u00ed",
+        "c-GAIJOcLmFV": "Si - los pasar\u00e1 por DM",
+        "c-h6INN02MbM": "",
+        "c-huyzYbsZGQ": "S\u00ed"
+      }
+    },
+    {
+      "id": "i-OXbirztEtf",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/rows/i-OXbirztEtf",
+      "name": "Pablo del Rosario",
+      "index": 2,
+      "createdAt": "2025-09-29T16:40:47.804Z",
+      "updatedAt": "2025-09-29T16:40:47.804Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-OXbirztEtf",
+      "values": {
+        "c-e7MHh_G52p": "Pablo del Rosario",
+        "c-qn0G31_HZL": 38,
+        "c-B9IPE3ekPZ": "Ciudad la palma",
+        "c-Apthql5NWS": "Casa",
+        "c-clr4qgl-fw": 4,
+        "c-KXp0trw3YJ": "Nevera,Lavadora,Secadora,Estufa,Calentador",
+        "c-B3u10eLez4": "Yo",
+        "c-6Q5A2NQGyU": "S\u00ed",
+        "c-wQQYVikl8u": 5,
+        "c-sirQCq5uG1": "S\u00ed",
+        "c-XoS7pQjbsX": "No",
+        "c-BOpzUzoqqC": "No",
+        "c-Z8Xqcx5JMx": "No",
+        "c-QMyLQNwQus": "S\u00ed",
+        "c-uTW2m8ooWI": "S\u00ed",
+        "c-2lETRJNzF2": "S\u00ed",
+        "c-YkwyEK1vyD": "No",
+        "c-0VYA-b1fxj": "S\u00ed",
+        "c-ZdjABtZ3aT": "No",
+        "c-ZWhusxmRW0": "Evitar da\u00f1os",
+        "c-ZgdHoD3bYN": "Calidad/garant\u00eda",
+        "c-xQyZTjEr4R": "S\u00ed",
+        "c-DOxaCZUAIv": "Garant\u00eda",
+        "c-UWEAOhmtrX": "No",
+        "c-dXTgc-IOzD": "S\u00ed",
+        "c-EeIHr_VXMk": "No",
+        "c-ITXTc0Oajx": "Preguntar a familia/amigos",
+        "c-1MZAjqynXk": "S\u00ed",
+        "c-JA-nOILTwb": "S\u00ed",
+        "c-6WtPB4_5M2": "S\u00ed la usar\u00eda",
+        "c-8WDG7tquYh": "No",
+        "c-GAIJOcLmFV": "",
+        "c-h6INN02MbM": "",
+        "c-huyzYbsZGQ": "S\u00ed"
+      }
+    },
+    {
+      "id": "i-B7qfCaTcOd",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/rows/i-B7qfCaTcOd",
+      "name": "Asirio Santana ",
+      "index": 1,
+      "createdAt": "2025-09-04T07:03:11.896Z",
+      "updatedAt": "2025-09-04T07:03:11.896Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-B7qfCaTcOd",
+      "values": {
+        "c-e7MHh_G52p": "Asirio Santana ",
+        "c-qn0G31_HZL": 60,
+        "c-B9IPE3ekPZ": "Santo Domingo/ Evaristo morales ",
+        "c-Apthql5NWS": "Apartamento",
+        "c-clr4qgl-fw": 2,
+        "c-KXp0trw3YJ": "Nevera,Lavadora,Secadora,Estufa,Calentador",
+        "c-B3u10eLez4": "Yo",
+        "c-6Q5A2NQGyU": "No",
+        "c-wQQYVikl8u": 3,
+        "c-sirQCq5uG1": "S\u00ed",
+        "c-XoS7pQjbsX": "No",
+        "c-BOpzUzoqqC": "No",
+        "c-Z8Xqcx5JMx": "S\u00ed",
+        "c-QMyLQNwQus": "S\u00ed",
+        "c-uTW2m8ooWI": "S\u00ed",
+        "c-2lETRJNzF2": "S\u00ed",
+        "c-YkwyEK1vyD": "S\u00ed",
+        "c-0VYA-b1fxj": "No",
+        "c-ZdjABtZ3aT": "S\u00ed",
+        "c-ZWhusxmRW0": "Evitar gastos mayores",
+        "c-ZgdHoD3bYN": "Calidad/garant\u00eda",
+        "c-xQyZTjEr4R": "S\u00ed",
+        "c-DOxaCZUAIv": "Garant\u00eda",
+        "c-UWEAOhmtrX": "S\u00ed",
+        "c-dXTgc-IOzD": "S\u00ed",
+        "c-EeIHr_VXMk": "S\u00ed",
+        "c-ITXTc0Oajx": "Llamar conocido",
+        "c-1MZAjqynXk": "S\u00ed",
+        "c-JA-nOILTwb": "S\u00ed",
+        "c-6WtPB4_5M2": "S\u00ed la usar\u00eda",
+        "c-8WDG7tquYh": "S\u00ed",
+        "c-GAIJOcLmFV": "No",
+        "c-h6INN02MbM": "",
+        "c-huyzYbsZGQ": "S\u00ed"
+      }
+    },
+    {
+      "id": "i-J7H_qDryii",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-cLpFJrxFTS/rows/i-J7H_qDryii",
+      "name": "Erick Santana",
+      "index": 0,
+      "createdAt": "2025-09-04T02:03:24.121Z",
+      "updatedAt": "2025-09-04T02:03:24.121Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-J7H_qDryii",
+      "values": {
+        "c-e7MHh_G52p": "Erick Santana",
+        "c-qn0G31_HZL": 35,
+        "c-B9IPE3ekPZ": "Punta Cana",
+        "c-Apthql5NWS": "Casa",
+        "c-clr4qgl-fw": 4,
+        "c-KXp0trw3YJ": "Nevera,Lavadora,Secadora,Estufa,Calentador",
+        "c-B3u10eLez4": "Pareja",
+        "c-6Q5A2NQGyU": "S\u00ed",
+        "c-wQQYVikl8u": 5,
+        "c-sirQCq5uG1": "S\u00ed",
+        "c-XoS7pQjbsX": "No",
+        "c-BOpzUzoqqC": "S\u00ed",
+        "c-Z8Xqcx5JMx": "S\u00ed",
+        "c-QMyLQNwQus": "S\u00ed",
+        "c-uTW2m8ooWI": "S\u00ed",
+        "c-2lETRJNzF2": "S\u00ed",
+        "c-YkwyEK1vyD": "S\u00ed",
+        "c-0VYA-b1fxj": "S\u00ed",
+        "c-ZdjABtZ3aT": "No",
+        "c-ZWhusxmRW0": "Ahorro energ\u00eda",
+        "c-ZgdHoD3bYN": "Calidad/garant\u00eda",
+        "c-xQyZTjEr4R": "S\u00ed",
+        "c-DOxaCZUAIv": "Garant\u00eda",
+        "c-UWEAOhmtrX": "S\u00ed",
+        "c-dXTgc-IOzD": "S\u00ed",
+        "c-EeIHr_VXMk": "S\u00ed",
+        "c-ITXTc0Oajx": "WhatsApp/Facebook",
+        "c-1MZAjqynXk": "S\u00ed",
+        "c-JA-nOILTwb": "S\u00ed",
+        "c-6WtPB4_5M2": "S\u00ed la usar\u00eda",
+        "c-8WDG7tquYh": "No",
+        "c-GAIJOcLmFV": "Gabriella Bairan",
+        "c-h6INN02MbM": "Muy apuesto el muchacho.",
+        "c-huyzYbsZGQ": "S\u00ed"
+      }
+    }
+  ]
+}

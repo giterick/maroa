@@ -1,0 +1,43 @@
+{
+  "id": "sssNy6mSVA",
+  "type": "doc",
+  "href": "https://coda.io/apis/v1/docs/sssNy6mSVA",
+  "browserLink": "https://coda.io/d/_dsssNy6mSVA",
+  "name": "Maroa 100 Startup Tasks",
+  "owner": "erickesteban.santanadiaz@gmail.com",
+  "ownerName": "Erick Santana",
+  "createdAt": "2025-07-29T23:04:57.596Z",
+  "updatedAt": "2026-01-18T22:11:37.379Z",
+  "icon": {
+    "name": "tire-pressure",
+    "type": "image/png",
+    "browserLink": "https://cdn.coda.io/icons/png/color/tire-pressure-128.png"
+  },
+  "docSize": {
+    "totalRowCount": 394,
+    "tableAndViewCount": 23,
+    "pageCount": 49,
+    "overApiSizeLimit": false,
+    "baseTableCount": 19
+  },
+  "sourceDoc": {
+    "id": "Sbx6Fjteq_",
+    "type": "doc",
+    "href": "https://coda.io/apis/v1/docs/Sbx6Fjteq_",
+    "browserLink": "https://coda.io/d/_dSbx6Fjteq_"
+  },
+  "workspaceId": "ws-Z4TMDlHQHz",
+  "folderId": "fl-mygqOQnfsr",
+  "workspace": {
+    "id": "ws-Z4TMDlHQHz",
+    "type": "workspace",
+    "browserLink": "https://coda.io/docs?workspaceId=ws-Z4TMDlHQHz",
+    "name": "Erick's Workspace"
+  },
+  "folder": {
+    "id": "fl-mygqOQnfsr",
+    "type": "folder",
+    "browserLink": "https://coda.io/docs?folderId=fl-mygqOQnfsr",
+    "name": "My docs"
+  }
+}

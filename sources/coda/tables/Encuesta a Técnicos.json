@@ -1,0 +1,246 @@
+{
+  "table": {
+    "id": "grid-6mjm5VG0r8",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-6mjm5VG0r8",
+    "name": "Encuesta a T\u00e9cnicos",
+    "parent": {
+      "id": "canvas-I8TJVS57hM",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-I8TJVS57hM",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suVS57hM",
+      "name": "Entrevistas a Clientes y T\u00e9cnicos"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-AL65mnlAon",
+      "type": "column",
+      "name": "\u00bfCon qu\u00e9 frecuencia necesitas buscar nuevos clientes para tus servicios t\u00e9cnicos?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/columns/c-AL65mnlAon",
+      "display": true,
+      "format": {
+        "icon": "person",
+        "maximum": 5,
+        "type": "scale",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ub1yvmB-1K",
+      "type": "column",
+      "name": "\u00bfCu\u00e1nto tiempo promedio inviertes hoy para conseguir un nuevo cliente desde el primer contacto?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/columns/c-ub1yvmB-1K",
+      "format": {
+        "icon": "circle",
+        "maximum": 5,
+        "type": "scale",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-o9yaxqtWWd",
+      "type": "column",
+      "name": "\u00bfQu\u00e9 tan dif\u00edcil resulta conseguir clientes confiables que realmente paguen a tiempo?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/columns/c-o9yaxqtWWd",
+      "format": {
+        "icon": "chili",
+        "maximum": 5,
+        "type": "scale",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-cr0Nwz5EwQ",
+      "type": "column",
+      "name": "\u00bfCu\u00e1nto afecta a tu negocio la falta de visibilidad online o de referencias confiables?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/columns/c-cr0Nwz5EwQ",
+      "format": {
+        "icon": "currency",
+        "maximum": 5,
+        "type": "scale",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-lOss0UFLGF",
+      "type": "column",
+      "name": "Selecciona los mayores retos que tienes hoy para captar clientes.",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/columns/c-lOss0UFLGF",
+      "format": {
+        "options": [
+          {
+            "name": "Precio",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Puntualidad",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Calidad del trabajo",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Confianza / Reputaci\u00f3n",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Disponibilidad r\u00e1pida",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "Garant\u00eda del servicio",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          }
+        ],
+        "type": "select",
+        "isArray": true
+      }
+    },
+    {
+      "id": "c-lKIkzQeO5o",
+      "type": "column",
+      "name": "\u00bfC\u00f3mo consigues actualmente la mayor\u00eda de tus nuevos clientes? (elige todas las que apliquen)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/columns/c-lKIkzQeO5o",
+      "format": {
+        "options": [
+          {
+            "name": "Pido recomendaciones a amigos/familia",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Busco en Google",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Llamo a t\u00e9cnicos conocidos",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Pregunto en grupos de WhatsApp/Facebook",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          }
+        ],
+        "type": "select",
+        "isArray": true
+      }
+    },
+    {
+      "id": "c-wTe8A_ITGZ",
+      "type": "column",
+      "name": "Si pudieras \u201ccontratar\u201d la soluci\u00f3n ideal para atraer clientes, \u00bfcu\u00e1l ser\u00eda tu principal motivaci\u00f3n?",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/columns/c-wTe8A_ITGZ",
+      "format": {
+        "options": [
+          {
+            "name": "Ahorrar tiempo",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Ahorrar dinero",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Mayor confiabilidad",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Tener garant\u00eda",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Gestionar todo en un solo lugar",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-1RHNfe71Gs",
+      "type": "column",
+      "name": "\u00bfCu\u00e1nto estar\u00edas dispuesto a pagar al mes por una plataforma que te conecte con clientes verificados, te garantice pagos seguros y te d\u00e9 mayor visibilidad? (RD$)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/columns/c-1RHNfe71Gs",
+      "format": {
+        "currencyCode": "USD",
+        "precision": 2,
+        "format": "currency",
+        "type": "currency",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-LUaz_Qu42Q",
+      "type": "column",
+      "name": "Notes",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/columns/c-LUaz_Qu42Q",
+      "format": {
+        "type": "canvas",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-vu8SMOJsub",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/rows/i-vu8SMOJsub",
+      "name": "",
+      "index": 0,
+      "createdAt": "2025-09-01T06:57:25.017Z",
+      "updatedAt": "2025-09-01T06:57:25.017Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-6mjm5VG0r8/_rui-vu8SMOJsub",
+      "values": {
+        "c-AL65mnlAon": "",
+        "c-ub1yvmB-1K": "",
+        "c-o9yaxqtWWd": "",
+        "c-cr0Nwz5EwQ": "",
+        "c-lOss0UFLGF": "",
+        "c-lKIkzQeO5o": "",
+        "c-wTe8A_ITGZ": "",
+        "c-1RHNfe71Gs": "",
+        "c-LUaz_Qu42Q": ""
+      }
+    },
+    {
+      "id": "i-pcixEaudKR",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-6mjm5VG0r8/rows/i-pcixEaudKR",
+      "name": "",
+      "index": 1,
+      "createdAt": "2025-09-01T06:57:25.017Z",
+      "updatedAt": "2025-09-01T06:57:25.017Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-6mjm5VG0r8/_rui-pcixEaudKR",
+      "values": {
+        "c-AL65mnlAon": "",
+        "c-ub1yvmB-1K": "",
+        "c-o9yaxqtWWd": "",
+        "c-cr0Nwz5EwQ": "",
+        "c-lOss0UFLGF": "",
+        "c-lKIkzQeO5o": "",
+        "c-wTe8A_ITGZ": "",
+        "c-1RHNfe71Gs": "",
+        "c-LUaz_Qu42Q": ""
+      }
+    }
+  ]
+}

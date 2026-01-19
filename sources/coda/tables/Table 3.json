@@ -1,0 +1,637 @@
+{
+  "table": {
+    "id": "grid-HGDkkA5AO6",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6",
+    "name": "Table 3",
+    "parent": {
+      "id": "canvas--7sVRTigeG",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas--7sVRTigeG",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suRTigeG",
+      "name": "Matriz de validaci\u00f3n del piloto"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-NgazFtRe32",
+      "type": "column",
+      "name": "Column 1",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-NgazFtRe32",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-Uv20KGSp_Z",
+      "type": "column",
+      "name": "Column 2",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-Uv20KGSp_Z",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c--06q0UVCk7",
+      "type": "column",
+      "name": "Column 3",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c--06q0UVCk7",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-H7YFohukvT",
+      "type": "column",
+      "name": "Column 4",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-H7YFohukvT",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-dCjtHR6v1M",
+      "type": "column",
+      "name": "Column 5",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-dCjtHR6v1M",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-jw2vTHoCrW",
+      "type": "column",
+      "name": "Column 6",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-jw2vTHoCrW",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-pYosQWVkp5",
+      "type": "column",
+      "name": "Column 7",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-pYosQWVkp5",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-q9IobXeyY4",
+      "type": "column",
+      "name": "Column 8",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-q9IobXeyY4",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-UnL9ld87dy",
+      "type": "column",
+      "name": "Column 9",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-UnL9ld87dy",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-Et5nWnDiKq",
+      "type": "column",
+      "name": "Column 10",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-Et5nWnDiKq",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-jBL8JPdaZS",
+      "type": "column",
+      "name": "Column 11",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-jBL8JPdaZS",
+      "format": {
+        "type": "canvas",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-gJWmmgO6Fy",
+      "type": "column",
+      "name": "Column 12",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-gJWmmgO6Fy",
+      "format": {
+        "type": "canvas",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c--EEsuL9u8e",
+      "type": "column",
+      "name": "Column 13",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c--EEsuL9u8e",
+      "format": {
+        "type": "canvas",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-m5lgad3LI9",
+      "type": "column",
+      "name": "Column 14",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-m5lgad3LI9",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-Um9AhwJhVZ",
+      "type": "column",
+      "name": "Column 15",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-Um9AhwJhVZ",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-KLHxUcFOHK",
+      "type": "column",
+      "name": "Column 16",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-KLHxUcFOHK",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-3jIq2DjOwJ",
+      "type": "column",
+      "name": "Column 17",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-3jIq2DjOwJ",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-zqDwD0Fbgk",
+      "type": "column",
+      "name": "Column 18",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-zqDwD0Fbgk",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-VecJzFP9RR",
+      "type": "column",
+      "name": "Column 19",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-VecJzFP9RR",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-eGYtf3ib6p",
+      "type": "column",
+      "name": "Column 20",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-eGYtf3ib6p",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-XiNmFbCaNc",
+      "type": "column",
+      "name": "Column 21",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-XiNmFbCaNc",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-8azdQgewOI",
+      "type": "column",
+      "name": "Column 22",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-8azdQgewOI",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-zw_oMX9OVE",
+      "type": "column",
+      "name": "Column 23",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/columns/c-zw_oMX9OVE",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-8VGA4p554B",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-8VGA4p554B",
+      "name": "ID Experimento",
+      "index": 0,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-17T14:43:52.878Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-8VGA4p554B",
+      "values": {
+        "c-NgazFtRe32": "ID Experimento",
+        "c-Uv20KGSp_Z": "Hip\u00f3tesis",
+        "c--06q0UVCk7": "OKR",
+        "c-H7YFohukvT": "Segmento / Contexto",
+        "c-dCjtHR6v1M": "M\u00e9trica principal",
+        "c-jw2vTHoCrW": "M\u00e9tricas secundarias",
+        "c-pYosQWVkp5": "Definici\u00f3n / F\u00f3rmula",
+        "c-q9IobXeyY4": "Ventana",
+        "c-UnL9ld87dy": "Fuente de datos",
+        "c-Et5nWnDiKq": "Cadencia",
+        "c-jBL8JPdaZS": "Umbral Go (m\u00ednimo)",
+        "c-gJWmmgO6Fy": "Pivot",
+        "c--EEsuL9u8e": "Stop",
+        "c-m5lgad3LI9": "Target",
+        "c-Um9AhwJhVZ": "Stretch",
+        "c-KLHxUcFOHK": "Red flags (pausa aunque \u201cvaya bien\u201d)",
+        "c-3jIq2DjOwJ": "Muestra m\u00ednima (validez)",
+        "c-zqDwD0Fbgk": "Owner medici\u00f3n",
+        "c-VecJzFP9RR": "Owner operaci\u00f3n",
+        "c-eGYtf3ib6p": "Checkpoint",
+        "c-XiNmFbCaNc": "Acci\u00f3n si Go",
+        "c-8azdQgewOI": "Acci\u00f3n si Pivot",
+        "c-zw_oMX9OVE": "Acci\u00f3n si Stop"
+      }
+    },
+    {
+      "id": "i-CPOv9v14Rk",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-CPOv9v14Rk",
+      "name": "E1 Demanda pagada + claridad",
+      "index": 1,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-17T14:43:52.878Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-CPOv9v14Rk",
+      "values": {
+        "c-NgazFtRe32": "E1 Demanda pagada + claridad",
+        "c-Uv20KGSp_Z": "H1, H4",
+        "c--06q0UVCk7": "O2, O7",
+        "c-H7YFohukvT": "Leads calificados en zona; A/C residencial; canal vecinos/WhatsApp",
+        "c-dCjtHR6v1M": "Conversi\u00f3n a pago",
+        "c-jw2vTHoCrW": "% entiende oferta sin explicaci\u00f3n; % objeci\u00f3n precio; % referidos",
+        "c-pYosQWVkp5": "Conversi\u00f3n = #Pagos / #Leads calificados (pago = transacci\u00f3n confirmada)",
+        "c-q9IobXeyY4": "0\u20137 d\u00edas desde 1er contacto",
+        "c-UnL9ld87dy": "WhatsApp + Form + Sheet Leads + comprobantes",
+        "c-Et5nWnDiKq": "Semanal",
+        "c-jBL8JPdaZS": "\u226520%",
+        "c-gJWmmgO6Fy": "10\u201319%",
+        "c--EEsuL9u8e": "<10%",
+        "c-m5lgad3LI9": "25%",
+        "c-Um9AhwJhVZ": "35%",
+        "c-KLHxUcFOHK": ">20% \u201cno entend\u00ed\u201d; >15% disputas por alcance/precio",
+        "c-3jIq2DjOwJ": "N\u226530 leads calificados o N\u226510 pagos",
+        "c-zqDwD0Fbgk": "Gabby",
+        "c-VecJzFP9RR": "Erick",
+        "c-eGYtf3ib6p": "Semana 2 y 4",
+        "c-XiNmFbCaNc": "Mantener oferta; preparar fase 2",
+        "c-8azdQgewOI": "Ajustar copy/paquete/pol\u00edticas y re-test 7 d\u00edas",
+        "c-zw_oMX9OVE": "Pausar adquisici\u00f3n y redise\u00f1ar oferta"
+      }
+    },
+    {
+      "id": "i-TFotIWwFXe",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-TFotIWwFXe",
+      "name": "E2 Operaci\u00f3n concierge (SLAs)",
+      "index": 2,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-17T14:43:52.878Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-TFotIWwFXe",
+      "values": {
+        "c-NgazFtRe32": "E2 Operaci\u00f3n concierge (SLAs)",
+        "c-Uv20KGSp_Z": "H2",
+        "c--06q0UVCk7": "O3, O6",
+        "c-H7YFohukvT": "Tickets dentro de zona/horario",
+        "c-dCjtHR6v1M": "% respuestas dentro SLA",
+        "c-jw2vTHoCrW": "Tiempo a agendar; % on-time; % reprogramaci\u00f3n; no-shows",
+        "c-pYosQWVkp5": "% SLA = #tickets respondidos dentro SLA / #tickets totales",
+        "c-q9IobXeyY4": "Por ticket + semanal",
+        "c-UnL9ld87dy": "WhatsApp timestamps + Sheet Servicios",
+        "c-Et5nWnDiKq": "Semanal",
+        "c-jBL8JPdaZS": "\u226590% SLA y \u226585% citas sin reprogramaci\u00f3n",
+        "c-gJWmmgO6Fy": "75\u201389% o 70\u201384%",
+        "c--EEsuL9u8e": "<75% o <70%",
+        "c-m5lgad3LI9": "92%",
+        "c-Um9AhwJhVZ": "95%",
+        "c-KLHxUcFOHK": "\u226510% no-show t\u00e9cnico; 2 semanas seguidas con quiebre",
+        "c-3jIq2DjOwJ": "N\u226520 tickets y N\u226515 servicios",
+        "c-zqDwD0Fbgk": "Gabby",
+        "c-VecJzFP9RR": "Gabby/Erick",
+        "c-eGYtf3ib6p": "Sem 1\u20134 semanal",
+        "c-XiNmFbCaNc": "Documentar playbook; subir volumen",
+        "c-8azdQgewOI": "Ajustar guiones/ventanas/agenda",
+        "c-zw_oMX9OVE": "Reducir cupo/alcance hasta estabilizar"
+      }
+    },
+    {
+      "id": "i-FVEC2wHev2",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-FVEC2wHev2",
+      "name": "E3 Cumplimiento de alcance",
+      "index": 3,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-17T14:43:52.878Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-FVEC2wHev2",
+      "values": {
+        "c-NgazFtRe32": "E3 Cumplimiento de alcance",
+        "c-Uv20KGSp_Z": "H2",
+        "c--06q0UVCk7": "O1",
+        "c-H7YFohukvT": "Todos los servicios agendados",
+        "c-dCjtHR6v1M": "% dentro de alcance",
+        "c-jw2vTHoCrW": "% fuera de zona/horario; % scope creep evitado",
+        "c-pYosQWVkp5": "% Scope = #servicios dentro scope / #servicios totales",
+        "c-q9IobXeyY4": "Durante piloto",
+        "c-UnL9ld87dy": "Sheet Servicios + mensajes confirmaci\u00f3n",
+        "c-Et5nWnDiKq": "Semanal",
+        "c-jBL8JPdaZS": "100% y 0 fuera zona/horario",
+        "c-gJWmmgO6Fy": "1\u20132 excepciones justificadas",
+        "c--EEsuL9u8e": ">2 excepciones o patr\u00f3n",
+        "c-m5lgad3LI9": "100%",
+        "c-Um9AhwJhVZ": "100%",
+        "c-KLHxUcFOHK": ">10% discusiones \u201ceso no inclu\u00eda\u201d",
+        "c-3jIq2DjOwJ": "N\u226515 servicios",
+        "c-zqDwD0Fbgk": "Gabby",
+        "c-VecJzFP9RR": "Erick",
+        "c-eGYtf3ib6p": "Semana 2 y 4",
+        "c-XiNmFbCaNc": "Mantener definici\u00f3n; escalar",
+        "c-8azdQgewOI": "Endurecer copy + diagn\u00f3stico + exclusiones",
+        "c-zw_oMX9OVE": "Pausar, redefinir alcance"
+      }
+    },
+    {
+      "id": "i-2GdOJNHP9-",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-2GdOJNHP9-",
+      "name": "E4 Red t\u00e9cnicos (capacidad MV)",
+      "index": 4,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-17T14:43:52.878Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-2GdOJNHP9-",
+      "values": {
+        "c-NgazFtRe32": "E4 Red t\u00e9cnicos (capacidad MV)",
+        "c-Uv20KGSp_Z": "H2, H3",
+        "c--06q0UVCk7": "O4",
+        "c-H7YFohukvT": "Preventivo + correctivo (separar)",
+        "c-dCjtHR6v1M": "% cobertura sin cancelaci\u00f3n por t\u00e9cnico",
+        "c-jw2vTHoCrW": "Variabilidad duraci\u00f3n; reincidencias por t\u00e9cnico",
+        "c-pYosQWVkp5": "Cobertura = #servicios cubiertos / #servicios agendados",
+        "c-q9IobXeyY4": "Semanal",
+        "c-UnL9ld87dy": "Sheet Servicios + incidencias",
+        "c-Et5nWnDiKq": "Semanal",
+        "c-jBL8JPdaZS": "100% cobertura y variabilidad \u226425%",
+        "c-gJWmmgO6Fy": "95\u201399% o 26\u201340%",
+        "c--EEsuL9u8e": "<95% o dependencia 1 t\u00e9cnico",
+        "c-m5lgad3LI9": "100%",
+        "c-Um9AhwJhVZ": "100%",
+        "c-KLHxUcFOHK": "\u22652 cancelaciones \u201cd\u00eda de\u201d/2 semanas; quejas repetidas",
+        "c-3jIq2DjOwJ": "N\u226515 servicios; \u22652 t\u00e9cnicos + 1 backup probado",
+        "c-zqDwD0Fbgk": "Erick",
+        "c-VecJzFP9RR": "Erick",
+        "c-eGYtf3ib6p": "Sem 2 y 4",
+        "c-XiNmFbCaNc": "Estabilizar red; aumentar volumen",
+        "c-8azdQgewOI": "Ajustar pagos/SLAs; incorporar backup",
+        "c-zw_oMX9OVE": "Reducir volumen/cambiar modelo t\u00e9cnicos"
+      }
+    },
+    {
+      "id": "i-rqnX7m6DeW",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-rqnX7m6DeW",
+      "name": "E5 Calidad \u201cbien a la primera\u201d",
+      "index": 5,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-17T14:43:52.878Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-rqnX7m6DeW",
+      "values": {
+        "c-NgazFtRe32": "E5 Calidad \u201cbien a la primera\u201d",
+        "c-Uv20KGSp_Z": "H3",
+        "c--06q0UVCk7": "O5",
+        "c-H7YFohukvT": "Separar preventivo vs correctivo",
+        "c-dCjtHR6v1M": "FTFR (first-time fix rate)",
+        "c-jw2vTHoCrW": "% retrabajos evitables; reclamos; score auditor\u00eda",
+        "c-pYosQWVkp5": "FTFR = #servicios sin retrabajo evitable (0\u20137d) / #servicios",
+        "c-q9IobXeyY4": "0\u20137 d\u00edas post-servicio",
+        "c-UnL9ld87dy": "Sheet Servicios + incidencias + QA",
+        "c-Et5nWnDiKq": "Semanal",
+        "c-jBL8JPdaZS": "FTFR \u226590% y retrabajo evitable \u22645%",
+        "c-gJWmmgO6Fy": "80\u201389% o 6\u201310%",
+        "c--EEsuL9u8e": "<80% o >10%",
+        "c-m5lgad3LI9": "92%",
+        "c-Um9AhwJhVZ": "95%",
+        "c-KLHxUcFOHK": "1 evento grave (da\u00f1o/seguridad); patr\u00f3n por t\u00e9cnico",
+        "c-3jIq2DjOwJ": "N\u226515 (ideal \u226520)",
+        "c-zqDwD0Fbgk": "Gabby",
+        "c-VecJzFP9RR": "T\u00e9cnico lead/Erick",
+        "c-eGYtf3ib6p": "Semanal",
+        "c-XiNmFbCaNc": "Consolidar est\u00e1ndar; subir volumen",
+        "c-8azdQgewOI": "Ajustar checklist + capacitaci\u00f3n + auditor\u00eda 20%",
+        "c-zw_oMX9OVE": "Pausar correctivos / reemplazar t\u00e9cnico / redise\u00f1ar"
+      }
+    },
+    {
+      "id": "i-ZJg6e8GYrG",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-ZJg6e8GYrG",
+      "name": "E6 Estandarizaci\u00f3n (evidencia)",
+      "index": 6,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-17T14:43:52.878Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-ZJg6e8GYrG",
+      "values": {
+        "c-NgazFtRe32": "E6 Estandarizaci\u00f3n (evidencia)",
+        "c-Uv20KGSp_Z": "H3, H2",
+        "c--06q0UVCk7": "O5, O6",
+        "c-H7YFohukvT": "Todos los servicios",
+        "c-dCjtHR6v1M": "% reportes completos",
+        "c-jw2vTHoCrW": "% fotos obligatorias; % diagn\u00f3stico claro; % OK cliente",
+        "c-pYosQWVkp5": "% completos = #reportes completos / #servicios",
+        "c-q9IobXeyY4": "Por servicio",
+        "c-UnL9ld87dy": "Reporte Maroa + fotos + Sheet",
+        "c-Et5nWnDiKq": "Diario/Semanal",
+        "c-jBL8JPdaZS": "\u226595%",
+        "c-gJWmmgO6Fy": "85\u201394%",
+        "c--EEsuL9u8e": "<85%",
+        "c-m5lgad3LI9": "97%",
+        "c-Um9AhwJhVZ": "99%",
+        "c-KLHxUcFOHK": "\u201cservicios sin registro\u201d >0; costos/SLAs no trazables",
+        "c-3jIq2DjOwJ": "N\u226515 reportes",
+        "c-zqDwD0Fbgk": "Gabby",
+        "c-VecJzFP9RR": "Gabby",
+        "c-eGYtf3ib6p": "Semanal",
+        "c-XiNmFbCaNc": "Mantener; automatizar",
+        "c-8azdQgewOI": "Corregir plantillas + enforcement",
+        "c-zw_oMX9OVE": "No escalar volumen hasta lograr dato confiable"
+      }
+    },
+    {
+      "id": "i-aptpP8E2vR",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-aptpP8E2vR",
+      "name": "E7 Unit economics por servicio",
+      "index": 7,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-17T14:43:52.878Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-aptpP8E2vR",
+      "values": {
+        "c-NgazFtRe32": "E7 Unit economics por servicio",
+        "c-Uv20KGSp_Z": "H4",
+        "c--06q0UVCk7": "O8",
+        "c-H7YFohukvT": "Preventivo vs correctivo",
+        "c-dCjtHR6v1M": "Margen bruto promedio",
+        "c-jw2vTHoCrW": "% servicios con margen negativo; % materiales/ingreso; costo retrabajos/ingreso",
+        "c-pYosQWVkp5": "Margen = Ingreso \u2013 (t\u00e9cnico + transporte + materiales + retrabajo)",
+        "c-q9IobXeyY4": "Semanal",
+        "c-UnL9ld87dy": "Sheet Costos + pagos",
+        "c-Et5nWnDiKq": "Semanal",
+        "c-jBL8JPdaZS": "Margen \u226520% y \u226580% servicios no negativos",
+        "c-gJWmmgO6Fy": "5\u201319% o 21\u201335% negativos",
+        "c--EEsuL9u8e": "<5% o >35% negativos",
+        "c-m5lgad3LI9": "25%",
+        "c-Um9AhwJhVZ": "30%",
+        "c-KLHxUcFOHK": "2 semanas margen negativo; quiebre caja",
+        "c-3jIq2DjOwJ": "N\u226515 servicios con costos completos",
+        "c-zqDwD0Fbgk": "Erick",
+        "c-VecJzFP9RR": "Erick",
+        "c-eGYtf3ib6p": "Semanal",
+        "c-XiNmFbCaNc": "Mantener pricing y subir volumen",
+        "c-8azdQgewOI": "Ajustar pricing/fees/markup/pagos t\u00e9cnicos",
+        "c-zw_oMX9OVE": "Pausar; redise\u00f1ar economics"
+      }
+    },
+    {
+      "id": "i-X2rcO0vmUh",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-X2rcO0vmUh",
+      "name": "E8 Economics por suscriptor (proxy 30d)",
+      "index": 8,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-17T14:43:52.878Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-X2rcO0vmUh",
+      "values": {
+        "c-NgazFtRe32": "E8 Economics por suscriptor (proxy 30d)",
+        "c-Uv20KGSp_Z": "H4",
+        "c--06q0UVCk7": "O8",
+        "c-H7YFohukvT": "Suscriptores pagos",
+        "c-dCjtHR6v1M": "Contribuci\u00f3n promedio por suscriptor",
+        "c-jw2vTHoCrW": "% suscriptores que usan servicio; costo promedio por hogar",
+        "c-pYosQWVkp5": "Contribuci\u00f3n 30d = ingresos cobrados \u2013 costos directos incurridos en 30d",
+        "c-q9IobXeyY4": "0\u201330 d\u00edas desde alta",
+        "c-UnL9ld87dy": "Sheet Suscripci\u00f3n + Costos",
+        "c-Et5nWnDiKq": "Semana 4",
+        "c-jBL8JPdaZS": "Contribuci\u00f3n positiva",
+        "c-gJWmmgO6Fy": "Cerca de 0 con palancas claras",
+        "c--EEsuL9u8e": "Negativa sin palancas",
+        "c-m5lgad3LI9": "+",
+        "c-Um9AhwJhVZ": "++",
+        "c-KLHxUcFOHK": "Uso excesivo rompe promesa; costos disparados",
+        "c-3jIq2DjOwJ": "N\u226510 suscriptores pagos",
+        "c-zqDwD0Fbgk": "Erick",
+        "c-VecJzFP9RR": "Erick",
+        "c-eGYtf3ib6p": "Semana 4",
+        "c-XiNmFbCaNc": "Sostener suscripci\u00f3n",
+        "c-8azdQgewOI": "Redefinir qu\u00e9 incluye/l\u00edmites/frecuencia",
+        "c-zw_oMX9OVE": "Cambiar modelo (fee por visita, otro bundle)"
+      }
+    },
+    {
+      "id": "i-nRKB_MGwwQ",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-nRKB_MGwwQ",
+      "name": "E9 Retenci\u00f3n temprana (se\u00f1al)",
+      "index": 9,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-18T14:45:29.732Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-nRKB_MGwwQ",
+      "values": {
+        "c-NgazFtRe32": "E9 Retenci\u00f3n temprana (se\u00f1al)",
+        "c-Uv20KGSp_Z": "H5",
+        "c--06q0UVCk7": "O10, O11",
+        "c-H7YFohukvT": "Post-servicio",
+        "c-dCjtHR6v1M": "% intenci\u00f3n de continuar",
+        "c-jw2vTHoCrW": "CSAT; % recomendaci\u00f3n; % referidos generados",
+        "c-pYosQWVkp5": "Intenci\u00f3n = #\u201cS\u00ed\u201d / #respuestas (0\u201348h)",
+        "c-q9IobXeyY4": "0\u201348h post-servicio",
+        "c-UnL9ld87dy": "Encuesta + llamadas",
+        "c-Et5nWnDiKq": "Semanal",
+        "c-jBL8JPdaZS": "\u226560% intenci\u00f3n y CSAT \u22654/5",
+        "c-gJWmmgO6Fy": "40\u201359% o CSAT 3-4",
+        "c--EEsuL9u8e": "<40% o CSAT <3.0",
+        "c-m5lgad3LI9": "70%",
+        "c-Um9AhwJhVZ": "80%",
+        "c-KLHxUcFOHK": "Queja confianza/seguridad; motivo repetido \u22653",
+        "c-3jIq2DjOwJ": "\u226580% respuesta en N\u226515 servicios",
+        "c-zqDwD0Fbgk": "Gabby",
+        "c-VecJzFP9RR": "Gabby/Erick",
+        "c-eGYtf3ib6p": "Semanal",
+        "c-XiNmFbCaNc": "Duplicar lo que funciona",
+        "c-8azdQgewOI": "Atacar top 3 fricciones y repetir 7d",
+        "c-zw_oMX9OVE": "Pausar, redefinir experiencia/valor"
+      }
+    },
+    {
+      "id": "i-yTfJ75mfjH",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-HGDkkA5AO6/rows/i-yTfJ75mfjH",
+      "name": "E10 Seguridad y riesgos",
+      "index": 10,
+      "createdAt": "2025-12-17T14:43:52.878Z",
+      "updatedAt": "2025-12-18T14:46:48.421Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-yTfJ75mfjH",
+      "values": {
+        "c-NgazFtRe32": "E10 Seguridad y riesgos",
+        "c-Uv20KGSp_Z": "H2",
+        "c--06q0UVCk7": "O9",
+        "c-H7YFohukvT": "Todos los servicios",
+        "c-dCjtHR6v1M": "# incidentes cr\u00edticos",
+        "c-jw2vTHoCrW": "% t\u00e9cnicos identificados; % cumplimiento protocolos acceso",
+        "c-pYosQWVkp5": "Incidente cr\u00edtico = seguridad/privacidad/da\u00f1o grave (binario)",
+        "c-q9IobXeyY4": "Siempre",
+        "c-UnL9ld87dy": "Registro incidencias + fotos",
+        "c-Et5nWnDiKq": "En tiempo real",
+        "c-jBL8JPdaZS": "<5 cr\u00edticos",
+        "c-gJWmmgO6Fy": "1-5 menor con correcci\u00f3n inmediata",
+        "c--EEsuL9u8e": "\u22655 cr\u00edtico o patr\u00f3n",
+        "c-m5lgad3LI9": "0",
+        "c-Um9AhwJhVZ": "0",
+        "c-KLHxUcFOHK": "Cualquier cr\u00edtico = pausa inmediata",
+        "c-3jIq2DjOwJ": "Siempre aplica (no depende de N)",
+        "c-zqDwD0Fbgk": "Erick",
+        "c-VecJzFP9RR": "Erick",
+        "c-eGYtf3ib6p": "Inmediato + semanal",
+        "c-XiNmFbCaNc": "Continuar",
+        "c-8azdQgewOI": "Reentrenar + ajustar protocolo",
+        "c-zw_oMX9OVE": "STOP inmediato; pausar operaciones"
+      }
+    }
+  ]
+}

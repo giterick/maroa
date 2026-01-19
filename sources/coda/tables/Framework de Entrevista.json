@@ -1,0 +1,817 @@
+{
+  "table": {
+    "id": "grid-unuW9Impgx",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx",
+    "name": "Framework de Entrevista",
+    "parent": {
+      "id": "canvas-9Ub8FCdYj8",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-9Ub8FCdYj8",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suFCdYj8",
+      "name": "Entrevistas Profundas  a Clientes v2"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-NrEp7OVBuu",
+      "type": "column",
+      "name": "#",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/columns/c-NrEp7OVBuu",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-szh3w0m8nO",
+      "type": "column",
+      "name": "Secci\u00f3n",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/columns/c-szh3w0m8nO",
+      "format": {
+        "options": [
+          {
+            "name": "Perfil",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Mantenimiento",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Dolores",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Motivaciones",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Carga mental",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "B\u00fasqueda",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          },
+          {
+            "name": "Pagos",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFDCDC"
+          },
+          {
+            "name": "Referencias",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#F0F0F0"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-g7v5gvAhRL",
+      "type": "column",
+      "name": "Pregunta",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/columns/c-g7v5gvAhRL",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-7szpWS7Sa1",
+      "type": "column",
+      "name": "Tipo de respuesta",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/columns/c-7szpWS7Sa1",
+      "format": {
+        "options": [
+          {
+            "name": "Num\u00e9rica",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Texto",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Opci\u00f3n \u00fanica",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Opci\u00f3n m\u00faltiple",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "S\u00ed/No",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "Escala 1-5 (Bajo \u2192 Alto)",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          },
+          {
+            "name": "Opci\u00f3n \u00fanica: evitar da\u00f1os / ahorrar energ\u00eda / tener garant\u00eda / evitar gastos mayores",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFDCDC"
+          },
+          {
+            "name": "Opci\u00f3n \u00fanica: calidad/garant\u00eda, puntualidad, precio, disponibilidad, confianza",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#F0F0F0"
+          },
+          {
+            "name": "Opci\u00f3n \u00fanica: garant\u00eda, ahorrar tiempo, ahorrar dinero",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Opci\u00f3n \u00fanica: preguntar a familia/amigos, buscar en Google, grupos WhatsApp, llamar conocido",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Texto / S\u00ed/No",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FFFFFF"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-gKn6m1LPaT",
+      "type": "column",
+      "name": "Suposici\u00f3n validada (#)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/columns/c-gKn6m1LPaT",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-R4QEYRgmiE",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-R4QEYRgmiE",
+      "name": "Datos de perfil",
+      "index": 0,
+      "createdAt": "2025-09-03T05:04:30.585Z",
+      "updatedAt": "2025-09-03T05:04:41.145Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-R4QEYRgmiE",
+      "values": {
+        "c-NrEp7OVBuu": "Datos de perfil",
+        "c-szh3w0m8nO": "",
+        "c-g7v5gvAhRL": "",
+        "c-7szpWS7Sa1": "",
+        "c-gKn6m1LPaT": ""
+      }
+    },
+    {
+      "id": "i-ABOzzDbCco",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-ABOzzDbCco",
+      "name": "P1",
+      "index": 1,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-ABOzzDbCco",
+      "values": {
+        "c-NrEp7OVBuu": "P1",
+        "c-szh3w0m8nO": "Perfil",
+        "c-g7v5gvAhRL": "\u00bfCu\u00e1l es tu edad?",
+        "c-7szpWS7Sa1": "Num\u00e9rica",
+        "c-gKn6m1LPaT": "\u2014"
+      }
+    },
+    {
+      "id": "i-wSar9p9x_h",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-wSar9p9x_h",
+      "name": "P2",
+      "index": 2,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-wSar9p9x_h",
+      "values": {
+        "c-NrEp7OVBuu": "P2",
+        "c-szh3w0m8nO": "Perfil",
+        "c-g7v5gvAhRL": "\u00bfEn qu\u00e9 ciudad/sector vives?",
+        "c-7szpWS7Sa1": "Texto",
+        "c-gKn6m1LPaT": "\u2014"
+      }
+    },
+    {
+      "id": "i-DCH3jxTjj9",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-DCH3jxTjj9",
+      "name": "P3",
+      "index": 3,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-DCH3jxTjj9",
+      "values": {
+        "c-NrEp7OVBuu": "P3",
+        "c-szh3w0m8nO": "Perfil",
+        "c-g7v5gvAhRL": "\u00bfTu vivienda es apartamento, casa o negocio/oficina?",
+        "c-7szpWS7Sa1": "Opci\u00f3n \u00fanica",
+        "c-gKn6m1LPaT": "\u2014"
+      }
+    },
+    {
+      "id": "i-cPXCgoR3rh",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-cPXCgoR3rh",
+      "name": "P4",
+      "index": 4,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-cPXCgoR3rh",
+      "values": {
+        "c-NrEp7OVBuu": "P4",
+        "c-szh3w0m8nO": "Perfil",
+        "c-g7v5gvAhRL": "\u00bfCu\u00e1ntos aires acondicionados tienes?",
+        "c-7szpWS7Sa1": "Num\u00e9rica",
+        "c-gKn6m1LPaT": "\u2014"
+      }
+    },
+    {
+      "id": "i-XREFvkK2pm",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-XREFvkK2pm",
+      "name": "P5",
+      "index": 5,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-XREFvkK2pm",
+      "values": {
+        "c-NrEp7OVBuu": "P5",
+        "c-szh3w0m8nO": "Perfil",
+        "c-g7v5gvAhRL": "\u00bfQu\u00e9 otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)",
+        "c-7szpWS7Sa1": "Opci\u00f3n m\u00faltiple",
+        "c-gKn6m1LPaT": "\u2014"
+      }
+    },
+    {
+      "id": "i-yMDE0d0pHr",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-yMDE0d0pHr",
+      "name": "P6",
+      "index": 6,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-yMDE0d0pHr",
+      "values": {
+        "c-NrEp7OVBuu": "P6",
+        "c-szh3w0m8nO": "Perfil",
+        "c-g7v5gvAhRL": "\u00bfQui\u00e9n suele tomar la decisi\u00f3n de llamar al t\u00e9cnico en tu hogar/negocio?",
+        "c-7szpWS7Sa1": "Opci\u00f3n \u00fanica",
+        "c-gKn6m1LPaT": "\u2014"
+      }
+    },
+    {
+      "id": "i-jqrFuuBeRx",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-jqrFuuBeRx",
+      "name": "P7",
+      "index": 7,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-jqrFuuBeRx",
+      "values": {
+        "c-NrEp7OVBuu": "P7",
+        "c-szh3w0m8nO": "Perfil",
+        "c-g7v5gvAhRL": "\u00bfUsas tarjeta de cr\u00e9dito regularmente para pagar servicios o compras?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "3, 18"
+      }
+    },
+    {
+      "id": "i-hCNQRyoN1h",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-hCNQRyoN1h",
+      "name": "P8",
+      "index": 8,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-hCNQRyoN1h",
+      "values": {
+        "c-NrEp7OVBuu": "P8",
+        "c-szh3w0m8nO": "Perfil",
+        "c-g7v5gvAhRL": "\u00bfQu\u00e9 tan c\u00f3modo te sientes usando apps o plataformas digitales?",
+        "c-7szpWS7Sa1": "Escala 1-5 (Bajo \u2192 Alto)",
+        "c-gKn6m1LPaT": "10, 11"
+      }
+    },
+    {
+      "id": "i-xIDTVc4Uxm",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-xIDTVc4Uxm",
+      "name": "Mantenimiento actual",
+      "index": 9,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:12.318Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-xIDTVc4Uxm",
+      "values": {
+        "c-NrEp7OVBuu": "Mantenimiento actual",
+        "c-szh3w0m8nO": "",
+        "c-g7v5gvAhRL": "",
+        "c-7szpWS7Sa1": "",
+        "c-gKn6m1LPaT": ""
+      }
+    },
+    {
+      "id": "i-2_Sx4UbRjV",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-2_Sx4UbRjV",
+      "name": "P9",
+      "index": 10,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-2_Sx4UbRjV",
+      "values": {
+        "c-NrEp7OVBuu": "P9",
+        "c-szh3w0m8nO": "Mantenimiento",
+        "c-g7v5gvAhRL": "\u00bfLe das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al a\u00f1o?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "4, 7"
+      }
+    },
+    {
+      "id": "i-uH_HvYwwxa",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-uH_HvYwwxa",
+      "name": "P10",
+      "index": 11,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-uH_HvYwwxa",
+      "values": {
+        "c-NrEp7OVBuu": "P10",
+        "c-szh3w0m8nO": "Mantenimiento",
+        "c-g7v5gvAhRL": "\u00bfTienes otros equipos a los que tambi\u00e9n sueles dar mantenimiento preventivo?",
+        "c-7szpWS7Sa1": "Opci\u00f3n m\u00faltiple",
+        "c-gKn6m1LPaT": "2"
+      }
+    },
+    {
+      "id": "i-Wndi-144iA",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-Wndi-144iA",
+      "name": "P11",
+      "index": 12,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-Wndi-144iA",
+      "values": {
+        "c-NrEp7OVBuu": "P11",
+        "c-szh3w0m8nO": "Mantenimiento",
+        "c-g7v5gvAhRL": "\u00bfTiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "13"
+      }
+    },
+    {
+      "id": "i-MvT8B_SIal",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-MvT8B_SIal",
+      "name": "P12",
+      "index": 13,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-MvT8B_SIal",
+      "values": {
+        "c-NrEp7OVBuu": "P12",
+        "c-szh3w0m8nO": "Mantenimiento",
+        "c-g7v5gvAhRL": "\u00bfHas dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "(pregunta extra)"
+      }
+    },
+    {
+      "id": "i-ZlAUUYmtsa",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-ZlAUUYmtsa",
+      "name": "Dolores y frustraciones",
+      "index": 14,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:12.318Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-ZlAUUYmtsa",
+      "values": {
+        "c-NrEp7OVBuu": "Dolores y frustraciones",
+        "c-szh3w0m8nO": "",
+        "c-g7v5gvAhRL": "",
+        "c-7szpWS7Sa1": "",
+        "c-gKn6m1LPaT": ""
+      }
+    },
+    {
+      "id": "i-C1WMN95EgT",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-C1WMN95EgT",
+      "name": "P13",
+      "index": 15,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-C1WMN95EgT",
+      "values": {
+        "c-NrEp7OVBuu": "P13",
+        "c-szh3w0m8nO": "Dolores",
+        "c-g7v5gvAhRL": "\u00bfAlguna vez te ha frustrado buscar y coordinar un t\u00e9cnico confiable?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "5"
+      }
+    },
+    {
+      "id": "i-tBeqf3TLSk",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-tBeqf3TLSk",
+      "name": "P14",
+      "index": 16,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-tBeqf3TLSk",
+      "values": {
+        "c-NrEp7OVBuu": "P14",
+        "c-szh3w0m8nO": "Dolores",
+        "c-g7v5gvAhRL": "\u00bfTe molesta el tiempo que pierdes coordinando llamadas y citas con t\u00e9cnicos?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "16"
+      }
+    },
+    {
+      "id": "i-CuVydoxx6L",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-CuVydoxx6L",
+      "name": "P15",
+      "index": 17,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-CuVydoxx6L",
+      "values": {
+        "c-NrEp7OVBuu": "P15",
+        "c-szh3w0m8nO": "Dolores",
+        "c-g7v5gvAhRL": "\u00bfSientes que el mercado est\u00e1 fragmentado y es dif\u00edcil encontrar t\u00e9cnicos confiables?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "17"
+      }
+    },
+    {
+      "id": "i-1k3e0W_LtM",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-1k3e0W_LtM",
+      "name": "P16",
+      "index": 18,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-1k3e0W_LtM",
+      "values": {
+        "c-NrEp7OVBuu": "P16",
+        "c-szh3w0m8nO": "Dolores",
+        "c-g7v5gvAhRL": "\u00bfAlguna vez sentiste que un t\u00e9cnico intent\u00f3 cobrarte de m\u00e1s con lenguaje t\u00e9cnico o con cargos sorpresa?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "6, 19, 20"
+      }
+    },
+    {
+      "id": "i-g0u438Eo8Q",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-g0u438Eo8Q",
+      "name": "P17",
+      "index": 19,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-g0u438Eo8Q",
+      "values": {
+        "c-NrEp7OVBuu": "P17",
+        "c-szh3w0m8nO": "Dolores",
+        "c-g7v5gvAhRL": "\u00bfTe ha pasado que un gasto sorpresa en un electrodom\u00e9stico desajuste tu presupuesto?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "15, 19"
+      }
+    },
+    {
+      "id": "i-xGTN9OllkO",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-xGTN9OllkO",
+      "name": "P18",
+      "index": 20,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-xGTN9OllkO",
+      "values": {
+        "c-NrEp7OVBuu": "P18",
+        "c-szh3w0m8nO": "Dolores",
+        "c-g7v5gvAhRL": "\u00bfConf\u00edas m\u00e1s en t\u00e9cnicos informales recomendados que en empresas establecidas?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "(pregunta extra)"
+      }
+    },
+    {
+      "id": "i-YuxHe0atbX",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-YuxHe0atbX",
+      "name": "Motivaciones y prioridades",
+      "index": 21,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:12.318Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-YuxHe0atbX",
+      "values": {
+        "c-NrEp7OVBuu": "Motivaciones y prioridades",
+        "c-szh3w0m8nO": "",
+        "c-g7v5gvAhRL": "",
+        "c-7szpWS7Sa1": "",
+        "c-gKn6m1LPaT": ""
+      }
+    },
+    {
+      "id": "i-ZkGNEl2Lt5",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-ZkGNEl2Lt5",
+      "name": "P19",
+      "index": 22,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-ZkGNEl2Lt5",
+      "values": {
+        "c-NrEp7OVBuu": "P19",
+        "c-szh3w0m8nO": "Motivaciones",
+        "c-g7v5gvAhRL": "\u00bfQu\u00e9 te motivar\u00eda m\u00e1s a mantener tus aires acondicionados al d\u00eda?",
+        "c-7szpWS7Sa1": "Opci\u00f3n \u00fanica: evitar da\u00f1os / ahorrar energ\u00eda / tener garant\u00eda / evitar gastos mayores",
+        "c-gKn6m1LPaT": "7, 13"
+      }
+    },
+    {
+      "id": "i-iVZ9GO2FJE",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-iVZ9GO2FJE",
+      "name": "P20",
+      "index": 23,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-iVZ9GO2FJE",
+      "values": {
+        "c-NrEp7OVBuu": "P20",
+        "c-szh3w0m8nO": "Motivaciones",
+        "c-g7v5gvAhRL": "\u00bfQu\u00e9 es m\u00e1s importante para ti al contratar un t\u00e9cnico?",
+        "c-7szpWS7Sa1": "Opci\u00f3n \u00fanica: calidad/garant\u00eda, puntualidad, precio, disponibilidad, confianza",
+        "c-gKn6m1LPaT": "8"
+      }
+    },
+    {
+      "id": "i-yx9Mffzp4q",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-yx9Mffzp4q",
+      "name": "P21",
+      "index": 24,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-yx9Mffzp4q",
+      "values": {
+        "c-NrEp7OVBuu": "P21",
+        "c-szh3w0m8nO": "Motivaciones",
+        "c-g7v5gvAhRL": "\u00bfPrefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "10"
+      }
+    },
+    {
+      "id": "i-I9ASl8aEGF",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-I9ASl8aEGF",
+      "name": "P22",
+      "index": 25,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-I9ASl8aEGF",
+      "values": {
+        "c-NrEp7OVBuu": "P22",
+        "c-szh3w0m8nO": "Motivaciones",
+        "c-g7v5gvAhRL": "Si pudieras elegir, \u00bfqu\u00e9 priorizar\u00edas m\u00e1s?",
+        "c-7szpWS7Sa1": "Opci\u00f3n \u00fanica: garant\u00eda, ahorrar tiempo, ahorrar dinero",
+        "c-gKn6m1LPaT": "11"
+      }
+    },
+    {
+      "id": "i-GiqI_5Jxm2",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-GiqI_5Jxm2",
+      "name": "P23",
+      "index": 26,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-GiqI_5Jxm2",
+      "values": {
+        "c-NrEp7OVBuu": "P23",
+        "c-szh3w0m8nO": "Motivaciones",
+        "c-g7v5gvAhRL": "\u00bfAlguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "(pregunta extra)"
+      }
+    },
+    {
+      "id": "i-1SAY05YjcT",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-1SAY05YjcT",
+      "name": "Carga mental y h\u00e1bitos",
+      "index": 27,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:12.318Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-1SAY05YjcT",
+      "values": {
+        "c-NrEp7OVBuu": "Carga mental y h\u00e1bitos",
+        "c-szh3w0m8nO": "",
+        "c-g7v5gvAhRL": "",
+        "c-7szpWS7Sa1": "",
+        "c-gKn6m1LPaT": ""
+      }
+    },
+    {
+      "id": "i-2boRpw8c4C",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-2boRpw8c4C",
+      "name": "P24",
+      "index": 28,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-2boRpw8c4C",
+      "values": {
+        "c-NrEp7OVBuu": "P24",
+        "c-szh3w0m8nO": "Carga mental",
+        "c-g7v5gvAhRL": "\u00bfSientes que el d\u00eda a d\u00eda te deja poco tiempo o energ\u00eda para pensar en mantenimientos preventivos?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "12"
+      }
+    },
+    {
+      "id": "i-e5GasdZEkO",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-e5GasdZEkO",
+      "name": "P25",
+      "index": 29,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-e5GasdZEkO",
+      "values": {
+        "c-NrEp7OVBuu": "P25",
+        "c-szh3w0m8nO": "Carga mental",
+        "c-g7v5gvAhRL": "\u00bfTe incomoda la acumulaci\u00f3n de tareas \u201cno urgentes pero importantes\u201d como los mantenimientos?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "14"
+      }
+    },
+    {
+      "id": "i-_FUsqE3lZv",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-_FUsqE3lZv",
+      "name": "Comportamiento de b\u00fasqueda y pagos",
+      "index": 30,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:12.318Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-_FUsqE3lZv",
+      "values": {
+        "c-NrEp7OVBuu": "Comportamiento de b\u00fasqueda y pagos",
+        "c-szh3w0m8nO": "",
+        "c-g7v5gvAhRL": "",
+        "c-7szpWS7Sa1": "",
+        "c-gKn6m1LPaT": ""
+      }
+    },
+    {
+      "id": "i-gk-Evz7JPU",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-gk-Evz7JPU",
+      "name": "P26",
+      "index": 31,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-gk-Evz7JPU",
+      "values": {
+        "c-NrEp7OVBuu": "P26",
+        "c-szh3w0m8nO": "B\u00fasqueda",
+        "c-g7v5gvAhRL": "Cuando necesitas un t\u00e9cnico, \u00bfqu\u00e9 es lo primero que haces?",
+        "c-7szpWS7Sa1": "Opci\u00f3n \u00fanica: preguntar a familia/amigos, buscar en Google, grupos WhatsApp, llamar conocido",
+        "c-gKn6m1LPaT": "9"
+      }
+    },
+    {
+      "id": "i-lhjdbrVFcO",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-lhjdbrVFcO",
+      "name": "P27",
+      "index": 32,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-lhjdbrVFcO",
+      "values": {
+        "c-NrEp7OVBuu": "P27",
+        "c-szh3w0m8nO": "Pagos",
+        "c-g7v5gvAhRL": "\u00bfHas tenido que pagar t\u00e9cnicos en efectivo o transferencia en vez de tarjeta?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "18"
+      }
+    },
+    {
+      "id": "i-Va9gHrPKBR",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-Va9gHrPKBR",
+      "name": "P28",
+      "index": 33,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-Va9gHrPKBR",
+      "values": {
+        "c-NrEp7OVBuu": "P28",
+        "c-szh3w0m8nO": "Pagos",
+        "c-g7v5gvAhRL": "\u00bfTe resultar\u00eda m\u00e1s c\u00f3modo pagar estos servicios autom\u00e1ticamente con tu tarjeta de cr\u00e9dito?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "3, 18"
+      }
+    },
+    {
+      "id": "i-DxHjzhLMhU",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-DxHjzhLMhU",
+      "name": "P29",
+      "index": 34,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-DxHjzhLMhU",
+      "values": {
+        "c-NrEp7OVBuu": "P29",
+        "c-szh3w0m8nO": "B\u00fasqueda",
+        "c-g7v5gvAhRL": "Si existiera una app para esto, \u00bfla usar\u00edas realmente o preferir\u00edas seguir como hasta ahora?",
+        "c-7szpWS7Sa1": "Opci\u00f3n \u00fanica",
+        "c-gKn6m1LPaT": "(pregunta extra)"
+      }
+    },
+    {
+      "id": "i---1GH7wjn2",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i---1GH7wjn2",
+      "name": "Cierre",
+      "index": 35,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:12.318Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui---1GH7wjn2",
+      "values": {
+        "c-NrEp7OVBuu": "Cierre",
+        "c-szh3w0m8nO": "",
+        "c-g7v5gvAhRL": "",
+        "c-7szpWS7Sa1": "",
+        "c-gKn6m1LPaT": ""
+      }
+    },
+    {
+      "id": "i-JMBWybZJCm",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-JMBWybZJCm",
+      "name": "P30",
+      "index": 36,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-JMBWybZJCm",
+      "values": {
+        "c-NrEp7OVBuu": "P30",
+        "c-szh3w0m8nO": "Referencias",
+        "c-g7v5gvAhRL": "\u00bfTienes un t\u00e9cnico fijo de confianza al que siempre llamas?",
+        "c-7szpWS7Sa1": "S\u00ed/No",
+        "c-gKn6m1LPaT": "(pregunta extra)"
+      }
+    },
+    {
+      "id": "i-CWhObYq7Lw",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-unuW9Impgx/rows/i-CWhObYq7Lw",
+      "name": "P31",
+      "index": 37,
+      "createdAt": "2025-09-03T05:03:12.318Z",
+      "updatedAt": "2025-09-03T05:03:29.552Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-CWhObYq7Lw",
+      "values": {
+        "c-NrEp7OVBuu": "P31",
+        "c-szh3w0m8nO": "Referencias",
+        "c-g7v5gvAhRL": "\u00bfConoces a alguien m\u00e1s que pudiera ayudarnos respondiendo esta misma encuesta?",
+        "c-7szpWS7Sa1": "Texto / S\u00ed/No",
+        "c-gKn6m1LPaT": "\u2014"
+      }
+    }
+  ]
+}
