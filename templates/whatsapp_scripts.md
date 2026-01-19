@@ -233,9 +233,9 @@ Cuando quieras reprogramar, solo escribeme y buscamos otra fecha.
 
 ---
 
-## 16. Late Cancellation Response
+## 16. Late Cancellation Response (<24h)
 
-**Trigger:** Client cancels <24h before
+**Trigger:** Client cancels <24h but >2h before
 
 ```
 Entendido, [Nombre].
@@ -244,6 +244,22 @@ Como es con poca anticipacion, te pedimos avisarnos con mas tiempo en el futuro 
 
 Cuando quieras reprogramar, me dices.
 ```
+
+---
+
+## 16b. Very Late Cancellation Response (<2h)
+
+**Trigger:** Client cancels <2h before scheduled service
+
+```
+[Nombre], entendemos que surgen imprevistos de ultimo momento.
+
+Como ya teniamos un tecnico asignado para tu visita, necesitamos revisar si aplica un cargo parcial segun nuestra politica.
+
+Te contactamos en breve para confirmar los proximos pasos.
+```
+
+**Note:** Per policy, evaluate case-by-case for possible 50% visit fee. Follow up with decision.
 
 ---
 

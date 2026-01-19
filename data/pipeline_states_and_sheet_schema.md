@@ -4,6 +4,8 @@
 
 ## Lead Pipeline States
 
+Tracks the customer journey from initial contact to service completion.
+
 ```
 OUTREACH ──> INTERESADO ──> INTAKE ──> AGENDADO ──> COMPLETADO ──> PAGADO
                               │            │
@@ -15,7 +17,33 @@ OUTREACH ──> INTERESADO ──> INTAKE ──> AGENDADO ──> COMPLETADO �
                               └──> WAITLIST (zone expansion pending)
 ```
 
-### State Definitions
+---
+
+## Service Pipeline States
+
+Tracks the execution of a scheduled service (created when Lead reaches AGENDADO).
+
+```
+AGENDADO ──> CONFIRMADO ──> EN RUTA ──> EN SITIO ──> COMPLETADO ──> PAGADO
+                 │
+                 └──> REPROGRAMADO / NO-SHOW / CANCELADO
+```
+
+### Service State Definitions
+
+| State | Definition | Trigger |
+|-------|------------|---------|
+| **Agendado** | Appointment scheduled | Lead confirmed date/time |
+| **Confirmado** | Both client and tech confirmed (T-24h) | Confirmation received |
+| **En Ruta** | Technician on the way | Tech sends "En ruta" message |
+| **En Sitio** | Technician arrived | Tech sends "Llegue" message |
+| **Completado** | Service finished, pending payment | Tech finishes + client sign-off |
+| **Pagado** | Payment received | Bank confirmation |
+| **Reprogramado** | Rescheduled | Client or Maroa requests new date |
+| **Cancelado** | Cancelled | Client or Maroa cancels |
+| **No-Show** | Client or tech didn't show | No-show documented |
+
+### Lead State Definitions
 
 | State | Definition | Next Action |
 |-------|------------|-------------|
@@ -192,8 +220,57 @@ OUTREACH ──> INTERESADO ──> INTAKE ──> AGENDADO ──> COMPLETADO �
 
 ---
 
+### Sheet 7: COSTS
+
+| Column | Type | Required | Description |
+|--------|------|----------|-------------|
+| Cost_ID | Text | Yes | COST-001, COST-002... |
+| Service_ID | Text | Yes | Related service |
+| Fecha | Date | Yes | Cost incurred date |
+| Tipo | Dropdown | Yes | Tecnico / Material / Transporte / Rework |
+| Descripcion | Text | No | What the cost was for |
+| Monto | Currency | Yes | Amount |
+| Pagado | Dropdown | Yes | Si / No / Pendiente |
+| Fecha_Pago | Date | No | When paid to technician/supplier |
+| Notas | Text | No | Notes |
+
+### Sheet 8: REFERRALS
+
+| Column | Type | Required | Description |
+|--------|------|----------|-------------|
+| Ref_ID | Text | Yes | REF-001, REF-002... |
+| Fecha | Date | Yes | When referral was made |
+| Referrer_Lead_ID | Text | Yes | Lead who made referral |
+| Referrer_Nombre | Text | Yes | Referrer name (for quick reference) |
+| New_Lead_ID | Text | No | The referred lead (once created) |
+| New_Lead_Nombre | Text | No | Referred person name |
+| New_Lead_Telefono | Text | Yes | Referred person contact |
+| Estado | Dropdown | Yes | Pendiente / Contactado / Convertido / No Convertido |
+| Notas | Text | No | Notes |
+
+---
+
+## Dropdown Values Reference (Additional)
+
+### Tipo (Costs)
+- Tecnico
+- Material
+- Transporte
+- Rework
+
+### Pagado (Costs)
+- Si
+- No
+- Pendiente
+
+### Estado (Referrals)
+- Pendiente
+- Contactado
+- Convertido
+- No Convertido
+
+---
+
 ## Open Questions
 
-1. Include a separate COSTS sheet for technician payments + materials?
-2. Add a REFERRALS sheet to track referral conversions?
-3. Formula templates for auto-calculations needed?
+1. Formula templates for auto-calculations needed?

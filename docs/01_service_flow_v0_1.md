@@ -31,7 +31,7 @@ LEAD ──> INTAKE ──> TRIAGE ──> SCHEDULE ──> CONFIRM ──> EXEC
 | Action | Owner | Tool |
 |--------|-------|------|
 | Collect: Name, address, # of A/C units, last maintenance date, photos (optional) | Concierge | WhatsApp / Form |
-| Log in Clients sheet | Concierge | Google Sheets |
+| Log in LEADS sheet | Concierge | Google Sheets |
 
 **DoD:** Complete client record with minimum fields filled
 
@@ -72,7 +72,7 @@ LEAD ──> INTAKE ──> TRIAGE ──> SCHEDULE ──> CONFIRM ──> EXEC
 | Confirm client availability | Concierge | WhatsApp |
 | Confirm technician availability | Concierge | WhatsApp |
 
-**DoD:** Both client and technician confirmed; status = "Confirmed"
+**DoD:** Both client and technician confirmed; Service status = "Confirmado"
 
 ---
 
@@ -100,7 +100,7 @@ LEAD ──> INTAKE ──> TRIAGE ──> SCHEDULE ──> CONFIRM ──> EXEC
 | Send payment link/instructions | Concierge | WhatsApp |
 | Confirm payment received | Concierge | Bank / Sheet |
 
-**DoD:** Service marked "Completado", payment confirmed, photos archived
+**DoD:** Service transitions from "Completado" → "Pagado" upon payment confirmation; photos archived
 
 ---
 
@@ -119,11 +119,23 @@ LEAD ──> INTAKE ──> TRIAGE ──> SCHEDULE ──> CONFIRM ──> EXEC
 
 ## Status Transitions
 
+### Lead Status (LEADS sheet)
 ```
-Outreach → Interesado → Intake → Agendado → En ruta → En sitio → Completado → Pagado
-                                    ↓
-                               Reprogramado / No-show / Cancelado
+Outreach → Interesado → Intake → Agendado → Completado → Pagado
+                          │           │
+                          │           └──→ Reprogramado / No-Show / Cancelado
+                          │
+                          └──→ No Fit / Waitlist
 ```
+
+### Service Status (SERVICES sheet)
+```
+Agendado → Confirmado → En Ruta → En Sitio → Completado → Pagado
+               │
+               └──→ Reprogramado / No-Show / Cancelado
+```
+
+**Note:** A Service record is created when a Lead reaches "Agendado". Lead and Service statuses are tracked separately.
 
 ---
 

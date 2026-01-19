@@ -2,12 +2,15 @@
 
 **Date:** 2026-01-19
 **Scope:** Internal consistency across pilot definition, scripts, policies, checklists, and data schemas
+**Status:** ✅ All issues resolved
 
 ---
 
 ## Executive Summary
 
-This audit identifies inconsistencies between the pilot's operational documents. The primary issues are: (1) pipeline state mismatches between flow diagrams and sheet schemas, (2) missing data structures referenced by KPIs, and (3) terminology inconsistencies in DoD definitions.
+This audit identified inconsistencies between the pilot's operational documents. The primary issues were: (1) pipeline state mismatches between flow diagrams and sheet schemas, (2) missing data structures referenced by KPIs, and (3) terminology inconsistencies in DoD definitions.
+
+**All 10 issues have been fixed.** See Resolution Status below each item.
 
 ---
 
@@ -29,6 +32,8 @@ This audit identifies inconsistencies between the pilot's operational documents.
 AGENDADO → CONFIRMADO → EN RUTA → EN SITIO → COMPLETADO → PAGADO
 ```
 
+**✅ RESOLVED:** Added separate Service Pipeline States section to `pipeline_states_and_sheet_schema.md` with full state definitions including Confirmado.
+
 ---
 
 ### 2. "Clients Sheet" vs "LEADS Sheet" Naming Inconsistency
@@ -42,6 +47,8 @@ AGENDADO → CONFIRMADO → EN RUTA → EN SITIO → COMPLETADO → PAGADO
 - Schema defines: LEADS, SERVICES, TECHNICIANS, INCIDENCIAS, PAYMENTS, WEEKLY_METRICS
 
 **Recommended Fix:** Replace "Clients sheet" with "LEADS sheet" in `01_service_flow_v0_1.md`.
+
+**✅ RESOLVED:** Updated `01_service_flow_v0_1.md` line 34 to reference "LEADS sheet".
 
 ---
 
@@ -60,6 +67,8 @@ AGENDADO → CONFIRMADO → EN RUTA → EN SITIO → COMPLETADO → PAGADO
 - (a) Define a COSTS sheet schema with columns: Cost_ID, Service_ID, Fecha, Tipo (Tecnico/Material/Transporte), Monto, Notas
 - (b) Add cost columns to SERVICES sheet: Costo_Tecnico, Costo_Materiales, Costo_Transporte
 
+**✅ RESOLVED:** Added Sheet 7: COSTS to `pipeline_states_and_sheet_schema.md` with full schema. Updated KPI-4 data source reference.
+
 ---
 
 ### 4. Conflicting Response Time SLA Targets
@@ -75,6 +84,8 @@ AGENDADO → CONFIRMADO → EN RUTA → EN SITIO → COMPLETADO → PAGADO
 **Recommended Fix:** Align on a single target. Options:
 - SLA = <24h (compliance threshold), Target = <12h (aspirational)
 - Clarify that SLA is max threshold and KPI-6 tracks average performance
+
+**✅ RESOLVED:** Updated KPI-6 in `kpi_definitions.md` to distinguish SLA Threshold (<24h) from Target (<12h average) with explanatory note.
 
 ---
 
@@ -92,6 +103,8 @@ AGENDADO → CONFIRMADO → EN RUTA → EN SITIO → COMPLETADO → PAGADO
 **Recommended Fix:** Split the flow diagram into two clear sections:
 1. Lead lifecycle: `Outreach → Interesado → Intake → Agendado/No Fit/Waitlist`
 2. Service lifecycle: `Agendado → Confirmado → En Ruta → En Sitio → Completado → Pagado`
+
+**✅ RESOLVED:** Updated `01_service_flow_v0_1.md` Status Transitions section with separate Lead Status and Service Status diagrams with explanatory note.
 
 ---
 
@@ -115,6 +128,8 @@ Como ya teniamos un tecnico asignado para tu visita, necesitamos revisar si apli
 Te contactamos en breve para confirmar los proximos pasos.
 ```
 
+**✅ RESOLVED:** Added Script #16b to `whatsapp_scripts.md` with trigger clarification and policy reference note.
+
 ---
 
 ### 7. Missing REFERRALS Tracking Sheet
@@ -137,6 +152,8 @@ Te contactamos en breve para confirmar los proximos pasos.
 | New_Lead_ID | Text | The referred lead |
 | Estado | Dropdown | Pendiente / Convertido / No Convertido |
 
+**✅ RESOLVED:** Added Sheet 8: REFERRALS to `pipeline_states_and_sheet_schema.md` with expanded schema including referrer name and contact fields.
+
 ---
 
 ### 8. Tech Lead Role Referenced but Marked TBD
@@ -152,6 +169,8 @@ Te contactamos en breve para confirmar los proximos pasos.
 **Recommended Fix:** Either:
 - (a) Assign a specific person to Tech Lead role in pilot definition
 - (b) Update KPI-3 ownership to reflect current reality (e.g., "Backup Tech / TBD")
+
+**✅ RESOLVED:** Updated KPI-3 owner in `kpi_definitions.md` to "Erick (operation until Tech Lead assigned)" to reflect current reality.
 
 ---
 
@@ -171,6 +190,8 @@ Te contactamos en breve para confirmar los proximos pasos.
 2. Payment confirmed → Status = "Pagado"
 
 Update DoD to: *"Service transitions from Completado to Pagado upon payment confirmation, photos archived"*
+
+**✅ RESOLVED:** Updated Close stage DoD in `01_service_flow_v0_1.md` to clearly show the Completado → Pagado transition.
 
 ---
 
@@ -192,30 +213,32 @@ Update DoD to: *"Service transitions from Completado to Pagado upon payment conf
 
 Replace "Confirmed" with "Confirmado" in `01_service_flow_v0_1.md`.
 
+**✅ RESOLVED:** Updated `01_service_flow_v0_1.md` to use "Confirmado" (Spanish) consistently with schema definitions.
+
 ---
 
 ## Summary of Missing Definitions
 
 | Item | Referenced In | Status |
 |------|---------------|--------|
-| COSTS sheet | KPI-4 formula | Not defined |
-| REFERRALS sheet | Follow-up checklist | Not defined |
-| Backup technician protocol | Policies, SLAs | Partially defined |
-| Exact pilot zone boundaries | Pilot definition | Listed as open question |
-| <2h cancellation script | Policy | Not created |
-| Pricing for 2/3/4 units | Pilot definition | Listed as open question |
-| Legal waiver template | Pilot definition | Listed as open question |
-| Cash handling protocol | Policy | Listed as open question |
+| COSTS sheet | KPI-4 formula | ✅ Defined |
+| REFERRALS sheet | Follow-up checklist | ✅ Defined |
+| Backup technician protocol | Policies, SLAs | Partially defined (open) |
+| Exact pilot zone boundaries | Pilot definition | Open question |
+| <2h cancellation script | Policy | ✅ Created |
+| Pricing for 2/3/4 units | Pilot definition | Open question |
+| Legal waiver template | Pilot definition | Open question |
+| Cash handling protocol | Policy | Open question |
 
 ---
 
 ## Recommended Priority Actions
 
-1. **High Priority:** Add COSTS tracking (columns or sheet) - blocks KPI-4 measurement
-2. **High Priority:** Align pipeline diagrams with schema state definitions
-3. **Medium Priority:** Standardize all status names to Spanish
-4. **Medium Priority:** Add missing <2h cancellation script
-5. **Low Priority:** Consolidate open questions across documents into single backlog
+1. ~~**High Priority:** Add COSTS tracking (columns or sheet) - blocks KPI-4 measurement~~ ✅ Done
+2. ~~**High Priority:** Align pipeline diagrams with schema state definitions~~ ✅ Done
+3. ~~**Medium Priority:** Standardize all status names to Spanish~~ ✅ Done
+4. ~~**Medium Priority:** Add missing <2h cancellation script~~ ✅ Done
+5. **Low Priority:** Consolidate open questions across documents into single backlog (remaining)
 
 ---
 
