@@ -1,0 +1,1180 @@
+{
+  "table": {
+    "id": "grid-gprf52VnPY",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY",
+    "name": "Table 4",
+    "parent": {
+      "id": "canvas-2QgyBlFjHl",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-2QgyBlFjHl",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suBlFjHl",
+      "name": "Tareas / Timeline"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-X-2XSl7I4s",
+      "type": "column",
+      "name": "Experimento",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/columns/c-X-2XSl7I4s",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-5TLmRd3bLX",
+      "type": "column",
+      "name": "Task",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/columns/c-5TLmRd3bLX",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-dGcoJjIPF0",
+      "type": "column",
+      "name": "Owner",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/columns/c-dGcoJjIPF0",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-xZAL-Ai2Vo",
+      "type": "column",
+      "name": "Status",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/columns/c-xZAL-Ai2Vo",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-ViE_I4taEj",
+      "type": "column",
+      "name": "Due date",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/columns/c-ViE_I4taEj",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-IEKhJKOQBz",
+      "type": "column",
+      "name": "Hip\u00f3tesis",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/columns/c-IEKhJKOQBz",
+      "format": {
+        "options": [
+          {
+            "name": "Hip\u00f3tesis",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "1,2",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "1,4",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "2",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "3",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "4",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          },
+          {
+            "name": "5",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFDCDC"
+          },
+          {
+            "name": "6",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#F0F0F0"
+          },
+          {
+            "name": "7",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "8",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "9",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "10",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#FFFFFF"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-nFg0-iWmAo",
+      "type": "column",
+      "name": "Notas",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/columns/c-nFg0-iWmAo",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-DvvurxrxLd",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-DvvurxrxLd",
+      "name": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+      "index": 0,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-DvvurxrxLd",
+      "values": {
+        "c-X-2XSl7I4s": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+        "c-5TLmRd3bLX": "Documento \u201cDefinici\u00f3n del Piloto\u201d",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-l610YHfUVK",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-l610YHfUVK",
+      "name": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+      "index": 1,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-l610YHfUVK",
+      "values": {
+        "c-X-2XSl7I4s": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+        "c-5TLmRd3bLX": "Matriz de criterios de \u00e9xito del piloto",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-xp6v-gM0PZ",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-xp6v-gM0PZ",
+      "name": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+      "index": 2,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-xp6v-gM0PZ",
+      "values": {
+        "c-X-2XSl7I4s": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+        "c-5TLmRd3bLX": "Definir KPIs operativos (SLA, tasa de no-show, rework, NPS)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-itDPUr2hUt",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-itDPUr2hUt",
+      "name": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+      "index": 3,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-itDPUr2hUt",
+      "values": {
+        "c-X-2XSl7I4s": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+        "c-5TLmRd3bLX": "Definir alcance geogr\u00e1fico y horarios del piloto",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-NAU7a2qVSU",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-NAU7a2qVSU",
+      "name": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+      "index": 4,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-NAU7a2qVSU",
+      "values": {
+        "c-X-2XSl7I4s": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+        "c-5TLmRd3bLX": "Definir \u201cDefinition of Done\u201d para cada tipo de servicio",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-9fCUNKTGVE",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-9fCUNKTGVE",
+      "name": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+      "index": 5,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-9fCUNKTGVE",
+      "values": {
+        "c-X-2XSl7I4s": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+        "c-5TLmRd3bLX": "Crear checklist de salida: qu\u00e9 se entrega al cliente en cada servicio",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-1PhXTQIWdc",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-1PhXTQIWdc",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 6,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-1PhXTQIWdc",
+      "values": {
+        "c-X-2XSl7I4s": "Oferta y pricing (objeto de compra)",
+        "c-5TLmRd3bLX": "Ficha de paquetes del piloto",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,4",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-Ta5TEyVtCp",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-Ta5TEyVtCp",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 7,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-Ta5TEyVtCp",
+      "values": {
+        "c-X-2XSl7I4s": "Oferta y pricing (objeto de compra)",
+        "c-5TLmRd3bLX": "Definir add-ons (materiales, urgencia, extra unidad, etc.)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,4",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-CacVZhcNfg",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-CacVZhcNfg",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 8,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-CacVZhcNfg",
+      "values": {
+        "c-X-2XSl7I4s": "Oferta y pricing (objeto de compra)",
+        "c-5TLmRd3bLX": "Definir pol\u00edtica de \u201ccargo de visita\u201d (mantenimiento preventivo vs. diagn\u00f3stico)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,4",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-J1eT8J3r2E",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-J1eT8J3r2E",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 9,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-J1eT8J3r2E",
+      "values": {
+        "c-X-2XSl7I4s": "Oferta y pricing (objeto de compra)",
+        "c-5TLmRd3bLX": "Definir pricing para hogares con 1/2/3/4 unidades (tiempo + ayudante)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,4",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-nUMhNf85sv",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-nUMhNf85sv",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 10,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-nUMhNf85sv",
+      "values": {
+        "c-X-2XSl7I4s": "Oferta y pricing (objeto de compra)",
+        "c-5TLmRd3bLX": "Plantilla de cotizaci\u00f3n (WhatsApp + PDF opcional)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,4",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-0ozsqSv3Iz",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-0ozsqSv3Iz",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 11,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-0ozsqSv3Iz",
+      "values": {
+        "c-X-2XSl7I4s": "Oferta y pricing (objeto de compra)",
+        "c-5TLmRd3bLX": "Gu\u00eda de objeciones y \u201cc\u00f3mo vender\u201d el plan base vs. premium",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "1,4",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-9IIYmWAOwc",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-9IIYmWAOwc",
+      "name": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+      "index": 12,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-9IIYmWAOwc",
+      "values": {
+        "c-X-2XSl7I4s": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+        "c-5TLmRd3bLX": "Flujo operativo end-to-end documentado",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-IreJvueynO",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-IreJvueynO",
+      "name": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+      "index": 13,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-IreJvueynO",
+      "values": {
+        "c-X-2XSl7I4s": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+        "c-5TLmRd3bLX": "SOP: Intake (captura de datos, fotos, ubicaci\u00f3n, disponibilidad)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-e941zzmm6P",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-e941zzmm6P",
+      "name": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+      "index": 14,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-e941zzmm6P",
+      "values": {
+        "c-X-2XSl7I4s": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+        "c-5TLmRd3bLX": "SOP: Scheduling (confirmaci\u00f3n, recordatorios, buffers)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-4wClTTeQb7",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-4wClTTeQb7",
+      "name": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+      "index": 15,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-4wClTTeQb7",
+      "values": {
+        "c-X-2XSl7I4s": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+        "c-5TLmRd3bLX": "SOP: Handoff a t\u00e9cnico (brief, checklist, notas clave)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-Xw0lYtNjVT",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-Xw0lYtNjVT",
+      "name": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+      "index": 16,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-Xw0lYtNjVT",
+      "values": {
+        "c-X-2XSl7I4s": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+        "c-5TLmRd3bLX": "SOP: Cierre (reporte, cobro, garant\u00eda, solicitud de rese\u00f1a)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-_5ojUMcC8K",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-_5ojUMcC8K",
+      "name": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+      "index": 17,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-_5ojUMcC8K",
+      "values": {
+        "c-X-2XSl7I4s": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+        "c-5TLmRd3bLX": "Macros/plantillas WhatsApp (intake, confirmaci\u00f3n, recordatorio, post-servicio)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-fbCEBBjGgC",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-fbCEBBjGgC",
+      "name": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+      "index": 18,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-fbCEBBjGgC",
+      "values": {
+        "c-X-2XSl7I4s": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+        "c-5TLmRd3bLX": "Script de llamadas para confirmaci\u00f3n de cita",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "2",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-8pYpqeG8nB",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-8pYpqeG8nB",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 19,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-8pYpqeG8nB",
+      "values": {
+        "c-X-2XSl7I4s": "Pagos y suscripciones (experimento)",
+        "c-5TLmRd3bLX": "Definir flujo de cobro one-time (link de pago / transferencia / efectivo)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "3",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-qNeJeEgnma",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-qNeJeEgnma",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 20,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-qNeJeEgnma",
+      "values": {
+        "c-X-2XSl7I4s": "Pagos y suscripciones (experimento)",
+        "c-5TLmRd3bLX": "Plan A: explorar integraci\u00f3n PixelPay/Tilopay + banco RD (viabilidad real)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "3",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-QZRYgEmq-Y",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-QZRYgEmq-Y",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 21,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-QZRYgEmq-Y",
+      "values": {
+        "c-X-2XSl7I4s": "Pagos y suscripciones (experimento)",
+        "c-5TLmRd3bLX": "Plan B: Stripe (estructura, requisitos, alternativa de operaci\u00f3n)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "3",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-7ZcnIhSItX",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-7ZcnIhSItX",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 22,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-7ZcnIhSItX",
+      "values": {
+        "c-X-2XSl7I4s": "Pagos y suscripciones (experimento)",
+        "c-5TLmRd3bLX": "Definir regla: \u201csuscripci\u00f3n activa solo tras aprobaci\u00f3n f\u00edsica por t\u00e9cnico Maroa\u201d",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "3",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-opYGPRa3xM",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-opYGPRa3xM",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 23,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-opYGPRa3xM",
+      "values": {
+        "c-X-2XSl7I4s": "Pagos y suscripciones (experimento)",
+        "c-5TLmRd3bLX": "Implementar estado \u201cpre-suscrito\u201d (captura de tarjeta + pendiente de aprobaci\u00f3n)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "3",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-x21JWfPJT9",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-x21JWfPJT9",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 24,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-x21JWfPJT9",
+      "values": {
+        "c-X-2XSl7I4s": "Pagos y suscripciones (experimento)",
+        "c-5TLmRd3bLX": "SOP de aprobaciones (criterios, qui\u00e9n aprueba, qu\u00e9 evidencia queda)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "3",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-qhTyFU6jXP",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-qhTyFU6jXP",
+      "name": "Pol\u00edticas del piloto (confianza y control)",
+      "index": 25,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-qhTyFU6jXP",
+      "values": {
+        "c-X-2XSl7I4s": "Pol\u00edticas del piloto (confianza y control)",
+        "c-5TLmRd3bLX": "Pol\u00edticas: cancelaci\u00f3n, reprogramaci\u00f3n y no-show",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "4",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-u_YIt52V_r",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-u_YIt52V_r",
+      "name": "Pol\u00edticas del piloto (confianza y control)",
+      "index": 26,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-u_YIt52V_r",
+      "values": {
+        "c-X-2XSl7I4s": "Pol\u00edticas del piloto (confianza y control)",
+        "c-5TLmRd3bLX": "Pol\u00edticas: garant\u00eda del trabajo y retrabajos",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "4",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-RgTSjwDcPT",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-RgTSjwDcPT",
+      "name": "Pol\u00edticas del piloto (confianza y control)",
+      "index": 27,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-RgTSjwDcPT",
+      "values": {
+        "c-X-2XSl7I4s": "Pol\u00edticas del piloto (confianza y control)",
+        "c-5TLmRd3bLX": "Pol\u00edtica de materiales: qui\u00e9n compra, c\u00f3mo se factura, evidencia (fotos/recibos)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "4",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-TUuR-vL56g",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-TUuR-vL56g",
+      "name": "Pol\u00edticas del piloto (confianza y control)",
+      "index": 28,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-TUuR-vL56g",
+      "values": {
+        "c-X-2XSl7I4s": "Pol\u00edticas del piloto (confianza y control)",
+        "c-5TLmRd3bLX": "Pol\u00edtica de \u201cda\u00f1os y responsabilidad\u201d (riesgos t\u00edpicos y c\u00f3mo se maneja)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "4",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-nacpGl1TWs",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-nacpGl1TWs",
+      "name": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+      "index": 29,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-nacpGl1TWs",
+      "values": {
+        "c-X-2XSl7I4s": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+        "c-5TLmRd3bLX": "Definir criterios de reclutamiento/selecci\u00f3n de t\u00e9cnicos",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "5",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-X_Bah9gO8Q",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-X_Bah9gO8Q",
+      "name": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+      "index": 30,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-X_Bah9gO8Q",
+      "values": {
+        "c-X-2XSl7I4s": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+        "c-5TLmRd3bLX": "Armar kit del t\u00e9cnico (uniforme m\u00ednimo, herramientas, consumibles)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "5",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-t9Gu6bE_p9",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-t9Gu6bE_p9",
+      "name": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+      "index": 31,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-t9Gu6bE_p9",
+      "values": {
+        "c-X-2XSl7I4s": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+        "c-5TLmRd3bLX": "Checklist de visita (antes/durante/despu\u00e9s)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "5",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-0_7JE1ZtZb",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-0_7JE1ZtZb",
+      "name": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+      "index": 32,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-0_7JE1ZtZb",
+      "values": {
+        "c-X-2XSl7I4s": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+        "c-5TLmRd3bLX": "Estandarizar reporte t\u00e9cnico con fotos (antes/despu\u00e9s)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "5",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-FQCd8RFe3d",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-FQCd8RFe3d",
+      "name": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+      "index": 33,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-FQCd8RFe3d",
+      "values": {
+        "c-X-2XSl7I4s": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+        "c-5TLmRd3bLX": "Definir rol de ayudante: tareas, tiempos, costo por servicio",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "5",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-5wPcreIMcS",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-5wPcreIMcS",
+      "name": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+      "index": 34,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-5wPcreIMcS",
+      "values": {
+        "c-X-2XSl7I4s": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+        "c-5TLmRd3bLX": "SOP: control de calidad (QA) y auditor\u00eda aleatoria de servicios",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "5",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-u8dafwRt1W",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-u8dafwRt1W",
+      "name": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+      "index": 35,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-u8dafwRt1W",
+      "values": {
+        "c-X-2XSl7I4s": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+        "c-5TLmRd3bLX": "Definir estructura del \u201cTablero Piloto\u201d (Airtable/Sheets)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "6",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-KOJ_bFyUtl",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-KOJ_bFyUtl",
+      "name": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+      "index": 36,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-KOJ_bFyUtl",
+      "values": {
+        "c-X-2XSl7I4s": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+        "c-5TLmRd3bLX": "Crear tablas: Clientes, Equipos, \u00d3rdenes, Pagos, T\u00e9cnicos, Inventario b\u00e1sico",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "6",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-iGREHr942_",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-iGREHr942_",
+      "name": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+      "index": 37,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-iGREHr942_",
+      "values": {
+        "c-X-2XSl7I4s": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+        "c-5TLmRd3bLX": "Crear vistas: Pipeline (intake\u2192agendado\u2192en ruta\u2192en sitio\u2192cerrado)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "6",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-IwCZ5dVbJA",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-IwCZ5dVbJA",
+      "name": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+      "index": 38,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-IwCZ5dVbJA",
+      "values": {
+        "c-X-2XSl7I4s": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+        "c-5TLmRd3bLX": "Automatizaciones m\u00ednimas (recordatorios, seguimiento, alertas de no-show)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "6",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-wQX47SbpcN",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-wQX47SbpcN",
+      "name": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+      "index": 39,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-wQX47SbpcN",
+      "values": {
+        "c-X-2XSl7I4s": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+        "c-5TLmRd3bLX": "Plantilla de \u201cpasaporte del equipo\u201d (historial de mantenimientos)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "6",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-7u_FsU7S8Z",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-7u_FsU7S8Z",
+      "name": "Marketing y adquisici\u00f3n (experimento)",
+      "index": 40,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-7u_FsU7S8Z",
+      "values": {
+        "c-X-2XSl7I4s": "Marketing y adquisici\u00f3n (experimento)",
+        "c-5TLmRd3bLX": "Definir oferta de entrada (mensaje corto + CTA)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "7",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-Ht6UA6_xtk",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-Ht6UA6_xtk",
+      "name": "Marketing y adquisici\u00f3n (experimento)",
+      "index": 41,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-Ht6UA6_xtk",
+      "values": {
+        "c-X-2XSl7I4s": "Marketing y adquisici\u00f3n (experimento)",
+        "c-5TLmRd3bLX": "Lista de canales del piloto (grupos, admins/aliados, referidos)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "7",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-ZwxIniC6Fb",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-ZwxIniC6Fb",
+      "name": "Marketing y adquisici\u00f3n (experimento)",
+      "index": 42,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-ZwxIniC6Fb",
+      "values": {
+        "c-X-2XSl7I4s": "Marketing y adquisici\u00f3n (experimento)",
+        "c-5TLmRd3bLX": "Crear tracking de leads (fuente, costo, conversi\u00f3n)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "7",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-rs2MZSNyUt",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-rs2MZSNyUt",
+      "name": "Marketing y adquisici\u00f3n (experimento)",
+      "index": 43,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-rs2MZSNyUt",
+      "values": {
+        "c-X-2XSl7I4s": "Marketing y adquisici\u00f3n (experimento)",
+        "c-5TLmRd3bLX": "Paquete de referidos (reglas + mensaje + c\u00f3digo simple)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "7",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-idiZwY4ihO",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-idiZwY4ihO",
+      "name": "Marketing y adquisici\u00f3n (experimento)",
+      "index": 44,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-idiZwY4ihO",
+      "values": {
+        "c-X-2XSl7I4s": "Marketing y adquisici\u00f3n (experimento)",
+        "c-5TLmRd3bLX": "Script para aliados/admins (qu\u00e9 ganan y c\u00f3mo se activa)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "7",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-F2pDG9eKBy",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-F2pDG9eKBy",
+      "name": "CX y retenci\u00f3n (experimento)",
+      "index": 45,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-F2pDG9eKBy",
+      "values": {
+        "c-X-2XSl7I4s": "CX y retenci\u00f3n (experimento)",
+        "c-5TLmRd3bLX": "Encuesta post-servicio (3\u20135 preguntas)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "8",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-BtNZEzkvWP",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-BtNZEzkvWP",
+      "name": "CX y retenci\u00f3n (experimento)",
+      "index": 46,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-BtNZEzkvWP",
+      "values": {
+        "c-X-2XSl7I4s": "CX y retenci\u00f3n (experimento)",
+        "c-5TLmRd3bLX": "Playbook de recuperaci\u00f3n (quejas, retrasos, rework, reembolso parcial)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "8",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-jiI3FFe8NP",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-jiI3FFe8NP",
+      "name": "CX y retenci\u00f3n (experimento)",
+      "index": 47,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-jiI3FFe8NP",
+      "values": {
+        "c-X-2XSl7I4s": "CX y retenci\u00f3n (experimento)",
+        "c-5TLmRd3bLX": "Flujo de rese\u00f1as (Google/WhatsApp) + timing",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "8",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i--cjS7c9Zm4",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i--cjS7c9Zm4",
+      "name": "Anal\u00edtica y aprendizaje (experimento)",
+      "index": 48,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui--cjS7c9Zm4",
+      "values": {
+        "c-X-2XSl7I4s": "Anal\u00edtica y aprendizaje (experimento)",
+        "c-5TLmRd3bLX": "Dashboard semanal (servicios, margen, NPS, rework, no-show, SLA)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "9",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-KLiHRO5suE",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-KLiHRO5suE",
+      "name": "Anal\u00edtica y aprendizaje (experimento)",
+      "index": 49,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-KLiHRO5suE",
+      "values": {
+        "c-X-2XSl7I4s": "Anal\u00edtica y aprendizaje (experimento)",
+        "c-5TLmRd3bLX": "Reuni\u00f3n semanal de retro (agenda + notas + decisiones)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "9",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-LSm3WLFUzm",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-LSm3WLFUzm",
+      "name": "Anal\u00edtica y aprendizaje (experimento)",
+      "index": 50,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-LSm3WLFUzm",
+      "values": {
+        "c-X-2XSl7I4s": "Anal\u00edtica y aprendizaje (experimento)",
+        "c-5TLmRd3bLX": "Log de experimentos (qu\u00e9 cambiamos, por qu\u00e9, resultado)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "9",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-Es1LkxUDsA",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-Es1LkxUDsA",
+      "name": "Legal/Administrativo (higiene m\u00ednima)",
+      "index": 51,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-Es1LkxUDsA",
+      "values": {
+        "c-X-2XSl7I4s": "Legal/Administrativo (higiene m\u00ednima)",
+        "c-5TLmRd3bLX": "NDA/contratos base para t\u00e9cnicos/aliados (si aplica)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "10",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-DIZvJiKb3l",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-DIZvJiKb3l",
+      "name": "Legal/Administrativo (higiene m\u00ednima)",
+      "index": 52,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-DIZvJiKb3l",
+      "values": {
+        "c-X-2XSl7I4s": "Legal/Administrativo (higiene m\u00ednima)",
+        "c-5TLmRd3bLX": "T\u00e9rminos de servicio del piloto (versi\u00f3n corta)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "10",
+        "c-nFg0-iWmAo": ""
+      }
+    },
+    {
+      "id": "i-7eGtVW4DsP",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-gprf52VnPY/rows/i-7eGtVW4DsP",
+      "name": "Legal/Administrativo (higiene m\u00ednima)",
+      "index": 53,
+      "createdAt": "2026-01-14T20:31:00.533Z",
+      "updatedAt": "2026-01-14T20:31:00.533Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-7eGtVW4DsP",
+      "values": {
+        "c-X-2XSl7I4s": "Legal/Administrativo (higiene m\u00ednima)",
+        "c-5TLmRd3bLX": "Pol\u00edtica de privacidad para captura de datos (versi\u00f3n corta)",
+        "c-dGcoJjIPF0": "",
+        "c-xZAL-Ai2Vo": "",
+        "c-ViE_I4taEj": "",
+        "c-IEKhJKOQBz": "10",
+        "c-nFg0-iWmAo": ""
+      }
+    }
+  ]
+}

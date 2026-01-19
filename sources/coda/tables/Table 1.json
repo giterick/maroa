@@ -1,0 +1,97 @@
+{
+  "table": {
+    "id": "grid-uGZGPjG71i",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-uGZGPjG71i",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-uGZGPjG71i",
+    "name": "Table 1",
+    "parent": {
+      "id": "canvas-W6KDh6GdJi",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-W6KDh6GdJi",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suh6GdJi",
+      "name": "Select Problem to Focus on"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-OeuNzqrJo1",
+      "type": "column",
+      "name": "Variable",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-uGZGPjG71i/columns/c-OeuNzqrJo1",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-IPORTxQbCv",
+      "type": "column",
+      "name": "Escala 1-5",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-uGZGPjG71i/columns/c-IPORTxQbCv",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-hPG1k8xGE2",
+      "type": "column",
+      "name": "Pregunta gu\u00eda",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-uGZGPjG71i/columns/c-hPG1k8xGE2",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-wxNqWXFI1l",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-uGZGPjG71i/rows/i-wxNqWXFI1l",
+      "name": "Esfuerzo / Capital (D)",
+      "index": 0,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-uGZGPjG71i/_rui-wxNqWXFI1l",
+      "values": {
+        "c-OeuNzqrJo1": "Esfuerzo / Capital (D)",
+        "c-IPORTxQbCv": "1 = \u201cpodemos lanzarlo en un sprint\u201d\n5 = \u201cnecesita IoT masivo, regulaciones, mucha $$$\u201d",
+        "c-hPG1k8xGE2": ""
+      }
+    },
+    {
+      "id": "i-lx0hTbcc_-",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-uGZGPjG71i/rows/i-lx0hTbcc_-",
+      "name": "Impacto en la vida del usuario (I)",
+      "index": 1,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-uGZGPjG71i/_rui-lx0hTbcc_-",
+      "values": {
+        "c-OeuNzqrJo1": "Impacto en la vida del usuario (I)",
+        "c-IPORTxQbCv": "1 = mejora marginal\n5 = life-changer, le ahorra dinero/estr\u00e9s grande",
+        "c-hPG1k8xGE2": ""
+      }
+    },
+    {
+      "id": "i-8aWKW_pF7p",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-uGZGPjG71i/rows/i-8aWKW_pF7p",
+      "name": "Prevalencia / Frecuencia (P)",
+      "index": 2,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-uGZGPjG71i/_rui-8aWKW_pF7p",
+      "values": {
+        "c-OeuNzqrJo1": "Prevalencia / Frecuencia (P)",
+        "c-IPORTxQbCv": "1 = caso raro\n5 = lo sufre casi todo el mundo, todos los meses",
+        "c-hPG1k8xGE2": ""
+      }
+    }
+  ]
+}

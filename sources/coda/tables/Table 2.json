@@ -1,0 +1,362 @@
+{
+  "table": {
+    "id": "grid-LrxtvHGkw0",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0",
+    "name": "Table 2",
+    "parent": {
+      "id": "canvas-W6KDh6GdJi",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-W6KDh6GdJi",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suh6GdJi",
+      "name": "Select Problem to Focus on"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-b_9LZqXaJ3",
+      "type": "column",
+      "name": "#",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/columns/c-b_9LZqXaJ3",
+      "display": true,
+      "format": {
+        "precision": 22,
+        "useThousandsSeparator": true,
+        "type": "number",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-l5cOnXm2sS",
+      "type": "column",
+      "name": "Problema (abreviado)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/columns/c-l5cOnXm2sS",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c--BM5StL9Ow",
+      "type": "column",
+      "name": "D",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/columns/c--BM5StL9Ow",
+      "format": {
+        "precision": 22,
+        "useThousandsSeparator": true,
+        "type": "number",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-dzOvVHBijA",
+      "type": "column",
+      "name": "I",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/columns/c-dzOvVHBijA",
+      "format": {
+        "precision": 22,
+        "useThousandsSeparator": true,
+        "type": "number",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-NXroYAN4o9",
+      "type": "column",
+      "name": "P",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/columns/c-NXroYAN4o9",
+      "format": {
+        "precision": 22,
+        "useThousandsSeparator": true,
+        "type": "number",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-WXdUIVbrrd",
+      "type": "column",
+      "name": "PRI",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/columns/c-WXdUIVbrrd",
+      "format": {
+        "precision": 22,
+        "useThousandsSeparator": true,
+        "type": "number",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-UZs6yoh2tU",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-UZs6yoh2tU",
+      "name": "2",
+      "index": 0,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-UZs6yoh2tU",
+      "values": {
+        "c-b_9LZqXaJ3": 2,
+        "c-l5cOnXm2sS": "Overload mental: demasiados to-dos",
+        "c--BM5StL9Ow": 2,
+        "c-dzOvVHBijA": 5,
+        "c-NXroYAN4o9": 5,
+        "c-WXdUIVbrrd": 8
+      }
+    },
+    {
+      "id": "i-po145_xpWR",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-po145_xpWR",
+      "name": "15",
+      "index": 1,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-po145_xpWR",
+      "values": {
+        "c-b_9LZqXaJ3": 15,
+        "c-l5cOnXm2sS": "Pagos engorrosos",
+        "c--BM5StL9Ow": 2,
+        "c-dzOvVHBijA": 4,
+        "c-NXroYAN4o9": 4,
+        "c-WXdUIVbrrd": 6
+      }
+    },
+    {
+      "id": "i-UhEhMo04yM",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-UhEhMo04yM",
+      "name": "10",
+      "index": 2,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-UhEhMo04yM",
+      "values": {
+        "c-b_9LZqXaJ3": 10,
+        "c-l5cOnXm2sS": "Tetris de agendas (cliente-t\u00e9cnico-parts)",
+        "c--BM5StL9Ow": 3,
+        "c-dzOvVHBijA": 5,
+        "c-NXroYAN4o9": 4,
+        "c-WXdUIVbrrd": 6
+      }
+    },
+    {
+      "id": "i-CaH5EX90Pr",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-CaH5EX90Pr",
+      "name": "3",
+      "index": 3,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-CaH5EX90Pr",
+      "values": {
+        "c-b_9LZqXaJ3": 3,
+        "c-l5cOnXm2sS": "Info fragmentada",
+        "c--BM5StL9Ow": 2,
+        "c-dzOvVHBijA": 4,
+        "c-NXroYAN4o9": 4,
+        "c-WXdUIVbrrd": 6
+      }
+    },
+    {
+      "id": "i-QdzMNJZGo6",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-QdzMNJZGo6",
+      "name": "6",
+      "index": 4,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-QdzMNJZGo6",
+      "values": {
+        "c-b_9LZqXaJ3": 6,
+        "c-l5cOnXm2sS": "Costos de oportunidad invisibles",
+        "c--BM5StL9Ow": 3,
+        "c-dzOvVHBijA": 4,
+        "c-NXroYAN4o9": 4,
+        "c-WXdUIVbrrd": 5
+      }
+    },
+    {
+      "id": "i-qcnFti9wbX",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-qcnFti9wbX",
+      "name": "7",
+      "index": 5,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-qcnFti9wbX",
+      "values": {
+        "c-b_9LZqXaJ3": 7,
+        "c-l5cOnXm2sS": "Asimetr\u00eda de informaci\u00f3n",
+        "c--BM5StL9Ow": 3,
+        "c-dzOvVHBijA": 4,
+        "c-NXroYAN4o9": 4,
+        "c-WXdUIVbrrd": 5
+      }
+    },
+    {
+      "id": "i--AYpUmukFx",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i--AYpUmukFx",
+      "name": "16",
+      "index": 6,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui--AYpUmukFx",
+      "values": {
+        "c-b_9LZqXaJ3": 16,
+        "c-l5cOnXm2sS": "Costos variables impredecibles",
+        "c--BM5StL9Ow": 3,
+        "c-dzOvVHBijA": 4,
+        "c-NXroYAN4o9": 4,
+        "c-WXdUIVbrrd": 5
+      }
+    },
+    {
+      "id": "i-HUZ5A7cKyD",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-HUZ5A7cKyD",
+      "name": "18",
+      "index": 7,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-HUZ5A7cKyD",
+      "values": {
+        "c-b_9LZqXaJ3": 18,
+        "c-l5cOnXm2sS": "ROI no cuantificado",
+        "c--BM5StL9Ow": 2,
+        "c-dzOvVHBijA": 4,
+        "c-NXroYAN4o9": 3,
+        "c-WXdUIVbrrd": 5
+      }
+    },
+    {
+      "id": "i-Untl1Nirf5",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-Untl1Nirf5",
+      "name": "42",
+      "index": 8,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-Untl1Nirf5",
+      "values": {
+        "c-b_9LZqXaJ3": 42,
+        "c-l5cOnXm2sS": "Par\u00e1lisis por exceso de opciones",
+        "c--BM5StL9Ow": 2,
+        "c-dzOvVHBijA": 3,
+        "c-NXroYAN4o9": 4,
+        "c-WXdUIVbrrd": 5
+      }
+    },
+    {
+      "id": "i-ZJtq9h8ycM",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-ZJtq9h8ycM",
+      "name": "25",
+      "index": 9,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-ZJtq9h8ycM",
+      "values": {
+        "c-b_9LZqXaJ3": 25,
+        "c-l5cOnXm2sS": "Prestadores informales / confianza",
+        "c--BM5StL9Ow": 3,
+        "c-dzOvVHBijA": 4,
+        "c-NXroYAN4o9": 3,
+        "c-WXdUIVbrrd": 4
+      }
+    },
+    {
+      "id": "i-HLoATSMsbt",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-HLoATSMsbt",
+      "name": "14",
+      "index": 10,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-HLoATSMsbt",
+      "values": {
+        "c-b_9LZqXaJ3": 14,
+        "c-l5cOnXm2sS": "Falta de confianza al dejar entrar extra\u00f1os",
+        "c--BM5StL9Ow": 3,
+        "c-dzOvVHBijA": 4,
+        "c-NXroYAN4o9": 3,
+        "c-WXdUIVbrrd": 4
+      }
+    },
+    {
+      "id": "i-HRBQrOu3ip",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-HRBQrOu3ip",
+      "name": "31",
+      "index": 11,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-HRBQrOu3ip",
+      "values": {
+        "c-b_9LZqXaJ3": 31,
+        "c-l5cOnXm2sS": "Garant\u00edas perdidas",
+        "c--BM5StL9Ow": 2,
+        "c-dzOvVHBijA": 3,
+        "c-NXroYAN4o9": 3,
+        "c-WXdUIVbrrd": 4
+      }
+    },
+    {
+      "id": "i-HshnGvNKes",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-HshnGvNKes",
+      "name": "39",
+      "index": 12,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-HshnGvNKes",
+      "values": {
+        "c-b_9LZqXaJ3": 39,
+        "c-l5cOnXm2sS": "Alert-fatigue",
+        "c--BM5StL9Ow": 2,
+        "c-dzOvVHBijA": 3,
+        "c-NXroYAN4o9": 3,
+        "c-WXdUIVbrrd": 4
+      }
+    },
+    {
+      "id": "i-6jI-xw7lVd",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-6jI-xw7lVd",
+      "name": "41",
+      "index": 13,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-6jI-xw7lVd",
+      "values": {
+        "c-b_9LZqXaJ3": 41,
+        "c-l5cOnXm2sS": "Sin benchmark de duraci\u00f3n piezas",
+        "c--BM5StL9Ow": 2,
+        "c-dzOvVHBijA": 3,
+        "c-NXroYAN4o9": 3,
+        "c-WXdUIVbrrd": 4
+      }
+    },
+    {
+      "id": "i-sMgT-gsoZe",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-LrxtvHGkw0/rows/i-sMgT-gsoZe",
+      "name": "1",
+      "index": 14,
+      "createdAt": "2025-07-31T19:18:20.672Z",
+      "updatedAt": "2025-07-31T19:18:20.672Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-sMgT-gsoZe",
+      "values": {
+        "c-b_9LZqXaJ3": 1,
+        "c-l5cOnXm2sS": "Visibilidad nula de vida \u00fatil",
+        "c--BM5StL9Ow": 4,
+        "c-dzOvVHBijA": 4,
+        "c-NXroYAN4o9": 4,
+        "c-WXdUIVbrrd": 4
+      }
+    }
+  ]
+}

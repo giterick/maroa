@@ -1,0 +1,112 @@
+{
+  "table": {
+    "id": "grid-lm--41-Obs",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-lm--41-Obs",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs",
+    "name": "Vision, Mission and Core Values",
+    "parent": {
+      "id": "canvas-8KqU5xAxrS",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-8KqU5xAxrS",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_su5xAxrS",
+      "name": "Define Overall Vision, Mission, and Core Values"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-kybltyfxJK",
+      "type": "column",
+      "name": "Type",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-lm--41-Obs/columns/c-kybltyfxJK",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-Wkd0B1OVH8",
+      "type": "column",
+      "name": "Description",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-lm--41-Obs/columns/c-Wkd0B1OVH8",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-u0sIitMymk",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-lm--41-Obs/rows/i-u0sIitMymk",
+      "name": "Reglas r\u00e1pidas \u201cSiempre / Nunca\u201d",
+      "index": 4,
+      "createdAt": "2025-08-11T17:12:25.051Z",
+      "updatedAt": "2025-08-11T17:12:43.113Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs/_rui-u0sIitMymk",
+      "values": {
+        "c-kybltyfxJK": "Reglas r\u00e1pidas \u201cSiempre / Nunca\u201d",
+        "c-Wkd0B1OVH8": "Siempre: documenta, confirma, cierra el loop.\nNunca: dejes un ticket sin due\u00f1o, una expectativa sin fecha, o un precio sin aclarar."
+      }
+    },
+    {
+      "id": "i-jOMT5gvifn",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-lm--41-Obs/rows/i-jOMT5gvifn",
+      "name": "Principios",
+      "index": 3,
+      "createdAt": "2025-08-11T16:48:34.514Z",
+      "updatedAt": "2025-08-11T17:12:24.753Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs/_rui-jOMT5gvifn",
+      "values": {
+        "c-kybltyfxJK": "Principios",
+        "c-Wkd0B1OVH8": "1) Consistencia Implacable\nMantra: mismo est\u00e1ndar, todo el tiempo, en todo lugar.\nSeguimos playbooks: cada ticket pasa por el mismo flujo (diagn\u00f3stico \u2192 coordinaci\u00f3n \u2192 ejecuci\u00f3n \u2192 cierre \u2192 cobro).\n\u201cCero sorpresas\u201d: actualizaciones al cliente en los hitos acordados.\nUn solo owner por ticket; nadie suelta la cuerda.\nLo que no qued\u00f3 escrito, no existe: CRM siempre al d\u00eda.\nSe\u00f1ales de \u00e9xito:\n0 tickets >24 h sin actualizaci\u00f3n.\n\u226585% de citas confirmadas en la primera interacci\u00f3n.\n2) Optimizaci\u00f3n Sin Piedad\nMantra: eliminamos fricci\u00f3n y desperdicio sin apego a lo viejo.\nAutomatizamos lo repetitivo; lo manual se documenta para morir pronto.\nMedimos y matamos: si no mueve un KPI, se simplifica o se elimina.\nRuteo y calendar inteligente para visitas combinadas y ventanas cortas.\nPostmortems breves en fallos: una mejora por incidente.\nSe\u00f1ales de \u00e9xito:\nTiempo ciclo (aprobaci\u00f3n \u2192 cobro) <24 h en \u226570% de casos.\n\u226540% de \u00f3rdenes multiactivo en una sola visita.\n3) Claridad Absoluta\nMantra: lenguaje simple, acuerdos expl\u00edcitos, precios transparentes.\nConfirmamos Qu\u00e9 / Qui\u00e9n / Cu\u00e1ndo / Costo en cada interacci\u00f3n.\nTarifas y alcances por escrito; no hay letras peque\u00f1as.\nDefinici\u00f3n de \u201cHecho\u201d (DoD) en cada servicio.\nEscalamos temprano: un problema sin due\u00f1o es un problema creciente.\nSe\u00f1ales de \u00e9xito:\n0 disputas por alcance en \u00f3rdenes cerradas.\nNPS \u201cpeace-of-mind\u201d \u2265 60.\n4) Dedicaci\u00f3n Plena al Trabajo\nMantra: nos medimos por el resultado, no por el esfuerzo.\nPropiedad total del resultado: cerramos o reprogramamos con nueva fecha.\nPuntualidad operativa: llegamos, avisamos, cumplimos.\nCuidamos la relaci\u00f3n: cada contacto debe dejar al cliente m\u00e1s tranquilo.\nSeguridad primero: si no es seguro, no se hace.\nSe\u00f1ales de \u00e9xito:\nTasa de cierre \u2265 80% de tickets aprobados.\nRepetici\u00f3n de cliente (90 d\u00edas) \u2265 50%."
+      }
+    },
+    {
+      "id": "i-GaAtZr4vJW",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-lm--41-Obs/rows/i-GaAtZr4vJW",
+      "name": "Visi\u00f3n",
+      "index": 0,
+      "createdAt": "2025-08-08T02:56:18.155Z",
+      "updatedAt": "2025-08-08T02:56:18.155Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs/_rui-GaAtZr4vJW",
+      "values": {
+        "c-kybltyfxJK": "Visi\u00f3n",
+        "c-Wkd0B1OVH8": "Convertirnos en el guardi\u00e1n de activos dom\u00e9sticos m\u00e1s confiable de Am\u00e9rica Latina, garantizando que cada hogar funcione sin esfuerzo y de manera sostenible."
+      }
+    },
+    {
+      "id": "i-eS7QCInr12",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-lm--41-Obs/rows/i-eS7QCInr12",
+      "name": "Misi\u00f3n",
+      "index": 1,
+      "createdAt": "2025-08-08T02:56:18.155Z",
+      "updatedAt": "2025-08-08T02:56:18.155Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs/_rui-eS7QCInr12",
+      "values": {
+        "c-kybltyfxJK": "Misi\u00f3n",
+        "c-Wkd0B1OVH8": "Coordinamos, ejecutamos y cerramos cada tarea de mantenimiento preventivo para que nuestros clientes disfruten absoluta tranquilidad, mientras nosotros nos ocupamos del cu\u00e1ndo, el c\u00f3mo y el pago."
+      }
+    },
+    {
+      "id": "i-0fDs7_RXZu",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-lm--41-Obs/rows/i-0fDs7_RXZu",
+      "name": "Valores",
+      "index": 2,
+      "createdAt": "2025-08-08T02:56:18.155Z",
+      "updatedAt": "2025-08-08T02:57:01.565Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs/_rui-0fDs7_RXZu",
+      "values": {
+        "c-kybltyfxJK": "Valores",
+        "c-Wkd0B1OVH8": "Defendemos la tranquilidad del cliente.\nConstruimos confianza con transparencia radical y cumplimiento impecable.\nCerramos siempre el c\u00edrculo: ning\u00fan ticket queda abierto.\nCrecemos juntos: clientes, agentes y t\u00e9cnicos.\nSimplificamos la vida con tecnolog\u00eda que se siente invisible."
+      }
+    }
+  ]
+}

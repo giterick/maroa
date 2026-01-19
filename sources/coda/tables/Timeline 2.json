@@ -1,0 +1,237 @@
+{
+  "table": {
+    "id": "table-cNZNvUGoxy",
+    "type": "table",
+    "tableType": "view",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-cNZNvUGoxy",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-cNZNvUGoxy",
+    "name": "Timeline 2",
+    "parent": {
+      "id": "canvas-G-DtfPXjeh",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-G-DtfPXjeh",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_sufPXjeh",
+      "name": "Roadmap Noviembre"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-XPYtG0fLAj",
+      "type": "column",
+      "name": "Feature",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-v7PwkemeD0/columns/c-XPYtG0fLAj",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-XYabAJgnKN",
+      "type": "column",
+      "name": "PM",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-v7PwkemeD0/columns/c-XYabAJgnKN",
+      "format": {
+        "table": {
+          "id": "Global-Document-People",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/Global-Document-People",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tuGlobal-Document-People",
+          "name": "_Global Document People"
+        },
+        "type": "person",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-UsfzrsBh3S",
+      "type": "column",
+      "name": "Start",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-v7PwkemeD0/columns/c-UsfzrsBh3S",
+      "format": {
+        "format": "MMM D",
+        "type": "date",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-4M4Q_XAES4",
+      "type": "column",
+      "name": "End",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-v7PwkemeD0/columns/c-4M4Q_XAES4",
+      "format": {
+        "format": "MMM D",
+        "type": "date",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-lTK4bqmc9L",
+      "type": "column",
+      "name": "Stage",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-v7PwkemeD0/columns/c-lTK4bqmc9L",
+      "format": {
+        "options": [
+          {
+            "name": "Not started",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#F0F0F0"
+          },
+          {
+            "name": "Planning",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Design",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          },
+          {
+            "name": "Development",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Testing",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "Launched",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Blocked",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFDCDC"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c--UkTRdC5du",
+      "type": "column",
+      "name": "Notes",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-v7PwkemeD0/columns/c--UkTRdC5du",
+      "format": {
+        "type": "canvas",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-zPm82V-_s8",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-cNZNvUGoxy/rows/i-zPm82V-_s8",
+      "name": "Plan Piloto en Ciudad La Palma y Unit Economics",
+      "index": 5,
+      "createdAt": "2025-11-05T00:23:59.988Z",
+      "updatedAt": "2025-11-05T00:24:53.457Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-cNZNvUGoxy/_rui-zPm82V-_s8",
+      "values": {
+        "c-XPYtG0fLAj": "Plan Piloto en Ciudad La Palma y Unit Economics",
+        "c-XYabAJgnKN": "Erick Santana",
+        "c-UsfzrsBh3S": "2025-12-02T00:00:00.000-04:00",
+        "c-4M4Q_XAES4": "2025-12-08T00:00:00.000-04:00",
+        "c-lTK4bqmc9L": "Not started",
+        "c--UkTRdC5du": "- Definir plan piloto en Ciudad La Palma (alcance, metas, comunicaci\u00f3n)\n- Promocionar servicios en comunidad (WhatsApp, boca a boca, carteles)\n- Atender primeros 20 clientes piloto\n- Calcular Unit Economics reales (costos, margen, payback)\n- Documentar hip\u00f3tesis validadas (landing \u2192 leads \u2192 servicios)\n- Preparar pitch con resultados validados (para inversores o aliados)"
+      }
+    },
+    {
+      "id": "i-nWYMrAJ5iF",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-cNZNvUGoxy/rows/i-nWYMrAJ5iF",
+      "name": "Preparaci\u00f3n de pitch y base de validaci\u00f3n",
+      "index": 0,
+      "createdAt": "2025-11-05T00:17:27.127Z",
+      "updatedAt": "2025-11-05T00:25:17.943Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-cNZNvUGoxy/_rui-nWYMrAJ5iF",
+      "values": {
+        "c-XPYtG0fLAj": "Preparaci\u00f3n de pitch y base de validaci\u00f3n",
+        "c-XYabAJgnKN": "Gabriella Bairan",
+        "c-UsfzrsBh3S": "2025-11-04T00:00:00.000-04:00",
+        "c-4M4Q_XAES4": "2025-11-10T00:00:00.000-04:00",
+        "c-lTK4bqmc9L": "Design",
+        "c--UkTRdC5du": "-Redactar versi\u00f3n final del pitch para INFOTEP\n- Dise\u00f1ar diapositivas con visi\u00f3n, impacto y datos del mercado\n- Ensayar narrativa\n- Dise\u00f1ar landing page (copy + estructura + formulario de captura)\n- Registrar dominio y conectar con herramienta de email marketing (Mailchimp o Brevo)\n- Definir estructura de correos y survey (borrador)"
+      }
+    },
+    {
+      "id": "i-Dpl_sNg_Kq",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-cNZNvUGoxy/rows/i-Dpl_sNg_Kq",
+      "name": "Pitch INFOTEP",
+      "index": 1,
+      "createdAt": "2025-11-05T00:17:27.127Z",
+      "updatedAt": "2025-11-05T00:29:12.873Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-cNZNvUGoxy/_rui-Dpl_sNg_Kq",
+      "values": {
+        "c-XPYtG0fLAj": "Pitch INFOTEP",
+        "c-XYabAJgnKN": "Gabriella Bairan",
+        "c-UsfzrsBh3S": "2025-11-07T00:00:00.000-04:00",
+        "c-4M4Q_XAES4": "",
+        "c-lTK4bqmc9L": "Development",
+        "c--UkTRdC5du": "- Presentar pitch a INFOTEP\n- Entregar resumen ejecutivo con propuesta de colaboraci\u00f3n"
+      }
+    },
+    {
+      "id": "i-d7j_uUDA3d",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-cNZNvUGoxy/rows/i-d7j_uUDA3d",
+      "name": "Lanzamiento de Landing Page y correos iniciales",
+      "index": 2,
+      "createdAt": "2025-11-05T00:17:27.127Z",
+      "updatedAt": "2025-11-05T00:21:52.997Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-cNZNvUGoxy/_rui-d7j_uUDA3d",
+      "values": {
+        "c-XPYtG0fLAj": "Lanzamiento de Landing Page y correos iniciales",
+        "c-XYabAJgnKN": "Erick Santana",
+        "c-UsfzrsBh3S": "2025-11-11T00:00:00.000-04:00",
+        "c-4M4Q_XAES4": "2025-11-17T00:00:00.000-04:00",
+        "c-lTK4bqmc9L": "Planning",
+        "c--UkTRdC5du": "- Probar landing y links de seguimiento\n- Publicar y enviar landing a contactos y grupos objetivo\n- Monitorear visitas y conversiones\n- Escribir y programar la secuencia de correos (bienvenida, educaci\u00f3n, beneficios, survey teaser)\n- Revisar m\u00e9tricas de apertura y clics"
+      }
+    },
+    {
+      "id": "i-_Izk5vdvLO",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-cNZNvUGoxy/rows/i-_Izk5vdvLO",
+      "name": "Enviar Survey y comenzar proceso t\u00e9cnico",
+      "index": 3,
+      "createdAt": "2025-11-05T00:17:27.127Z",
+      "updatedAt": "2025-11-05T00:22:45.923Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-cNZNvUGoxy/_rui-_Izk5vdvLO",
+      "values": {
+        "c-XPYtG0fLAj": "Enviar Survey y comenzar proceso t\u00e9cnico",
+        "c-XYabAJgnKN": "Erick Santana",
+        "c-UsfzrsBh3S": "2025-11-18T00:00:00.000-04:00",
+        "c-4M4Q_XAES4": "2025-11-24T00:00:00.000-04:00",
+        "c-lTK4bqmc9L": "Planning",
+        "c--UkTRdC5du": "- Enviar correo con survey a los contactos interesados\n- Analizar respuestas y segmentar leads (por zona y disposici\u00f3n de pago)\n- Publicar convocatoria o buscar referencias para Director T\u00e9cnico\n- Entrevistar candidatos\n- Definir niveles de servicio (borrador)"
+      }
+    },
+    {
+      "id": "i-mUPhxkvj3G",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/table-cNZNvUGoxy/rows/i-mUPhxkvj3G",
+      "name": "Contrataci\u00f3n y primer piloto interno",
+      "index": 4,
+      "createdAt": "2025-11-05T00:17:27.127Z",
+      "updatedAt": "2025-11-05T00:28:57.293Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-cNZNvUGoxy/_rui-mUPhxkvj3G",
+      "values": {
+        "c-XPYtG0fLAj": "Contrataci\u00f3n y primer piloto interno",
+        "c-XYabAJgnKN": "Gabriella Bairan",
+        "c-UsfzrsBh3S": "2025-11-25T00:00:00.000-04:00",
+        "c-4M4Q_XAES4": "2025-12-01T00:00:00.000-04:00",
+        "c-lTK4bqmc9L": "Planning",
+        "c--UkTRdC5du": "- Contratar Director T\u00e9cnico\n- Revisar y validar niveles de servicio con DT\n- Crear checklist de servicio t\u00e9cnico\n- Dise\u00f1ar proceso de onboarding t\u00e9cnico (documento + charla)\n- Ejecutar primer piloto del servicio (en casa sin decir que somos Maroa)\n- Registrar tiempos, observaciones y costos reales"
+      }
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "table": {
+    "id": "grid-ORnRH1tt0V",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V",
+    "name": "Pilot Tasks (Elba Sandbox)",
+    "parent": {
+      "id": "canvas-2QgyBlFjHl",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-2QgyBlFjHl",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suBlFjHl",
+      "name": "Tareas / Timeline"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-06GA7GheB_",
+      "type": "column",
+      "name": "Task",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/columns/c-06GA7GheB_",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-eZqAWBtIrB",
+      "type": "column",
+      "name": "Owner",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/columns/c-eZqAWBtIrB",
+      "format": {
+        "table": {
+          "id": "Global-Document-People",
+          "type": "table",
+          "tableType": "table",
+          "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/Global-Document-People",
+          "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tuGlobal-Document-People",
+          "name": "_Global Document People"
+        },
+        "type": "person",
+        "isArray": false
+      },
+      "defaultValue": "User()"
+    },
+    {
+      "id": "c-lYEuP77-Zi",
+      "type": "column",
+      "name": "Status",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/columns/c-lYEuP77-Zi",
+      "format": {
+        "options": [
+          {
+            "name": "Not started",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#F0F0F0"
+          },
+          {
+            "name": "Planned",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "In Progress",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Blocked",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "Done",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      },
+      "defaultValue": "\"Not started\""
+    },
+    {
+      "id": "c-9_S8vQnkwY",
+      "type": "column",
+      "name": "Due date",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/columns/c-9_S8vQnkwY",
+      "format": {
+        "format": "MMM D",
+        "type": "date",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-IlmaHpFzG7",
+      "type": "column",
+      "name": "Hip\u00f3tesis",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/columns/c-IlmaHpFzG7",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-db6PFkuOXN",
+      "type": "column",
+      "name": "Experimento",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/columns/c-db6PFkuOXN",
+      "format": {
+        "options": [
+          {
+            "name": "Definici\u00f3n del piloto (baseline de validaci\u00f3n)",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Oferta y pricing (objeto de compra)",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Operaci\u00f3n de Concierge (experiencia \u201ccero drama\u201d)",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Red de t\u00e9cnicos (capacidad m\u00ednima viable)",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Calidad y estandarizaci\u00f3n",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "Herramientas m\u00ednimas para validar",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          },
+          {
+            "name": "Adquisici\u00f3n de clientes (llenar el piloto)",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFDCDC"
+          },
+          {
+            "name": "Finanzas unitarias (n\u00facleo de decisi\u00f3n)",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#F0F0F0"
+          },
+          {
+            "name": "Seguridad y riesgos",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Medici\u00f3n y feedback",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Administraci\u00f3n General",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Pagos y suscripciones (experimento)",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Pol\u00edticas del piloto (confianza y control)",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "T\u00e9cnicos y ejecuci\u00f3n en campo (experimento)",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Core / Tablero piloto (operaci\u00f3n m\u00ednima)",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Marketing y adquisici\u00f3n (experimento)",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "CX y retenci\u00f3n (experimento)",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Anal\u00edtica y aprendizaje (experimento)",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Legal/Administrativo (higiene m\u00ednima)",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FFFFFF"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-E7X_meu7TH",
+      "type": "column",
+      "name": "Notas",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/columns/c-E7X_meu7TH",
+      "format": {
+        "type": "canvas",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-wYl4hJtyFh",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/rows/i-wYl4hJtyFh",
+      "name": "Formulario (Google Form o Coda) para las entrevistas de los T\u00e9cnicos",
+      "index": 0,
+      "createdAt": "2026-01-13T19:18:41.676Z",
+      "updatedAt": "2026-01-15T14:00:12.088Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-wYl4hJtyFh",
+      "values": {
+        "c-06GA7GheB_": "Formulario (Google Form o Coda) para las entrevistas de los T\u00e9cnicos",
+        "c-eZqAWBtIrB": "Erick Santana",
+        "c-lYEuP77-Zi": "Not started",
+        "c-9_S8vQnkwY": "2026-01-16T00:00:00.000-04:00",
+        "c-IlmaHpFzG7": "",
+        "c-db6PFkuOXN": "",
+        "c-E7X_meu7TH": ""
+      }
+    },
+    {
+      "id": "i-BAEimHEfL3",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/rows/i-BAEimHEfL3",
+      "name": "Entrevista Tecnicos",
+      "index": 1,
+      "createdAt": "2026-01-13T19:18:41.676Z",
+      "updatedAt": "2026-01-15T14:05:23.785Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-BAEimHEfL3",
+      "values": {
+        "c-06GA7GheB_": "Entrevista Tecnicos",
+        "c-eZqAWBtIrB": "Elba Asuncion",
+        "c-lYEuP77-Zi": "",
+        "c-9_S8vQnkwY": "",
+        "c-IlmaHpFzG7": "",
+        "c-db6PFkuOXN": "",
+        "c-E7X_meu7TH": ""
+      }
+    },
+    {
+      "id": "i-M4O89S8W2Y",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/rows/i-M4O89S8W2Y",
+      "name": "",
+      "index": 2,
+      "createdAt": "2026-01-13T19:18:41.676Z",
+      "updatedAt": "2026-01-14T21:08:15.977Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-M4O89S8W2Y",
+      "values": {
+        "c-06GA7GheB_": "",
+        "c-eZqAWBtIrB": "",
+        "c-lYEuP77-Zi": "",
+        "c-9_S8vQnkwY": "",
+        "c-IlmaHpFzG7": "",
+        "c-db6PFkuOXN": "",
+        "c-E7X_meu7TH": ""
+      }
+    },
+    {
+      "id": "i-q15Jm_i2no",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/rows/i-q15Jm_i2no",
+      "name": "",
+      "index": 3,
+      "createdAt": "2026-01-13T19:18:41.676Z",
+      "updatedAt": "2026-01-14T21:08:15.977Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-q15Jm_i2no",
+      "values": {
+        "c-06GA7GheB_": "",
+        "c-eZqAWBtIrB": "",
+        "c-lYEuP77-Zi": "",
+        "c-9_S8vQnkwY": "",
+        "c-IlmaHpFzG7": "",
+        "c-db6PFkuOXN": "",
+        "c-E7X_meu7TH": ""
+      }
+    },
+    {
+      "id": "i-5SsgeWzaSR",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/rows/i-5SsgeWzaSR",
+      "name": "",
+      "index": 4,
+      "createdAt": "2026-01-13T19:18:41.676Z",
+      "updatedAt": "2026-01-14T21:08:15.977Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-5SsgeWzaSR",
+      "values": {
+        "c-06GA7GheB_": "",
+        "c-eZqAWBtIrB": "",
+        "c-lYEuP77-Zi": "",
+        "c-9_S8vQnkwY": "",
+        "c-IlmaHpFzG7": "",
+        "c-db6PFkuOXN": "",
+        "c-E7X_meu7TH": ""
+      }
+    },
+    {
+      "id": "i-ffYHLfcXMU",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-ORnRH1tt0V/rows/i-ffYHLfcXMU",
+      "name": "",
+      "index": 5,
+      "createdAt": "2026-01-13T19:18:41.676Z",
+      "updatedAt": "2026-01-14T21:08:15.977Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-ffYHLfcXMU",
+      "values": {
+        "c-06GA7GheB_": "",
+        "c-eZqAWBtIrB": "",
+        "c-lYEuP77-Zi": "",
+        "c-9_S8vQnkwY": "",
+        "c-IlmaHpFzG7": "",
+        "c-db6PFkuOXN": "",
+        "c-E7X_meu7TH": ""
+      }
+    }
+  ]
+}

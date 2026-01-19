@@ -1,0 +1,1150 @@
+{
+  "table": {
+    "id": "grid-77KQ5r9npQ",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ",
+    "name": "Tabla de Suposiciones",
+    "parent": {
+      "id": "canvas-lFhP2lOEBi",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-lFhP2lOEBi",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_su2lOEBi",
+      "name": "Suposiciones"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-WGUkJruCQj",
+      "type": "column",
+      "name": "#",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/columns/c-WGUkJruCQj",
+      "display": true,
+      "format": {
+        "precision": 22,
+        "useThousandsSeparator": true,
+        "type": "number",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-A3vasNR2rO",
+      "type": "column",
+      "name": "Categor\u00eda",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/columns/c-A3vasNR2rO",
+      "format": {
+        "options": [
+          {
+            "name": "Modelo de negocio",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Pagos",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "Comportamiento actual",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FDF3D8"
+          },
+          {
+            "name": "Dolor/frustraci\u00f3n",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#F8E7F3"
+          },
+          {
+            "name": "Motivaci\u00f3n",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FCE3CE"
+          },
+          {
+            "name": "Carga mental",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          },
+          {
+            "name": "Finanzas",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFDCDC"
+          },
+          {
+            "name": "Disponibilidad",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#F0F0F0"
+          },
+          {
+            "name": "Modelo econ\u00f3mico",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Calidad/Estandarizaci\u00f3n",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Tecnolog\u00eda",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Confianza/Seguridad",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Modelo de pago",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Materiales/Insumos",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Relaci\u00f3n contractual",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Capacitaci\u00f3n",
+            "foregroundColor": "#666666",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Exclusividad",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Cobertura geogr\u00e1fica",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Retrabajos/Garant\u00eda",
+            "foregroundColor": "#8B6C1D",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Comunicaci\u00f3n",
+            "foregroundColor": "#A12B86",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Puntualidad",
+            "foregroundColor": "#C45B1C",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Escalabilidad",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#FFFFFF"
+          },
+          {
+            "name": "Tercerizaci\u00f3n",
+            "foregroundColor": "#A91E1E",
+            "backgroundColor": "#FFFFFF"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-54HzGAUTNX",
+      "type": "column",
+      "name": "Suposici\u00f3n",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/columns/c-54HzGAUTNX",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-iK7IbHhEd4",
+      "type": "column",
+      "name": "Importancia si es equivocada",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/columns/c-iK7IbHhEd4",
+      "format": {
+        "options": [
+          {
+            "name": "Alto",
+            "foregroundColor": "#0F58BD",
+            "backgroundColor": "#DDEDFD"
+          },
+          {
+            "name": "Neutro",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-zYaSZC2ItL",
+      "type": "column",
+      "name": "Text",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/columns/c-zYaSZC2ItL",
+      "format": {
+        "options": [
+          {
+            "name": "Cliente",
+            "foregroundColor": "#187B34",
+            "backgroundColor": "#E2F8E8"
+          },
+          {
+            "name": "T\u00e9cnico",
+            "foregroundColor": "#6E21BA",
+            "backgroundColor": "#EDDFF6"
+          }
+        ],
+        "type": "select",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-LDhk-Rxy3R",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-LDhk-Rxy3R",
+      "name": "",
+      "index": 21,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:13.613Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-LDhk-Rxy3R",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Disponibilidad",
+        "c-54HzGAUTNX": "Existen suficientes t\u00e9cnicos calificados en Punta Cana para cubrir demanda de 8-10 servicios semanales con \u22652 t\u00e9cnicos por categor\u00eda.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-h_5_QZ2CKr",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-h_5_QZ2CKr",
+      "name": "",
+      "index": 22,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:16.209Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-h_5_QZ2CKr",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Modelo econ\u00f3mico",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos aceptar\u00edan un esquema de pago por servicio con tarifas estandarizadas (vs negociaci\u00f3n por cliente).",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-7FyTTujf9d",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-7FyTTujf9d",
+      "name": "",
+      "index": 23,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:16.209Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-7FyTTujf9d",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Modelo econ\u00f3mico",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos preferir\u00edan volumen estable y pagos puntuales sobre autonom\u00eda total de precios.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-EsttqzVSAN",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-EsttqzVSAN",
+      "name": "",
+      "index": 24,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:17.454Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-EsttqzVSAN",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Calidad/Estandarizaci\u00f3n",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos est\u00e1n dispuestos a seguir checklists y protocolos est\u00e1ndar de Maroa en cada servicio.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-qhLdlqw5_h",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-qhLdlqw5_h",
+      "name": "",
+      "index": 25,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:17.454Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-qhLdlqw5_h",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Calidad/Estandarizaci\u00f3n",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos pueden documentar evidencia m\u00ednima (fotos antes/despu\u00e9s, notas) sin fricci\u00f3n significativa.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-g-h6x8oNC1",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-g-h6x8oNC1",
+      "name": "",
+      "index": 26,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:20.019Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-g-h6x8oNC1",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Tecnolog\u00eda",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos tienen smartphones y conexi\u00f3n suficiente para usar WhatsApp Business y recibir/enviar evidencia.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-KtFtcFtWEW",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-KtFtcFtWEW",
+      "name": "",
+      "index": 27,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:20.019Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-KtFtcFtWEW",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Tecnolog\u00eda",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos pueden actualizar estatus en tiempo real (\u201cen camino\u201d, \u201cen sitio\u201d, \u201ccompletado\u201d) de manera consistente.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-3s8BrSbCRM",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-3s8BrSbCRM",
+      "name": "",
+      "index": 28,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:07.636Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-3s8BrSbCRM",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Comportamiento actual",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos actualmente tienen tiempos muertos o baja utilizaci\u00f3n que Maroa puede llenar.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-mLp0jSxlgl",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-mLp0jSxlgl",
+      "name": "",
+      "index": 29,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:07.636Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-mLp0jSxlgl",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Comportamiento actual",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos tienen dificultad para conseguir clientes regulares por cuenta propia.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-3DHQv8V4a-",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-3DHQv8V4a-",
+      "name": "",
+      "index": 30,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:23.203Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-3DHQv8V4a-",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Confianza/Seguridad",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos aceptar\u00edan verificaci\u00f3n de antecedentes y cumplimiento de protocolos de acceso a residenciales.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-MmIE_d1cg8",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-MmIE_d1cg8",
+      "name": "",
+      "index": 31,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:23.203Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-MmIE_d1cg8",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Confianza/Seguridad",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos est\u00e1n dispuestos a trabajar con identificaci\u00f3n visible y protocolos de seguridad de Maroa.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-0NZXY5BfGD",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-0NZXY5BfGD",
+      "name": "",
+      "index": 32,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:25.659Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-0NZXY5BfGD",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Modelo de pago",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos aceptar\u00edan que el cliente pague a Maroa (no directamente a ellos) y recibir pago despu\u00e9s del cierre.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-KomU1h_2jx",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-KomU1h_2jx",
+      "name": "",
+      "index": 33,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:25.659Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-KomU1h_2jx",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Modelo de pago",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos pueden esperar ciclos de pago de 7-15 d\u00edas sin afectar su operaci\u00f3n.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-RbfcZMhjzQ",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-RbfcZMhjzQ",
+      "name": "",
+      "index": 34,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:27.649Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-RbfcZMhjzQ",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Materiales/Insumos",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos prefieren que Maroa gestione compra de materiales vs ellos adelantar el costo.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-EuCzD6KOuT",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-EuCzD6KOuT",
+      "name": "",
+      "index": 35,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:27.649Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-EuCzD6KOuT",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Materiales/Insumos",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos aceptar\u00edan un markup estandarizado sobre materiales gestionados por Maroa.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-XBMWfcmSXF",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-XBMWfcmSXF",
+      "name": "",
+      "index": 36,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:29.469Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-XBMWfcmSXF",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Relaci\u00f3n contractual",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos preferir\u00edan modelo de contratista independiente sobre ser empleados de Maroa.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-oFgplUsrRT",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-oFgplUsrRT",
+      "name": "",
+      "index": 37,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:29.469Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-oFgplUsrRT",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Relaci\u00f3n contractual",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos estar\u00edan dispuestos a trabajar con contratos claros que incluyan SLAs y penalizaciones.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-64SYblcc_0",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-64SYblcc_0",
+      "name": "",
+      "index": 38,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:31.176Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-64SYblcc_0",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Capacitaci\u00f3n",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos necesitan capacitaci\u00f3n m\u00ednima para cumplir est\u00e1ndares de Maroa (no son dif\u00edciles de entrenar).",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-MEKjbWCre_",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-MEKjbWCre_",
+      "name": "",
+      "index": 39,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:31.176Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-MEKjbWCre_",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Capacitaci\u00f3n",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos valoran certificaciones o badges de calidad de Maroa como diferenciador.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-olCzlTCPt1",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-olCzlTCPt1",
+      "name": "",
+      "index": 40,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:33.567Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-olCzlTCPt1",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Exclusividad",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos aceptar\u00edan no negociar directamente con clientes de Maroa durante y despu\u00e9s del servicio.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-Flxw3c5EGp",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-Flxw3c5EGp",
+      "name": "",
+      "index": 41,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:33.567Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-Flxw3c5EGp",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Exclusividad",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos pueden trabajar para Maroa sin exclusividad (mantener otros clientes propios).",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-Uvr0uSQSFs",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-Uvr0uSQSFs",
+      "name": "",
+      "index": 42,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:35.231Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-Uvr0uSQSFs",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Cobertura geogr\u00e1fica",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos est\u00e1n dispuestos a desplazarse dentro de la zona del piloto sin cobros excesivos por traslado.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-2J7HHegoUS",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-2J7HHegoUS",
+      "name": "",
+      "index": 43,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:35.231Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-2J7HHegoUS",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Cobertura geogr\u00e1fica",
+        "c-54HzGAUTNX": "Existe al menos 1 t\u00e9cnico backup por categor\u00eda dispuesto a cubrir emergencias o ausencias.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-sVTG-1_rHy",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-sVTG-1_rHy",
+      "name": "",
+      "index": 44,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:37.581Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-sVTG-1_rHy",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Retrabajos/Garant\u00eda",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos aceptan pol\u00edtica de retrabajo sin costo si el fallo fue por mala ejecuci\u00f3n.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-SMdvpKMAbG",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-SMdvpKMAbG",
+      "name": "",
+      "index": 45,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:37.581Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-SMdvpKMAbG",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Retrabajos/Garant\u00eda",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos entienden y aceptan la diferencia entre retrabajo (sin costo) y nueva falla (cotizable).",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-Mv_a4ip7E1",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-Mv_a4ip7E1",
+      "name": "",
+      "index": 46,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:39.433Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-Mv_a4ip7E1",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Comunicaci\u00f3n",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos pueden comunicarse de manera profesional y clara con clientes de Maroa.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-FVILCoXIQ8",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-FVILCoXIQ8",
+      "name": "",
+      "index": 47,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:39.433Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-FVILCoXIQ8",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Comunicaci\u00f3n",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos responden mensajes operativos en ventana de 5-10 min durante horario de servicio.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-eqffLWgkrT",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-eqffLWgkrT",
+      "name": "",
+      "index": 48,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:41.119Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-eqffLWgkrT",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Puntualidad",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos pueden cumplir \u226585% de citas dentro de ventana de 2h sin reprogramaciones frecuentes.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-JX_FJ6tgOw",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-JX_FJ6tgOw",
+      "name": "",
+      "index": 49,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:41.119Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-JX_FJ6tgOw",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Puntualidad",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos tienen capacidad de planificaci\u00f3n para confirmar ETA realista y cumplirlo.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-bM3oLxQntr",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-bM3oLxQntr",
+      "name": "",
+      "index": 50,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:42.693Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-bM3oLxQntr",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Escalabilidad",
+        "c-54HzGAUTNX": "El pool de t\u00e9cnicos calificados puede crecer proporcionalmente con la demanda de Maroa.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-INzbyG4gLi",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-INzbyG4gLi",
+      "name": "",
+      "index": 51,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:45.319Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-INzbyG4gLi",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Tercerizaci\u00f3n",
+        "c-54HzGAUTNX": "Empresas establecidas de mantenimiento estar\u00edan dispuestas a trabajar como proveedores B2B de Maroa.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-1bBcXHtxZi",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-1bBcXHtxZi",
+      "name": "",
+      "index": 52,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:45.319Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-1bBcXHtxZi",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Tercerizaci\u00f3n",
+        "c-54HzGAUTNX": "Trabajar con empresas (vs t\u00e9cnicos independientes) reduce variabilidad pero aumenta costos de manera manejable.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-oCr9rqsVAQ",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-oCr9rqsVAQ",
+      "name": "",
+      "index": 53,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:07.636Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-oCr9rqsVAQ",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Motivaci\u00f3n",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos valoran m\u00e1s flujo estable de trabajo que maximizar precio por servicio individual.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-S01-uIrWEX",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-S01-uIrWEX",
+      "name": "",
+      "index": 54,
+      "createdAt": "2026-01-15T15:07:07.636Z",
+      "updatedAt": "2026-01-15T15:07:07.636Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-S01-uIrWEX",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Motivaci\u00f3n",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos ven a Maroa como aliado (canal de clientes) no como intermediario que reduce sus ingresos.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-X-RBEIRndA",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-X-RBEIRndA",
+      "name": "",
+      "index": 20,
+      "createdAt": "2026-01-15T15:06:27.307Z",
+      "updatedAt": "2026-01-15T15:07:13.613Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-X-RBEIRndA",
+      "values": {
+        "c-WGUkJruCQj": "",
+        "c-A3vasNR2rO": "Disponibilidad",
+        "c-54HzGAUTNX": "Los t\u00e9cnicos independientes/contratistas estar\u00edan dispuestos a trabajar dentro de ventanas de 2 horas definidas por Maroa.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": ""
+      }
+    },
+    {
+      "id": "i-H62OH6vkZT",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-H62OH6vkZT",
+      "name": "1",
+      "index": 0,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:27.416Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-H62OH6vkZT",
+      "values": {
+        "c-WGUkJruCQj": 1,
+        "c-A3vasNR2rO": "Modelo de negocio",
+        "c-54HzGAUTNX": "Los clientes estar\u00edan dispuestos a pagar una suscripci\u00f3n mensual o anual para que Maroa coordine y ejecute al menos 2 mantenimientos preventivos de sus aires acondicionados por a\u00f1o.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-tQeDJcq0uC",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-tQeDJcq0uC",
+      "name": "2",
+      "index": 1,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-tQeDJcq0uC",
+      "values": {
+        "c-WGUkJruCQj": 2,
+        "c-A3vasNR2rO": "Modelo de negocio",
+        "c-54HzGAUTNX": "Una vez los clientes se suscriban por el aire acondicionado, estar\u00e1n abiertos a suscribir otros activos.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-xo1_JWYhaj",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-xo1_JWYhaj",
+      "name": "3",
+      "index": 2,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-xo1_JWYhaj",
+      "values": {
+        "c-WGUkJruCQj": 3,
+        "c-A3vasNR2rO": "Pagos",
+        "c-54HzGAUTNX": "Los clientes aceptar\u00edan registrar su tarjeta de cr\u00e9dito para pagos autom\u00e1ticos.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i--bwlcCogM_",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i--bwlcCogM_",
+      "name": "4",
+      "index": 3,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui--bwlcCogM_",
+      "values": {
+        "c-WGUkJruCQj": 4,
+        "c-A3vasNR2rO": "Comportamiento actual",
+        "c-54HzGAUTNX": "Las personas suelen darle mantenimiento preventivo a sus aires acondicionados.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-GDlvg_FlO3",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-GDlvg_FlO3",
+      "name": "5",
+      "index": 4,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-GDlvg_FlO3",
+      "values": {
+        "c-WGUkJruCQj": 5,
+        "c-A3vasNR2rO": "Dolor/frustraci\u00f3n",
+        "c-54HzGAUTNX": "Las personas encuentran frustrante buscar y coordinar t\u00e9cnicos.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-j4cD8xKc3H",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-j4cD8xKc3H",
+      "name": "6",
+      "index": 5,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-j4cD8xKc3H",
+      "values": {
+        "c-WGUkJruCQj": 6,
+        "c-A3vasNR2rO": "Dolor/frustraci\u00f3n",
+        "c-54HzGAUTNX": "Las personas encuentran frustrante no conocer precios reales ni justos del mercado.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-nIdC8cowar",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-nIdC8cowar",
+      "name": "7",
+      "index": 6,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-nIdC8cowar",
+      "values": {
+        "c-WGUkJruCQj": 7,
+        "c-A3vasNR2rO": "Motivaci\u00f3n",
+        "c-54HzGAUTNX": "Las personas est\u00e1n dispuestas a dar mantenimiento preventivo para reducir da\u00f1os o porque se preocupan por la eficiencia energ\u00e9tica y de enfriamiento.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-TTQqChANFd",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-TTQqChANFd",
+      "name": "8",
+      "index": 7,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-TTQqChANFd",
+      "values": {
+        "c-WGUkJruCQj": 8,
+        "c-A3vasNR2rO": "Motivaci\u00f3n",
+        "c-54HzGAUTNX": "Las personas valoran m\u00e1s la calidad y la garant\u00eda que el precio, la puntualidad o la disponibilidad.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-G9mM2SoBP4",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-G9mM2SoBP4",
+      "name": "9",
+      "index": 8,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-G9mM2SoBP4",
+      "values": {
+        "c-WGUkJruCQj": 9,
+        "c-A3vasNR2rO": "Comportamiento actual",
+        "c-54HzGAUTNX": "La mayor\u00eda pide recomendaciones a amigos/familia en vez de buscar en Google, llamar a t\u00e9cnicos conocidos o preguntar en grupos de WhatsApp.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-w_Y7VoNuFG",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-w_Y7VoNuFG",
+      "name": "10",
+      "index": 9,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-w_Y7VoNuFG",
+      "values": {
+        "c-WGUkJruCQj": 10,
+        "c-A3vasNR2rO": "Motivaci\u00f3n",
+        "c-54HzGAUTNX": "Las personas estar\u00edan m\u00e1s interesadas en manejar mantenimientos en una sola plataforma que en ahorrar tiempo y dinero.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-mOcOyCAlUg",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-mOcOyCAlUg",
+      "name": "11",
+      "index": 10,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-mOcOyCAlUg",
+      "values": {
+        "c-WGUkJruCQj": 11,
+        "c-A3vasNR2rO": "Motivaci\u00f3n",
+        "c-54HzGAUTNX": "Las personas estar\u00edan m\u00e1s interesadas en tener garant\u00eda y confiabilidad que en ahorrar tiempo y dinero.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-Vq8kfO87LP",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-Vq8kfO87LP",
+      "name": "12",
+      "index": 11,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-Vq8kfO87LP",
+      "values": {
+        "c-WGUkJruCQj": 12,
+        "c-A3vasNR2rO": "Carga mental",
+        "c-54HzGAUTNX": "Las personas est\u00e1n tan ocupadas en el d\u00eda a d\u00eda que no quieren preocuparse por mantenimientos preventivos.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-OFPzDGYJvi",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-OFPzDGYJvi",
+      "name": "13",
+      "index": 12,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-OFPzDGYJvi",
+      "values": {
+        "c-WGUkJruCQj": 13,
+        "c-A3vasNR2rO": "Comportamiento actual",
+        "c-54HzGAUTNX": "La gente suele recordar dar mantenimiento a sus aires acondicionados cuando empieza el calor y se preocupa por la eficiencia.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-jHd4UUkhI0",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-jHd4UUkhI0",
+      "name": "14",
+      "index": 13,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-jHd4UUkhI0",
+      "values": {
+        "c-WGUkJruCQj": 14,
+        "c-A3vasNR2rO": "Carga mental",
+        "c-54HzGAUTNX": "Las personas no est\u00e1n satisfechas con la acumulaci\u00f3n de tareas \u201cno urgentes pero importantes\u201d como mantenimientos.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-1h8VoWsInt",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-1h8VoWsInt",
+      "name": "15",
+      "index": 14,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-1h8VoWsInt",
+      "values": {
+        "c-WGUkJruCQj": 15,
+        "c-A3vasNR2rO": "Finanzas",
+        "c-54HzGAUTNX": "Las personas no presupuestan adecuadamente los gastos sorpresa o no est\u00e1n satisfechas con ellos.",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-4ixkedRfd0",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-4ixkedRfd0",
+      "name": "16",
+      "index": 15,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-4ixkedRfd0",
+      "values": {
+        "c-WGUkJruCQj": 16,
+        "c-A3vasNR2rO": "Dolor/frustraci\u00f3n",
+        "c-54HzGAUTNX": "Los clientes no est\u00e1n satisfechos con el tiempo que pierden coordinando mantenimientos.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-RfX-3inBo9",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-RfX-3inBo9",
+      "name": "17",
+      "index": 16,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-RfX-3inBo9",
+      "values": {
+        "c-WGUkJruCQj": 17,
+        "c-A3vasNR2rO": "Dolor/frustraci\u00f3n",
+        "c-54HzGAUTNX": "Los clientes no est\u00e1n satisfechos con lo fragmentado que est\u00e1 el mercado de t\u00e9cnicos ni con lo dif\u00edcil que es encontrar profesionales confiables.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-9OBaHD0B3T",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-9OBaHD0B3T",
+      "name": "18",
+      "index": 17,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-9OBaHD0B3T",
+      "values": {
+        "c-WGUkJruCQj": 18,
+        "c-A3vasNR2rO": "Pagos",
+        "c-54HzGAUTNX": "Los clientes no est\u00e1n satisfechos con m\u00e9todos de pago engorrosos (efectivo o transferencias).",
+        "c-iK7IbHhEd4": "Neutro",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-aUUXfWCoov",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-aUUXfWCoov",
+      "name": "19",
+      "index": 18,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-aUUXfWCoov",
+      "values": {
+        "c-WGUkJruCQj": 19,
+        "c-A3vasNR2rO": "Dolor/frustraci\u00f3n",
+        "c-54HzGAUTNX": "Los clientes no est\u00e1n satisfechos con sorpresas de gastos adicionales en trabajos supuestamente sencillos.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    },
+    {
+      "id": "i-L8kq_Nr5qd",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-77KQ5r9npQ/rows/i-L8kq_Nr5qd",
+      "name": "20",
+      "index": 19,
+      "createdAt": "2025-09-03T04:55:33.367Z",
+      "updatedAt": "2026-01-15T05:54:31.699Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ/_rui-L8kq_Nr5qd",
+      "values": {
+        "c-WGUkJruCQj": 20,
+        "c-A3vasNR2rO": "Dolor/frustraci\u00f3n",
+        "c-54HzGAUTNX": "Los clientes no est\u00e1n satisfechos con la sensaci\u00f3n de ser enga\u00f1ados con lenguaje t\u00e9cnico para cobrar m\u00e1s.",
+        "c-iK7IbHhEd4": "Alto",
+        "c-zYaSZC2ItL": "Cliente"
+      }
+    }
+  ]
+}

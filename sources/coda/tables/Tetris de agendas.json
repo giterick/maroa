@@ -1,0 +1,191 @@
+{
+  "table": {
+    "id": "grid-15Ro1WlJWF",
+    "type": "table",
+    "tableType": "table",
+    "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF",
+    "name": "Tetris de agendas",
+    "parent": {
+      "id": "canvas-D_DdNNBrn5",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/pages/canvas-D_DdNNBrn5",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA/_suNNBrn5",
+      "name": "Pinpoint Pain Points and Gains,  and Determine Jobs to be Done"
+    }
+  },
+  "columns": [
+    {
+      "id": "c-UGK0-YadlK",
+      "type": "column",
+      "name": "Pain Point (Frustraci\u00f3n)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/columns/c-UGK0-YadlK",
+      "display": true,
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-XFoL5A0L1D",
+      "type": "column",
+      "name": "Gain (Estado deseado)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/columns/c-XFoL5A0L1D",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-F8f0aMjcbz",
+      "type": "column",
+      "name": "JTBD (trabajo a ejecutar)",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/columns/c-F8f0aMjcbz",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-bS70gc4C0m",
+      "type": "column",
+      "name": "Persona que sufre el Pain",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/columns/c-bS70gc4C0m",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    },
+    {
+      "id": "c-SWElQ8vTF1",
+      "type": "column",
+      "name": "Responsable del JTBD",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/columns/c-SWElQ8vTF1",
+      "format": {
+        "type": "text",
+        "isArray": false
+      }
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-PO2wU_IWkt",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/rows/i-PO2wU_IWkt",
+      "name": "Coordinar fecha con t\u00e9cnicos que tienen agenda llena.",
+      "index": 0,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-PO2wU_IWkt",
+      "values": {
+        "c-UGK0-YadlK": "Coordinar fecha con t\u00e9cnicos que tienen agenda llena.",
+        "c-XFoL5A0L1D": "Cita confirmada en la primera llamada.",
+        "c-F8f0aMjcbz": "Consultar disponibilidad en tiempo real y reservar slot.",
+        "c-bS70gc4C0m": "Cliente",
+        "c-SWElQ8vTF1": "Sistema (calendario) + Agente"
+      }
+    },
+    {
+      "id": "i-Mad7vNZzxg",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/rows/i-Mad7vNZzxg",
+      "name": "Amplias ventanas de espera (\u201cllego entre 9 y 5\u201d).",
+      "index": 1,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-Mad7vNZzxg",
+      "values": {
+        "c-UGK0-YadlK": "Amplias ventanas de espera (\u201cllego entre 9 y 5\u201d).",
+        "c-XFoL5A0L1D": "Intervalos de servicio 2 h o menos.",
+        "c-F8f0aMjcbz": "Ruteo inteligente y confirmaci\u00f3n de ETA live-tracking.",
+        "c-bS70gc4C0m": "Cliente",
+        "c-SWElQ8vTF1": "Proveedor (GPS) + Sistema"
+      }
+    },
+    {
+      "id": "i-Jsd0TR_92c",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/rows/i-Jsd0TR_92c",
+      "name": "Reprogramaciones de \u00faltimo minuto por parte del t\u00e9cnico.",
+      "index": 2,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-Jsd0TR_92c",
+      "values": {
+        "c-UGK0-YadlK": "Reprogramaciones de \u00faltimo minuto por parte del t\u00e9cnico.",
+        "c-XFoL5A0L1D": "Re-agendado autom\u00e1tico con m\u00ednima intervenci\u00f3n.",
+        "c-F8f0aMjcbz": "Enviar alternativas y re-confirmar en un clic.",
+        "c-bS70gc4C0m": "Cliente",
+        "c-SWElQ8vTF1": "Sistema (workflow)"
+      }
+    },
+    {
+      "id": "i-mgRrs3x5zr",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/rows/i-mgRrs3x5zr",
+      "name": "M\u00faltiples activos requieren visitas separadas.",
+      "index": 3,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-mgRrs3x5zr",
+      "values": {
+        "c-UGK0-YadlK": "M\u00faltiples activos requieren visitas separadas.",
+        "c-XFoL5A0L1D": "Visita combinada para varios equipos.",
+        "c-F8f0aMjcbz": "Agrupar \u00f3rdenes por ubicaci\u00f3n y skillset del t\u00e9cnico.",
+        "c-bS70gc4C0m": "Cliente",
+        "c-SWElQ8vTF1": "Agente Maroa / Sistema"
+      }
+    },
+    {
+      "id": "i-v58d-carsF",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/rows/i-v58d-carsF",
+      "name": "Cliente y proveedor usan calendarios distintos.",
+      "index": 4,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-v58d-carsF",
+      "values": {
+        "c-UGK0-YadlK": "Cliente y proveedor usan calendarios distintos.",
+        "c-XFoL5A0L1D": "Sincronizaci\u00f3n de calendarios (Google, Outlook).",
+        "c-F8f0aMjcbz": "Integrar APIs de calendar y bloquear horario.",
+        "c-bS70gc4C0m": "Cliente / Proveedor",
+        "c-SWElQ8vTF1": "Sistema Maroa"
+      }
+    },
+    {
+      "id": "i-TDrq_b2hAi",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/rows/i-TDrq_b2hAi",
+      "name": "Incertidumbre sobre llegada del t\u00e9cnico.",
+      "index": 5,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-TDrq_b2hAi",
+      "values": {
+        "c-UGK0-YadlK": "Incertidumbre sobre llegada del t\u00e9cnico.",
+        "c-XFoL5A0L1D": "Tracking en vivo tipo ride-hailing.",
+        "c-F8f0aMjcbz": "Enviar enlace de seguimiento + contacto directo.",
+        "c-bS70gc4C0m": "Cliente",
+        "c-SWElQ8vTF1": "Proveedor (app)"
+      }
+    },
+    {
+      "id": "i-he0LCSLUlc",
+      "type": "row",
+      "href": "https://coda.io/apis/v1/docs/sssNy6mSVA/tables/grid-15Ro1WlJWF/rows/i-he0LCSLUlc",
+      "name": "Pagos y facturas ligados a la fecha final del servicio.",
+      "index": 6,
+      "createdAt": "2025-08-06T06:58:57.651Z",
+      "updatedAt": "2025-08-06T06:58:57.651Z",
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-he0LCSLUlc",
+      "values": {
+        "c-UGK0-YadlK": "Pagos y facturas ligados a la fecha final del servicio.",
+        "c-XFoL5A0L1D": "Cobro autom\u00e1tico apenas se marque \u201cTrabajo completado\u201d.",
+        "c-F8f0aMjcbz": "Trigger de facturaci\u00f3n al cerrar ticket en app del t\u00e9cnico.",
+        "c-bS70gc4C0m": "Maroa / Cliente",
+        "c-SWElQ8vTF1": "Proveedor (marca completado) \u2192 Sistema"
+      }
+    }
+  ]
+}
