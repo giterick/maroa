@@ -88,13 +88,29 @@ This repository contains all operational documentation for the Maroa pilot in Pu
 
 ---
 
+## START HERE: 2-Day Launch
+
+If you're new to this repo or setting up the pilot:
+
+| Step | Document | Time |
+|------|----------|------|
+| 1 | [2-Day Launch Plan](setup/2_day_launch_plan.md) | Overview |
+| 2 | [Decisions Checklist](docs/04_pilot_decisions_checklist.md) | 2 hours |
+| 3 | [Google Sheets Setup](setup/google_sheets_setup.md) | 45 min |
+| 4 | [Quick Reference Card](setup/quick_reference_card.md) | Print/save |
+
+---
+
 ## How to Use This Repo
 
-1. **Starting the pilot?** Read [Pilot Definition](docs/00_pilot_definition.md) first
-2. **Handling a lead?** Follow [Service Flow](docs/01_service_flow_v0_1.md) + use [WhatsApp Scripts](templates/whatsapp_scripts.md)
-3. **Client issue?** Check [Policies](docs/02_policies.md)
-4. **Tracking performance?** Use [KPI Definitions](data/kpi_definitions.md)
-5. **Weekly sync?** Follow [Weekly Review](rituals/weekly_review.md) agenda
+1. **Launching the pilot?** Start with [2-Day Launch Plan](setup/2_day_launch_plan.md)
+2. **Making decisions?** Use [Decisions Checklist](docs/04_pilot_decisions_checklist.md)
+3. **Setting up tools?** Follow [Google Sheets Setup](setup/google_sheets_setup.md)
+4. **Handling a lead?** Follow [Service Flow](docs/01_service_flow_v0_1.md) + use [WhatsApp Scripts](templates/whatsapp_scripts.md)
+5. **Client issue?** Check [Policies](docs/02_policies.md)
+6. **Tracking performance?** Use [KPI Definitions](data/kpi_definitions.md)
+7. **Weekly sync?** Follow [Weekly Review](rituals/weekly_review.md) agenda
+8. **Quick reference?** Print [Quick Reference Card](setup/quick_reference_card.md)
 
 ---
 
@@ -107,7 +123,12 @@ maroa/
 │   ├── 00_pilot_definition.md          # Scope & success criteria
 │   ├── 01_service_flow_v0_1.md         # End-to-end process
 │   ├── 02_policies.md                  # Rules & policies
-│   └── 03_slas.md                      # Service level agreements
+│   ├── 03_slas.md                      # Service level agreements
+│   └── 04_pilot_decisions_checklist.md # Decisions before launch
+├── setup/                              # NEW: Launch preparation
+│   ├── 2_day_launch_plan.md            # Step-by-step launch guide
+│   ├── google_sheets_setup.md          # Create your operations sheet
+│   └── quick_reference_card.md         # Print-friendly reference
 ├── ops/
 │   ├── concierge_checklists.md         # Daily operations checklists
 │   └── tech_evidence_requirements.md   # Photo/documentation requirements
@@ -118,6 +139,8 @@ maroa/
 │   └── kpi_definitions.md              # Metrics definitions
 ├── rituals/
 │   └── weekly_review.md                # Meeting structure
+├── research/                           # Market research files
+│   └── *.docx                          # Pricing & payment research
 └── sources/
     └── coda/                           # Source data from Coda
         ├── metadata.json               # Document metadata
