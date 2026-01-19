@@ -55,7 +55,7 @@
 | **Threshold - Pivot** | 80-89% |
 | **Threshold - Stop** | < 80% |
 | **Target** | 92% |
-| **Owner** | Gabby (measurement), Tech Lead (operation) |
+| **Owner** | Gabby (measurement), Erick (operation until Tech Lead assigned) |
 
 ---
 
@@ -67,7 +67,7 @@
 | **Formula** | `(Revenue - Direct Costs) / Revenue x 100` |
 | **Direct Costs** | Technician payment + transport + materials + rework costs |
 | **Measurement Window** | Per service + weekly aggregate |
-| **Data Source** | SERVICES sheet (Monto_Pagado), COSTS tracking |
+| **Data Source** | SERVICES sheet (Monto_Pagado), COSTS sheet (Monto by Service_ID) |
 | **Cadence** | Weekly |
 | **Threshold - Go** | >= 20% |
 | **Threshold - Pivot** | 5-19% |
@@ -103,8 +103,10 @@
 |-----------|-------|
 | **Definition** | Average time from client message to first useful response |
 | **Formula** | `SUM(Response Times) / # Responses` |
-| **Target** | < 12 hours average |
+| **SLA Threshold** | < 24 hours (compliance requirement) |
+| **Target** | < 12 hours average (aspirational) |
 | **Data Source** | WhatsApp timestamps |
+| **Note** | SLA measures compliance (% under 24h); KPI tracks average performance |
 
 ### KPI-7: Scheduling Time
 
