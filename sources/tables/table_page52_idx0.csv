@@ -1,0 +1,29 @@
+"Entrevistas Profundas a Clientes v2
+Framework de Entrevista",,,,,,,
+#,Sección,,Pregunta,Tipo de respuesta,,Suposición validada (#),
+Datos de perfil,,,,,,,
+P1,Perfil,,¿Cuál es tu edad?,Numérica,,—,
+P2,Perfil,,¿En qué ciudad/sector vives?,Texto,,—,
+P3,Perfil,,"¿Tu vivienda es apartamento, casa o
+negocio/oficina?",Opción única,,—,
+P4,Perfil,,¿Cuántos aires acondicionados tienes?,Numérica,,—,
+P5,Perfil,,"¿Qué otros equipos grandes tienes en
+casa/oficina? (nevera, lavadora, secadora, estufa,
+calentador, etc.)",Opción múltiple,,—,
+P6,Perfil,,"¿Quién suele tomar la decisión de llamar al técnico
+en tu hogar/negocio?",Opción única,,—,
+P7,Perfil,,"¿Usas tarjeta de crédito regularmente para pagar
+servicios o compras?",Sí/No,,"3, 18",
+P8,Perfil,,"¿Qué tan cómodo te sientes usando apps o
+plataformas digitales?","Escala 1-5 (Bajo →
+Alto)",,"10, 11",
+,,,,"Escala 1-5 (Bajo →
+Alto)",,,
+"Mantenimiento
+actual",,,,,,,
+P9,Mantenimiento,,"¿Le das mantenimiento preventivo a tus aires
+acondicionados al menos una o dos veces al año?",Sí/No,,"4, 7",
+P10,Mantenimiento,,"¿Tienes otros equipos a los que también sueles dar
+mantenimiento preventivo?",Opción múltiple,,2,
+P11,Mantenimiento,,"¿Tiendes a recordar el mantenimiento de los aires
+cuando empieza el calor fuerte?",Sí/No,,13,

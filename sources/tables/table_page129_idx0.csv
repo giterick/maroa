@@ -1,0 +1,85 @@
+T-005,"Tablero sin código para
+tickets (pipeline)",Datos y Sistemas,Etapa 0,,,,,Alta,22/08/2025,23/08/2025,,"Columnas/estados
+listos, permisos y
+vistas de agente
+creadas",Visibilidad integral,PC/SD,,
+IMM-001,"Definir Perfil del cliente
+y puntos de dolor",Clientes y Encaje,Etapa 0,,,,,,03/09/2025,04/09/2025,,,,PC/SD,,
+IMM-002,"Definir Enmarcación de
+oportunidades","Servicio y
+Producto",,,,,,,03/09/2025,04/09/2025,,,,,,
+IMM-003,"Entrevistas para validar
+suposiciones v2",Clientes y Encaje,,,,,,,03/09/2025,11/09/2025,,,,,,
+IMM-004,"Definir
+Dimensionamiento del
+Mercado -
+TAM/SAM/SOM",Clientes y Encaje,,,,,,,03/09/2025,04/09/2025,,,,,,
+T-006,"Guiones T-30 y T-7 +
+protocolo de
+objeciones","Operación de
+Agentes",Etapa 0,Semana 2,Tarea,,Backlog,Alta,,,,"Guiones publicados,
+roleplay con 2
+agentes","% citas en primera
+interacción",PC/SD,,
+T-007,"Captar 20 hogares para
+registro de activos",Go-to-Market,Etapa 0,,,,Backlog,Media,,,,"20 hogares con al
+menos 1 activo
+cargado",Activos por cliente,PC/SD,,
+T-008,"Tokenización de tarjeta
++ consentimiento","Pagos y
+Facturación",Etapa 0,,,,Backlog,Alta,,,,"Formulario de
+consentimiento,
+token de prueba y
+cargo de prueba
+exitoso","Ciclo
+aprobación→cobro",PC/SD,,
+T-009,"Primer cobro real en
+producción","Pagos y
+Facturación",Etapa 0,,,,Backlog,Alta,,,T-008,"Servicio real cobrado
+automáticamente al
+marcar “Trabajo
+completado”","Ciclo
+aprobación→cobro",PC/SD,,
+T-010,"10 pilotos pagados
+end-to-end","Servicio y
+Producto",Etapa 0,,,,Backlog,Alta,,,"T-003 T-004
+T-005 T-009","10 tickets cerrados
+con evidencia y
+cobro",% cierre / Calidad,PC/SD,,
+T-011,"Cabina de mando v1 (4
+KPIs)",Datos y Sistemas,Etapa 0,,,,Backlog,Alta,,,T-005,"Panel con: % cierre,
+tiempo
+aprobación→cobro,
+activos/cliente,
+puntualidad técnico","Decisión basada en
+datos",PC/SD,,
+T-012,"Retro y eliminar top-3
+fricciones","Servicio y
+Producto",Etapa 0,,,,,Alta,,,T-010 T-011,"Lista de fricciones
+priorizada y 3
+mejoras
+implementadas",Mejora continua,PC/SD,,
+T-013,"A/B propuesta
+comercial para
+condominios",Go-to-Market,Etapa 0,,,,,Media,,,,"2 versiones
+probadas, tasa de
+aceptación
+registrada",Adquisición,PC/SD,,
+T-014,"Alianza firmada con 1
+condominio",Go-to-Market,,,,,,Alta,,,T-013,"Contrato firmado y
+campaña de registro
+activada",Activos registrados,PC/SD,,
+T-015,"Onboarding de
+proveedores por
+categoría (PC/SD)","Proveedores
+Técnicos",Etapa 1,,,,,Alta,,,T-002,"≥2 proveedores
+confiables por
+categoría en cada
+zona","Capacidad de
+ejecución",PC/SD,,
+T-016,"Estándares de servicio
+y precios por categoría","Proveedores
+Técnicos",Etapa 1,,,,,Alta,,,T-015,"SLA, rango de
+precios, seguridad y
+checklists
+publicados",Calidad / Coste,PC/SD,,

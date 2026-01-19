@@ -1,0 +1,34 @@
+P12,Mantenimiento,"¿Has dejado de dar mantenimiento porque nunca
+has tenido problemas serios con el aire?",Sí/No,(pregunta extra),
+"Dolores y
+frustraciones",,,,,
+P13,Dolores,"¿Alguna vez te ha frustrado buscar y coordinar un
+técnico confiable?",Sí/No,5,
+P14,Dolores,"¿Te molesta el tiempo que pierdes coordinando
+llamadas y citas con técnicos?",Sí/No,16,
+P15,Dolores,"¿Sientes que el mercado está fragmentado y es
+difícil encontrar técnicos confiables?",Sí/No,17,
+P16,Dolores,"¿Alguna vez sentiste que un técnico intentó
+cobrarte de más con lenguaje técnico o con cargos
+sorpresa?",Sí/No,"6, 19, 20",
+P17,Dolores,"¿Te ha pasado que un gasto sorpresa en un
+electrodoméstico desajuste tu presupuesto?",Sí/No,"15, 19",
+P18,Dolores,"¿Confías más en técnicos informales
+recomendados que en empresas establecidas?",Sí/No,(pregunta extra),
+"Motivaciones y
+prioridades",,,,,
+P19,Motivaciones,"¿Qué te motivaría más a mantener tus aires
+acondicionados al día?","Opción única: evitar
+daños / ahorrar
+energía / tener
+garantía / evitar
+gastos mayores","7, 13",
+P20,Motivaciones,"¿Qué es más importante para ti al contratar un
+técnico?","Opción única:
+calidad/garantía,
+puntualidad, precio,
+disponibilidad,
+confianza",8,
+P21,Motivaciones,"¿Prefieres tener un solo lugar donde ver y manejar
+todos tus mantenimientos, aunque no ahorres
+tiempo ni dinero?",Sí/No,10,

@@ -1,0 +1,33 @@
+"Suposiciones
+Tabla de Suposiciones",,,,,,,
+#,Categoría,,,Suposición,Importancia si es equivocada,,
+1,"Modelo de
+negocio",,,"Los clientes estarían dispuestos a pagar una suscripción mensual o anual para que
+Maroa coordine y ejecute al menos 2 mantenimientos preventivos de sus aires
+acondicionados por año.",Alto,,
+2,"Modelo de
+negocio",,,"Una vez los clientes se suscriban por el aire acondicionado, estarán abiertos a suscribir
+otros activos.",Neutro,,
+3,Pagos,,,Los clientes aceptarían registrar su tarjeta de crédito para pagos automáticos.,Alto,,
+4,"Comportamiento
+actual",,,Las personas suelen darle mantenimiento preventivo a sus aires acondicionados.,Alto,,
+5,Dolor/frustración,,,Las personas encuentran frustrante buscar y coordinar técnicos.,Alto,,
+6,Dolor/frustración,,,Las personas encuentran frustrante no conocer precios reales ni justos del mercado.,Alto,,
+7,Motivación,,,"Las personas están dispuestas a dar mantenimiento preventivo para reducir daños o
+porque se preocupan por la eficiencia energética y de enfriamiento.",Alto,,
+8,Motivación,,,"Las personas valoran más la calidad y la garantía que el precio, la puntualidad o la
+disponibilidad.",Neutro,,
+9,"Comportamiento
+actual",,,"La mayoría pide recomendaciones a amigos/familia en vez de buscar en Google, llamar a
+técnicos conocidos o preguntar en grupos de WhatsApp.",Alto,,
+10,Motivación,,,"Las personas estarían más interesadas en manejar mantenimientos en una sola
+plataforma que en ahorrar tiempo y dinero.",Neutro,,
+11,Motivación,,,"Las personas estarían más interesadas en tener garantía y confiabilidad que en ahorrar
+tiempo y dinero.",Neutro,,
+12,Carga mental,,,"Las personas están tan ocupadas en el día a día que no quieren preocuparse por
+mantenimientos preventivos.",Alto,,
+13,"Comportamiento
+actual",,,"La gente suele recordar dar mantenimiento a sus aires acondicionados cuando empieza
+el calor y se preocupa por la eficiencia.",Neutro,,
+14,Carga mental,,,"Las personas no están satisfechas con la acumulación de tareas “no urgentes pero
+importantes” como mantenimientos.",Alto,,
