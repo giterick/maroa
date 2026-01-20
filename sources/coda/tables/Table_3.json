@@ -1,0 +1,469 @@
+{
+  "table": {
+    "id": "grid-HGDkkA5AO6",
+    "name": "Table 3",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6"
+  },
+  "columns": [
+    {
+      "id": "c-NgazFtRe32",
+      "name": "Column 1",
+      "type": "text"
+    },
+    {
+      "id": "c-Uv20KGSp_Z",
+      "name": "Column 2",
+      "type": "text"
+    },
+    {
+      "id": "c--06q0UVCk7",
+      "name": "Column 3",
+      "type": "text"
+    },
+    {
+      "id": "c-H7YFohukvT",
+      "name": "Column 4",
+      "type": "text"
+    },
+    {
+      "id": "c-dCjtHR6v1M",
+      "name": "Column 5",
+      "type": "text"
+    },
+    {
+      "id": "c-jw2vTHoCrW",
+      "name": "Column 6",
+      "type": "text"
+    },
+    {
+      "id": "c-pYosQWVkp5",
+      "name": "Column 7",
+      "type": "text"
+    },
+    {
+      "id": "c-q9IobXeyY4",
+      "name": "Column 8",
+      "type": "text"
+    },
+    {
+      "id": "c-UnL9ld87dy",
+      "name": "Column 9",
+      "type": "text"
+    },
+    {
+      "id": "c-Et5nWnDiKq",
+      "name": "Column 10",
+      "type": "text"
+    },
+    {
+      "id": "c-jBL8JPdaZS",
+      "name": "Column 11",
+      "type": "canvas"
+    },
+    {
+      "id": "c-gJWmmgO6Fy",
+      "name": "Column 12",
+      "type": "canvas"
+    },
+    {
+      "id": "c--EEsuL9u8e",
+      "name": "Column 13",
+      "type": "canvas"
+    },
+    {
+      "id": "c-m5lgad3LI9",
+      "name": "Column 14",
+      "type": "text"
+    },
+    {
+      "id": "c-Um9AhwJhVZ",
+      "name": "Column 15",
+      "type": "text"
+    },
+    {
+      "id": "c-KLHxUcFOHK",
+      "name": "Column 16",
+      "type": "text"
+    },
+    {
+      "id": "c-3jIq2DjOwJ",
+      "name": "Column 17",
+      "type": "text"
+    },
+    {
+      "id": "c-zqDwD0Fbgk",
+      "name": "Column 18",
+      "type": "text"
+    },
+    {
+      "id": "c-VecJzFP9RR",
+      "name": "Column 19",
+      "type": "text"
+    },
+    {
+      "id": "c-eGYtf3ib6p",
+      "name": "Column 20",
+      "type": "text"
+    },
+    {
+      "id": "c-XiNmFbCaNc",
+      "name": "Column 21",
+      "type": "text"
+    },
+    {
+      "id": "c-8azdQgewOI",
+      "name": "Column 22",
+      "type": "text"
+    },
+    {
+      "id": "c-zw_oMX9OVE",
+      "name": "Column 23",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-8VGA4p554B",
+      "name": "ID Experimento",
+      "index": 0,
+      "values": {
+        "Column 1": "ID Experimento",
+        "Column 2": "Hipótesis",
+        "Column 3": "OKR",
+        "Column 4": "Segmento / Contexto",
+        "Column 5": "Métrica principal",
+        "Column 6": "Métricas secundarias",
+        "Column 7": "Definición / Fórmula",
+        "Column 8": "Ventana",
+        "Column 9": "Fuente de datos",
+        "Column 10": "Cadencia",
+        "Column 11": "Umbral Go (mínimo)",
+        "Column 12": "Pivot",
+        "Column 13": "Stop",
+        "Column 14": "Target",
+        "Column 15": "Stretch",
+        "Column 16": "Red flags (pausa aunque “vaya bien”)",
+        "Column 17": "Muestra mínima (validez)",
+        "Column 18": "Owner medición",
+        "Column 19": "Owner operación",
+        "Column 20": "Checkpoint",
+        "Column 21": "Acción si Go",
+        "Column 22": "Acción si Pivot",
+        "Column 23": "Acción si Stop"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-8VGA4p554B"
+    },
+    {
+      "id": "i-CPOv9v14Rk",
+      "name": "E1 Demanda pagada + claridad",
+      "index": 1,
+      "values": {
+        "Column 1": "E1 Demanda pagada + claridad",
+        "Column 2": "H1, H4",
+        "Column 3": "O2, O7",
+        "Column 4": "Leads calificados en zona; A/C residencial; canal vecinos/WhatsApp",
+        "Column 5": "Conversión a pago",
+        "Column 6": "% entiende oferta sin explicación; % objeción precio; % referidos",
+        "Column 7": "Conversión = #Pagos / #Leads calificados (pago = transacción confirmada)",
+        "Column 8": "0–7 días desde 1er contacto",
+        "Column 9": "WhatsApp + Form + Sheet Leads + comprobantes",
+        "Column 10": "Semanal",
+        "Column 11": "≥20%",
+        "Column 12": "10–19%",
+        "Column 13": "<10%",
+        "Column 14": "25%",
+        "Column 15": "35%",
+        "Column 16": ">20% “no entendí”; >15% disputas por alcance/precio",
+        "Column 17": "N≥30 leads calificados o N≥10 pagos",
+        "Column 18": "Gabby",
+        "Column 19": "Erick",
+        "Column 20": "Semana 2 y 4",
+        "Column 21": "Mantener oferta; preparar fase 2",
+        "Column 22": "Ajustar copy/paquete/políticas y re-test 7 días",
+        "Column 23": "Pausar adquisición y rediseñar oferta"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-CPOv9v14Rk"
+    },
+    {
+      "id": "i-TFotIWwFXe",
+      "name": "E2 Operación concierge (SLAs)",
+      "index": 2,
+      "values": {
+        "Column 1": "E2 Operación concierge (SLAs)",
+        "Column 2": "H2",
+        "Column 3": "O3, O6",
+        "Column 4": "Tickets dentro de zona/horario",
+        "Column 5": "% respuestas dentro SLA",
+        "Column 6": "Tiempo a agendar; % on-time; % reprogramación; no-shows",
+        "Column 7": "% SLA = #tickets respondidos dentro SLA / #tickets totales",
+        "Column 8": "Por ticket + semanal",
+        "Column 9": "WhatsApp timestamps + Sheet Servicios",
+        "Column 10": "Semanal",
+        "Column 11": "≥90% SLA y ≥85% citas sin reprogramación",
+        "Column 12": "75–89% o 70–84%",
+        "Column 13": "<75% o <70%",
+        "Column 14": "92%",
+        "Column 15": "95%",
+        "Column 16": "≥10% no-show técnico; 2 semanas seguidas con quiebre",
+        "Column 17": "N≥20 tickets y N≥15 servicios",
+        "Column 18": "Gabby",
+        "Column 19": "Gabby/Erick",
+        "Column 20": "Sem 1–4 semanal",
+        "Column 21": "Documentar playbook; subir volumen",
+        "Column 22": "Ajustar guiones/ventanas/agenda",
+        "Column 23": "Reducir cupo/alcance hasta estabilizar"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-TFotIWwFXe"
+    },
+    {
+      "id": "i-FVEC2wHev2",
+      "name": "E3 Cumplimiento de alcance",
+      "index": 3,
+      "values": {
+        "Column 1": "E3 Cumplimiento de alcance",
+        "Column 2": "H2",
+        "Column 3": "O1",
+        "Column 4": "Todos los servicios agendados",
+        "Column 5": "% dentro de alcance",
+        "Column 6": "% fuera de zona/horario; % scope creep evitado",
+        "Column 7": "% Scope = #servicios dentro scope / #servicios totales",
+        "Column 8": "Durante piloto",
+        "Column 9": "Sheet Servicios + mensajes confirmación",
+        "Column 10": "Semanal",
+        "Column 11": "100% y 0 fuera zona/horario",
+        "Column 12": "1–2 excepciones justificadas",
+        "Column 13": ">2 excepciones o patrón",
+        "Column 14": "100%",
+        "Column 15": "100%",
+        "Column 16": ">10% discusiones “eso no incluía”",
+        "Column 17": "N≥15 servicios",
+        "Column 18": "Gabby",
+        "Column 19": "Erick",
+        "Column 20": "Semana 2 y 4",
+        "Column 21": "Mantener definición; escalar",
+        "Column 22": "Endurecer copy + diagnóstico + exclusiones",
+        "Column 23": "Pausar, redefinir alcance"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-FVEC2wHev2"
+    },
+    {
+      "id": "i-2GdOJNHP9-",
+      "name": "E4 Red técnicos (capacidad MV)",
+      "index": 4,
+      "values": {
+        "Column 1": "E4 Red técnicos (capacidad MV)",
+        "Column 2": "H2, H3",
+        "Column 3": "O4",
+        "Column 4": "Preventivo + correctivo (separar)",
+        "Column 5": "% cobertura sin cancelación por técnico",
+        "Column 6": "Variabilidad duración; reincidencias por técnico",
+        "Column 7": "Cobertura = #servicios cubiertos / #servicios agendados",
+        "Column 8": "Semanal",
+        "Column 9": "Sheet Servicios + incidencias",
+        "Column 10": "Semanal",
+        "Column 11": "100% cobertura y variabilidad ≤25%",
+        "Column 12": "95–99% o 26–40%",
+        "Column 13": "<95% o dependencia 1 técnico",
+        "Column 14": "100%",
+        "Column 15": "100%",
+        "Column 16": "≥2 cancelaciones “día de”/2 semanas; quejas repetidas",
+        "Column 17": "N≥15 servicios; ≥2 técnicos + 1 backup probado",
+        "Column 18": "Erick",
+        "Column 19": "Erick",
+        "Column 20": "Sem 2 y 4",
+        "Column 21": "Estabilizar red; aumentar volumen",
+        "Column 22": "Ajustar pagos/SLAs; incorporar backup",
+        "Column 23": "Reducir volumen/cambiar modelo técnicos"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-2GdOJNHP9-"
+    },
+    {
+      "id": "i-rqnX7m6DeW",
+      "name": "E5 Calidad “bien a la primera”",
+      "index": 5,
+      "values": {
+        "Column 1": "E5 Calidad “bien a la primera”",
+        "Column 2": "H3",
+        "Column 3": "O5",
+        "Column 4": "Separar preventivo vs correctivo",
+        "Column 5": "FTFR (first-time fix rate)",
+        "Column 6": "% retrabajos evitables; reclamos; score auditoría",
+        "Column 7": "FTFR = #servicios sin retrabajo evitable (0–7d) / #servicios",
+        "Column 8": "0–7 días post-servicio",
+        "Column 9": "Sheet Servicios + incidencias + QA",
+        "Column 10": "Semanal",
+        "Column 11": "FTFR ≥90% y retrabajo evitable ≤5%",
+        "Column 12": "80–89% o 6–10%",
+        "Column 13": "<80% o >10%",
+        "Column 14": "92%",
+        "Column 15": "95%",
+        "Column 16": "1 evento grave (daño/seguridad); patrón por técnico",
+        "Column 17": "N≥15 (ideal ≥20)",
+        "Column 18": "Gabby",
+        "Column 19": "Técnico lead/Erick",
+        "Column 20": "Semanal",
+        "Column 21": "Consolidar estándar; subir volumen",
+        "Column 22": "Ajustar checklist + capacitación + auditoría 20%",
+        "Column 23": "Pausar correctivos / reemplazar técnico / rediseñar"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-rqnX7m6DeW"
+    },
+    {
+      "id": "i-ZJg6e8GYrG",
+      "name": "E6 Estandarización (evidencia)",
+      "index": 6,
+      "values": {
+        "Column 1": "E6 Estandarización (evidencia)",
+        "Column 2": "H3, H2",
+        "Column 3": "O5, O6",
+        "Column 4": "Todos los servicios",
+        "Column 5": "% reportes completos",
+        "Column 6": "% fotos obligatorias; % diagnóstico claro; % OK cliente",
+        "Column 7": "% completos = #reportes completos / #servicios",
+        "Column 8": "Por servicio",
+        "Column 9": "Reporte Maroa + fotos + Sheet",
+        "Column 10": "Diario/Semanal",
+        "Column 11": "≥95%",
+        "Column 12": "85–94%",
+        "Column 13": "<85%",
+        "Column 14": "97%",
+        "Column 15": "99%",
+        "Column 16": "“servicios sin registro” >0; costos/SLAs no trazables",
+        "Column 17": "N≥15 reportes",
+        "Column 18": "Gabby",
+        "Column 19": "Gabby",
+        "Column 20": "Semanal",
+        "Column 21": "Mantener; automatizar",
+        "Column 22": "Corregir plantillas + enforcement",
+        "Column 23": "No escalar volumen hasta lograr dato confiable"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-ZJg6e8GYrG"
+    },
+    {
+      "id": "i-aptpP8E2vR",
+      "name": "E7 Unit economics por servicio",
+      "index": 7,
+      "values": {
+        "Column 1": "E7 Unit economics por servicio",
+        "Column 2": "H4",
+        "Column 3": "O8",
+        "Column 4": "Preventivo vs correctivo",
+        "Column 5": "Margen bruto promedio",
+        "Column 6": "% servicios con margen negativo; % materiales/ingreso; costo retrabajos/ingreso",
+        "Column 7": "Margen = Ingreso – (técnico + transporte + materiales + retrabajo)",
+        "Column 8": "Semanal",
+        "Column 9": "Sheet Costos + pagos",
+        "Column 10": "Semanal",
+        "Column 11": "Margen ≥20% y ≥80% servicios no negativos",
+        "Column 12": "5–19% o 21–35% negativos",
+        "Column 13": "<5% o >35% negativos",
+        "Column 14": "25%",
+        "Column 15": "30%",
+        "Column 16": "2 semanas margen negativo; quiebre caja",
+        "Column 17": "N≥15 servicios con costos completos",
+        "Column 18": "Erick",
+        "Column 19": "Erick",
+        "Column 20": "Semanal",
+        "Column 21": "Mantener pricing y subir volumen",
+        "Column 22": "Ajustar pricing/fees/markup/pagos técnicos",
+        "Column 23": "Pausar; rediseñar economics"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-aptpP8E2vR"
+    },
+    {
+      "id": "i-X2rcO0vmUh",
+      "name": "E8 Economics por suscriptor (proxy 30d)",
+      "index": 8,
+      "values": {
+        "Column 1": "E8 Economics por suscriptor (proxy 30d)",
+        "Column 2": "H4",
+        "Column 3": "O8",
+        "Column 4": "Suscriptores pagos",
+        "Column 5": "Contribución promedio por suscriptor",
+        "Column 6": "% suscriptores que usan servicio; costo promedio por hogar",
+        "Column 7": "Contribución 30d = ingresos cobrados – costos directos incurridos en 30d",
+        "Column 8": "0–30 días desde alta",
+        "Column 9": "Sheet Suscripción + Costos",
+        "Column 10": "Semana 4",
+        "Column 11": "Contribución positiva",
+        "Column 12": "Cerca de 0 con palancas claras",
+        "Column 13": "Negativa sin palancas",
+        "Column 14": "+",
+        "Column 15": "++",
+        "Column 16": "Uso excesivo rompe promesa; costos disparados",
+        "Column 17": "N≥10 suscriptores pagos",
+        "Column 18": "Erick",
+        "Column 19": "Erick",
+        "Column 20": "Semana 4",
+        "Column 21": "Sostener suscripción",
+        "Column 22": "Redefinir qué incluye/límites/frecuencia",
+        "Column 23": "Cambiar modelo (fee por visita, otro bundle)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-X2rcO0vmUh"
+    },
+    {
+      "id": "i-nRKB_MGwwQ",
+      "name": "E9 Retención temprana (señal)",
+      "index": 9,
+      "values": {
+        "Column 1": "E9 Retención temprana (señal)",
+        "Column 2": "H5",
+        "Column 3": "O10, O11",
+        "Column 4": "Post-servicio",
+        "Column 5": "% intención de continuar",
+        "Column 6": "CSAT; % recomendación; % referidos generados",
+        "Column 7": "Intención = #“Sí” / #respuestas (0–48h)",
+        "Column 8": "0–48h post-servicio",
+        "Column 9": "Encuesta + llamadas",
+        "Column 10": "Semanal",
+        "Column 11": "≥60% intención y CSAT ≥4/5",
+        "Column 12": "40–59% o CSAT 3-4",
+        "Column 13": "<40% o CSAT <3.0",
+        "Column 14": "70%",
+        "Column 15": "80%",
+        "Column 16": "Queja confianza/seguridad; motivo repetido ≥3",
+        "Column 17": "≥80% respuesta en N≥15 servicios",
+        "Column 18": "Gabby",
+        "Column 19": "Gabby/Erick",
+        "Column 20": "Semanal",
+        "Column 21": "Duplicar lo que funciona",
+        "Column 22": "Atacar top 3 fricciones y repetir 7d",
+        "Column 23": "Pausar, redefinir experiencia/valor"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-nRKB_MGwwQ"
+    },
+    {
+      "id": "i-yTfJ75mfjH",
+      "name": "E10 Seguridad y riesgos",
+      "index": 10,
+      "values": {
+        "Column 1": "E10 Seguridad y riesgos",
+        "Column 2": "H2",
+        "Column 3": "O9",
+        "Column 4": "Todos los servicios",
+        "Column 5": "# incidentes críticos",
+        "Column 6": "% técnicos identificados; % cumplimiento protocolos acceso",
+        "Column 7": "Incidente crítico = seguridad/privacidad/daño grave (binario)",
+        "Column 8": "Siempre",
+        "Column 9": "Registro incidencias + fotos",
+        "Column 10": "En tiempo real",
+        "Column 11": "<5 críticos",
+        "Column 12": "1-5 menor con corrección inmediata",
+        "Column 13": "≥5 crítico o patrón",
+        "Column 14": "0",
+        "Column 15": "0",
+        "Column 16": "Cualquier crítico = pausa inmediata",
+        "Column 17": "Siempre aplica (no depende de N)",
+        "Column 18": "Erick",
+        "Column 19": "Erick",
+        "Column 20": "Inmediato + semanal",
+        "Column 21": "Continuar",
+        "Column 22": "Reentrenar + ajustar protocolo",
+        "Column 23": "STOP inmediato; pausar operaciones"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6/_rui-yTfJ75mfjH"
+    }
+  ]
+}

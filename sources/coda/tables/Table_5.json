@@ -1,0 +1,117 @@
+{
+  "table": {
+    "id": "grid-yJ0_4urXec",
+    "name": "Table 5",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec"
+  },
+  "columns": [
+    {
+      "id": "c-mbJDMLZrkz",
+      "name": "SLA (interno)",
+      "type": "text"
+    },
+    {
+      "id": "c-s9Ru0HwUQk",
+      "name": "Definición (sin ambigüedad)",
+      "type": "text"
+    },
+    {
+      "id": "c-35WnYtBsiw",
+      "name": "Target piloto",
+      "type": "text"
+    },
+    {
+      "id": "c-wQlDwcZTsh",
+      "name": "Cómo se mide (fuente)",
+      "type": "text"
+    },
+    {
+      "id": "c-rqudbImZCX",
+      "name": "Excepciones válidas",
+      "type": "text"
+    },
+    {
+      "id": "c-ASWgSLdDvD",
+      "name": "Escalación / Acción cuando se rompe",
+      "type": "text"
+    },
+    {
+      "id": "c-5Yl3w2mm5z",
+      "name": "Owner",
+      "type": "text"
+    },
+    {
+      "id": "c-T080ajW9tk",
+      "name": "Notas",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-TiyR_DTXKw",
+      "name": "Tiempo de respuesta del concierge",
+      "index": 0,
+      "values": {
+        "SLA (interno)": "Tiempo de respuesta del concierge",
+        "Definición (sin ambigüedad)": "Tiempo desde que entra un ticket(mensaje/solicitud en WhatsApp) hasta la primera respuesta útil del concierge (no solo “recibido”: debe incluir próximos pasos o preguntas de triage).",
+        "Target piloto": "< 24 horas",
+        "Cómo se mide (fuente)": "Timestamps de WhatsApp (hora de entrada vs hora de respuesta) + log en Sheet/CRM.",
+        "Excepciones válidas": "Fuera de horario operativo (si aplica), falta de info mínima del cliente (se deja solicitado), fuerza mayor.",
+        "Escalación / Acción cuando se rompe": "Si >24h: marcar ticket “SLA roto”, priorizar al inicio del día, y registrar causa raíz. Si se repite 2+ veces/semana: ajustar capacidad/cupo.",
+        "Owner": "Ops/Concierge",
+        "Notas": "Conectar a meta de “% respuestas dentro del SLA”.Maroa 100 Startup TasksMaroa 100 Startup Tasks"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec/_rui-TiyR_DTXKw"
+    },
+    {
+      "id": "i-mMSFGG5bLb",
+      "name": "Tiempo máximo para agendar",
+      "index": 1,
+      "values": {
+        "SLA (interno)": "Tiempo máximo para agendar",
+        "Definición (sin ambigüedad)": "Tiempo desde “ticket listo para agendar” (triage mínimo completado) hasta que el cliente recibe cita confirmada(fecha + ventana + dirección + datos) y confirma.",
+        "Target piloto": "< 48 horas",
+        "Cómo se mide (fuente)": "Hora de “triage completo” vs hora de “Agendado/Confirmado” en Sheet + WhatsApp.",
+        "Excepciones válidas": "Cliente pide fecha específica posterior, no hay disponibilidad por capacidad real, restricciones de acceso del residencial.",
+        "Escalación / Acción cuando se rompe": "Si >48h: ofrecer 2 opciones concretas (slots), activar técnico backup, o limitar intake/cupo esa semana. Registrar motivo.",
+        "Owner": "Ops",
+        "Notas": "En el doc aparece “Agendamiento: 48–72h (normal)” como referencia; aquí lo dejamos más agresivo a 48h por tu definición.Maroa 100 Startup Tasks"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec/_rui-mMSFGG5bLb"
+    },
+    {
+      "id": "i-h3XMOfygps",
+      "name": "Ventana de llegada",
+      "index": 2,
+      "values": {
+        "SLA (interno)": "Ventana de llegada",
+        "Definición (sin ambigüedad)": "Diferencia máxima entre la hora estimada de llegada comunicada en confirmación y la llegada real del técnico (medida dentro de una ventana).",
+        "Target piloto": "Ventana de 1 hora",
+        "Cómo se mide (fuente)": "Confirmación enviada (WhatsApp) + check-in “En ruta / Llegó” (WhatsApp o tracker). Métrica: % citas dentro de ventana.",
+        "Excepciones válidas": "Tráfico extremo, clima, retraso por residencial (acceso), emergencia en servicio anterior documentada.",
+        "Escalación / Acción cuando se rompe": "Si llega fuera de ventana: aviso proactivo al cliente + opción de reprogramar. Registrar quiebre. Si baja de umbral 2 semanas: ajustar rutas/slots.",
+        "Owner": "Ops + Técnico lead",
+        "Notas": "Puedes trackear “% puntualidad en ventana” (en el doc sugieren ≥85%).Maroa 100 Startup TasksMaroa 100 Startup Tasks"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec/_rui-h3XMOfygps"
+    },
+    {
+      "id": "i-8ZFDwAvqrI",
+      "name": "",
+      "index": 3,
+      "values": {
+        "SLA (interno)": "",
+        "Definición (sin ambigüedad)": "",
+        "Target piloto": "",
+        "Cómo se mide (fuente)": "",
+        "Excepciones válidas": "",
+        "Escalación / Acción cuando se rompe": "",
+        "Owner": "",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec/_rui-8ZFDwAvqrI"
+    }
+  ]
+}

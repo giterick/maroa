@@ -1,0 +1,468 @@
+{
+  "table": {
+    "id": "grid-BcvDcw9fV6",
+    "name": "Responsabilidades para Co-Founders de Maroa",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6"
+  },
+  "columns": [
+    {
+      "id": "c-NgsnwrYd4R",
+      "name": "Departamento",
+      "type": "select"
+    },
+    {
+      "id": "c-qhsuSxcISv",
+      "name": "Responsabilidad",
+      "type": "text"
+    },
+    {
+      "id": "c-OHk08DOkjn",
+      "name": "Erick ✅",
+      "type": "checkbox"
+    },
+    {
+      "id": "c-0_hwdB7ocS",
+      "name": "Gabby ✅",
+      "type": "checkbox"
+    },
+    {
+      "id": "c-MJW1abUg51",
+      "name": "Asirio ✅",
+      "type": "checkbox"
+    },
+    {
+      "id": "c-4TC_DOBAU_",
+      "name": "Parent",
+      "type": "lookup"
+    },
+    {
+      "id": "c-rVnqiBm1o6",
+      "name": "Subitems",
+      "type": "lookup"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-XGLE3mBYym",
+      "name": "Estrategia & Dirección General",
+      "index": 0,
+      "values": {
+        "Departamento": "Estrategia & Dirección General",
+        "Responsabilidad": "Definir visión, misión y valores",
+        "Erick ✅": "True",
+        "Gabby ✅": "False",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-XGLE3mBYym"
+    },
+    {
+      "id": "i-zFb02e__it",
+      "name": "Estrategia & Dirección General",
+      "index": 1,
+      "values": {
+        "Departamento": "Estrategia & Dirección General",
+        "Responsabilidad": "Tomar decisiones estratégicas clave",
+        "Erick ✅": "True",
+        "Gabby ✅": "True",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-zFb02e__it"
+    },
+    {
+      "id": "i-lYFJm4VWT7",
+      "name": "Estrategia & Dirección General",
+      "index": 2,
+      "values": {
+        "Departamento": "Estrategia & Dirección General",
+        "Responsabilidad": "Priorizar features o servicios",
+        "Erick ✅": "True",
+        "Gabby ✅": "False",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-lYFJm4VWT7"
+    },
+    {
+      "id": "i-2BbRVfUpcX",
+      "name": "Estrategia & Dirección General",
+      "index": 3,
+      "values": {
+        "Departamento": "Estrategia & Dirección General",
+        "Responsabilidad": "Supervisar avances y mantener foco",
+        "Erick ✅": "True",
+        "Gabby ✅": "True",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-2BbRVfUpcX"
+    },
+    {
+      "id": "i-bu4zc6TZd_",
+      "name": "Ventas & Alianzas",
+      "index": 4,
+      "values": {
+        "Departamento": "Ventas & Alianzas",
+        "Responsabilidad": "Buscar y cerrar alianzas estratégicas",
+        "Erick ✅": "False",
+        "Gabby ✅": "False",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-bu4zc6TZd_"
+    },
+    {
+      "id": "i-e6-APNq7cn",
+      "name": "Ventas & Alianzas",
+      "index": 5,
+      "values": {
+        "Departamento": "Ventas & Alianzas",
+        "Responsabilidad": "Identificar oportunidades de negocio o expansión",
+        "Erick ✅": "False",
+        "Gabby ✅": "False",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-e6-APNq7cn"
+    },
+    {
+      "id": "i-_-azhvFgaw",
+      "name": "Ventas & Alianzas",
+      "index": 6,
+      "values": {
+        "Departamento": "Ventas & Alianzas",
+        "Responsabilidad": "Desarrollar estrategia de pricing",
+        "Erick ✅": "False",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-_-azhvFgaw"
+    },
+    {
+      "id": "i-kcZzoF0j62",
+      "name": "Ventas & Alianzas",
+      "index": 7,
+      "values": {
+        "Departamento": "Ventas & Alianzas",
+        "Responsabilidad": "Generar oportunidades de ingresos y cross-selling",
+        "Erick ✅": "False",
+        "Gabby ✅": "False",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-kcZzoF0j62"
+    },
+    {
+      "id": "i-gaW5h5YGYG",
+      "name": "Producto & Tecnología",
+      "index": 8,
+      "values": {
+        "Departamento": "Producto & Tecnología",
+        "Responsabilidad": "Idear funcionalidades de la app y validar con usuarios",
+        "Erick ✅": "True",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-gaW5h5YGYG"
+    },
+    {
+      "id": "i-saR8eajQuh",
+      "name": "Producto & Tecnología",
+      "index": 9,
+      "values": {
+        "Departamento": "Producto & Tecnología",
+        "Responsabilidad": "Coordinar equipo de desarrollo",
+        "Erick ✅": "True",
+        "Gabby ✅": "True",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-saR8eajQuh"
+    },
+    {
+      "id": "i-zSTBBg4D6t",
+      "name": "Producto & Tecnología",
+      "index": 10,
+      "values": {
+        "Departamento": "Producto & Tecnología",
+        "Responsabilidad": "Probar y validar entregables",
+        "Erick ✅": "True",
+        "Gabby ✅": "True",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-zSTBBg4D6t"
+    },
+    {
+      "id": "i-ahwSe4HMVP",
+      "name": "Producto & Tecnología",
+      "index": 11,
+      "values": {
+        "Departamento": "Producto & Tecnología",
+        "Responsabilidad": "Buscar soluciones low-cost o no-code para el MVP",
+        "Erick ✅": "True",
+        "Gabby ✅": "True",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-ahwSe4HMVP"
+    },
+    {
+      "id": "i-8N6683JLYg",
+      "name": "Operaciones & Logística",
+      "index": 12,
+      "values": {
+        "Departamento": "Operaciones & Logística",
+        "Responsabilidad": "Mapear flujos operativos (recepción, mantenimiento, entrega)",
+        "Erick ✅": "True",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-8N6683JLYg"
+    },
+    {
+      "id": "i-q7B_YBMTyo",
+      "name": "Operaciones & Logística",
+      "index": 13,
+      "values": {
+        "Departamento": "Operaciones & Logística",
+        "Responsabilidad": "Buscar proveedores y negociar condiciones",
+        "Erick ✅": "False",
+        "Gabby ✅": "False",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-q7B_YBMTyo"
+    },
+    {
+      "id": "i-JxZDL8hEhc",
+      "name": "Operaciones & Logística",
+      "index": 14,
+      "values": {
+        "Departamento": "Operaciones & Logística",
+        "Responsabilidad": "Definir procesos con técnicos o aliados",
+        "Erick ✅": "True",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-JxZDL8hEhc"
+    },
+    {
+      "id": "i-r5WEBtSIy4",
+      "name": "Operaciones & Logística",
+      "index": 15,
+      "values": {
+        "Departamento": "Operaciones & Logística",
+        "Responsabilidad": "Coordinar piloto o pruebas iniciales",
+        "Erick ✅": "False",
+        "Gabby ✅": "True",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-r5WEBtSIy4"
+    },
+    {
+      "id": "i-XFRtL8TAid",
+      "name": "Comunicación & Marca",
+      "index": 16,
+      "values": {
+        "Departamento": "Comunicación & Marca",
+        "Responsabilidad": "Diseñar la marca y su personalidad",
+        "Erick ✅": "False",
+        "Gabby ✅": "True",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-XFRtL8TAid"
+    },
+    {
+      "id": "i-Gbn92YGOaT",
+      "name": "Comunicación & Marca",
+      "index": 17,
+      "values": {
+        "Departamento": "Comunicación & Marca",
+        "Responsabilidad": "Definir tono de voz",
+        "Erick ✅": "False",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-Gbn92YGOaT"
+    },
+    {
+      "id": "i-SbRmzL2quD",
+      "name": "Comunicación & Marca",
+      "index": 18,
+      "values": {
+        "Departamento": "Comunicación & Marca",
+        "Responsabilidad": "Crear contenido inicial (pitch, redes, presentaciones)",
+        "Erick ✅": "False",
+        "Gabby ✅": "True",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-SbRmzL2quD"
+    },
+    {
+      "id": "i-ZDdGISRPwY",
+      "name": "Comunicación & Marca",
+      "index": 19,
+      "values": {
+        "Departamento": "Comunicación & Marca",
+        "Responsabilidad": "Diseñar experiencia de cliente",
+        "Erick ✅": "True",
+        "Gabby ✅": "True",
+        "Asirio ✅": "True",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-ZDdGISRPwY"
+    },
+    {
+      "id": "i-VKDjR6ZeNp",
+      "name": "Recursos Humanos",
+      "index": 20,
+      "values": {
+        "Departamento": "Recursos Humanos",
+        "Responsabilidad": "Definir roles futuros y cultura organizacional",
+        "Erick ✅": "True",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-VKDjR6ZeNp"
+    },
+    {
+      "id": "i-_ON-f34VLt",
+      "name": "Recursos Humanos",
+      "index": 21,
+      "values": {
+        "Departamento": "Recursos Humanos",
+        "Responsabilidad": "Reclutar y coordinar talentos puntuales (diseñador, devs, etc.)",
+        "Erick ✅": "True",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-_ON-f34VLt"
+    },
+    {
+      "id": "i-2RrRXztvFc",
+      "name": "Recursos Humanos",
+      "index": 22,
+      "values": {
+        "Departamento": "Recursos Humanos",
+        "Responsabilidad": "Manejar documentación interna",
+        "Erick ✅": "True",
+        "Gabby ✅": "True",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-2RrRXztvFc"
+    },
+    {
+      "id": "i-XwqohgLQ96",
+      "name": "Finanzas & Legal",
+      "index": 23,
+      "values": {
+        "Departamento": "Finanzas & Legal",
+        "Responsabilidad": "Crear presupuestos y controlar gastos",
+        "Erick ✅": "False",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-XwqohgLQ96"
+    },
+    {
+      "id": "i-Qz8Hdv-tkw",
+      "name": "Finanzas & Legal",
+      "index": 24,
+      "values": {
+        "Departamento": "Finanzas & Legal",
+        "Responsabilidad": "Manejar temas legales (registro, contratos, términos de uso)",
+        "Erick ✅": "False",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-Qz8Hdv-tkw"
+    },
+    {
+      "id": "i-8MNwHzKfBz",
+      "name": "Finanzas & Legal",
+      "index": 25,
+      "values": {
+        "Departamento": "Finanzas & Legal",
+        "Responsabilidad": "Buscar financiamiento inicial (si aplica)",
+        "Erick ✅": "True",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-8MNwHzKfBz"
+    },
+    {
+      "id": "i-1mN_QkqmHa",
+      "name": "Finanzas & Legal",
+      "index": 26,
+      "values": {
+        "Departamento": "Finanzas & Legal",
+        "Responsabilidad": "Modelar costos e ingresos",
+        "Erick ✅": "True",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-1mN_QkqmHa"
+    },
+    {
+      "id": "i-ensH3dqL_k",
+      "name": "Finanzas & Legal",
+      "index": 27,
+      "values": {
+        "Departamento": "Finanzas & Legal",
+        "Responsabilidad": "Hacer seguimiento de métricas financieras clave",
+        "Erick ✅": "True",
+        "Gabby ✅": "False",
+        "Asirio ✅": "False",
+        "Parent": "",
+        "Subitems": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6/_rui-ensH3dqL_k"
+    }
+  ]
+}

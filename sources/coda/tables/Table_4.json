@@ -1,0 +1,858 @@
+{
+  "table": {
+    "id": "grid-gprf52VnPY",
+    "name": "Table 4",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY"
+  },
+  "columns": [
+    {
+      "id": "c-X-2XSl7I4s",
+      "name": "Experimento",
+      "type": "text"
+    },
+    {
+      "id": "c-5TLmRd3bLX",
+      "name": "Task",
+      "type": "text"
+    },
+    {
+      "id": "c-dGcoJjIPF0",
+      "name": "Owner",
+      "type": "text"
+    },
+    {
+      "id": "c-xZAL-Ai2Vo",
+      "name": "Status",
+      "type": "text"
+    },
+    {
+      "id": "c-ViE_I4taEj",
+      "name": "Due date",
+      "type": "text"
+    },
+    {
+      "id": "c-IEKhJKOQBz",
+      "name": "Hipótesis",
+      "type": "select"
+    },
+    {
+      "id": "c-nFg0-iWmAo",
+      "name": "Notas",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-DvvurxrxLd",
+      "name": "Definición del piloto (baseline de validación)",
+      "index": 0,
+      "values": {
+        "Experimento": "Definición del piloto (baseline de validación)",
+        "Task": "Documento “Definición del Piloto”",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-DvvurxrxLd"
+    },
+    {
+      "id": "i-l610YHfUVK",
+      "name": "Definición del piloto (baseline de validación)",
+      "index": 1,
+      "values": {
+        "Experimento": "Definición del piloto (baseline de validación)",
+        "Task": "Matriz de criterios de éxito del piloto",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-l610YHfUVK"
+    },
+    {
+      "id": "i-xp6v-gM0PZ",
+      "name": "Definición del piloto (baseline de validación)",
+      "index": 2,
+      "values": {
+        "Experimento": "Definición del piloto (baseline de validación)",
+        "Task": "Definir KPIs operativos (SLA, tasa de no-show, rework, NPS)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-xp6v-gM0PZ"
+    },
+    {
+      "id": "i-itDPUr2hUt",
+      "name": "Definición del piloto (baseline de validación)",
+      "index": 3,
+      "values": {
+        "Experimento": "Definición del piloto (baseline de validación)",
+        "Task": "Definir alcance geográfico y horarios del piloto",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-itDPUr2hUt"
+    },
+    {
+      "id": "i-NAU7a2qVSU",
+      "name": "Definición del piloto (baseline de validación)",
+      "index": 4,
+      "values": {
+        "Experimento": "Definición del piloto (baseline de validación)",
+        "Task": "Definir “Definition of Done” para cada tipo de servicio",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-NAU7a2qVSU"
+    },
+    {
+      "id": "i-9fCUNKTGVE",
+      "name": "Definición del piloto (baseline de validación)",
+      "index": 5,
+      "values": {
+        "Experimento": "Definición del piloto (baseline de validación)",
+        "Task": "Crear checklist de salida: qué se entrega al cliente en cada servicio",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-9fCUNKTGVE"
+    },
+    {
+      "id": "i-1PhXTQIWdc",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 6,
+      "values": {
+        "Experimento": "Oferta y pricing (objeto de compra)",
+        "Task": "Ficha de paquetes del piloto",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,4",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-1PhXTQIWdc"
+    },
+    {
+      "id": "i-Ta5TEyVtCp",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 7,
+      "values": {
+        "Experimento": "Oferta y pricing (objeto de compra)",
+        "Task": "Definir add-ons (materiales, urgencia, extra unidad, etc.)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,4",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-Ta5TEyVtCp"
+    },
+    {
+      "id": "i-CacVZhcNfg",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 8,
+      "values": {
+        "Experimento": "Oferta y pricing (objeto de compra)",
+        "Task": "Definir política de “cargo de visita” (mantenimiento preventivo vs. diagnóstico)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,4",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-CacVZhcNfg"
+    },
+    {
+      "id": "i-J1eT8J3r2E",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 9,
+      "values": {
+        "Experimento": "Oferta y pricing (objeto de compra)",
+        "Task": "Definir pricing para hogares con 1/2/3/4 unidades (tiempo + ayudante)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,4",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-J1eT8J3r2E"
+    },
+    {
+      "id": "i-nUMhNf85sv",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 10,
+      "values": {
+        "Experimento": "Oferta y pricing (objeto de compra)",
+        "Task": "Plantilla de cotización (WhatsApp + PDF opcional)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,4",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-nUMhNf85sv"
+    },
+    {
+      "id": "i-0ozsqSv3Iz",
+      "name": "Oferta y pricing (objeto de compra)",
+      "index": 11,
+      "values": {
+        "Experimento": "Oferta y pricing (objeto de compra)",
+        "Task": "Guía de objeciones y “cómo vender” el plan base vs. premium",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "1,4",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-0ozsqSv3Iz"
+    },
+    {
+      "id": "i-9IIYmWAOwc",
+      "name": "Operación de Concierge (experiencia “cero drama”)",
+      "index": 12,
+      "values": {
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Task": "Flujo operativo end-to-end documentado",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-9IIYmWAOwc"
+    },
+    {
+      "id": "i-IreJvueynO",
+      "name": "Operación de Concierge (experiencia “cero drama”)",
+      "index": 13,
+      "values": {
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Task": "SOP: Intake (captura de datos, fotos, ubicación, disponibilidad)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-IreJvueynO"
+    },
+    {
+      "id": "i-e941zzmm6P",
+      "name": "Operación de Concierge (experiencia “cero drama”)",
+      "index": 14,
+      "values": {
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Task": "SOP: Scheduling (confirmación, recordatorios, buffers)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-e941zzmm6P"
+    },
+    {
+      "id": "i-4wClTTeQb7",
+      "name": "Operación de Concierge (experiencia “cero drama”)",
+      "index": 15,
+      "values": {
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Task": "SOP: Handoff a técnico (brief, checklist, notas clave)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-4wClTTeQb7"
+    },
+    {
+      "id": "i-Xw0lYtNjVT",
+      "name": "Operación de Concierge (experiencia “cero drama”)",
+      "index": 16,
+      "values": {
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Task": "SOP: Cierre (reporte, cobro, garantía, solicitud de reseña)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-Xw0lYtNjVT"
+    },
+    {
+      "id": "i-_5ojUMcC8K",
+      "name": "Operación de Concierge (experiencia “cero drama”)",
+      "index": 17,
+      "values": {
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Task": "Macros/plantillas WhatsApp (intake, confirmación, recordatorio, post-servicio)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-_5ojUMcC8K"
+    },
+    {
+      "id": "i-fbCEBBjGgC",
+      "name": "Operación de Concierge (experiencia “cero drama”)",
+      "index": 18,
+      "values": {
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Task": "Script de llamadas para confirmación de cita",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-fbCEBBjGgC"
+    },
+    {
+      "id": "i-8pYpqeG8nB",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 19,
+      "values": {
+        "Experimento": "Pagos y suscripciones (experimento)",
+        "Task": "Definir flujo de cobro one-time (link de pago / transferencia / efectivo)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "3",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-8pYpqeG8nB"
+    },
+    {
+      "id": "i-qNeJeEgnma",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 20,
+      "values": {
+        "Experimento": "Pagos y suscripciones (experimento)",
+        "Task": "Plan A: explorar integración PixelPay/Tilopay + banco RD (viabilidad real)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "3",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-qNeJeEgnma"
+    },
+    {
+      "id": "i-QZRYgEmq-Y",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 21,
+      "values": {
+        "Experimento": "Pagos y suscripciones (experimento)",
+        "Task": "Plan B: Stripe (estructura, requisitos, alternativa de operación)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "3",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-QZRYgEmq-Y"
+    },
+    {
+      "id": "i-7ZcnIhSItX",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 22,
+      "values": {
+        "Experimento": "Pagos y suscripciones (experimento)",
+        "Task": "Definir regla: “suscripción activa solo tras aprobación física por técnico Maroa”",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "3",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-7ZcnIhSItX"
+    },
+    {
+      "id": "i-opYGPRa3xM",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 23,
+      "values": {
+        "Experimento": "Pagos y suscripciones (experimento)",
+        "Task": "Implementar estado “pre-suscrito” (captura de tarjeta + pendiente de aprobación)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "3",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-opYGPRa3xM"
+    },
+    {
+      "id": "i-x21JWfPJT9",
+      "name": "Pagos y suscripciones (experimento)",
+      "index": 24,
+      "values": {
+        "Experimento": "Pagos y suscripciones (experimento)",
+        "Task": "SOP de aprobaciones (criterios, quién aprueba, qué evidencia queda)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "3",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-x21JWfPJT9"
+    },
+    {
+      "id": "i-qhTyFU6jXP",
+      "name": "Políticas del piloto (confianza y control)",
+      "index": 25,
+      "values": {
+        "Experimento": "Políticas del piloto (confianza y control)",
+        "Task": "Políticas: cancelación, reprogramación y no-show",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "4",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-qhTyFU6jXP"
+    },
+    {
+      "id": "i-u_YIt52V_r",
+      "name": "Políticas del piloto (confianza y control)",
+      "index": 26,
+      "values": {
+        "Experimento": "Políticas del piloto (confianza y control)",
+        "Task": "Políticas: garantía del trabajo y retrabajos",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "4",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-u_YIt52V_r"
+    },
+    {
+      "id": "i-RgTSjwDcPT",
+      "name": "Políticas del piloto (confianza y control)",
+      "index": 27,
+      "values": {
+        "Experimento": "Políticas del piloto (confianza y control)",
+        "Task": "Política de materiales: quién compra, cómo se factura, evidencia (fotos/recibos)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "4",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-RgTSjwDcPT"
+    },
+    {
+      "id": "i-TUuR-vL56g",
+      "name": "Políticas del piloto (confianza y control)",
+      "index": 28,
+      "values": {
+        "Experimento": "Políticas del piloto (confianza y control)",
+        "Task": "Política de “daños y responsabilidad” (riesgos típicos y cómo se maneja)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "4",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-TUuR-vL56g"
+    },
+    {
+      "id": "i-nacpGl1TWs",
+      "name": "Técnicos y ejecución en campo (experimento)",
+      "index": 29,
+      "values": {
+        "Experimento": "Técnicos y ejecución en campo (experimento)",
+        "Task": "Definir criterios de reclutamiento/selección de técnicos",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "5",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-nacpGl1TWs"
+    },
+    {
+      "id": "i-X_Bah9gO8Q",
+      "name": "Técnicos y ejecución en campo (experimento)",
+      "index": 30,
+      "values": {
+        "Experimento": "Técnicos y ejecución en campo (experimento)",
+        "Task": "Armar kit del técnico (uniforme mínimo, herramientas, consumibles)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "5",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-X_Bah9gO8Q"
+    },
+    {
+      "id": "i-t9Gu6bE_p9",
+      "name": "Técnicos y ejecución en campo (experimento)",
+      "index": 31,
+      "values": {
+        "Experimento": "Técnicos y ejecución en campo (experimento)",
+        "Task": "Checklist de visita (antes/durante/después)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "5",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-t9Gu6bE_p9"
+    },
+    {
+      "id": "i-0_7JE1ZtZb",
+      "name": "Técnicos y ejecución en campo (experimento)",
+      "index": 32,
+      "values": {
+        "Experimento": "Técnicos y ejecución en campo (experimento)",
+        "Task": "Estandarizar reporte técnico con fotos (antes/después)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "5",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-0_7JE1ZtZb"
+    },
+    {
+      "id": "i-FQCd8RFe3d",
+      "name": "Técnicos y ejecución en campo (experimento)",
+      "index": 33,
+      "values": {
+        "Experimento": "Técnicos y ejecución en campo (experimento)",
+        "Task": "Definir rol de ayudante: tareas, tiempos, costo por servicio",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "5",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-FQCd8RFe3d"
+    },
+    {
+      "id": "i-5wPcreIMcS",
+      "name": "Técnicos y ejecución en campo (experimento)",
+      "index": 34,
+      "values": {
+        "Experimento": "Técnicos y ejecución en campo (experimento)",
+        "Task": "SOP: control de calidad (QA) y auditoría aleatoria de servicios",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "5",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-5wPcreIMcS"
+    },
+    {
+      "id": "i-u8dafwRt1W",
+      "name": "Core / Tablero piloto (operación mínima)",
+      "index": 35,
+      "values": {
+        "Experimento": "Core / Tablero piloto (operación mínima)",
+        "Task": "Definir estructura del “Tablero Piloto” (Airtable/Sheets)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "6",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-u8dafwRt1W"
+    },
+    {
+      "id": "i-KOJ_bFyUtl",
+      "name": "Core / Tablero piloto (operación mínima)",
+      "index": 36,
+      "values": {
+        "Experimento": "Core / Tablero piloto (operación mínima)",
+        "Task": "Crear tablas: Clientes, Equipos, Órdenes, Pagos, Técnicos, Inventario básico",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "6",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-KOJ_bFyUtl"
+    },
+    {
+      "id": "i-iGREHr942_",
+      "name": "Core / Tablero piloto (operación mínima)",
+      "index": 37,
+      "values": {
+        "Experimento": "Core / Tablero piloto (operación mínima)",
+        "Task": "Crear vistas: Pipeline (intake→agendado→en ruta→en sitio→cerrado)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "6",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-iGREHr942_"
+    },
+    {
+      "id": "i-IwCZ5dVbJA",
+      "name": "Core / Tablero piloto (operación mínima)",
+      "index": 38,
+      "values": {
+        "Experimento": "Core / Tablero piloto (operación mínima)",
+        "Task": "Automatizaciones mínimas (recordatorios, seguimiento, alertas de no-show)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "6",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-IwCZ5dVbJA"
+    },
+    {
+      "id": "i-wQX47SbpcN",
+      "name": "Core / Tablero piloto (operación mínima)",
+      "index": 39,
+      "values": {
+        "Experimento": "Core / Tablero piloto (operación mínima)",
+        "Task": "Plantilla de “pasaporte del equipo” (historial de mantenimientos)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "6",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-wQX47SbpcN"
+    },
+    {
+      "id": "i-7u_FsU7S8Z",
+      "name": "Marketing y adquisición (experimento)",
+      "index": 40,
+      "values": {
+        "Experimento": "Marketing y adquisición (experimento)",
+        "Task": "Definir oferta de entrada (mensaje corto + CTA)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "7",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-7u_FsU7S8Z"
+    },
+    {
+      "id": "i-Ht6UA6_xtk",
+      "name": "Marketing y adquisición (experimento)",
+      "index": 41,
+      "values": {
+        "Experimento": "Marketing y adquisición (experimento)",
+        "Task": "Lista de canales del piloto (grupos, admins/aliados, referidos)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "7",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-Ht6UA6_xtk"
+    },
+    {
+      "id": "i-ZwxIniC6Fb",
+      "name": "Marketing y adquisición (experimento)",
+      "index": 42,
+      "values": {
+        "Experimento": "Marketing y adquisición (experimento)",
+        "Task": "Crear tracking de leads (fuente, costo, conversión)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "7",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-ZwxIniC6Fb"
+    },
+    {
+      "id": "i-rs2MZSNyUt",
+      "name": "Marketing y adquisición (experimento)",
+      "index": 43,
+      "values": {
+        "Experimento": "Marketing y adquisición (experimento)",
+        "Task": "Paquete de referidos (reglas + mensaje + código simple)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "7",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-rs2MZSNyUt"
+    },
+    {
+      "id": "i-idiZwY4ihO",
+      "name": "Marketing y adquisición (experimento)",
+      "index": 44,
+      "values": {
+        "Experimento": "Marketing y adquisición (experimento)",
+        "Task": "Script para aliados/admins (qué ganan y cómo se activa)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "7",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-idiZwY4ihO"
+    },
+    {
+      "id": "i-F2pDG9eKBy",
+      "name": "CX y retención (experimento)",
+      "index": 45,
+      "values": {
+        "Experimento": "CX y retención (experimento)",
+        "Task": "Encuesta post-servicio (3–5 preguntas)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "8",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-F2pDG9eKBy"
+    },
+    {
+      "id": "i-BtNZEzkvWP",
+      "name": "CX y retención (experimento)",
+      "index": 46,
+      "values": {
+        "Experimento": "CX y retención (experimento)",
+        "Task": "Playbook de recuperación (quejas, retrasos, rework, reembolso parcial)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "8",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-BtNZEzkvWP"
+    },
+    {
+      "id": "i-jiI3FFe8NP",
+      "name": "CX y retención (experimento)",
+      "index": 47,
+      "values": {
+        "Experimento": "CX y retención (experimento)",
+        "Task": "Flujo de reseñas (Google/WhatsApp) + timing",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "8",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-jiI3FFe8NP"
+    },
+    {
+      "id": "i--cjS7c9Zm4",
+      "name": "Analítica y aprendizaje (experimento)",
+      "index": 48,
+      "values": {
+        "Experimento": "Analítica y aprendizaje (experimento)",
+        "Task": "Dashboard semanal (servicios, margen, NPS, rework, no-show, SLA)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "9",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui--cjS7c9Zm4"
+    },
+    {
+      "id": "i-KLiHRO5suE",
+      "name": "Analítica y aprendizaje (experimento)",
+      "index": 49,
+      "values": {
+        "Experimento": "Analítica y aprendizaje (experimento)",
+        "Task": "Reunión semanal de retro (agenda + notas + decisiones)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "9",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-KLiHRO5suE"
+    },
+    {
+      "id": "i-LSm3WLFUzm",
+      "name": "Analítica y aprendizaje (experimento)",
+      "index": 50,
+      "values": {
+        "Experimento": "Analítica y aprendizaje (experimento)",
+        "Task": "Log de experimentos (qué cambiamos, por qué, resultado)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "9",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-LSm3WLFUzm"
+    },
+    {
+      "id": "i-Es1LkxUDsA",
+      "name": "Legal/Administrativo (higiene mínima)",
+      "index": 51,
+      "values": {
+        "Experimento": "Legal/Administrativo (higiene mínima)",
+        "Task": "NDA/contratos base para técnicos/aliados (si aplica)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "10",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-Es1LkxUDsA"
+    },
+    {
+      "id": "i-DIZvJiKb3l",
+      "name": "Legal/Administrativo (higiene mínima)",
+      "index": 52,
+      "values": {
+        "Experimento": "Legal/Administrativo (higiene mínima)",
+        "Task": "Términos de servicio del piloto (versión corta)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "10",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-DIZvJiKb3l"
+    },
+    {
+      "id": "i-7eGtVW4DsP",
+      "name": "Legal/Administrativo (higiene mínima)",
+      "index": 53,
+      "values": {
+        "Experimento": "Legal/Administrativo (higiene mínima)",
+        "Task": "Política de privacidad para captura de datos (versión corta)",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "10",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY/_rui-7eGtVW4DsP"
+    }
+  ]
+}

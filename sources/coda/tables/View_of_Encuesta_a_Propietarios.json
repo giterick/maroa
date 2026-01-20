@@ -1,0 +1,976 @@
+{
+  "table": {
+    "id": "table-Eemq7tTmD3",
+    "name": "View of Encuesta a Propietarios",
+    "type": "view",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3"
+  },
+  "columns": [
+    {
+      "id": "c-AL65mnlAon",
+      "name": "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?",
+      "type": "scale"
+    },
+    {
+      "id": "c-ub1yvmB-1K",
+      "name": "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?",
+      "type": "scale"
+    },
+    {
+      "id": "c-o9yaxqtWWd",
+      "name": "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?",
+      "type": "scale"
+    },
+    {
+      "id": "c-cr0Nwz5EwQ",
+      "name": "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?",
+      "type": "scale"
+    },
+    {
+      "id": "c-lOss0UFLGF",
+      "name": "Marca los factores más importantes al elegir un técnico (puedes elegir varios).",
+      "type": "select"
+    },
+    {
+      "id": "c-lKIkzQeO5o",
+      "name": "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)",
+      "type": "select"
+    },
+    {
+      "id": "c-wTe8A_ITGZ",
+      "name": "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?",
+      "type": "select"
+    },
+    {
+      "id": "c-1RHNfe71Gs",
+      "name": "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)",
+      "type": "currency"
+    },
+    {
+      "id": "c-hWaZq9ovpp",
+      "name": "Notes",
+      "type": "canvas"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-70fjZSFjdj",
+      "name": "3",
+      "index": 53,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Puntualidad,Calidad del trabajo,Confianza / Reputación,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$500.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-70fjZSFjdj"
+    },
+    {
+      "id": "i-n3zGFtcU2O",
+      "name": "3",
+      "index": 52,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Puntualidad,Confianza / Reputación,Calidad del trabajo,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$500.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-n3zGFtcU2O"
+    },
+    {
+      "id": "i-8CGb7yWmAA",
+      "name": "2",
+      "index": 51,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "2",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "2",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "2",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Calidad del trabajo,Confianza / Reputación,Disponibilidad rápida",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$620.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-8CGb7yWmAA"
+    },
+    {
+      "id": "i-0cTUKf1ram",
+      "name": "3",
+      "index": 50,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "4",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "4",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Confianza / Reputación,Disponibilidad rápida,Garantía del servicio,Puntualidad,Precio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$0.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-0cTUKf1ram"
+    },
+    {
+      "id": "i-E-M7uvl8GQ",
+      "name": "3",
+      "index": 49,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Garantía del servicio,Calidad del trabajo,Confianza / Reputación",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$2,000.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-E-M7uvl8GQ"
+    },
+    {
+      "id": "i-2gBJvyCxvj",
+      "name": "3",
+      "index": 48,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "3",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Calidad del trabajo,Confianza / Reputación,Precio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$1,000.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-2gBJvyCxvj"
+    },
+    {
+      "id": "i-bnkhv_Vudr",
+      "name": "3",
+      "index": 47,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Garantía del servicio,Confianza / Reputación,Calidad del trabajo",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$200.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-bnkhv_Vudr"
+    },
+    {
+      "id": "i-Rzq2dEquYC",
+      "name": "3",
+      "index": 46,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "4",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Confianza / Reputación,Puntualidad",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$100.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-Rzq2dEquYC"
+    },
+    {
+      "id": "i-lr8Snj0SAb",
+      "name": "3",
+      "index": 45,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Puntualidad,Calidad del trabajo,Disponibilidad rápida,Confianza / Reputación,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$650.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-lr8Snj0SAb"
+    },
+    {
+      "id": "i-ijAi3ElXqR",
+      "name": "2",
+      "index": 44,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Calidad del trabajo,Confianza / Reputación,Garantía del servicio,Puntualidad",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Tener garantía",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$500.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-ijAi3ElXqR"
+    },
+    {
+      "id": "i-u8pGQEGQCv",
+      "name": "3",
+      "index": 43,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "4",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Calidad del trabajo,Puntualidad,Confianza / Reputación,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Tener garantía",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$0.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-u8pGQEGQCv"
+    },
+    {
+      "id": "i-6Y9xMNKa7Z",
+      "name": "3",
+      "index": 42,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "2",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Puntualidad,Calidad del trabajo,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Ahorrar tiempo",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$0.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-6Y9xMNKa7Z"
+    },
+    {
+      "id": "i-63wZHvXWEO",
+      "name": "3",
+      "index": 41,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "3",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Calidad del trabajo,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Ahorrar dinero",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$0.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-63wZHvXWEO"
+    },
+    {
+      "id": "i-8FAxFfHoUJ",
+      "name": "3",
+      "index": 40,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "3",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "3",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Calidad del trabajo,Confianza / Reputación,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$0.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-8FAxFfHoUJ"
+    },
+    {
+      "id": "i-zW9JRxcUiI",
+      "name": "2",
+      "index": 39,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "4",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Calidad del trabajo,Confianza / Reputación,Garantía del servicio,Disponibilidad rápida",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pregunto en grupos de WhatsApp/Facebook,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Ahorrar tiempo",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$0.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-zW9JRxcUiI"
+    },
+    {
+      "id": "i-OaU-FlgHB6",
+      "name": "2",
+      "index": 38,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "4",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Precio,Puntualidad,Confianza / Reputación,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$40.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-OaU-FlgHB6"
+    },
+    {
+      "id": "i-xfz_DHfW0n",
+      "name": "3",
+      "index": 37,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$0.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-xfz_DHfW0n"
+    },
+    {
+      "id": "i-4qmWP0ZIq6",
+      "name": "3",
+      "index": 36,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "2",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "1",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "4",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Calidad del trabajo,Confianza / Reputación,Garantía del servicio,Disponibilidad rápida,Precio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$150.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-4qmWP0ZIq6"
+    },
+    {
+      "id": "i-SUWkInVehr",
+      "name": "2",
+      "index": 35,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "2",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "2",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "4",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Confianza / Reputación,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$600.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-SUWkInVehr"
+    },
+    {
+      "id": "i-c98VlG4Vai",
+      "name": "3",
+      "index": 34,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Calidad del trabajo,Confianza / Reputación,Disponibilidad rápida,Garantía del servicio,Puntualidad",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Busco en Google,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$1,000.09",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-c98VlG4Vai"
+    },
+    {
+      "id": "i--U0GoayRJ_",
+      "name": "3",
+      "index": 33,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Confianza / Reputación,Garantía del servicio,Calidad del trabajo,Disponibilidad rápida",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$200.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui--U0GoayRJ_"
+    },
+    {
+      "id": "i-rBTd8Y5FK-",
+      "name": "2",
+      "index": 32,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "1",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "1",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "1",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Tener garantía",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$0.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-rBTd8Y5FK-"
+    },
+    {
+      "id": "i-B5AWkvvUOd",
+      "name": "2",
+      "index": 31,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "4",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Confianza / Reputación,Calidad del trabajo,Disponibilidad rápida,Garantía del servicio,Precio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$100.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-B5AWkvvUOd"
+    },
+    {
+      "id": "i-tECvxAq1Nu",
+      "name": "3",
+      "index": 30,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "1",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Puntualidad,Calidad del trabajo,Confianza / Reputación,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$1,000.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-tECvxAq1Nu"
+    },
+    {
+      "id": "i-vU84YCnQDC",
+      "name": "3",
+      "index": 29,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Confianza / Reputación,Calidad del trabajo,Precio,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$250.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-vU84YCnQDC"
+    },
+    {
+      "id": "i-PmNzEPU9aH",
+      "name": "2",
+      "index": 28,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Confianza / Reputación",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$50.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-PmNzEPU9aH"
+    },
+    {
+      "id": "i-S3mPa0hB6T",
+      "name": "2",
+      "index": 27,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Puntualidad,Precio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$250.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-S3mPa0hB6T"
+    },
+    {
+      "id": "i-s3-78sn687",
+      "name": "3",
+      "index": 26,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "2",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Confianza / Reputación,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pregunto en grupos de WhatsApp/Facebook,Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$125.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-s3-78sn687"
+    },
+    {
+      "id": "i-R-D2Ja0LQV",
+      "name": "2",
+      "index": 25,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "2",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "4",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "4",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Calidad del trabajo,Confianza / Reputación",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$500.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-R-D2Ja0LQV"
+    },
+    {
+      "id": "i-SBXyOlVUP4",
+      "name": "3",
+      "index": 24,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "2",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "2",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Calidad del trabajo,Puntualidad,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Ahorrar dinero",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$500.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-SBXyOlVUP4"
+    },
+    {
+      "id": "i-JCEbpOD6Ah",
+      "name": "2",
+      "index": 23,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "1",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "1",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Confianza / Reputación,Disponibilidad rápida,Precio,Puntualidad",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$1,500.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-JCEbpOD6Ah"
+    },
+    {
+      "id": "i-G3pG8xN07L",
+      "name": "2",
+      "index": 22,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "2",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Confianza / Reputación,Calidad del trabajo,Garantía del servicio,Precio,Disponibilidad rápida",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Tener garantía",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$200.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-G3pG8xN07L"
+    },
+    {
+      "id": "i-00hFgn1Oab",
+      "name": "3",
+      "index": 21,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Calidad del trabajo,Disponibilidad rápida",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Llamo a técnicos conocidos,Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$200.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-00hFgn1Oab"
+    },
+    {
+      "id": "i-AAao7Yn4s5",
+      "name": "2",
+      "index": 20,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "4",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "4",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Calidad del trabajo,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Tener garantía",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$1,000.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-AAao7Yn4s5"
+    },
+    {
+      "id": "i-WKb3wIJaOn",
+      "name": "2",
+      "index": 19,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "3",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Confianza / Reputación,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Ahorrar dinero",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$250.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-WKb3wIJaOn"
+    },
+    {
+      "id": "i-QDJRpI5lox",
+      "name": "3",
+      "index": 18,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "3",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Calidad del trabajo,Puntualidad,Confianza / Reputación,Garantía del servicio,Disponibilidad rápida",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$300.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-QDJRpI5lox"
+    },
+    {
+      "id": "i-v6Mga_dScn",
+      "name": "3",
+      "index": 17,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Puntualidad,Calidad del trabajo,Confianza / Reputación,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-v6Mga_dScn"
+    },
+    {
+      "id": "i-eZGQPo9FEL",
+      "name": "2",
+      "index": 16,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "2",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "2",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "1",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Disponibilidad rápida,Precio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pregunto en grupos de WhatsApp/Facebook,Busco en Google",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$0.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-eZGQPo9FEL"
+    },
+    {
+      "id": "i-IrAmpnSMoh",
+      "name": "3",
+      "index": 15,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "2",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "1",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "1",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Puntualidad,Calidad del trabajo,Confianza / Reputación,Garantía del servicio,Disponibilidad rápida",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-IrAmpnSMoh"
+    },
+    {
+      "id": "i-PW9uW4UHEb",
+      "name": "3",
+      "index": 14,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "1",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "1",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Puntualidad,Calidad del trabajo,Garantía del servicio,Confianza / Reputación",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Llamo a técnicos conocidos,Busco en Google",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Tener garantía",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$600.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-PW9uW4UHEb"
+    },
+    {
+      "id": "i-zZh3vtFFgi",
+      "name": "2",
+      "index": 13,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Precio,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-zZh3vtFFgi"
+    },
+    {
+      "id": "i-j-KWnbUFRs",
+      "name": "3",
+      "index": 12,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "4",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Disponibilidad rápida,Confianza / Reputación,Garantía del servicio,Calidad del trabajo,Puntualidad",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$2,000.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-j-KWnbUFRs"
+    },
+    {
+      "id": "i-TRztDbBJUw",
+      "name": "3",
+      "index": 11,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Calidad del trabajo,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Tener garantía",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$600.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-TRztDbBJUw"
+    },
+    {
+      "id": "i-_Pc8qJLQxg",
+      "name": "4",
+      "index": 10,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "4",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "3",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "2",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "3",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Confianza / Reputación,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$995.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-_Pc8qJLQxg"
+    },
+    {
+      "id": "i-FT8lxaOtKs",
+      "name": "",
+      "index": 9,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "2",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "4",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Calidad del trabajo",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$1,000.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-FT8lxaOtKs"
+    },
+    {
+      "id": "i-bhB30buOsB",
+      "name": "3",
+      "index": 8,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Tener garantía",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-bhB30buOsB"
+    },
+    {
+      "id": "i-PgngaeTwbI",
+      "name": "2",
+      "index": 7,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "3",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "3",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Calidad del trabajo,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-PgngaeTwbI"
+    },
+    {
+      "id": "i-OpKGqDdN2i",
+      "name": "2",
+      "index": 6,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "1",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Confianza / Reputación,Calidad del trabajo,Puntualidad,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Mayor confiabilidad",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-OpKGqDdN2i"
+    },
+    {
+      "id": "i-8fCfNzKaj4",
+      "name": "3",
+      "index": 5,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "4",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "4",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "4",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Confianza / Reputación,Puntualidad",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Pregunto en grupos de WhatsApp/Facebook",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$1,000.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-8fCfNzKaj4"
+    },
+    {
+      "id": "i-vg6L5p2AEW",
+      "name": "4",
+      "index": 4,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "4",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Precio,Puntualidad,Disponibilidad rápida,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$500.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-vg6L5p2AEW"
+    },
+    {
+      "id": "i-y3AcNTBYrW",
+      "name": "2",
+      "index": 3,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Calidad del trabajo,Confianza / Reputación,Garantía del servicio,Precio,Puntualidad,Disponibilidad rápida",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Tener garantía",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$200.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-y3AcNTBYrW"
+    },
+    {
+      "id": "i-uV4n04uRBl",
+      "name": "3",
+      "index": 2,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "2",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "1",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "1",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Calidad del trabajo,Confianza / Reputación",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Ahorrar dinero",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$0.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-uV4n04uRBl"
+    },
+    {
+      "id": "i-d001sVlwFh",
+      "name": "2",
+      "index": 1,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "2",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "5",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "5",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Confianza / Reputación,Calidad del trabajo,Puntualidad,Precio,Garantía del servicio",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Gestionar todo en un solo lugar",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$300.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-d001sVlwFh"
+    },
+    {
+      "id": "i-7_8Cb9ADQ-",
+      "name": "3",
+      "index": 0,
+      "values": {
+        "¿Con qué frecuencia necesitas llamar a un técnico (ej. aire acondicionado, plomería, electricidad, etc.)?": "3",
+        "¿Cuánto tiempo promedio tardas hoy en encontrar y coordinar un técnico confiable?": "5",
+        "¿Qué tan frustrante resulta para ti este proceso de búsqueda y coordinación?": "4",
+        "¿Qué impacto tiene en tu vida/negocio cuando el técnico falla (llega tarde, no aparece o hace un mal trabajo)?": "3",
+        "Marca los factores más importantes al elegir un técnico (puedes elegir varios).": "Puntualidad,Calidad del trabajo,Disponibilidad rápida",
+        "¿Qué haces actualmente para encontrar o contratar un técnico? (elige todas las que apliquen)": "Pido recomendaciones a amigos/familia,Llamo a técnicos conocidos",
+        "Si pudieras “contratar” la solución ideal, ¿cuál sería tu principal motivación?": "Ahorrar tiempo",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con técnicos verificados, con precios claros y garantía de servicio? (RD$)": "$100.00",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3/_rui-7_8Cb9ADQ-"
+    }
+  ]
+}

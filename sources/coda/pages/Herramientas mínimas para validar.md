@@ -1,2 +1,0 @@
-# Herramientas mínimas para validar
-

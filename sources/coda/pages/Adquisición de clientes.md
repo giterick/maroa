@@ -1,2 +1,0 @@
-# Adquisición de clientes
-

@@ -1,0 +1,43 @@
+{
+  "table": {
+    "id": "grid-Y38W77kH-b",
+    "name": "Who",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-Y38W77kH-b"
+  },
+  "columns": [
+    {
+      "id": "c-j-4vvR2zz0",
+      "name": "Persona",
+      "type": "text"
+    },
+    {
+      "id": "c-bfNN72Dlpf",
+      "name": "Declaración “Quién?” (plantilla completada)",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-7PK3lGHOaf",
+      "name": "A. Dueño de hogar / Admin de oficina",
+      "index": 0,
+      "values": {
+        "Persona": "A. Dueño de hogar / Admin de oficina",
+        "Declaración “Quién?” (plantilla completada)": "Para los propietarios de viviendas y gestores de pequeños negocios que no están satisfechos con la carga mental, los gastos sorpresa y el tiempo perdido al coordinar múltiples cuidados y pagos dispersos, Maroa ofrece un asistente proactivo tipo “peace-of-mind as a service” que orquesta recordatorios, conecta proveedores verificados y cierra el ciclo de principio a fin en minutos."
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-Y38W77kH-b/_rui-7PK3lGHOaf"
+    },
+    {
+      "id": "i-2PTnqbvdRP",
+      "name": "B. Técnico independiente / Pyme de servicios",
+      "index": 1,
+      "values": {
+        "Persona": "B. Técnico independiente / Pyme de servicios",
+        "Declaración “Quién?” (plantilla completada)": "Para los técnicos y microempresas de mantenimiento que no están satisfechos con la dificultad de conseguir clientes regulares y optimizar su agenda, causada por la fragmentación de la demanda y baja visibilidad digital, Maroa ofrece un marketplace con leads calificados y programación inteligente que dispara horas facturables y reduce tiempos muertos sin inversión inicial."
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-Y38W77kH-b/_rui-2PTnqbvdRP"
+    }
+  ]
+}

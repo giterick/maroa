@@ -1,2 +1,0 @@
-# Long List Ideas Solution
-

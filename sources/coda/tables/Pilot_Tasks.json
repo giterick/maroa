@@ -1,0 +1,738 @@
+{
+  "table": {
+    "id": "grid-VYNnySLec6",
+    "name": "Pilot Tasks",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6"
+  },
+  "columns": [
+    {
+      "id": "c-06GA7GheB_",
+      "name": "Task",
+      "type": "text"
+    },
+    {
+      "id": "c-eZqAWBtIrB",
+      "name": "Owner",
+      "type": "person"
+    },
+    {
+      "id": "c-lYEuP77-Zi",
+      "name": "Status",
+      "type": "select"
+    },
+    {
+      "id": "c-9_S8vQnkwY",
+      "name": "Due date",
+      "type": "date"
+    },
+    {
+      "id": "c-IlmaHpFzG7",
+      "name": "Hipótesis",
+      "type": "text"
+    },
+    {
+      "id": "c-db6PFkuOXN",
+      "name": "Experimento",
+      "type": "select"
+    },
+    {
+      "id": "c-E7X_meu7TH",
+      "name": "Notas",
+      "type": "canvas"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-wQI3Kz26Aq",
+      "name": "(Opcional) si hay data suficiente: estimación simple de payback/CAC",
+      "index": 43,
+      "values": {
+        "Task": "(Opcional) si hay data suficiente: estimación simple de payback/CAC",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "1, 5",
+        "Experimento": "Adquisición de clientes (llenar el piloto)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-wQI3Kz26Aq"
+    },
+    {
+      "id": "i-FhdIS09Ncj",
+      "name": "Momento de pedir referido definido (al agendar y post-servicio) + script corto",
+      "index": 42,
+      "values": {
+        "Task": "Momento de pedir referido definido (al agendar y post-servicio) + script corto",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2025-12-26T00:00:00.000-04:00",
+        "Hipótesis": "1, 5",
+        "Experimento": "Adquisición de clientes (llenar el piloto)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-FhdIS09Ncj"
+    },
+    {
+      "id": "i-zNh27UMjpj",
+      "name": "Definición del gancho (1 párrafo): alcance + promesa ‘cero drama’ + zona + cupo",
+      "index": 41,
+      "values": {
+        "Task": "Definición del gancho (1 párrafo): alcance + promesa ‘cero drama’ + zona + cupo",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2025-12-26T00:00:00.000-04:00",
+        "Hipótesis": "1, 5",
+        "Experimento": "Adquisición de clientes (llenar el piloto)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-zNh27UMjpj"
+    },
+    {
+      "id": "i-jVLAa4RiEy",
+      "name": "Cadencia mínima de ejecución",
+      "index": 26,
+      "values": {
+        "Task": "Cadencia mínima de ejecución",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2025-12-22T00:00:00.000-04:00",
+        "Hipótesis": "",
+        "Experimento": "Adquisición de clientes (llenar el piloto)",
+        "Notas": "Rutina diaria de outreach + follow-ups\nRevisión semanal de resultados por canal\n"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-jVLAa4RiEy"
+    },
+    {
+      "id": "i-Yp_WbdWAW3",
+      "name": "Kit mínimo de adquisición (para copy/paste)",
+      "index": 28,
+      "values": {
+        "Task": "Kit mínimo de adquisición (para copy/paste)",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2025-12-22T00:00:00.000-04:00",
+        "Hipótesis": "1, 5",
+        "Experimento": "Adquisición de clientes (llenar el piloto)",
+        "Notas": "Kit mínimo de adquisición (para copy/paste):\nMensajes listos para amigos/conocidos\nMensajes listos para grupos de WhatsApp (residenciales / vecinos / comunidad)\nMensaje para administradores / property managers / aliados\nFAQ corta + CTA (“responde ‘Maroa’ para agendar”)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-Yp_WbdWAW3"
+    },
+    {
+      "id": "i-AdPH6UbHJM",
+      "name": "Crear NotebookLM con los documentos del piloto y otro documentos de Maroa",
+      "index": 45,
+      "values": {
+        "Task": "Crear NotebookLM con los documentos del piloto y otro documentos de Maroa",
+        "Owner": "Erick Santana",
+        "Status": "Planned",
+        "Due date": "",
+        "Hipótesis": "",
+        "Experimento": "Administración General",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-AdPH6UbHJM"
+    },
+    {
+      "id": "i-nY9K2TOv_3",
+      "name": "Dashboard con OKRs",
+      "index": 44,
+      "values": {
+        "Task": "Dashboard con OKRs",
+        "Owner": "Erick Santana",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "",
+        "Experimento": "Administración General",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-nY9K2TOv_3"
+    },
+    {
+      "id": "i-SfUoeimhdJ",
+      "name": "Ritual de reunión semanal del piloto",
+      "index": 40,
+      "values": {
+        "Task": "Ritual de reunión semanal del piloto",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "5",
+        "Experimento": "Medición y feedback",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-SfUoeimhdJ"
+    },
+    {
+      "id": "i-oDVDXNamfc",
+      "name": "Registro de fricciones",
+      "index": 39,
+      "values": {
+        "Task": "Registro de fricciones",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "5",
+        "Experimento": "Medición y feedback",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-oDVDXNamfc"
+    },
+    {
+      "id": "i-PIFGs7XLht",
+      "name": "Guía de llamadas “momento wow”",
+      "index": 38,
+      "values": {
+        "Task": "Guía de llamadas “momento wow”",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "5",
+        "Experimento": "Medición y feedback",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-PIFGs7XLht"
+    },
+    {
+      "id": "i-iXJbycG_wh",
+      "name": "Encuesta posservicio",
+      "index": 37,
+      "values": {
+        "Task": "Encuesta posservicio",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "5",
+        "Experimento": "Medición y feedback",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-iXJbycG_wh"
+    },
+    {
+      "id": "i--X-DA9ctGp",
+      "name": "Definición de waiver o seguro simple (si aplica)",
+      "index": 36,
+      "values": {
+        "Task": "Definición de waiver o seguro simple (si aplica)",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Experimento": "Seguridad y riesgos",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui--X-DA9ctGp"
+    },
+    {
+      "id": "i-UgP5ku-lMT",
+      "name": "Política de fotos y privacidad",
+      "index": 35,
+      "values": {
+        "Task": "Política de fotos y privacidad",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Experimento": "Seguridad y riesgos",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-UgP5ku-lMT"
+    },
+    {
+      "id": "i-nrD0FB043v",
+      "name": "Protocolo de incidentes y reclamos",
+      "index": 34,
+      "values": {
+        "Task": "Protocolo de incidentes y reclamos",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Experimento": "Seguridad y riesgos",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-nrD0FB043v"
+    },
+    {
+      "id": "i-FQdmfgzzhz",
+      "name": "Protocolo de acceso a residenciales",
+      "index": 33,
+      "values": {
+        "Task": "Protocolo de acceso a residenciales",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "2",
+        "Experimento": "Seguridad y riesgos",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-FQdmfgzzhz"
+    },
+    {
+      "id": "i-BjUtYTOAzO",
+      "name": "Definición de caja mínima para contingencias",
+      "index": 32,
+      "values": {
+        "Task": "Definición de caja mínima para contingencias",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "4",
+        "Experimento": "Finanzas unitarias (núcleo de decisión)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-BjUtYTOAzO"
+    },
+    {
+      "id": "i-2lPEjvIOkH",
+      "name": "Reporte semanal de margen",
+      "index": 31,
+      "values": {
+        "Task": "Reporte semanal de margen",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "4",
+        "Experimento": "Finanzas unitarias (núcleo de decisión)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-2lPEjvIOkH"
+    },
+    {
+      "id": "i-b_YN-EWpSC",
+      "name": "Pricing de correctivos",
+      "index": 30,
+      "values": {
+        "Task": "Pricing de correctivos",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "4",
+        "Experimento": "Finanzas unitarias (núcleo de decisión)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-b_YN-EWpSC"
+    },
+    {
+      "id": "i-hUzOCLNyAZ",
+      "name": "Estructura de costos por servicio",
+      "index": 29,
+      "values": {
+        "Task": "Estructura de costos por servicio",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "4",
+        "Experimento": "Finanzas unitarias (núcleo de decisión)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-hUzOCLNyAZ"
+    },
+    {
+      "id": "i-86FeAbkv4W",
+      "name": "Esquema simple de referidos + mensaje post-servicio (activación)",
+      "index": 27,
+      "values": {
+        "Task": "Esquema simple de referidos + mensaje post-servicio (activación)",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2025-12-22T00:00:00.000-04:00",
+        "Hipótesis": "1",
+        "Experimento": "Adquisición de clientes (llenar el piloto)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-86FeAbkv4W"
+    },
+    {
+      "id": "i-HrDRd9AC2h",
+      "name": "Tracker simple de adquisición (pipeline)",
+      "index": 25,
+      "values": {
+        "Task": "Tracker simple de adquisición (pipeline)",
+        "Owner": "Erick Santana",
+        "Status": "Planned",
+        "Due date": "2026-01-14T00:00:00.000-04:00",
+        "Hipótesis": "1",
+        "Experimento": "Adquisición de clientes (llenar el piloto)",
+        "Notas": "Outreach → Interesado → Intake → Agendado → Completado → No fit \n(Regla: todo lead con próximo paso y fecha)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-HrDRd9AC2h"
+    },
+    {
+      "id": "i-eSc8yRY-Z6",
+      "name": "Formulario de captación mínima (o intake por WhatsApp)",
+      "index": 24,
+      "values": {
+        "Task": "Formulario de captación mínima (o intake por WhatsApp)",
+        "Owner": "Erick Santana",
+        "Status": "Planned",
+        "Due date": "2026-01-13T00:00:00.000-04:00",
+        "Hipótesis": "1",
+        "Experimento": "Adquisición de clientes (llenar el piloto)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-eSc8yRY-Z6"
+    },
+    {
+      "id": "i-nhgq41yWiu",
+      "name": "Canal interno de operaciones",
+      "index": 23,
+      "values": {
+        "Task": "Canal interno de operaciones",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2025-12-19T00:00:00.000-04:00",
+        "Hipótesis": "2, 4",
+        "Experimento": "Herramientas mínimas para validar",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-nhgq41yWiu"
+    },
+    {
+      "id": "i-sbU-qH9CZu",
+      "name": "Plantillas legales mínimas",
+      "index": 22,
+      "values": {
+        "Task": "Plantillas legales mínimas",
+        "Owner": "Erick Santana",
+        "Status": "Planned",
+        "Due date": "2026-01-15T00:00:00.000-04:00",
+        "Hipótesis": "2, 4",
+        "Experimento": "Herramientas mínimas para validar",
+        "Notas": "Plantillas legales mínimas:\nterms del piloto, autorización de trabajo, waiver"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-sbU-qH9CZu"
+    },
+    {
+      "id": "i-3kC6pA1xmj",
+      "name": "Tablero operativo ",
+      "index": 21,
+      "values": {
+        "Task": "Tablero operativo ",
+        "Owner": "Erick Santana",
+        "Status": "Planned",
+        "Due date": "2026-01-19T00:00:00.000-04:00",
+        "Hipótesis": "2, 4",
+        "Experimento": "Herramientas mínimas para validar",
+        "Notas": "Tablero operativo con:\nclientes, citas, técnicos, costos, estatus, incidencias"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-3kC6pA1xmj"
+    },
+    {
+      "id": "i-66G6HFNKgT",
+      "name": "Stack definido: WhatsApp Business + formulario + Sheet/CRM ligero",
+      "index": 20,
+      "values": {
+        "Task": "Stack definido: WhatsApp Business + formulario + Sheet/CRM ligero",
+        "Owner": "Erick Santana",
+        "Status": "Planned",
+        "Due date": "2026-01-16T00:00:00.000-04:00",
+        "Hipótesis": "2, 4",
+        "Experimento": "Herramientas mínimas para validar",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-66G6HFNKgT"
+    },
+    {
+      "id": "i-1gu6EF2rx7",
+      "name": "Protocolo de auditoría ligera ",
+      "index": 19,
+      "values": {
+        "Task": "Protocolo de auditoría ligera ",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "3",
+        "Experimento": "Calidad y estandarización",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-1gu6EF2rx7"
+    },
+    {
+      "id": "i-yXtczoHtJW",
+      "name": "Formato de “Reporte Maroa” posvisita",
+      "index": 18,
+      "values": {
+        "Task": "Formato de “Reporte Maroa” posvisita",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "3",
+        "Experimento": "Calidad y estandarización",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-yXtczoHtJW"
+    },
+    {
+      "id": "i-C1JL5IucYF",
+      "name": "Checklist de cierre",
+      "index": 17,
+      "values": {
+        "Task": "Checklist de cierre",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "3",
+        "Experimento": "Calidad y estandarización",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-C1JL5IucYF"
+    },
+    {
+      "id": "i-XoeIU5XSTf",
+      "name": "Checklist de mantenimiento A/C",
+      "index": 16,
+      "values": {
+        "Task": "Checklist de mantenimiento A/C",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "3",
+        "Experimento": "Calidad y estandarización",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-XoeIU5XSTf"
+    },
+    {
+      "id": "i-7638XrBuGe",
+      "name": "Manual técnico del piloto",
+      "index": 15,
+      "values": {
+        "Task": "Manual técnico del piloto",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "2, 3",
+        "Experimento": "Red de técnicos (capacidad mínima viable)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-7638XrBuGe"
+    },
+    {
+      "id": "i-IpcgSH9L-O",
+      "name": "Reglas claras de materiales ",
+      "index": 14,
+      "values": {
+        "Task": "Reglas claras de materiales ",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "2, 3",
+        "Experimento": "Red de técnicos (capacidad mínima viable)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-IpcgSH9L-O"
+    },
+    {
+      "id": "i-WlZ8IfdmAO",
+      "name": "Esquema de pago por servicio",
+      "index": 13,
+      "values": {
+        "Task": "Esquema de pago por servicio",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "2, 3",
+        "Experimento": "Red de técnicos (capacidad mínima viable)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-WlZ8IfdmAO"
+    },
+    {
+      "id": "i-4RgYG3_ZAs",
+      "name": "Checklist de selección",
+      "index": 12,
+      "values": {
+        "Task": "Checklist de selección",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "2, 3",
+        "Experimento": "Red de técnicos (capacidad mínima viable)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-4RgYG3_ZAs"
+    },
+    {
+      "id": "i-qbmNPPi56R",
+      "name": "Lista de técnicos activos y de backup",
+      "index": 11,
+      "values": {
+        "Task": "Lista de técnicos activos y de backup",
+        "Owner": "",
+        "Status": "Not started",
+        "Due date": "",
+        "Hipótesis": "2, 3",
+        "Experimento": "Red de técnicos (capacidad mínima viable)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-qbmNPPi56R"
+    },
+    {
+      "id": "i-W6fbLs9n91",
+      "name": "Regla operativa",
+      "index": 10,
+      "values": {
+        "Task": "Regla operativa",
+        "Owner": "Gabriella Bairan",
+        "Status": "Planned",
+        "Due date": "2026-01-16T00:00:00.000-04:00",
+        "Hipótesis": "2",
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-W6fbLs9n91"
+    },
+    {
+      "id": "i-Lcewpe0Bbz",
+      "name": "Plantillas operativas",
+      "index": 9,
+      "values": {
+        "Task": "Plantillas operativas",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2026-01-15T00:00:00.000-04:00",
+        "Hipótesis": "2",
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-Lcewpe0Bbz"
+    },
+    {
+      "id": "i-eZuf5iXmpq",
+      "name": "SLAs internos definidos",
+      "index": 8,
+      "values": {
+        "Task": "SLAs internos definidos",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2026-01-13T00:00:00.000-04:00",
+        "Hipótesis": "2",
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-eZuf5iXmpq"
+    },
+    {
+      "id": "i-KW0Hw6ThZX",
+      "name": "Guiones operativos",
+      "index": 7,
+      "values": {
+        "Task": "Guiones operativos",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2026-01-14T00:00:00.000-04:00",
+        "Hipótesis": "2",
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-KW0Hw6ThZX"
+    },
+    {
+      "id": "i-ffYHLfcXMU",
+      "name": "Flujo operativo end-to-end documentado",
+      "index": 6,
+      "values": {
+        "Task": "Flujo operativo end-to-end documentado",
+        "Owner": "Erick Santana",
+        "Status": "Done",
+        "Due date": "2025-12-17T00:00:00.000-04:00",
+        "Hipótesis": "2",
+        "Experimento": "Operación de Concierge (experiencia “cero drama”)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-ffYHLfcXMU"
+    },
+    {
+      "id": "i-5SsgeWzaSR",
+      "name": "Definición de método de pago y ciclo",
+      "index": 5,
+      "values": {
+        "Task": "Definición de método de pago y ciclo",
+        "Owner": "Erick Santana",
+        "Status": "Done",
+        "Due date": "2026-01-12T00:00:00.000-04:00",
+        "Hipótesis": "1, 4",
+        "Experimento": "Oferta y pricing (objeto de compra)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-5SsgeWzaSR"
+    },
+    {
+      "id": "i-q15Jm_i2no",
+      "name": "Políticas del piloto",
+      "index": 4,
+      "values": {
+        "Task": "Políticas del piloto",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2025-12-19T00:00:00.000-04:00",
+        "Hipótesis": "1, 4",
+        "Experimento": "Oferta y pricing (objeto de compra)",
+        "Notas": "Cancelación, reprogramación, no-show\nGarantía del trabajo y retrabajos"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-q15Jm_i2no"
+    },
+    {
+      "id": "i-M4O89S8W2Y",
+      "name": "Beneficios exclusivos del piloto (fundadores / early adopters)",
+      "index": 3,
+      "values": {
+        "Task": "Beneficios exclusivos del piloto (fundadores / early adopters)",
+        "Owner": "Erick Santana",
+        "Status": "Done",
+        "Due date": "2025-12-19T00:00:00.000-04:00",
+        "Hipótesis": "1, 4",
+        "Experimento": "Oferta y pricing (objeto de compra)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-M4O89S8W2Y"
+    },
+    {
+      "id": "i-moHzsjPT6V",
+      "name": "Documento “Definición del Piloto” ",
+      "index": 0,
+      "values": {
+        "Task": "Documento “Definición del Piloto” ",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2025-12-17T00:00:00.000-04:00",
+        "Hipótesis": "1, 2",
+        "Experimento": "Definición del piloto (baseline de validación)",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-moHzsjPT6V"
+    },
+    {
+      "id": "i-wYl4hJtyFh",
+      "name": "Matriz de criterios de éxito del piloto",
+      "index": 1,
+      "values": {
+        "Task": "Matriz de criterios de éxito del piloto",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2025-12-19T00:00:00.000-04:00",
+        "Hipótesis": "1, 2",
+        "Experimento": "Definición del piloto (baseline de validación)",
+        "Notas": "Qué es (y por qué no es “lo mismo que OKRs”)\nLos OKRs dicen qué quieren lograr a nivel macro (resultados/targets).\nLa Matriz de Criterios de Éxito del Piloto traduce eso a reglas operativas y de decisión: cómo se medirá cada experimento/hipótesis, con umbrales mínimos (go/no-go), definiciones exactas, fuentes de datos, y quién decide qué pasa si se cumple o no.\nEn pocas palabras: OKR = norte. Matriz = “pasamos o no pasamos” + cómo lo probamos sin ambigüedad.\n\nDeliverable esperado (lo que debe producir la persona)\nUna tabla matriz (1–3 páginas) que conecte:\nExperimento → hipótesis → métrica → criterio de éxito → decisión\nDocumento de definiciones (1 página) con:\nfórmulas, reglas de conteo, ventanas de medición, segmentos, etc.\n(Opcional pero ideal) Mini-dashboard (Google Sheet) que calcule automáticamente los criterios con datos del piloto.\n\nBrief para delegar (copypaste)\nObjetivo: Construir una Matriz de Criterios de Éxito del Piloto que convierta los OKRs y las hipótesis/experimentos en criterios medibles, con umbrales mínimos y reglas de decisión (Go / Pivot / Stop).\nResultado: Que al final del piloto podamos decidir con evidencia qué escalar, qué corregir y qué descartar, sin discusión semántica sobre métricas.\n\nOutline de la matriz (columnas recomendadas)\nPara cada hipótesis/experimento, incluir:\nA) Identificación\nID / Nombre del experimento\nHipótesis que valida\nOKR relacionado (link o código)\nSegmento / contexto (hogares, residenciales, tipo de A/C, zona)\nB) Métrica y definición (anti-ambigüedad)\nMétrica principal (1) y métricas secundarias (2–3)\nDefinición exacta (qué cuenta / qué no cuenta)\nFórmula (ej. % = numerador/denominador)\nVentana de medición (ej. 7 días post-servicio / 30 días de suscripción)\nFuente de datos (WhatsApp/Sheet/CRM/encuesta)\nCadencia (diaria/semanal/por servicio)\nC) Criterios de éxito (la parte clave)\nUmbral mínimo (Go/No-Go): lo mínimo aceptable para considerar “validado”\nObjetivo (target): lo deseado\nStretch: “excelente”\nCriterios de falla (“Red flags”): señales que obligan a pausar aunque se cumplan otras métricas\nRecomendación: usa 3 niveles para evitar “gris”:\nGo (validado)\nPivot (parcial / ajustar)\nStop (no validado / costo alto / riesgo)\nD) Requisitos de validez (para que el dato sea creíble)\nTamaño mínimo de muestra (ej. N servicios / N hogares / N tickets)\nSegmentación mínima (ej. separar correctivo vs preventivo)\nCriterio de calidad de datos (ej. % de reportes con fotos completas)\nSupuestos y limitaciones (ej. temporada alta/baja)\nE) Responsable y decisión\nOwner (quién mide)\nOwner de operación (quién ejecuta)\nFecha de corte / checkpoint\nDecisión preacordada si es Go / Pivot / Stop (qué acción exacta)\n\nEjemplos de criterios (para que lo aterricen)\nCalidad técnica: “First-time fix rate ≥ X%” o “Retrabajos ≤ Y%”\nExperiencia: “CSAT ≥ X/5” o “NPS ≥ X”\nOperación: “Tiempo promedio de agendamiento ≤ X horas” / “On-time arrival ≥ X%”\nEconomía unitaria: “Margen por servicio ≥ X” / “Costo de retrabajos ≤ Y% ingresos”\nDemanda/retención: “Conversión a suscripción ≥ X%” / “Churn 30 días ≤ Y%”\nEstandarización: “% servicios con checklist completo y evidencia ≥ X%”\n\nNotas importantes (para evitar que la matriz sea solo “otra tabla”)\nLa matriz debe incluir decisiones accionables (si pasa X, hacemos Y), no solo targets.\nDebe existir un criterio mínimo por hipótesis. Si no hay umbral, no hay decisión.\nDebe indicar instrumentación: cómo se captura el dato en el piloto (si no se captura, la métrica no existe)."
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-wYl4hJtyFh"
+    },
+    {
+      "id": "i-BAEimHEfL3",
+      "name": "Ficha de paquetes del piloto:",
+      "index": 2,
+      "values": {
+        "Task": "Ficha de paquetes del piloto:",
+        "Owner": "Gabriella Bairan",
+        "Status": "Done",
+        "Due date": "2025-12-19T00:00:00.000-04:00",
+        "Hipótesis": "1, 4",
+        "Experimento": "Oferta y pricing (objeto de compra)",
+        "Notas": "Suscripción y qué incluye exactamente\nNúmero de mantenimientos\nBeneficios claros vs mercado informal"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6/_rui-BAEimHEfL3"
+    }
+  ]
+}

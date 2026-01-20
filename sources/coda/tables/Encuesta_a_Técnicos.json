@@ -1,0 +1,92 @@
+{
+  "table": {
+    "id": "grid-6mjm5VG0r8",
+    "name": "Encuesta a Técnicos",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-6mjm5VG0r8"
+  },
+  "columns": [
+    {
+      "id": "c-AL65mnlAon",
+      "name": "¿Con qué frecuencia necesitas buscar nuevos clientes para tus servicios técnicos?",
+      "type": "scale"
+    },
+    {
+      "id": "c-ub1yvmB-1K",
+      "name": "¿Cuánto tiempo promedio inviertes hoy para conseguir un nuevo cliente desde el primer contacto?",
+      "type": "scale"
+    },
+    {
+      "id": "c-o9yaxqtWWd",
+      "name": "¿Qué tan difícil resulta conseguir clientes confiables que realmente paguen a tiempo?",
+      "type": "scale"
+    },
+    {
+      "id": "c-cr0Nwz5EwQ",
+      "name": "¿Cuánto afecta a tu negocio la falta de visibilidad online o de referencias confiables?",
+      "type": "scale"
+    },
+    {
+      "id": "c-lOss0UFLGF",
+      "name": "Selecciona los mayores retos que tienes hoy para captar clientes.",
+      "type": "select"
+    },
+    {
+      "id": "c-lKIkzQeO5o",
+      "name": "¿Cómo consigues actualmente la mayoría de tus nuevos clientes? (elige todas las que apliquen)",
+      "type": "select"
+    },
+    {
+      "id": "c-wTe8A_ITGZ",
+      "name": "Si pudieras “contratar” la solución ideal para atraer clientes, ¿cuál sería tu principal motivación?",
+      "type": "select"
+    },
+    {
+      "id": "c-1RHNfe71Gs",
+      "name": "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con clientes verificados, te garantice pagos seguros y te dé mayor visibilidad? (RD$)",
+      "type": "currency"
+    },
+    {
+      "id": "c-LUaz_Qu42Q",
+      "name": "Notes",
+      "type": "canvas"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-vu8SMOJsub",
+      "name": "",
+      "index": 0,
+      "values": {
+        "¿Con qué frecuencia necesitas buscar nuevos clientes para tus servicios técnicos?": "",
+        "¿Cuánto tiempo promedio inviertes hoy para conseguir un nuevo cliente desde el primer contacto?": "",
+        "¿Qué tan difícil resulta conseguir clientes confiables que realmente paguen a tiempo?": "",
+        "¿Cuánto afecta a tu negocio la falta de visibilidad online o de referencias confiables?": "",
+        "Selecciona los mayores retos que tienes hoy para captar clientes.": "",
+        "¿Cómo consigues actualmente la mayoría de tus nuevos clientes? (elige todas las que apliquen)": "",
+        "Si pudieras “contratar” la solución ideal para atraer clientes, ¿cuál sería tu principal motivación?": "",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con clientes verificados, te garantice pagos seguros y te dé mayor visibilidad? (RD$)": "",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-6mjm5VG0r8/_rui-vu8SMOJsub"
+    },
+    {
+      "id": "i-pcixEaudKR",
+      "name": "",
+      "index": 1,
+      "values": {
+        "¿Con qué frecuencia necesitas buscar nuevos clientes para tus servicios técnicos?": "",
+        "¿Cuánto tiempo promedio inviertes hoy para conseguir un nuevo cliente desde el primer contacto?": "",
+        "¿Qué tan difícil resulta conseguir clientes confiables que realmente paguen a tiempo?": "",
+        "¿Cuánto afecta a tu negocio la falta de visibilidad online o de referencias confiables?": "",
+        "Selecciona los mayores retos que tienes hoy para captar clientes.": "",
+        "¿Cómo consigues actualmente la mayoría de tus nuevos clientes? (elige todas las que apliquen)": "",
+        "Si pudieras “contratar” la solución ideal para atraer clientes, ¿cuál sería tu principal motivación?": "",
+        "¿Cuánto estarías dispuesto a pagar al mes por una plataforma que te conecte con clientes verificados, te garantice pagos seguros y te dé mayor visibilidad? (RD$)": "",
+        "Notes": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-6mjm5VG0r8/_rui-pcixEaudKR"
+    }
+  ]
+}

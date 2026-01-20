@@ -1,0 +1,138 @@
+{
+  "table": {
+    "id": "grid-v7PwkemeD0",
+    "name": "Feature list",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-v7PwkemeD0"
+  },
+  "columns": [
+    {
+      "id": "c-XPYtG0fLAj",
+      "name": "Feature",
+      "type": "text"
+    },
+    {
+      "id": "c-UsfzrsBh3S",
+      "name": "Start",
+      "type": "date"
+    },
+    {
+      "id": "c-4M4Q_XAES4",
+      "name": "End",
+      "type": "date"
+    },
+    {
+      "id": "c-lTK4bqmc9L",
+      "name": "Stage",
+      "type": "select"
+    },
+    {
+      "id": "c-XYabAJgnKN",
+      "name": "PM",
+      "type": "person"
+    },
+    {
+      "id": "c--UkTRdC5du",
+      "name": "Notes",
+      "type": "canvas"
+    },
+    {
+      "id": "c-VqlGch1zr2",
+      "name": "Column 8",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-zPm82V-_s8",
+      "name": "Plan Piloto en Ciudad La Palma y Unit Economics",
+      "index": 5,
+      "values": {
+        "Feature": "Plan Piloto en Ciudad La Palma y Unit Economics",
+        "Start": "2025-12-02T00:00:00.000-04:00",
+        "End": "2025-12-08T00:00:00.000-04:00",
+        "Stage": "Not started",
+        "PM": "Erick Santana",
+        "Notes": "- Definir plan piloto en Ciudad La Palma (alcance, metas, comunicación)\n- Promocionar servicios en comunidad (WhatsApp, boca a boca, carteles)\n- Atender primeros 20 clientes piloto\n- Calcular Unit Economics reales (costos, margen, payback)\n- Documentar hipótesis validadas (landing → leads → servicios)\n- Preparar pitch con resultados validados (para inversores o aliados)",
+        "Column 8": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-v7PwkemeD0/_rui-zPm82V-_s8"
+    },
+    {
+      "id": "i-nWYMrAJ5iF",
+      "name": "Preparación de pitch y base de validación",
+      "index": 0,
+      "values": {
+        "Feature": "Preparación de pitch y base de validación",
+        "Start": "2025-11-04T00:00:00.000-04:00",
+        "End": "2025-11-10T00:00:00.000-04:00",
+        "Stage": "Design",
+        "PM": "Gabriella Bairan",
+        "Notes": "-Redactar versión final del pitch para INFOTEP\n- Diseñar diapositivas con visión, impacto y datos del mercado\n- Ensayar narrativa\n- Diseñar landing page (copy + estructura + formulario de captura)\n- Registrar dominio y conectar con herramienta de email marketing (Mailchimp o Brevo)\n- Definir estructura de correos y survey (borrador)",
+        "Column 8": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-v7PwkemeD0/_rui-nWYMrAJ5iF"
+    },
+    {
+      "id": "i-Dpl_sNg_Kq",
+      "name": "Pitch INFOTEP",
+      "index": 1,
+      "values": {
+        "Feature": "Pitch INFOTEP",
+        "Start": "2025-11-07T00:00:00.000-04:00",
+        "End": "",
+        "Stage": "Development",
+        "PM": "Gabriella Bairan",
+        "Notes": "- Presentar pitch a INFOTEP\n- Entregar resumen ejecutivo con propuesta de colaboración",
+        "Column 8": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-v7PwkemeD0/_rui-Dpl_sNg_Kq"
+    },
+    {
+      "id": "i-d7j_uUDA3d",
+      "name": "Lanzamiento de Landing Page y correos iniciales",
+      "index": 2,
+      "values": {
+        "Feature": "Lanzamiento de Landing Page y correos iniciales",
+        "Start": "2025-11-11T00:00:00.000-04:00",
+        "End": "2025-11-17T00:00:00.000-04:00",
+        "Stage": "Planning",
+        "PM": "Erick Santana",
+        "Notes": "- Probar landing y links de seguimiento\n- Publicar y enviar landing a contactos y grupos objetivo\n- Monitorear visitas y conversiones\n- Escribir y programar la secuencia de correos (bienvenida, educación, beneficios, survey teaser)\n- Revisar métricas de apertura y clics",
+        "Column 8": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-v7PwkemeD0/_rui-d7j_uUDA3d"
+    },
+    {
+      "id": "i-_Izk5vdvLO",
+      "name": "Enviar Survey y comenzar proceso técnico",
+      "index": 3,
+      "values": {
+        "Feature": "Enviar Survey y comenzar proceso técnico",
+        "Start": "2025-11-18T00:00:00.000-04:00",
+        "End": "2025-11-24T00:00:00.000-04:00",
+        "Stage": "Planning",
+        "PM": "Erick Santana",
+        "Notes": "- Enviar correo con survey a los contactos interesados\n- Analizar respuestas y segmentar leads (por zona y disposición de pago)\n- Publicar convocatoria o buscar referencias para Director Técnico\n- Entrevistar candidatos\n- Definir niveles de servicio (borrador)",
+        "Column 8": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-v7PwkemeD0/_rui-_Izk5vdvLO"
+    },
+    {
+      "id": "i-mUPhxkvj3G",
+      "name": "Contratación y primer piloto interno",
+      "index": 4,
+      "values": {
+        "Feature": "Contratación y primer piloto interno",
+        "Start": "2025-11-25T00:00:00.000-04:00",
+        "End": "2025-12-01T00:00:00.000-04:00",
+        "Stage": "Planning",
+        "PM": "Gabriella Bairan",
+        "Notes": "- Contratar Director Técnico\n- Revisar y validar niveles de servicio con DT\n- Crear checklist de servicio técnico\n- Diseñar proceso de onboarding técnico (documento + charla)\n- Ejecutar primer piloto del servicio (en casa sin decir que somos Maroa)\n- Registrar tiempos, observaciones y costos reales",
+        "Column 8": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-v7PwkemeD0/_rui-mUPhxkvj3G"
+    }
+  ]
+}

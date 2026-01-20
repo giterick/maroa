@@ -1,2 +1,0 @@
-# Definición del gancho
-

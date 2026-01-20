@@ -1,0 +1,61 @@
+{
+  "table": {
+    "id": "grid-uGZGPjG71i",
+    "name": "Table 1",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-uGZGPjG71i"
+  },
+  "columns": [
+    {
+      "id": "c-OeuNzqrJo1",
+      "name": "Variable",
+      "type": "text"
+    },
+    {
+      "id": "c-IPORTxQbCv",
+      "name": "Escala 1-5",
+      "type": "text"
+    },
+    {
+      "id": "c-hPG1k8xGE2",
+      "name": "Pregunta guía",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-wxNqWXFI1l",
+      "name": "Esfuerzo / Capital (D)",
+      "index": 0,
+      "values": {
+        "Variable": "Esfuerzo / Capital (D)",
+        "Escala 1-5": "1 = “podemos lanzarlo en un sprint”\n5 = “necesita IoT masivo, regulaciones, mucha $$$”",
+        "Pregunta guía": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-uGZGPjG71i/_rui-wxNqWXFI1l"
+    },
+    {
+      "id": "i-lx0hTbcc_-",
+      "name": "Impacto en la vida del usuario (I)",
+      "index": 1,
+      "values": {
+        "Variable": "Impacto en la vida del usuario (I)",
+        "Escala 1-5": "1 = mejora marginal\n5 = life-changer, le ahorra dinero/estrés grande",
+        "Pregunta guía": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-uGZGPjG71i/_rui-lx0hTbcc_-"
+    },
+    {
+      "id": "i-8aWKW_pF7p",
+      "name": "Prevalencia / Frecuencia (P)",
+      "index": 2,
+      "values": {
+        "Variable": "Prevalencia / Frecuencia (P)",
+        "Escala 1-5": "1 = caso raro\n5 = lo sufre casi todo el mundo, todos los meses",
+        "Pregunta guía": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-uGZGPjG71i/_rui-8aWKW_pF7p"
+    }
+  ]
+}

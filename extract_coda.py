@@ -438,10 +438,12 @@ def main():
 
     # Get and save document metadata
     doc_info = get_doc_info()
+    owner_info = doc_info.get('owner', 'Unknown')
+    owner_name = owner_info.get('name', 'Unknown') if isinstance(owner_info, dict) else owner_info
     doc_metadata = {
         'id': doc_info.get('id'),
         'name': doc_info.get('name'),
-        'owner': doc_info.get('owner', {}).get('name', 'Unknown'),
+        'owner': owner_name,
         'createdAt': doc_info.get('createdAt'),
         'updatedAt': doc_info.get('updatedAt'),
         'browserLink': doc_info.get('browserLink', ''),

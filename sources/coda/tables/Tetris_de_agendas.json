@@ -1,0 +1,129 @@
+{
+  "table": {
+    "id": "grid-15Ro1WlJWF",
+    "name": "Tetris de agendas",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF"
+  },
+  "columns": [
+    {
+      "id": "c-UGK0-YadlK",
+      "name": "Pain Point (Frustración)",
+      "type": "text"
+    },
+    {
+      "id": "c-XFoL5A0L1D",
+      "name": "Gain (Estado deseado)",
+      "type": "text"
+    },
+    {
+      "id": "c-F8f0aMjcbz",
+      "name": "JTBD (trabajo a ejecutar)",
+      "type": "text"
+    },
+    {
+      "id": "c-bS70gc4C0m",
+      "name": "Persona que sufre el Pain",
+      "type": "text"
+    },
+    {
+      "id": "c-SWElQ8vTF1",
+      "name": "Responsable del JTBD",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-PO2wU_IWkt",
+      "name": "Coordinar fecha con técnicos que tienen agenda llena.",
+      "index": 0,
+      "values": {
+        "Pain Point (Frustración)": "Coordinar fecha con técnicos que tienen agenda llena.",
+        "Gain (Estado deseado)": "Cita confirmada en la primera llamada.",
+        "JTBD (trabajo a ejecutar)": "Consultar disponibilidad en tiempo real y reservar slot.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Sistema (calendario) + Agente"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-PO2wU_IWkt"
+    },
+    {
+      "id": "i-Mad7vNZzxg",
+      "name": "Amplias ventanas de espera (“llego entre 9 y 5”).",
+      "index": 1,
+      "values": {
+        "Pain Point (Frustración)": "Amplias ventanas de espera (“llego entre 9 y 5”).",
+        "Gain (Estado deseado)": "Intervalos de servicio 2 h o menos.",
+        "JTBD (trabajo a ejecutar)": "Ruteo inteligente y confirmación de ETA live-tracking.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Proveedor (GPS) + Sistema"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-Mad7vNZzxg"
+    },
+    {
+      "id": "i-Jsd0TR_92c",
+      "name": "Reprogramaciones de último minuto por parte del técnico.",
+      "index": 2,
+      "values": {
+        "Pain Point (Frustración)": "Reprogramaciones de último minuto por parte del técnico.",
+        "Gain (Estado deseado)": "Re-agendado automático con mínima intervención.",
+        "JTBD (trabajo a ejecutar)": "Enviar alternativas y re-confirmar en un clic.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Sistema (workflow)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-Jsd0TR_92c"
+    },
+    {
+      "id": "i-mgRrs3x5zr",
+      "name": "Múltiples activos requieren visitas separadas.",
+      "index": 3,
+      "values": {
+        "Pain Point (Frustración)": "Múltiples activos requieren visitas separadas.",
+        "Gain (Estado deseado)": "Visita combinada para varios equipos.",
+        "JTBD (trabajo a ejecutar)": "Agrupar órdenes por ubicación y skillset del técnico.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Agente Maroa / Sistema"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-mgRrs3x5zr"
+    },
+    {
+      "id": "i-v58d-carsF",
+      "name": "Cliente y proveedor usan calendarios distintos.",
+      "index": 4,
+      "values": {
+        "Pain Point (Frustración)": "Cliente y proveedor usan calendarios distintos.",
+        "Gain (Estado deseado)": "Sincronización de calendarios (Google, Outlook).",
+        "JTBD (trabajo a ejecutar)": "Integrar APIs de calendar y bloquear horario.",
+        "Persona que sufre el Pain": "Cliente / Proveedor",
+        "Responsable del JTBD": "Sistema Maroa"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-v58d-carsF"
+    },
+    {
+      "id": "i-TDrq_b2hAi",
+      "name": "Incertidumbre sobre llegada del técnico.",
+      "index": 5,
+      "values": {
+        "Pain Point (Frustración)": "Incertidumbre sobre llegada del técnico.",
+        "Gain (Estado deseado)": "Tracking en vivo tipo ride-hailing.",
+        "JTBD (trabajo a ejecutar)": "Enviar enlace de seguimiento + contacto directo.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Proveedor (app)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-TDrq_b2hAi"
+    },
+    {
+      "id": "i-he0LCSLUlc",
+      "name": "Pagos y facturas ligados a la fecha final del servicio.",
+      "index": 6,
+      "values": {
+        "Pain Point (Frustración)": "Pagos y facturas ligados a la fecha final del servicio.",
+        "Gain (Estado deseado)": "Cobro automático apenas se marque “Trabajo completado”.",
+        "JTBD (trabajo a ejecutar)": "Trigger de facturación al cerrar ticket en app del técnico.",
+        "Persona que sufre el Pain": "Maroa / Cliente",
+        "Responsable del JTBD": "Proveedor (marca completado) → Sistema"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF/_rui-he0LCSLUlc"
+    }
+  ]
+}
