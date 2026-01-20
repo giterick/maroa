@@ -1,0 +1,423 @@
+{
+  "formConfig": {
+    "title": "Entrevista Profunda a Técnicos - Piloto Maroa",
+    "description": "Esta entrevista nos ayuda a entender cómo trabajas y qué necesitas para colaborar con nosotros. Toma aproximadamente 10-15 minutos.",
+    "submitButtonText": "Enviar respuestas",
+    "confirmationMessage": "Gracias por tu tiempo. Nos pondremos en contacto pronto."
+  },
+  "sections": [
+    {
+      "id": "meta",
+      "title": "Datos de la Entrevista",
+      "description": "Información para identificar esta entrevista",
+      "questions": [
+        {
+          "id": "entrevistador",
+          "question": "Nombre de quien entrevista",
+          "type": "short_text",
+          "required": true,
+          "helpText": "Tu nombre como entrevistador/a"
+        },
+        {
+          "id": "nombre_tecnico",
+          "question": "Nombre del técnico",
+          "type": "short_text",
+          "required": true
+        },
+        {
+          "id": "telefono_tecnico",
+          "question": "Teléfono del técnico",
+          "type": "phone",
+          "required": true
+        },
+        {
+          "id": "fecha_entrevista",
+          "question": "Fecha de la entrevista",
+          "type": "date",
+          "required": true,
+          "helpText": "Fecha en que se realizó la entrevista"
+        }
+      ]
+    },
+    {
+      "id": "perfil",
+      "title": "Datos de Perfil",
+      "description": "Información básica sobre el técnico",
+      "questions": [
+        {
+          "id": "P0.1",
+          "question": "Cuál es tu categoría principal de trabajo?",
+          "type": "multiple_choice",
+          "required": true,
+          "options": ["A/C", "Electricidad", "Plomería", "Electrodomésticos", "Handyman", "Otros"],
+          "helpText": "Elige la que más te genera ingresos o más haces en el mes."
+        },
+        {
+          "id": "P0.2",
+          "question": "Cuál es tu modalidad actual de trabajo?",
+          "type": "multiple_choice",
+          "required": true,
+          "options": ["Independiente", "Trabajo con ayudante", "Equipo (2-5)", "Empresa (6+)"],
+          "helpText": "Selecciona cómo trabajas la mayor parte del tiempo."
+        },
+        {
+          "id": "P0.3",
+          "question": "Cuál es tu zona principal de trabajo?",
+          "type": "multiple_choice",
+          "required": true,
+          "options": ["Punta Cana/Bávaro", "Verón", "Cap Cana", "Otra"],
+          "helpText": "Marca donde haces la mayoría de servicios."
+        },
+        {
+          "id": "P0.4",
+          "question": "Cuántos años de experiencia tienes?",
+          "type": "multiple_choice",
+          "required": true,
+          "options": ["0-2 años", "3-5 años", "6-10 años", "10+ años"],
+          "helpText": "Aproximado está bien."
+        },
+        {
+          "id": "P0.5",
+          "question": "Cuál es tu disponibilidad típica?",
+          "type": "multiple_choice",
+          "required": true,
+          "options": ["Solo mañanas", "Solo tardes", "Día completo", "Fines de semana", "Variable"],
+          "helpText": "Elige la opción que sea cierta 3+ días a la semana."
+        }
+      ]
+    },
+    {
+      "id": "capacidad",
+      "title": "Capacidad y Tiempos",
+      "description": "Entender tu disponibilidad real",
+      "questions": [
+        {
+          "id": "P1.1",
+          "question": "Tienes semanas donde te faltan trabajos para llenar tu agenda?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Piensa en las últimas 4 semanas."
+        },
+        {
+          "id": "P1.2",
+          "question": "Tienes al menos 2 espacios libres de 2 horas en una semana típica?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Un 'espacio libre' = bloque donde podrías aceptar un servicio nuevo."
+        },
+        {
+          "id": "P1.3",
+          "question": "En una semana típica, tu agenda está...",
+          "type": "multiple_choice",
+          "required": true,
+          "options": ["0-25% llena", "26-50% llena", "51-75% llena", "76-100% llena"],
+          "helpText": "Estimación rápida; no hace falta exactitud."
+        }
+      ]
+    },
+    {
+      "id": "puntualidad",
+      "title": "Puntualidad y Reprogramación",
+      "description": "Sobre cumplir horarios acordados",
+      "questions": [
+        {
+          "id": "P2.1",
+          "question": "Puedes comprometerte a llegar dentro de una ventana de 2 horas en la mayoría de citas?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Si tu respuesta depende del día, responde por tu semana típica."
+        },
+        {
+          "id": "P2.2",
+          "question": "En tu semana típica, reprogramas citas más de 1 vez por semana?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Reprogramar incluye mover hora o día por cualquier motivo."
+        },
+        {
+          "id": "P2.3",
+          "question": "Confirmas hora estimada (ETA) con el cliente antes de salir hacia el servicio?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Confirmar ETA puede ser un mensaje corto."
+        },
+        {
+          "id": "P2.4",
+          "question": "Si te piden confirmar 'en camino' y 'en sitio', lo podrías hacer en cada servicio?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "No es un app; imagina un WhatsApp rápido."
+        }
+      ]
+    },
+    {
+      "id": "comunicacion",
+      "title": "Comunicación Operativa",
+      "description": "Cómo te comunicas durante el trabajo",
+      "questions": [
+        {
+          "id": "P3.1",
+          "question": "Respondes mensajes operativos durante horario de trabajo en menos de 10 minutos la mayoría de veces?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Operativo = coordinar llegada, confirmar, pedir info."
+        },
+        {
+          "id": "P3.2",
+          "question": "Te sientes cómodo comunicándote de forma 'más formal/profesional' con clientes?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Formal = claro, respetuoso, sin discusiones."
+        }
+      ]
+    },
+    {
+      "id": "tecnologia",
+      "title": "Tecnología Mínima",
+      "description": "Herramientas que usas",
+      "questions": [
+        {
+          "id": "P4.1",
+          "question": "Tienes smartphone con cámara funcional y datos móviles la mayoría del tiempo?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "No tiene que ser último modelo."
+        },
+        {
+          "id": "P4.2",
+          "question": "Usas WhatsApp para coordinar la mayoría de tus servicios hoy?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Coordinar = agendar, confirmar, actualizar."
+        },
+        {
+          "id": "P4.3",
+          "question": "Podrías enviar 3-5 fotos por servicio (antes/después/evidencia) de forma consistente?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Consistente = en 8 de cada 10 servicios."
+        }
+      ]
+    },
+    {
+      "id": "calidad",
+      "title": "Calidad y Estandarización",
+      "description": "Disposición a seguir procesos",
+      "questions": [
+        {
+          "id": "P5.1",
+          "question": "Seguirías un checklist simple en cada servicio si te toma menos de 3 minutos?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Checklist simple = 6-10 puntos, marcar y listo."
+        },
+        {
+          "id": "P5.2",
+          "question": "Aceptarías que se revise tu trabajo (QA) de forma aleatoria en algunos servicios?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Revisión = fotos + checklist, no necesariamente visita."
+        },
+        {
+          "id": "P5.3",
+          "question": "Si un fallo fue por mala ejecución, harías retrabajo sin costo?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "No incluye 'nueva falla'; solo el mismo error."
+        },
+        {
+          "id": "P5.4",
+          "question": "Entiendes y aceptarías diferenciar entre 'retrabajo' vs 'nueva falla' como dos casos distintos?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Retrabajo = mismo problema por ejecución. Nueva falla = otro problema distinto."
+        }
+      ]
+    },
+    {
+      "id": "seguridad",
+      "title": "Confianza y Seguridad",
+      "description": "Requisitos de acceso a residenciales",
+      "questions": [
+        {
+          "id": "P6.1",
+          "question": "Aceptarías verificación de antecedentes como requisito para entrar a residenciales?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Verificación = proceso estándar; no implica juicio, solo requisito."
+        },
+        {
+          "id": "P6.2",
+          "question": "Estarías dispuesto a usar identificación visible (badge/camisa) durante servicios?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Visible = que el cliente te identifique fácilmente."
+        }
+      ]
+    },
+    {
+      "id": "pago",
+      "title": "Modelo de Pago",
+      "description": "Cómo funcionarían los pagos",
+      "questions": [
+        {
+          "id": "P7.1",
+          "question": "Aceptarías que el cliente pague a la empresa y tú recibas el pago después del cierre?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Después del cierre = cuando el servicio queda confirmado como completado."
+        },
+        {
+          "id": "P7.2",
+          "question": "Puedes operar si el pago se procesa en un ciclo de 7-15 días?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Operar = cubrir tu gasolina, materiales menores, etc."
+        }
+      ]
+    },
+    {
+      "id": "materiales",
+      "title": "Materiales e Insumos",
+      "description": "Cómo manejas los materiales",
+      "questions": [
+        {
+          "id": "P8.1",
+          "question": "En tu operación, normalmente quién compra los materiales?",
+          "type": "multiple_choice",
+          "required": true,
+          "options": ["Yo", "El cliente", "Depende del caso"],
+          "helpText": "Elige la opción más frecuente."
+        },
+        {
+          "id": "P8.2",
+          "question": "Preferirías que otra parte gestione la compra de materiales para que tú no adelantes dinero?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Gestionar = comprar/entregar, no necesariamente escoger marca."
+        }
+      ]
+    },
+    {
+      "id": "contrato",
+      "title": "Relación Contractual",
+      "description": "Tipo de relación laboral",
+      "questions": [
+        {
+          "id": "P9.1",
+          "question": "Si colaboraras con una empresa, preferirías seguir como contratista independiente (no empleado)?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Contratista = tú manejas tus impuestos/horario en parte."
+        },
+        {
+          "id": "P9.2",
+          "question": "Aceptarías un contrato con reglas claras de cumplimiento (por ejemplo puntualidad y retrabajos)?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Reglas claras = definidas antes, sin sorpresas."
+        },
+        {
+          "id": "P9.3",
+          "question": "Aceptarías no negociar directamente con clientes 'asignados' durante y después del servicio?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "No negociar = no hacer trato por fuera con ese cliente."
+        },
+        {
+          "id": "P9.4",
+          "question": "Necesitas mantener tus clientes propios mientras colaboras con una empresa?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Clientes propios = tu cartera fuera de la empresa."
+        }
+      ]
+    },
+    {
+      "id": "cobertura",
+      "title": "Cobertura y Backups",
+      "description": "Zona de trabajo y respaldo",
+      "questions": [
+        {
+          "id": "P10.1",
+          "question": "Te desplazarías dentro de la zona del piloto sin exigir cargos de traslado 'altos'?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Según tu criterio; si dicen No solo marca No y seguimos."
+        },
+        {
+          "id": "P10.2",
+          "question": "Conoces a al menos 1 técnico de confianza que podría cubrirte como backup si tú no puedes?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Backup = alguien que tú recomendarías sin miedo."
+        }
+      ]
+    },
+    {
+      "id": "disconfirming",
+      "title": "Preguntas de Validación",
+      "description": "Estas preguntas nos ayudan a entender mejor tu situación - no hay respuestas correctas o incorrectas",
+      "questions": [
+        {
+          "id": "A1",
+          "question": "Prefieres trabajos grandes/instalaciones y evitas trabajos pequeños/repetitivos?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "No estamos valorando nada; es solo preferencia."
+        },
+        {
+          "id": "A2",
+          "question": "Te incomoda que un tercero supervise documentación/fotos de tu trabajo?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Supervisar = revisar que exista evidencia, no criticar tu técnica."
+        },
+        {
+          "id": "A3",
+          "question": "Has tenido conflictos frecuentes con clientes por 'culpa' o 'responsabilidad' del fallo?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Frecuente = 2+ veces en los últimos 2 meses."
+        },
+        {
+          "id": "A4",
+          "question": "Evitas trabajos en residenciales por políticas/seguridad/entrada?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Evitar = rechazas esos trabajos cuando puedes."
+        },
+        {
+          "id": "A5",
+          "question": "Te ha pasado que aceptas un trabajo y luego lo cancelas por falta de herramientas/piezas?",
+          "type": "yes_no",
+          "required": true,
+          "helpText": "Esto es normal; queremos entender la frecuencia, no juzgar."
+        }
+      ]
+    },
+    {
+      "id": "cierre",
+      "title": "Información Adicional",
+      "description": "Datos finales",
+      "questions": [
+        {
+          "id": "backup_nombre",
+          "question": "Nombre del técnico backup (si aplica)",
+          "type": "short_text",
+          "required": false,
+          "helpText": "Si conoce a alguien de confianza, anota su nombre aquí"
+        },
+        {
+          "id": "notas",
+          "question": "Notas adicionales de la entrevista",
+          "type": "long_text",
+          "required": false,
+          "helpText": "Cualquier observación relevante durante la conversación"
+        }
+      ]
+    }
+  ],
+  "totalQuestions": 40,
+  "estimatedTime": "10-15 minutos"
+}
