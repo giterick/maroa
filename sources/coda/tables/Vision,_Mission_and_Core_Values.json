@@ -1,0 +1,73 @@
+{
+  "table": {
+    "id": "grid-lm--41-Obs",
+    "name": "Vision, Mission and Core Values",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs"
+  },
+  "columns": [
+    {
+      "id": "c-kybltyfxJK",
+      "name": "Type",
+      "type": "text"
+    },
+    {
+      "id": "c-Wkd0B1OVH8",
+      "name": "Description",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-u0sIitMymk",
+      "name": "Reglas rápidas “Siempre / Nunca”",
+      "index": 4,
+      "values": {
+        "Type": "Reglas rápidas “Siempre / Nunca”",
+        "Description": "Siempre: documenta, confirma, cierra el loop.\nNunca: dejes un ticket sin dueño, una expectativa sin fecha, o un precio sin aclarar."
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs/_rui-u0sIitMymk"
+    },
+    {
+      "id": "i-jOMT5gvifn",
+      "name": "Principios",
+      "index": 3,
+      "values": {
+        "Type": "Principios",
+        "Description": "1) Consistencia Implacable\nMantra: mismo estándar, todo el tiempo, en todo lugar.\nSeguimos playbooks: cada ticket pasa por el mismo flujo (diagnóstico → coordinación → ejecución → cierre → cobro).\n“Cero sorpresas”: actualizaciones al cliente en los hitos acordados.\nUn solo owner por ticket; nadie suelta la cuerda.\nLo que no quedó escrito, no existe: CRM siempre al día.\nSeñales de éxito:\n0 tickets >24 h sin actualización.\n≥85% de citas confirmadas en la primera interacción.\n2) Optimización Sin Piedad\nMantra: eliminamos fricción y desperdicio sin apego a lo viejo.\nAutomatizamos lo repetitivo; lo manual se documenta para morir pronto.\nMedimos y matamos: si no mueve un KPI, se simplifica o se elimina.\nRuteo y calendar inteligente para visitas combinadas y ventanas cortas.\nPostmortems breves en fallos: una mejora por incidente.\nSeñales de éxito:\nTiempo ciclo (aprobación → cobro) <24 h en ≥70% de casos.\n≥40% de órdenes multiactivo en una sola visita.\n3) Claridad Absoluta\nMantra: lenguaje simple, acuerdos explícitos, precios transparentes.\nConfirmamos Qué / Quién / Cuándo / Costo en cada interacción.\nTarifas y alcances por escrito; no hay letras pequeñas.\nDefinición de “Hecho” (DoD) en cada servicio.\nEscalamos temprano: un problema sin dueño es un problema creciente.\nSeñales de éxito:\n0 disputas por alcance en órdenes cerradas.\nNPS “peace-of-mind” ≥ 60.\n4) Dedicación Plena al Trabajo\nMantra: nos medimos por el resultado, no por el esfuerzo.\nPropiedad total del resultado: cerramos o reprogramamos con nueva fecha.\nPuntualidad operativa: llegamos, avisamos, cumplimos.\nCuidamos la relación: cada contacto debe dejar al cliente más tranquilo.\nSeguridad primero: si no es seguro, no se hace.\nSeñales de éxito:\nTasa de cierre ≥ 80% de tickets aprobados.\nRepetición de cliente (90 días) ≥ 50%."
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs/_rui-jOMT5gvifn"
+    },
+    {
+      "id": "i-GaAtZr4vJW",
+      "name": "Visión",
+      "index": 0,
+      "values": {
+        "Type": "Visión",
+        "Description": "Convertirnos en el guardián de activos domésticos más confiable de América Latina, garantizando que cada hogar funcione sin esfuerzo y de manera sostenible."
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs/_rui-GaAtZr4vJW"
+    },
+    {
+      "id": "i-eS7QCInr12",
+      "name": "Misión",
+      "index": 1,
+      "values": {
+        "Type": "Misión",
+        "Description": "Coordinamos, ejecutamos y cerramos cada tarea de mantenimiento preventivo para que nuestros clientes disfruten absoluta tranquilidad, mientras nosotros nos ocupamos del cuándo, el cómo y el pago."
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs/_rui-eS7QCInr12"
+    },
+    {
+      "id": "i-0fDs7_RXZu",
+      "name": "Valores",
+      "index": 2,
+      "values": {
+        "Type": "Valores",
+        "Description": "Defendemos la tranquilidad del cliente.\nConstruimos confianza con transparencia radical y cumplimiento impecable.\nCerramos siempre el círculo: ningún ticket queda abierto.\nCrecemos juntos: clientes, agentes y técnicos.\nSimplificamos la vida con tecnología que se siente invisible."
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs/_rui-0fDs7_RXZu"
+    }
+  ]
+}

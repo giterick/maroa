@@ -1,0 +1,532 @@
+{
+  "table": {
+    "id": "grid-unuW9Impgx",
+    "name": "Framework de Entrevista",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx"
+  },
+  "columns": [
+    {
+      "id": "c-NrEp7OVBuu",
+      "name": "#",
+      "type": "text"
+    },
+    {
+      "id": "c-szh3w0m8nO",
+      "name": "Sección",
+      "type": "select"
+    },
+    {
+      "id": "c-g7v5gvAhRL",
+      "name": "Pregunta",
+      "type": "text"
+    },
+    {
+      "id": "c-7szpWS7Sa1",
+      "name": "Tipo de respuesta",
+      "type": "select"
+    },
+    {
+      "id": "c-gKn6m1LPaT",
+      "name": "Suposición validada (#)",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-R4QEYRgmiE",
+      "name": "Datos de perfil",
+      "index": 0,
+      "values": {
+        "#": "Datos de perfil",
+        "Sección": "",
+        "Pregunta": "",
+        "Tipo de respuesta": "",
+        "Suposición validada (#)": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-R4QEYRgmiE"
+    },
+    {
+      "id": "i-ABOzzDbCco",
+      "name": "P1",
+      "index": 1,
+      "values": {
+        "#": "P1",
+        "Sección": "Perfil",
+        "Pregunta": "¿Cuál es tu edad?",
+        "Tipo de respuesta": "Numérica",
+        "Suposición validada (#)": "—"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-ABOzzDbCco"
+    },
+    {
+      "id": "i-wSar9p9x_h",
+      "name": "P2",
+      "index": 2,
+      "values": {
+        "#": "P2",
+        "Sección": "Perfil",
+        "Pregunta": "¿En qué ciudad/sector vives?",
+        "Tipo de respuesta": "Texto",
+        "Suposición validada (#)": "—"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-wSar9p9x_h"
+    },
+    {
+      "id": "i-DCH3jxTjj9",
+      "name": "P3",
+      "index": 3,
+      "values": {
+        "#": "P3",
+        "Sección": "Perfil",
+        "Pregunta": "¿Tu vivienda es apartamento, casa o negocio/oficina?",
+        "Tipo de respuesta": "Opción única",
+        "Suposición validada (#)": "—"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-DCH3jxTjj9"
+    },
+    {
+      "id": "i-cPXCgoR3rh",
+      "name": "P4",
+      "index": 4,
+      "values": {
+        "#": "P4",
+        "Sección": "Perfil",
+        "Pregunta": "¿Cuántos aires acondicionados tienes?",
+        "Tipo de respuesta": "Numérica",
+        "Suposición validada (#)": "—"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-cPXCgoR3rh"
+    },
+    {
+      "id": "i-XREFvkK2pm",
+      "name": "P5",
+      "index": 5,
+      "values": {
+        "#": "P5",
+        "Sección": "Perfil",
+        "Pregunta": "¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)",
+        "Tipo de respuesta": "Opción múltiple",
+        "Suposición validada (#)": "—"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-XREFvkK2pm"
+    },
+    {
+      "id": "i-yMDE0d0pHr",
+      "name": "P6",
+      "index": 6,
+      "values": {
+        "#": "P6",
+        "Sección": "Perfil",
+        "Pregunta": "¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?",
+        "Tipo de respuesta": "Opción única",
+        "Suposición validada (#)": "—"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-yMDE0d0pHr"
+    },
+    {
+      "id": "i-jqrFuuBeRx",
+      "name": "P7",
+      "index": 7,
+      "values": {
+        "#": "P7",
+        "Sección": "Perfil",
+        "Pregunta": "¿Usas tarjeta de crédito regularmente para pagar servicios o compras?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "3, 18"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-jqrFuuBeRx"
+    },
+    {
+      "id": "i-hCNQRyoN1h",
+      "name": "P8",
+      "index": 8,
+      "values": {
+        "#": "P8",
+        "Sección": "Perfil",
+        "Pregunta": "¿Qué tan cómodo te sientes usando apps o plataformas digitales?",
+        "Tipo de respuesta": "Escala 1-5 (Bajo → Alto)",
+        "Suposición validada (#)": "10, 11"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-hCNQRyoN1h"
+    },
+    {
+      "id": "i-xIDTVc4Uxm",
+      "name": "Mantenimiento actual",
+      "index": 9,
+      "values": {
+        "#": "Mantenimiento actual",
+        "Sección": "",
+        "Pregunta": "",
+        "Tipo de respuesta": "",
+        "Suposición validada (#)": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-xIDTVc4Uxm"
+    },
+    {
+      "id": "i-2_Sx4UbRjV",
+      "name": "P9",
+      "index": 10,
+      "values": {
+        "#": "P9",
+        "Sección": "Mantenimiento",
+        "Pregunta": "¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "4, 7"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-2_Sx4UbRjV"
+    },
+    {
+      "id": "i-uH_HvYwwxa",
+      "name": "P10",
+      "index": 11,
+      "values": {
+        "#": "P10",
+        "Sección": "Mantenimiento",
+        "Pregunta": "¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?",
+        "Tipo de respuesta": "Opción múltiple",
+        "Suposición validada (#)": "2"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-uH_HvYwwxa"
+    },
+    {
+      "id": "i-Wndi-144iA",
+      "name": "P11",
+      "index": 12,
+      "values": {
+        "#": "P11",
+        "Sección": "Mantenimiento",
+        "Pregunta": "¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "13"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-Wndi-144iA"
+    },
+    {
+      "id": "i-MvT8B_SIal",
+      "name": "P12",
+      "index": 13,
+      "values": {
+        "#": "P12",
+        "Sección": "Mantenimiento",
+        "Pregunta": "¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "(pregunta extra)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-MvT8B_SIal"
+    },
+    {
+      "id": "i-ZlAUUYmtsa",
+      "name": "Dolores y frustraciones",
+      "index": 14,
+      "values": {
+        "#": "Dolores y frustraciones",
+        "Sección": "",
+        "Pregunta": "",
+        "Tipo de respuesta": "",
+        "Suposición validada (#)": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-ZlAUUYmtsa"
+    },
+    {
+      "id": "i-C1WMN95EgT",
+      "name": "P13",
+      "index": 15,
+      "values": {
+        "#": "P13",
+        "Sección": "Dolores",
+        "Pregunta": "¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "5"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-C1WMN95EgT"
+    },
+    {
+      "id": "i-tBeqf3TLSk",
+      "name": "P14",
+      "index": 16,
+      "values": {
+        "#": "P14",
+        "Sección": "Dolores",
+        "Pregunta": "¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "16"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-tBeqf3TLSk"
+    },
+    {
+      "id": "i-CuVydoxx6L",
+      "name": "P15",
+      "index": 17,
+      "values": {
+        "#": "P15",
+        "Sección": "Dolores",
+        "Pregunta": "¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "17"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-CuVydoxx6L"
+    },
+    {
+      "id": "i-1k3e0W_LtM",
+      "name": "P16",
+      "index": 18,
+      "values": {
+        "#": "P16",
+        "Sección": "Dolores",
+        "Pregunta": "¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "6, 19, 20"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-1k3e0W_LtM"
+    },
+    {
+      "id": "i-g0u438Eo8Q",
+      "name": "P17",
+      "index": 19,
+      "values": {
+        "#": "P17",
+        "Sección": "Dolores",
+        "Pregunta": "¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "15, 19"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-g0u438Eo8Q"
+    },
+    {
+      "id": "i-xGTN9OllkO",
+      "name": "P18",
+      "index": 20,
+      "values": {
+        "#": "P18",
+        "Sección": "Dolores",
+        "Pregunta": "¿Confías más en técnicos informales recomendados que en empresas establecidas?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "(pregunta extra)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-xGTN9OllkO"
+    },
+    {
+      "id": "i-YuxHe0atbX",
+      "name": "Motivaciones y prioridades",
+      "index": 21,
+      "values": {
+        "#": "Motivaciones y prioridades",
+        "Sección": "",
+        "Pregunta": "",
+        "Tipo de respuesta": "",
+        "Suposición validada (#)": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-YuxHe0atbX"
+    },
+    {
+      "id": "i-ZkGNEl2Lt5",
+      "name": "P19",
+      "index": 22,
+      "values": {
+        "#": "P19",
+        "Sección": "Motivaciones",
+        "Pregunta": "¿Qué te motivaría más a mantener tus aires acondicionados al día?",
+        "Tipo de respuesta": "Opción única: evitar daños / ahorrar energía / tener garantía / evitar gastos mayores",
+        "Suposición validada (#)": "7, 13"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-ZkGNEl2Lt5"
+    },
+    {
+      "id": "i-iVZ9GO2FJE",
+      "name": "P20",
+      "index": 23,
+      "values": {
+        "#": "P20",
+        "Sección": "Motivaciones",
+        "Pregunta": "¿Qué es más importante para ti al contratar un técnico?",
+        "Tipo de respuesta": "Opción única: calidad/garantía, puntualidad, precio, disponibilidad, confianza",
+        "Suposición validada (#)": "8"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-iVZ9GO2FJE"
+    },
+    {
+      "id": "i-yx9Mffzp4q",
+      "name": "P21",
+      "index": 24,
+      "values": {
+        "#": "P21",
+        "Sección": "Motivaciones",
+        "Pregunta": "¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "10"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-yx9Mffzp4q"
+    },
+    {
+      "id": "i-I9ASl8aEGF",
+      "name": "P22",
+      "index": 25,
+      "values": {
+        "#": "P22",
+        "Sección": "Motivaciones",
+        "Pregunta": "Si pudieras elegir, ¿qué priorizarías más?",
+        "Tipo de respuesta": "Opción única: garantía, ahorrar tiempo, ahorrar dinero",
+        "Suposición validada (#)": "11"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-I9ASl8aEGF"
+    },
+    {
+      "id": "i-GiqI_5Jxm2",
+      "name": "P23",
+      "index": 26,
+      "values": {
+        "#": "P23",
+        "Sección": "Motivaciones",
+        "Pregunta": "¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "(pregunta extra)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-GiqI_5Jxm2"
+    },
+    {
+      "id": "i-1SAY05YjcT",
+      "name": "Carga mental y hábitos",
+      "index": 27,
+      "values": {
+        "#": "Carga mental y hábitos",
+        "Sección": "",
+        "Pregunta": "",
+        "Tipo de respuesta": "",
+        "Suposición validada (#)": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-1SAY05YjcT"
+    },
+    {
+      "id": "i-2boRpw8c4C",
+      "name": "P24",
+      "index": 28,
+      "values": {
+        "#": "P24",
+        "Sección": "Carga mental",
+        "Pregunta": "¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "12"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-2boRpw8c4C"
+    },
+    {
+      "id": "i-e5GasdZEkO",
+      "name": "P25",
+      "index": 29,
+      "values": {
+        "#": "P25",
+        "Sección": "Carga mental",
+        "Pregunta": "¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "14"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-e5GasdZEkO"
+    },
+    {
+      "id": "i-_FUsqE3lZv",
+      "name": "Comportamiento de búsqueda y pagos",
+      "index": 30,
+      "values": {
+        "#": "Comportamiento de búsqueda y pagos",
+        "Sección": "",
+        "Pregunta": "",
+        "Tipo de respuesta": "",
+        "Suposición validada (#)": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-_FUsqE3lZv"
+    },
+    {
+      "id": "i-gk-Evz7JPU",
+      "name": "P26",
+      "index": 31,
+      "values": {
+        "#": "P26",
+        "Sección": "Búsqueda",
+        "Pregunta": "Cuando necesitas un técnico, ¿qué es lo primero que haces?",
+        "Tipo de respuesta": "Opción única: preguntar a familia/amigos, buscar en Google, grupos WhatsApp, llamar conocido",
+        "Suposición validada (#)": "9"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-gk-Evz7JPU"
+    },
+    {
+      "id": "i-lhjdbrVFcO",
+      "name": "P27",
+      "index": 32,
+      "values": {
+        "#": "P27",
+        "Sección": "Pagos",
+        "Pregunta": "¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "18"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-lhjdbrVFcO"
+    },
+    {
+      "id": "i-Va9gHrPKBR",
+      "name": "P28",
+      "index": 33,
+      "values": {
+        "#": "P28",
+        "Sección": "Pagos",
+        "Pregunta": "¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "3, 18"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-Va9gHrPKBR"
+    },
+    {
+      "id": "i-DxHjzhLMhU",
+      "name": "P29",
+      "index": 34,
+      "values": {
+        "#": "P29",
+        "Sección": "Búsqueda",
+        "Pregunta": "Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?",
+        "Tipo de respuesta": "Opción única",
+        "Suposición validada (#)": "(pregunta extra)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-DxHjzhLMhU"
+    },
+    {
+      "id": "i---1GH7wjn2",
+      "name": "Cierre",
+      "index": 35,
+      "values": {
+        "#": "Cierre",
+        "Sección": "",
+        "Pregunta": "",
+        "Tipo de respuesta": "",
+        "Suposición validada (#)": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui---1GH7wjn2"
+    },
+    {
+      "id": "i-JMBWybZJCm",
+      "name": "P30",
+      "index": 36,
+      "values": {
+        "#": "P30",
+        "Sección": "Referencias",
+        "Pregunta": "¿Tienes un técnico fijo de confianza al que siempre llamas?",
+        "Tipo de respuesta": "Sí/No",
+        "Suposición validada (#)": "(pregunta extra)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-JMBWybZJCm"
+    },
+    {
+      "id": "i-CWhObYq7Lw",
+      "name": "P31",
+      "index": 37,
+      "values": {
+        "#": "P31",
+        "Sección": "Referencias",
+        "Pregunta": "¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?",
+        "Tipo de respuesta": "Texto / Sí/No",
+        "Suposición validada (#)": "—"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx/_rui-CWhObYq7Lw"
+    }
+  ]
+}

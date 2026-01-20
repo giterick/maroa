@@ -1,0 +1,253 @@
+{
+  "table": {
+    "id": "grid-LrxtvHGkw0",
+    "name": "Table 2",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0"
+  },
+  "columns": [
+    {
+      "id": "c-b_9LZqXaJ3",
+      "name": "#",
+      "type": "number"
+    },
+    {
+      "id": "c-l5cOnXm2sS",
+      "name": "Problema (abreviado)",
+      "type": "text"
+    },
+    {
+      "id": "c--BM5StL9Ow",
+      "name": "D",
+      "type": "number"
+    },
+    {
+      "id": "c-dzOvVHBijA",
+      "name": "I",
+      "type": "number"
+    },
+    {
+      "id": "c-NXroYAN4o9",
+      "name": "P",
+      "type": "number"
+    },
+    {
+      "id": "c-WXdUIVbrrd",
+      "name": "PRI",
+      "type": "number"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-UZs6yoh2tU",
+      "name": "2",
+      "index": 0,
+      "values": {
+        "#": "2",
+        "Problema (abreviado)": "Overload mental: demasiados to-dos",
+        "D": "2",
+        "I": "5",
+        "P": "5",
+        "PRI": "8"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-UZs6yoh2tU"
+    },
+    {
+      "id": "i-po145_xpWR",
+      "name": "15",
+      "index": 1,
+      "values": {
+        "#": "15",
+        "Problema (abreviado)": "Pagos engorrosos",
+        "D": "2",
+        "I": "4",
+        "P": "4",
+        "PRI": "6"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-po145_xpWR"
+    },
+    {
+      "id": "i-UhEhMo04yM",
+      "name": "10",
+      "index": 2,
+      "values": {
+        "#": "10",
+        "Problema (abreviado)": "Tetris de agendas (cliente-técnico-parts)",
+        "D": "3",
+        "I": "5",
+        "P": "4",
+        "PRI": "6"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-UhEhMo04yM"
+    },
+    {
+      "id": "i-CaH5EX90Pr",
+      "name": "3",
+      "index": 3,
+      "values": {
+        "#": "3",
+        "Problema (abreviado)": "Info fragmentada",
+        "D": "2",
+        "I": "4",
+        "P": "4",
+        "PRI": "6"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-CaH5EX90Pr"
+    },
+    {
+      "id": "i-QdzMNJZGo6",
+      "name": "6",
+      "index": 4,
+      "values": {
+        "#": "6",
+        "Problema (abreviado)": "Costos de oportunidad invisibles",
+        "D": "3",
+        "I": "4",
+        "P": "4",
+        "PRI": "5"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-QdzMNJZGo6"
+    },
+    {
+      "id": "i-qcnFti9wbX",
+      "name": "7",
+      "index": 5,
+      "values": {
+        "#": "7",
+        "Problema (abreviado)": "Asimetría de información",
+        "D": "3",
+        "I": "4",
+        "P": "4",
+        "PRI": "5"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-qcnFti9wbX"
+    },
+    {
+      "id": "i--AYpUmukFx",
+      "name": "16",
+      "index": 6,
+      "values": {
+        "#": "16",
+        "Problema (abreviado)": "Costos variables impredecibles",
+        "D": "3",
+        "I": "4",
+        "P": "4",
+        "PRI": "5"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui--AYpUmukFx"
+    },
+    {
+      "id": "i-HUZ5A7cKyD",
+      "name": "18",
+      "index": 7,
+      "values": {
+        "#": "18",
+        "Problema (abreviado)": "ROI no cuantificado",
+        "D": "2",
+        "I": "4",
+        "P": "3",
+        "PRI": "5"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-HUZ5A7cKyD"
+    },
+    {
+      "id": "i-Untl1Nirf5",
+      "name": "42",
+      "index": 8,
+      "values": {
+        "#": "42",
+        "Problema (abreviado)": "Parálisis por exceso de opciones",
+        "D": "2",
+        "I": "3",
+        "P": "4",
+        "PRI": "5"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-Untl1Nirf5"
+    },
+    {
+      "id": "i-ZJtq9h8ycM",
+      "name": "25",
+      "index": 9,
+      "values": {
+        "#": "25",
+        "Problema (abreviado)": "Prestadores informales / confianza",
+        "D": "3",
+        "I": "4",
+        "P": "3",
+        "PRI": "4"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-ZJtq9h8ycM"
+    },
+    {
+      "id": "i-HLoATSMsbt",
+      "name": "14",
+      "index": 10,
+      "values": {
+        "#": "14",
+        "Problema (abreviado)": "Falta de confianza al dejar entrar extraños",
+        "D": "3",
+        "I": "4",
+        "P": "3",
+        "PRI": "4"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-HLoATSMsbt"
+    },
+    {
+      "id": "i-HRBQrOu3ip",
+      "name": "31",
+      "index": 11,
+      "values": {
+        "#": "31",
+        "Problema (abreviado)": "Garantías perdidas",
+        "D": "2",
+        "I": "3",
+        "P": "3",
+        "PRI": "4"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-HRBQrOu3ip"
+    },
+    {
+      "id": "i-HshnGvNKes",
+      "name": "39",
+      "index": 12,
+      "values": {
+        "#": "39",
+        "Problema (abreviado)": "Alert-fatigue",
+        "D": "2",
+        "I": "3",
+        "P": "3",
+        "PRI": "4"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-HshnGvNKes"
+    },
+    {
+      "id": "i-6jI-xw7lVd",
+      "name": "41",
+      "index": 13,
+      "values": {
+        "#": "41",
+        "Problema (abreviado)": "Sin benchmark de duración piezas",
+        "D": "2",
+        "I": "3",
+        "P": "3",
+        "PRI": "4"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-6jI-xw7lVd"
+    },
+    {
+      "id": "i-sMgT-gsoZe",
+      "name": "1",
+      "index": 14,
+      "values": {
+        "#": "1",
+        "Problema (abreviado)": "Visibilidad nula de vida útil",
+        "D": "4",
+        "I": "4",
+        "P": "4",
+        "PRI": "4"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0/_rui-sMgT-gsoZe"
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "table": {
+    "name": "Framework de Entrevista a Técnicos",
+    "description": "Preguntas estructuradas para validar hipótesis con técnicos del piloto Maroa"
+  },
+  "columns": [
+    {
+      "name": "#",
+      "type": "text",
+      "description": "Identificador de la pregunta"
+    },
+    {
+      "name": "Sección",
+      "type": "select",
+      "options": [
+        "Perfil",
+        "Capacidad",
+        "Puntualidad",
+        "Comunicación",
+        "Tecnología",
+        "Calidad",
+        "Seguridad",
+        "Pago",
+        "Materiales",
+        "Contrato",
+        "Cobertura",
+        "Disconfirming"
+      ],
+      "description": "Categoría temática de la pregunta"
+    },
+    {
+      "name": "Pregunta",
+      "type": "text",
+      "description": "Texto de la pregunta a realizar"
+    },
+    {
+      "name": "Tipo de respuesta",
+      "type": "select",
+      "options": [
+        "Sí/No",
+        "Opción única",
+        "Opción múltiple",
+        "Texto",
+        "Numérica",
+        "Escala 1-5"
+      ],
+      "description": "Formato de respuesta esperado"
+    },
+    {
+      "name": "Opciones",
+      "type": "text",
+      "description": "Opciones disponibles cuando el tipo es Opción única/múltiple"
+    },
+    {
+      "name": "Tips/Ayuda",
+      "type": "text",
+      "description": "Texto de ayuda para el entrevistador"
+    },
+    {
+      "name": "Hipótesis validada",
+      "type": "text",
+      "description": "Número(s) de hipótesis que esta pregunta ayuda a validar"
+    }
+  ],
+  "rows": [
+    {
+      "#": "--- DATOS DE PERFIL ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P0.1",
+      "Sección": "Perfil",
+      "Pregunta": "¿Cuál es tu categoría principal de trabajo?",
+      "Tipo de respuesta": "Opción única",
+      "Opciones": "A/C, Electricidad, Plomería, Electrodomésticos, Handyman, Otros",
+      "Tips/Ayuda": "Elige la que más te genera ingresos o más haces en el mes.",
+      "Hipótesis validada": "Segmentación por especialidad"
+    },
+    {
+      "#": "P0.2",
+      "Sección": "Perfil",
+      "Pregunta": "¿Cuál es tu modalidad actual de trabajo?",
+      "Tipo de respuesta": "Opción única",
+      "Opciones": "Independiente, Trabajo con ayudante, Equipo (2-5), Empresa (6+)",
+      "Tips/Ayuda": "Selecciona cómo trabajas la mayor parte del tiempo.",
+      "Hipótesis validada": "Estructura operativa"
+    },
+    {
+      "#": "P0.3",
+      "Sección": "Perfil",
+      "Pregunta": "¿Cuál es tu zona principal de trabajo?",
+      "Tipo de respuesta": "Opción única",
+      "Opciones": "Punta Cana/Bávaro, Verón, Cap Cana, Otra",
+      "Tips/Ayuda": "Marca donde haces la mayoría de servicios.",
+      "Hipótesis validada": "Cobertura geográfica (23)"
+    },
+    {
+      "#": "P0.4",
+      "Sección": "Perfil",
+      "Pregunta": "¿Cuántos años de experiencia tienes?",
+      "Tipo de respuesta": "Opción única",
+      "Opciones": "0-2, 3-5, 6-10, 10+",
+      "Tips/Ayuda": "Aproximado está bien.",
+      "Hipótesis validada": "Nivel y confianza operacional"
+    },
+    {
+      "#": "P0.5",
+      "Sección": "Perfil",
+      "Pregunta": "¿Cuál es tu disponibilidad típica?",
+      "Tipo de respuesta": "Opción única",
+      "Opciones": "Solo mañanas, Solo tardes, Día completo, Fines de semana, Variable",
+      "Tips/Ayuda": "Elige la opción que sea cierta 3+ días a la semana.",
+      "Hipótesis validada": "Disponibilidad vs ventanas (1-2)"
+    },
+    {
+      "#": "--- CAPACIDAD Y TIEMPOS ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P1.1",
+      "Sección": "Capacidad",
+      "Pregunta": "¿Tienes semanas donde te faltan trabajos para llenar tu agenda?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Piensa en las últimas 4 semanas.",
+      "Hipótesis validada": "Baja utilización (9)"
+    },
+    {
+      "#": "P1.2",
+      "Sección": "Capacidad",
+      "Pregunta": "¿Tienes al menos 2 espacios libres de 2 horas en una semana típica?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Un 'espacio libre' = bloque donde podrías aceptar un servicio nuevo.",
+      "Hipótesis validada": "Encajar ventanas sin romper agenda (1-9)"
+    },
+    {
+      "#": "P1.3",
+      "Sección": "Capacidad",
+      "Pregunta": "En una semana típica, tu agenda está…",
+      "Tipo de respuesta": "Opción única",
+      "Opciones": "0-25% llena, 26-50%, 51-75%, 76-100%",
+      "Tips/Ayuda": "Estimación rápida; no hace falta exactitud.",
+      "Hipótesis validada": "Capacidad real y variabilidad (9)"
+    },
+    {
+      "#": "--- PUNTUALIDAD Y REPROGRAMACIÓN ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P2.1",
+      "Sección": "Puntualidad",
+      "Pregunta": "¿Puedes comprometerte a llegar dentro de una ventana de 2 horas en la mayoría de citas?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Si tu respuesta depende del día, responde por tu semana típica.",
+      "Hipótesis validada": "Cumplimiento de ventanas (1-29)"
+    },
+    {
+      "#": "P2.2",
+      "Sección": "Puntualidad",
+      "Pregunta": "En tu semana típica, ¿reprogramas citas más de 1 vez por semana?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Reprogramar incluye mover hora o día por cualquier motivo.",
+      "Hipótesis validada": "Frecuencia de reprogramación (29)"
+    },
+    {
+      "#": "P2.3",
+      "Sección": "Puntualidad",
+      "Pregunta": "¿Confirmas hora estimada (ETA) con el cliente antes de salir hacia el servicio?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Confirmar ETA puede ser un mensaje corto.",
+      "Hipótesis validada": "Hábitos de planificación/ETA (30)"
+    },
+    {
+      "#": "P2.4",
+      "Sección": "Puntualidad",
+      "Pregunta": "Si te piden confirmar 'en camino' y 'en sitio', ¿lo podrías hacer en cada servicio?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "No es un app; imagina un WhatsApp rápido.",
+      "Hipótesis validada": "Actualización de estatus consistente (8)"
+    },
+    {
+      "#": "--- COMUNICACIÓN OPERATIVA ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P3.1",
+      "Sección": "Comunicación",
+      "Pregunta": "¿Respondes mensajes operativos durante horario de trabajo en menos de 10 minutos la mayoría de veces?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Operativo = coordinar llegada, confirmar, pedir info.",
+      "Hipótesis validada": "Velocidad de respuesta operativa (28)"
+    },
+    {
+      "#": "P3.2",
+      "Sección": "Comunicación",
+      "Pregunta": "¿Te sientes cómodo comunicándote de forma 'más formal/profesional' con clientes (texto/llamada)?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Formal = claro, respetuoso, sin discusiones.",
+      "Hipótesis validada": "Tono profesional consistente (27)"
+    },
+    {
+      "#": "--- TECNOLOGÍA MÍNIMA ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P4.1",
+      "Sección": "Tecnología",
+      "Pregunta": "¿Tienes smartphone con cámara funcional y datos móviles la mayoría del tiempo?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "No tiene que ser último modelo.",
+      "Hipótesis validada": "Requisito mínimo de tecnología (7)"
+    },
+    {
+      "#": "P4.2",
+      "Sección": "Tecnología",
+      "Pregunta": "¿Usas WhatsApp para coordinar la mayoría de tus servicios hoy?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Coordinar = agendar, confirmar, actualizar.",
+      "Hipótesis validada": "Canal dominante y fricción (7)"
+    },
+    {
+      "#": "P4.3",
+      "Sección": "Tecnología",
+      "Pregunta": "¿Podrías enviar 3-5 fotos por servicio (antes/después/evidencia) de forma consistente?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Consistente = en 8 de cada 10 servicios.",
+      "Hipótesis validada": "Evidencia mínima sin fricción (6)"
+    },
+    {
+      "#": "--- CALIDAD Y ESTANDARIZACIÓN ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P5.1",
+      "Sección": "Calidad",
+      "Pregunta": "¿Seguirías un checklist simple en cada servicio si te toma menos de 3 minutos?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Checklist simple = 6-10 puntos, marcar y listo.",
+      "Hipótesis validada": "Disposición a protocolos (5-19)"
+    },
+    {
+      "#": "P5.2",
+      "Sección": "Calidad",
+      "Pregunta": "¿Aceptarías que se revise tu trabajo (QA) de forma aleatoria en algunos servicios?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Revisión = fotos + checklist, no necesariamente visita.",
+      "Hipótesis validada": "Tolerancia a control de calidad (5-20)"
+    },
+    {
+      "#": "P5.3",
+      "Sección": "Calidad",
+      "Pregunta": "Si un fallo fue por mala ejecución, ¿harías retrabajo sin costo?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "No incluye 'nueva falla'; solo el mismo error.",
+      "Hipótesis validada": "Retrabajos/garantía operacional (25)"
+    },
+    {
+      "#": "P5.4",
+      "Sección": "Calidad",
+      "Pregunta": "¿Entiendes y aceptarías diferenciar entre 'retrabajo' vs 'nueva falla' como dos casos distintos?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Retrabajo = mismo problema por ejecución. Nueva falla = otro problema distinto.",
+      "Hipótesis validada": "Alineación conceptual clave (26)"
+    },
+    {
+      "#": "--- CONFIANZA Y SEGURIDAD ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P6.1",
+      "Sección": "Seguridad",
+      "Pregunta": "¿Aceptarías verificación de antecedentes como requisito para entrar a residenciales?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Verificación = proceso estándar; no implica juicio, solo requisito.",
+      "Hipótesis validada": "Compliance y acceso (11)"
+    },
+    {
+      "#": "P6.2",
+      "Sección": "Seguridad",
+      "Pregunta": "¿Estarías dispuesto a usar identificación visible (badge/camisa) durante servicios?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Visible = que el cliente te identifique fácilmente.",
+      "Hipótesis validada": "Protocolos de seguridad/imagen (12)"
+    },
+    {
+      "#": "--- MODELO DE PAGO ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P7.1",
+      "Sección": "Pago",
+      "Pregunta": "¿Aceptarías que el cliente pague a la empresa y tú recibas el pago después del cierre?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Después del cierre = cuando el servicio queda confirmado como completado.",
+      "Hipótesis validada": "Estructura de cobro centralizada (13)"
+    },
+    {
+      "#": "P7.2",
+      "Sección": "Pago",
+      "Pregunta": "¿Puedes operar si el pago se procesa en un ciclo de 7-15 días?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Operar = cubrir tu gasolina, materiales menores, etc.",
+      "Hipótesis validada": "Tolerancia a ciclo de pago (14)"
+    },
+    {
+      "#": "--- MATERIALES E INSUMOS ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P8.1",
+      "Sección": "Materiales",
+      "Pregunta": "En tu operación, normalmente ¿quién compra los materiales?",
+      "Tipo de respuesta": "Opción única",
+      "Opciones": "Yo, Cliente, Depende del caso",
+      "Tips/Ayuda": "Elige la opción más frecuente.",
+      "Hipótesis validada": "Patrón actual y fricción (15)"
+    },
+    {
+      "#": "P8.2",
+      "Sección": "Materiales",
+      "Pregunta": "¿Preferirías que otra parte gestione la compra de materiales para que tú no adelantes dinero?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Gestionar = comprar/entregar, no necesariamente escoger marca.",
+      "Hipótesis validada": "Preferencia por no adelantar costos (15)"
+    },
+    {
+      "#": "--- RELACIÓN CONTRACTUAL ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P9.1",
+      "Sección": "Contrato",
+      "Pregunta": "Si colaboraras con una empresa, ¿preferirías seguir como contratista independiente (no empleado)?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Contratista = tú manejas tus impuestos/horario en parte.",
+      "Hipótesis validada": "Forma de relación (17)"
+    },
+    {
+      "#": "P9.2",
+      "Sección": "Contrato",
+      "Pregunta": "¿Aceptarías un contrato con reglas claras de cumplimiento (por ejemplo puntualidad y retrabajos)?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Reglas claras = definidas antes, sin sorpresas.",
+      "Hipótesis validada": "Tolerancia a SLA/penalidades (18)"
+    },
+    {
+      "#": "P9.3",
+      "Sección": "Contrato",
+      "Pregunta": "¿Aceptarías no negociar directamente con clientes 'asignados' durante y después del servicio?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "No negociar = no hacer trato por fuera con ese cliente.",
+      "Hipótesis validada": "Exclusividad / no bypass (21)"
+    },
+    {
+      "#": "P9.4",
+      "Sección": "Contrato",
+      "Pregunta": "¿Necesitas mantener tus clientes propios mientras colaboras con una empresa?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Clientes propios = tu cartera fuera de la empresa.",
+      "Hipótesis validada": "No exclusividad total (22)"
+    },
+    {
+      "#": "--- COBERTURA Y BACKUPS ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "P10.1",
+      "Sección": "Cobertura",
+      "Pregunta": "¿Te desplazarías dentro de la zona del piloto sin exigir cargos de traslado 'altos'?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Según tu criterio; si dicen No solo marca No y seguimos.",
+      "Hipótesis validada": "Cobertura geográfica (23)"
+    },
+    {
+      "#": "P10.2",
+      "Sección": "Cobertura",
+      "Pregunta": "¿Conoces a al menos 1 técnico de confianza que podría cubrirte como backup si tú no puedes?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Backup = alguien que tú recomendarías sin miedo.",
+      "Hipótesis validada": "Existencia de backup por categoría (24)"
+    },
+    {
+      "#": "--- PREGUNTAS DISCONFIRMING ---",
+      "Sección": "",
+      "Pregunta": "",
+      "Tipo de respuesta": "",
+      "Opciones": "",
+      "Tips/Ayuda": "",
+      "Hipótesis validada": ""
+    },
+    {
+      "#": "A1",
+      "Sección": "Disconfirming",
+      "Pregunta": "¿Prefieres trabajos grandes/instalaciones y evitas trabajos pequeños/repetitivos?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "No estamos valorando nada; es solo preferencia.",
+      "Hipótesis validada": "Riesgo: modelo no atractivo por tipo de trabajo"
+    },
+    {
+      "#": "A2",
+      "Sección": "Disconfirming",
+      "Pregunta": "¿Te incomoda que un tercero supervise documentación/fotos de tu trabajo?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Supervisar = revisar que exista evidencia, no criticar tu técnica.",
+      "Hipótesis validada": "Fricción cultural con evidencia/QA (5-6)"
+    },
+    {
+      "#": "A3",
+      "Sección": "Disconfirming",
+      "Pregunta": "¿Has tenido conflictos frecuentes con clientes por 'culpa' o 'responsabilidad' del fallo?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Frecuente = 2+ veces en los últimos 2 meses.",
+      "Hipótesis validada": "Riesgo de retrabajos/disputas (25-26)"
+    },
+    {
+      "#": "A4",
+      "Sección": "Disconfirming",
+      "Pregunta": "¿Evitas trabajos en residenciales por políticas/seguridad/entrada?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Evitar = rechazas esos trabajos cuando puedes.",
+      "Hipótesis validada": "Riesgo de acceso (11-12)"
+    },
+    {
+      "#": "A5",
+      "Sección": "Disconfirming",
+      "Pregunta": "¿Te ha pasado que aceptas un trabajo y luego lo cancelas por falta de herramientas/piezas?",
+      "Tipo de respuesta": "Sí/No",
+      "Opciones": "",
+      "Tips/Ayuda": "Esto es normal; queremos entender la frecuencia, no juzgar.",
+      "Hipótesis validada": "Riesgo operativo/logística"
+    }
+  ],
+  "formSettings": {
+    "title": "Entrevista Profunda a Técnicos - Piloto Maroa",
+    "description": "Esta entrevista nos ayuda a entender cómo trabajas y qué necesitas para colaborar con nosotros. Todas las respuestas son confidenciales y nos toma aproximadamente 10-15 minutos.",
+    "submitButtonText": "Enviar respuestas",
+    "confirmationMessage": "¡Gracias por tu tiempo! Nos pondremos en contacto pronto."
+  }
+}

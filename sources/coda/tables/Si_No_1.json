@@ -1,0 +1,36 @@
+{
+  "table": {
+    "id": "grid-7UOq4LFlbR",
+    "name": "Si/No",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR"
+  },
+  "columns": [
+    {
+      "id": "c-LCqRPzUjK4",
+      "name": "Si/No",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-W42Jm9Vsj0",
+      "name": "Sí",
+      "index": 0,
+      "values": {
+        "Si/No": "Sí"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR/_rui-W42Jm9Vsj0"
+    },
+    {
+      "id": "i-nQzMNNRoGt",
+      "name": "No",
+      "index": 1,
+      "values": {
+        "Si/No": "No"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR/_rui-nQzMNNRoGt"
+    }
+  ]
+}

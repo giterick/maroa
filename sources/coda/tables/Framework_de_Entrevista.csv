@@ -1,0 +1,39 @@
+#,Sección,Pregunta,Tipo de respuesta,Suposición validada (#)
+Datos de perfil,,,,
+P1,Perfil,¿Cuál es tu edad?,Numérica,—
+P2,Perfil,¿En qué ciudad/sector vives?,Texto,—
+P3,Perfil,"¿Tu vivienda es apartamento, casa o negocio/oficina?",Opción única,—
+P4,Perfil,¿Cuántos aires acondicionados tienes?,Numérica,—
+P5,Perfil,"¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)",Opción múltiple,—
+P6,Perfil,¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?,Opción única,—
+P7,Perfil,¿Usas tarjeta de crédito regularmente para pagar servicios o compras?,Sí/No,"3, 18"
+P8,Perfil,¿Qué tan cómodo te sientes usando apps o plataformas digitales?,Escala 1-5 (Bajo → Alto),"10, 11"
+Mantenimiento actual,,,,
+P9,Mantenimiento,¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?,Sí/No,"4, 7"
+P10,Mantenimiento,¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?,Opción múltiple,2
+P11,Mantenimiento,¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?,Sí/No,13
+P12,Mantenimiento,¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?,Sí/No,(pregunta extra)
+Dolores y frustraciones,,,,
+P13,Dolores,¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?,Sí/No,5
+P14,Dolores,¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?,Sí/No,16
+P15,Dolores,¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?,Sí/No,17
+P16,Dolores,¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?,Sí/No,"6, 19, 20"
+P17,Dolores,¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?,Sí/No,"15, 19"
+P18,Dolores,¿Confías más en técnicos informales recomendados que en empresas establecidas?,Sí/No,(pregunta extra)
+Motivaciones y prioridades,,,,
+P19,Motivaciones,¿Qué te motivaría más a mantener tus aires acondicionados al día?,Opción única: evitar daños / ahorrar energía / tener garantía / evitar gastos mayores,"7, 13"
+P20,Motivaciones,¿Qué es más importante para ti al contratar un técnico?,"Opción única: calidad/garantía, puntualidad, precio, disponibilidad, confianza",8
+P21,Motivaciones,"¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?",Sí/No,10
+P22,Motivaciones,"Si pudieras elegir, ¿qué priorizarías más?","Opción única: garantía, ahorrar tiempo, ahorrar dinero",11
+P23,Motivaciones,¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?,Sí/No,(pregunta extra)
+Carga mental y hábitos,,,,
+P24,Carga mental,¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?,Sí/No,12
+P25,Carga mental,¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?,Sí/No,14
+Comportamiento de búsqueda y pagos,,,,
+P26,Búsqueda,"Cuando necesitas un técnico, ¿qué es lo primero que haces?","Opción única: preguntar a familia/amigos, buscar en Google, grupos WhatsApp, llamar conocido",9
+P27,Pagos,¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?,Sí/No,18
+P28,Pagos,¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?,Sí/No,"3, 18"
+P29,Búsqueda,"Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?",Opción única,(pregunta extra)
+Cierre,,,,
+P30,Referencias,¿Tienes un técnico fijo de confianza al que siempre llamas?,Sí/No,(pregunta extra)
+P31,Referencias,¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?,Texto / Sí/No,—

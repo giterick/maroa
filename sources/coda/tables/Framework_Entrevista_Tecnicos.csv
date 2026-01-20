@@ -1,0 +1,51 @@
+#,Sección,Pregunta,Tipo de respuesta,Opciones,Tips/Ayuda,Hipótesis validada
+--- DATOS DE PERFIL ---,,,,,,
+P0.1,Perfil,¿Cuál es tu categoría principal de trabajo?,Opción única,"A/C, Electricidad, Plomería, Electrodomésticos, Handyman, Otros","Elige la que más te genera ingresos o más haces en el mes.",Segmentación por especialidad
+P0.2,Perfil,¿Cuál es tu modalidad actual de trabajo?,Opción única,"Independiente, Trabajo con ayudante, Equipo (2-5), Empresa (6+)","Selecciona cómo trabajas la mayor parte del tiempo.",Estructura operativa
+P0.3,Perfil,¿Cuál es tu zona principal de trabajo?,Opción única,"Punta Cana/Bávaro, Verón, Cap Cana, Otra","Marca donde haces la mayoría de servicios.",Cobertura geográfica (23)
+P0.4,Perfil,¿Cuántos años de experiencia tienes?,Opción única,"0-2, 3-5, 6-10, 10+","Aproximado está bien.",Nivel y confianza operacional
+P0.5,Perfil,¿Cuál es tu disponibilidad típica?,Opción única,"Solo mañanas, Solo tardes, Día completo, Fines de semana, Variable","Elige la opción que sea cierta 3+ días a la semana.",Disponibilidad vs ventanas (1-2)
+--- CAPACIDAD Y TIEMPOS ---,,,,,,
+P1.1,Capacidad,¿Tienes semanas donde te faltan trabajos para llenar tu agenda?,Sí/No,,"Piensa en las últimas 4 semanas.",Baja utilización (9)
+P1.2,Capacidad,¿Tienes al menos 2 espacios libres de 2 horas en una semana típica?,Sí/No,,"Un 'espacio libre' = bloque donde podrías aceptar un servicio nuevo.",Encajar ventanas sin romper agenda (1-9)
+P1.3,Capacidad,"En una semana típica, tu agenda está…",Opción única,"0-25% llena, 26-50%, 51-75%, 76-100%","Estimación rápida; no hace falta exactitud.",Capacidad real y variabilidad (9)
+--- PUNTUALIDAD Y REPROGRAMACIÓN ---,,,,,,
+P2.1,Puntualidad,¿Puedes comprometerte a llegar dentro de una ventana de 2 horas en la mayoría de citas?,Sí/No,,"Si tu respuesta depende del día, responde por tu semana típica.",Cumplimiento de ventanas (1-29)
+P2.2,Puntualidad,"En tu semana típica, ¿reprogramas citas más de 1 vez por semana?",Sí/No,,"Reprogramar incluye mover hora o día por cualquier motivo.",Frecuencia de reprogramación (29)
+P2.3,Puntualidad,¿Confirmas hora estimada (ETA) con el cliente antes de salir hacia el servicio?,Sí/No,,"Confirmar ETA puede ser un mensaje corto.",Hábitos de planificación/ETA (30)
+P2.4,Puntualidad,"Si te piden confirmar 'en camino' y 'en sitio', ¿lo podrías hacer en cada servicio?",Sí/No,,"No es un app; imagina un WhatsApp rápido.",Actualización de estatus consistente (8)
+--- COMUNICACIÓN OPERATIVA ---,,,,,,
+P3.1,Comunicación,¿Respondes mensajes operativos durante horario de trabajo en menos de 10 minutos la mayoría de veces?,Sí/No,,"Operativo = coordinar llegada, confirmar, pedir info.",Velocidad de respuesta operativa (28)
+P3.2,Comunicación,¿Te sientes cómodo comunicándote de forma 'más formal/profesional' con clientes (texto/llamada)?,Sí/No,,"Formal = claro, respetuoso, sin discusiones.",Tono profesional consistente (27)
+--- TECNOLOGÍA MÍNIMA ---,,,,,,
+P4.1,Tecnología,¿Tienes smartphone con cámara funcional y datos móviles la mayoría del tiempo?,Sí/No,,"No tiene que ser último modelo.",Requisito mínimo de tecnología (7)
+P4.2,Tecnología,¿Usas WhatsApp para coordinar la mayoría de tus servicios hoy?,Sí/No,,"Coordinar = agendar, confirmar, actualizar.",Canal dominante y fricción (7)
+P4.3,Tecnología,¿Podrías enviar 3-5 fotos por servicio (antes/después/evidencia) de forma consistente?,Sí/No,,"Consistente = en 8 de cada 10 servicios.",Evidencia mínima sin fricción (6)
+--- CALIDAD Y ESTANDARIZACIÓN ---,,,,,,
+P5.1,Calidad,¿Seguirías un checklist simple en cada servicio si te toma menos de 3 minutos?,Sí/No,,"Checklist simple = 6-10 puntos, marcar y listo.",Disposición a protocolos (5-19)
+P5.2,Calidad,¿Aceptarías que se revise tu trabajo (QA) de forma aleatoria en algunos servicios?,Sí/No,,"Revisión = fotos + checklist, no necesariamente visita.",Tolerancia a control de calidad (5-20)
+P5.3,Calidad,"Si un fallo fue por mala ejecución, ¿harías retrabajo sin costo?",Sí/No,,"No incluye 'nueva falla'; solo el mismo error.",Retrabajos/garantía operacional (25)
+P5.4,Calidad,¿Entiendes y aceptarías diferenciar entre 'retrabajo' vs 'nueva falla' como dos casos distintos?,Sí/No,,"Retrabajo = mismo problema por ejecución. Nueva falla = otro problema distinto.",Alineación conceptual clave (26)
+--- CONFIANZA Y SEGURIDAD ---,,,,,,
+P6.1,Seguridad,¿Aceptarías verificación de antecedentes como requisito para entrar a residenciales?,Sí/No,,"Verificación = proceso estándar; no implica juicio, solo requisito.",Compliance y acceso (11)
+P6.2,Seguridad,¿Estarías dispuesto a usar identificación visible (badge/camisa) durante servicios?,Sí/No,,"Visible = que el cliente te identifique fácilmente.",Protocolos de seguridad/imagen (12)
+--- MODELO DE PAGO ---,,,,,,
+P7.1,Pago,¿Aceptarías que el cliente pague a la empresa y tú recibas el pago después del cierre?,Sí/No,,"Después del cierre = cuando el servicio queda confirmado como completado.",Estructura de cobro centralizada (13)
+P7.2,Pago,¿Puedes operar si el pago se procesa en un ciclo de 7-15 días?,Sí/No,,"Operar = cubrir tu gasolina, materiales menores, etc.",Tolerancia a ciclo de pago (14)
+--- MATERIALES E INSUMOS ---,,,,,,
+P8.1,Materiales,"En tu operación, normalmente ¿quién compra los materiales?",Opción única,"Yo, Cliente, Depende del caso","Elige la opción más frecuente.",Patrón actual y fricción (15)
+P8.2,Materiales,¿Preferirías que otra parte gestione la compra de materiales para que tú no adelantes dinero?,Sí/No,,"Gestionar = comprar/entregar, no necesariamente escoger marca.",Preferencia por no adelantar costos (15)
+--- RELACIÓN CONTRACTUAL ---,,,,,,
+P9.1,Contrato,"Si colaboraras con una empresa, ¿preferirías seguir como contratista independiente (no empleado)?",Sí/No,,"Contratista = tú manejas tus impuestos/horario en parte.",Forma de relación (17)
+P9.2,Contrato,¿Aceptarías un contrato con reglas claras de cumplimiento (por ejemplo puntualidad y retrabajos)?,Sí/No,,"Reglas claras = definidas antes, sin sorpresas.",Tolerancia a SLA/penalidades (18)
+P9.3,Contrato,¿Aceptarías no negociar directamente con clientes 'asignados' durante y después del servicio?,Sí/No,,"No negociar = no hacer trato por fuera con ese cliente.",Exclusividad / no bypass (21)
+P9.4,Contrato,¿Necesitas mantener tus clientes propios mientras colaboras con una empresa?,Sí/No,,"Clientes propios = tu cartera fuera de la empresa.",No exclusividad total (22)
+--- COBERTURA Y BACKUPS ---,,,,,,
+P10.1,Cobertura,¿Te desplazarías dentro de la zona del piloto sin exigir cargos de traslado 'altos'?,Sí/No,,"Según tu criterio; si dicen No solo marca No y seguimos.",Cobertura geográfica (23)
+P10.2,Cobertura,¿Conoces a al menos 1 técnico de confianza que podría cubrirte como backup si tú no puedes?,Sí/No,,"Backup = alguien que tú recomendarías sin miedo.",Existencia de backup por categoría (24)
+--- PREGUNTAS DISCONFIRMING ---,,,,,,
+A1,Disconfirming,¿Prefieres trabajos grandes/instalaciones y evitas trabajos pequeños/repetitivos?,Sí/No,,"No estamos valorando nada; es solo preferencia.",Riesgo: modelo no atractivo por tipo de trabajo
+A2,Disconfirming,¿Te incomoda que un tercero supervise documentación/fotos de tu trabajo?,Sí/No,,"Supervisar = revisar que exista evidencia, no criticar tu técnica.",Fricción cultural con evidencia/QA (5-6)
+A3,Disconfirming,¿Has tenido conflictos frecuentes con clientes por 'culpa' o 'responsabilidad' del fallo?,Sí/No,,"Frecuente = 2+ veces en los últimos 2 meses.",Riesgo de retrabajos/disputas (25-26)
+A4,Disconfirming,¿Evitas trabajos en residenciales por políticas/seguridad/entrada?,Sí/No,,"Evitar = rechazas esos trabajos cuando puedes.",Riesgo de acceso (11-12)
+A5,Disconfirming,¿Te ha pasado que aceptas un trabajo y luego lo cancelas por falta de herramientas/piezas?,Sí/No,,"Esto es normal; queremos entender la frecuencia, no juzgar.",Riesgo operativo/logística

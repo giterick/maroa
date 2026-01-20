@@ -4,6 +4,10 @@ Coda API Data Extractor
 
 Extracts tables and pages from a Coda document and saves them to the sources folder.
 
+Uses the Coda Export API (POST /pages/{id}/export) to properly extract page content,
+including canvas pages with embedded tables and rich content that the basic API
+endpoint (GET /pages/{id}) doesn't return.
+
 Folder structure:
     sources/coda/
         ├── metadata.json          # Document metadata
@@ -136,6 +140,107 @@ def get_page_content(page_id: str) -> dict:
     return api_request(f"/docs/{CODA_DOC_ID}/pages/{page_id}")
 
 
+def api_request_post(endpoint: str, data: dict = None) -> dict:
+    """Make an authenticated POST request to the Coda API."""
+    url = f"{CODA_API_BASE}{endpoint}"
+
+    headers = {
+        'Authorization': f'Bearer {CODA_API_TOKEN}',
+        'Content-Type': 'application/json'
+    }
+
+    body = json.dumps(data).encode('utf-8') if data else None
+    request = Request(url, data=body, headers=headers, method='POST')
+
+    try:
+        with urlopen(request) as response:
+            return json.loads(response.read().decode('utf-8'))
+    except HTTPError as e:
+        if e.code == 429:
+            retry_after = int(e.headers.get('Retry-After', 10))
+            print(f"Rate limited. Waiting {retry_after} seconds...")
+            time.sleep(retry_after)
+            return api_request_post(endpoint, data)
+        raise
+    except URLError as e:
+        print(f"URL Error: {e.reason}")
+        raise
+
+
+def begin_page_export(page_id: str, output_format: str = 'markdown') -> dict:
+    """
+    Start an export of page content.
+
+    Args:
+        page_id: The page ID to export
+        output_format: 'markdown' or 'html'
+
+    Returns:
+        dict with 'id' (request ID), 'status', and 'href'
+    """
+    endpoint = f"/docs/{CODA_DOC_ID}/pages/{page_id}/export"
+    return api_request_post(endpoint, {'outputFormat': output_format})
+
+
+def get_page_export_status(page_id: str, request_id: str) -> dict:
+    """
+    Get the status and content of a page export.
+
+    Args:
+        page_id: The page ID
+        request_id: The export request ID from begin_page_export
+
+    Returns:
+        dict with 'status' and 'downloadLink' when complete
+    """
+    endpoint = f"/docs/{CODA_DOC_ID}/pages/{page_id}/export/{request_id}"
+    return api_request(endpoint)
+
+
+def export_page_content(page_id: str, output_format: str = 'markdown', max_attempts: int = 30) -> str:
+    """
+    Export page content with polling until complete.
+
+    Args:
+        page_id: The page ID to export
+        output_format: 'markdown' or 'html'
+        max_attempts: Maximum polling attempts (default 30 = ~60 seconds)
+
+    Returns:
+        The exported content as a string
+    """
+    # Start the export
+    export_response = begin_page_export(page_id, output_format)
+    request_id = export_response.get('id')
+
+    if not request_id:
+        raise Exception(f"Failed to start export: {export_response}")
+
+    # Poll until complete
+    for attempt in range(max_attempts):
+        status_response = get_page_export_status(page_id, request_id)
+        status = status_response.get('status', '')
+
+        if status == 'complete':
+            # Get the download link and fetch content
+            download_link = status_response.get('downloadLink', '')
+            if download_link:
+                # Fetch the actual content from the download link
+                req = Request(download_link)
+                with urlopen(req) as response:
+                    return response.read().decode('utf-8')
+            return ''
+
+        elif status == 'failed':
+            error = status_response.get('error', 'Unknown error')
+            raise Exception(f"Export failed: {error}")
+
+        # Still processing, wait and retry
+        time.sleep(2)
+
+    raise Exception(f"Export timed out after {max_attempts * 2} seconds")
+
+
 def get_tables() -> list:
     """Get all tables from the document."""
     print("Fetching tables...")
@@ -237,8 +342,14 @@ def save_table_as_json(table_info: dict, columns: list, rows: list, filepath: Pa
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def page_content_to_markdown(page: dict) -> str:
-    """Convert page content to markdown format."""
+def page_content_to_markdown(page: dict, exported_content: str = None) -> str:
+    """
+    Convert page content to markdown format.
+
+    Args:
+        page: Page metadata dict
+        exported_content: Pre-exported markdown content (from export API)
+    """
     lines = []
 
     # Title
@@ -252,33 +363,44 @@ def page_content_to_markdown(page: dict) -> str:
         lines.append(f"*{subtitle}*")
         lines.append("")
 
-    # Content (Coda returns HTML-like content)
-    content_html = page.get('contentHtml', '')
-    if content_html:
-        # Basic HTML to markdown conversion
-        content = content_html
-        # Convert common HTML tags
-        content = re.sub(r'<h1[^>]*>(.*?)</h1>', r'# \1\n', content, flags=re.DOTALL)
-        content = re.sub(r'<h2[^>]*>(.*?)</h2>', r'## \1\n', content, flags=re.DOTALL)
-        content = re.sub(r'<h3[^>]*>(.*?)</h3>', r'### \1\n', content, flags=re.DOTALL)
-        content = re.sub(r'<p[^>]*>(.*?)</p>', r'\1\n\n', content, flags=re.DOTALL)
-        content = re.sub(r'<br\s*/?>', '\n', content)
-        content = re.sub(r'<strong>(.*?)</strong>', r'**\1**', content, flags=re.DOTALL)
-        content = re.sub(r'<b>(.*?)</b>', r'**\1**', content, flags=re.DOTALL)
-        content = re.sub(r'<em>(.*?)</em>', r'*\1*', content, flags=re.DOTALL)
-        content = re.sub(r'<i>(.*?)</i>', r'*\1*', content, flags=re.DOTALL)
-        content = re.sub(r'<li[^>]*>(.*?)</li>', r'- \1\n', content, flags=re.DOTALL)
-        content = re.sub(r'<ul[^>]*>|</ul>', '', content)
-        content = re.sub(r'<ol[^>]*>|</ol>', '', content)
-        content = re.sub(r'<a[^>]*href="([^"]*)"[^>]*>(.*?)</a>', r'[\2](\1)', content, flags=re.DOTALL)
-        content = re.sub(r'<code>(.*?)</code>', r'`\1`', content, flags=re.DOTALL)
-        content = re.sub(r'<pre[^>]*>(.*?)</pre>', r'```\n\1\n```', content, flags=re.DOTALL)
-        # Remove remaining HTML tags
-        content = re.sub(r'<[^>]+>', '', content)
-        # Clean up whitespace
-        content = re.sub(r'\n{3,}', '\n\n', content)
-        content = content.strip()
-        lines.append(content)
+    # Use exported content if available (new method)
+    if exported_content:
+        # The export API returns clean markdown, just clean up whitespace
+        content = exported_content.strip()
+        # Remove duplicate title if the export includes it
+        if content.startswith(f"# {name}"):
+            content = content[len(f"# {name}"):].strip()
+        if content:
+            lines.append(content)
+    else:
+        # Fallback: try contentHtml from basic API (legacy method)
+        content_html = page.get('contentHtml', '')
+        if content_html:
+            # Basic HTML to markdown conversion
+            content = content_html
+            # Convert common HTML tags
+            content = re.sub(r'<h1[^>]*>(.*?)</h1>', r'# \1\n', content, flags=re.DOTALL)
+            content = re.sub(r'<h2[^>]*>(.*?)</h2>', r'## \1\n', content, flags=re.DOTALL)
+            content = re.sub(r'<h3[^>]*>(.*?)</h3>', r'### \1\n', content, flags=re.DOTALL)
+            content = re.sub(r'<p[^>]*>(.*?)</p>', r'\1\n\n', content, flags=re.DOTALL)
+            content = re.sub(r'<br\s*/?>', '\n', content)
+            content = re.sub(r'<strong>(.*?)</strong>', r'**\1**', content, flags=re.DOTALL)
+            content = re.sub(r'<b>(.*?)</b>', r'**\1**', content, flags=re.DOTALL)
+            content = re.sub(r'<em>(.*?)</em>', r'*\1*', content, flags=re.DOTALL)
+            content = re.sub(r'<i>(.*?)</i>', r'*\1*', content, flags=re.DOTALL)
+            content = re.sub(r'<li[^>]*>(.*?)</li>', r'- \1\n', content, flags=re.DOTALL)
+            content = re.sub(r'<ul[^>]*>|</ul>', '', content)
+            content = re.sub(r'<ol[^>]*>|</ol>', '', content)
+            content = re.sub(r'<a[^>]*href="([^"]*)"[^>]*>(.*?)</a>', r'[\2](\1)', content, flags=re.DOTALL)
+            content = re.sub(r'<code>(.*?)</code>', r'`\1`', content, flags=re.DOTALL)
+            content = re.sub(r'<pre[^>]*>(.*?)</pre>', r'```\n\1\n```', content, flags=re.DOTALL)
+            # Remove remaining HTML tags
+            content = re.sub(r'<[^>]+>', '', content)
+            # Clean up whitespace
+            content = re.sub(r'\n{3,}', '\n\n', content)
+            content = content.strip()
+            if content:
+                lines.append(content)
 
     # Metadata footer
     lines.append("")
@@ -316,10 +438,12 @@ def main():
 
     # Get and save document metadata
     doc_info = get_doc_info()
+    owner_info = doc_info.get('owner', 'Unknown')
+    owner_name = owner_info.get('name', 'Unknown') if isinstance(owner_info, dict) else owner_info
     doc_metadata = {
         'id': doc_info.get('id'),
         'name': doc_info.get('name'),
-        'owner': doc_info.get('owner', {}).get('name', 'Unknown'),
+        'owner': owner_name,
         'createdAt': doc_info.get('createdAt'),
         'updatedAt': doc_info.get('updatedAt'),
         'browserLink': doc_info.get('browserLink', ''),
@@ -345,12 +469,23 @@ def main():
         page_name = page.get('name', 'Untitled')
         print(f"  [{i}/{len(pages)}] {page_name}")
 
-        # Get full page content
+        # Get full page content using export API
         try:
+            # Get page metadata
             page_content = get_page_content(page_id)
 
+            # Export page content as markdown (new method)
+            exported_content = None
+            try:
+                print(f"      Exporting content...")
+                exported_content = export_page_content(page_id, 'markdown')
+                if exported_content:
+                    print(f"      Exported {len(exported_content)} chars")
+            except Exception as export_error:
+                print(f"      Export API failed: {export_error}, using fallback")
+
             # Convert to markdown and save
-            markdown_content = page_content_to_markdown(page_content)
+            markdown_content = page_content_to_markdown(page_content, exported_content)
             safe_name = sanitize_filename(page_name)
             md_filepath = PAGES_DIR / f"{safe_name}.md"
 
@@ -371,7 +506,7 @@ def main():
                 'parentPageId': page.get('parent', {}).get('id')
             })
 
-            time.sleep(0.2)  # Rate limiting
+            time.sleep(0.3)  # Rate limiting (slightly longer due to export)
 
         except Exception as e:
             print(f"    Error extracting page: {e}")

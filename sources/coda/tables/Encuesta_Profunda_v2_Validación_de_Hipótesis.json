@@ -1,0 +1,519 @@
+{
+  "table": {
+    "id": "grid-cLpFJrxFTS",
+    "name": "Encuesta Profunda v2 Validación de Hipótesis",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS"
+  },
+  "columns": [
+    {
+      "id": "c-e7MHh_G52p",
+      "name": "Nombre entrevistado",
+      "type": "text"
+    },
+    {
+      "id": "c-qn0G31_HZL",
+      "name": "¿Cuál es tu edad?",
+      "type": "number"
+    },
+    {
+      "id": "c-B9IPE3ekPZ",
+      "name": "¿En qué ciudad/sector vives?",
+      "type": "text"
+    },
+    {
+      "id": "c-Apthql5NWS",
+      "name": "¿Tu vivienda es apartamento, casa o negocio/oficina?",
+      "type": "select"
+    },
+    {
+      "id": "c-clr4qgl-fw",
+      "name": "¿Cuántos aires acondicionados tienes?",
+      "type": "number"
+    },
+    {
+      "id": "c-KXp0trw3YJ",
+      "name": "¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)",
+      "type": "select"
+    },
+    {
+      "id": "c-B3u10eLez4",
+      "name": "¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?",
+      "type": "select"
+    },
+    {
+      "id": "c-6Q5A2NQGyU",
+      "name": "¿Usas tarjeta de crédito regularmente para pagar servicios o compras?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-wQQYVikl8u",
+      "name": "¿Qué tan cómodo te sientes usando apps o plataformas digitales?",
+      "type": "scale"
+    },
+    {
+      "id": "c-sirQCq5uG1",
+      "name": "¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-XoS7pQjbsX",
+      "name": "¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-BOpzUzoqqC",
+      "name": "¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-Z8Xqcx5JMx",
+      "name": "¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-QMyLQNwQus",
+      "name": "¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-uTW2m8ooWI",
+      "name": "¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-2lETRJNzF2",
+      "name": "¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-YkwyEK1vyD",
+      "name": "¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-0VYA-b1fxj",
+      "name": "¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-ZdjABtZ3aT",
+      "name": "¿Confías más en técnicos informales recomendados que en empresas establecidas?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-ZWhusxmRW0",
+      "name": "¿Qué te motivaría más a mantener tus aires acondicionados al día?",
+      "type": "select"
+    },
+    {
+      "id": "c-ZgdHoD3bYN",
+      "name": "¿Qué es más importante para ti al contratar un técnico?",
+      "type": "select"
+    },
+    {
+      "id": "c-xQyZTjEr4R",
+      "name": "¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-DOxaCZUAIv",
+      "name": "Si pudieras elegir, ¿qué priorizarías más?",
+      "type": "select"
+    },
+    {
+      "id": "c-UWEAOhmtrX",
+      "name": "¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-dXTgc-IOzD",
+      "name": "¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-EeIHr_VXMk",
+      "name": "¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-ITXTc0Oajx",
+      "name": "Cuando necesitas un técnico, ¿qué es lo primero que haces?",
+      "type": "select"
+    },
+    {
+      "id": "c-1MZAjqynXk",
+      "name": "¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-JA-nOILTwb",
+      "name": "¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-6WtPB4_5M2",
+      "name": "Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?",
+      "type": "select"
+    },
+    {
+      "id": "c-8WDG7tquYh",
+      "name": "¿Tienes un técnico fijo de confianza al que siempre llamas?",
+      "type": "lookup"
+    },
+    {
+      "id": "c-GAIJOcLmFV",
+      "name": "¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?",
+      "type": "text"
+    },
+    {
+      "id": "c-h6INN02MbM",
+      "name": "Notas adicionales",
+      "type": "canvas"
+    },
+    {
+      "id": "c-huyzYbsZGQ",
+      "name": "¿Preferirías que alguien más coordinara estos mantenimientos por ti, en vez de hacerlo tú?",
+      "type": "lookup"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-iqE1KVUUpE",
+      "name": "Pedro Dajer",
+      "index": 7,
+      "values": {
+        "Nombre entrevistado": "Pedro Dajer",
+        "¿Cuál es tu edad?": "34",
+        "¿En qué ciudad/sector vives?": "Punta Cana Village",
+        "¿Tu vivienda es apartamento, casa o negocio/oficina?": "Casa",
+        "¿Cuántos aires acondicionados tienes?": "5",
+        "¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)": "Calentador,Estufa,Secadora,Lavadora,Nevera,Otro",
+        "¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?": "Yo",
+        "¿Usas tarjeta de crédito regularmente para pagar servicios o compras?": "Sí",
+        "¿Qué tan cómodo te sientes usando apps o plataformas digitales?": "5",
+        "¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?": "Sí",
+        "¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?": "Sí",
+        "¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?": "Sí",
+        "¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?": "No",
+        "¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?": "No",
+        "¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?": "No",
+        "¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?": "Sí",
+        "¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?": "Sí",
+        "¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?": "No",
+        "¿Confías más en técnicos informales recomendados que en empresas establecidas?": "Sí",
+        "¿Qué te motivaría más a mantener tus aires acondicionados al día?": "Evitar gastos mayores",
+        "¿Qué es más importante para ti al contratar un técnico?": "Calidad/garantía",
+        "¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?": "Sí",
+        "Si pudieras elegir, ¿qué priorizarías más?": "Garantía",
+        "¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?": "No",
+        "¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?": "Sí",
+        "¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?": "Sí",
+        "Cuando necesitas un técnico, ¿qué es lo primero que haces?": "Llamar conocido",
+        "¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?": "Sí",
+        "¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?": "Sí",
+        "Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?": "Sí la usaría",
+        "¿Tienes un técnico fijo de confianza al que siempre llamas?": "Sí",
+        "¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?": "Andrés Amigo PC Venezuela",
+        "Notas adicionales": "Empresas cobran más, no necesariamente ofrecen mejor servicio que los informales.",
+        "¿Preferirías que alguien más coordinara estos mantenimientos por ti, en vez de hacerlo tú?": "No"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-iqE1KVUUpE"
+    },
+    {
+      "id": "i-YuZh7uRRxa",
+      "name": "Narciso Contreras",
+      "index": 6,
+      "values": {
+        "Nombre entrevistado": "Narciso Contreras",
+        "¿Cuál es tu edad?": "36",
+        "¿En qué ciudad/sector vives?": "Santo Domingo, Evaristo Morales",
+        "¿Tu vivienda es apartamento, casa o negocio/oficina?": "Apartamento",
+        "¿Cuántos aires acondicionados tienes?": "4",
+        "¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)": "Nevera,Lavadora,Estufa,Calentador,Secadora",
+        "¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?": "Yo",
+        "¿Usas tarjeta de crédito regularmente para pagar servicios o compras?": "Sí",
+        "¿Qué tan cómodo te sientes usando apps o plataformas digitales?": "5",
+        "¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?": "Sí",
+        "¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?": "Sí",
+        "¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?": "No",
+        "¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?": "No",
+        "¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?": "Sí",
+        "¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?": "Sí",
+        "¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?": "Sí",
+        "¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?": "Sí",
+        "¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?": "Sí",
+        "¿Confías más en técnicos informales recomendados que en empresas establecidas?": "Sí",
+        "¿Qué te motivaría más a mantener tus aires acondicionados al día?": "Ahorro energía",
+        "¿Qué es más importante para ti al contratar un técnico?": "Calidad/garantía",
+        "¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?": "Sí",
+        "Si pudieras elegir, ¿qué priorizarías más?": "Dinero",
+        "¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?": "Sí",
+        "¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?": "Sí",
+        "¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?": "Sí",
+        "Cuando necesitas un técnico, ¿qué es lo primero que haces?": "Preguntar a familia/amigos",
+        "¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?": "Sí",
+        "¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?": "Sí",
+        "Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?": "Sí la usaría",
+        "¿Tienes un técnico fijo de confianza al que siempre llamas?": "Sí",
+        "¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?": "",
+        "Notas adicionales": "Sería importante entender la solicitud que vas a hacer es limpieza, reparación, dar detalles de lo que se va a hacer antes de que el técnico llegue. Transparencia.",
+        "¿Preferirías que alguien más coordinara estos mantenimientos por ti, en vez de hacerlo tú?": "No"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-YuZh7uRRxa"
+    },
+    {
+      "id": "i-ydlIxD2las",
+      "name": "Damian Taveras",
+      "index": 5,
+      "values": {
+        "Nombre entrevistado": "Damian Taveras",
+        "¿Cuál es tu edad?": "31",
+        "¿En qué ciudad/sector vives?": "Santo Domingo, Logroño",
+        "¿Tu vivienda es apartamento, casa o negocio/oficina?": "Apartamento",
+        "¿Cuántos aires acondicionados tienes?": "6",
+        "¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)": "Nevera,Lavadora,Secadora,Estufa,Calentador",
+        "¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?": "Yo",
+        "¿Usas tarjeta de crédito regularmente para pagar servicios o compras?": "Sí",
+        "¿Qué tan cómodo te sientes usando apps o plataformas digitales?": "5",
+        "¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?": "Sí",
+        "¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?": "Sí",
+        "¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?": "Sí",
+        "¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?": "Sí",
+        "¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?": "No",
+        "¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?": "No",
+        "¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?": "Sí",
+        "¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?": "Sí",
+        "¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?": "Sí",
+        "¿Confías más en técnicos informales recomendados que en empresas establecidas?": "No",
+        "¿Qué te motivaría más a mantener tus aires acondicionados al día?": "Ahorro energía",
+        "¿Qué es más importante para ti al contratar un técnico?": "Disponibilidad",
+        "¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?": "Sí",
+        "Si pudieras elegir, ¿qué priorizarías más?": "Tiempo",
+        "¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?": "No",
+        "¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?": "Sí",
+        "¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?": "Sí",
+        "Cuando necesitas un técnico, ¿qué es lo primero que haces?": "Llamar conocido",
+        "¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?": "Sí",
+        "¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?": "Sí",
+        "Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?": "Sí la usaría",
+        "¿Tienes un técnico fijo de confianza al que siempre llamas?": "No",
+        "¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?": "Mi hermana y mi socio.",
+        "Notas adicionales": "Considerar chat, IA o agente, intercambiar información. Pre-diagnóstico para temas sencillos.",
+        "¿Preferirías que alguien más coordinara estos mantenimientos por ti, en vez de hacerlo tú?": "Sí"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-ydlIxD2las"
+    },
+    {
+      "id": "i-ywSxSY7Hht",
+      "name": "Alex Abreu",
+      "index": 4,
+      "values": {
+        "Nombre entrevistado": "Alex Abreu",
+        "¿Cuál es tu edad?": "30",
+        "¿En qué ciudad/sector vives?": "Caracoli",
+        "¿Tu vivienda es apartamento, casa o negocio/oficina?": "Apartamento",
+        "¿Cuántos aires acondicionados tienes?": "2",
+        "¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)": "Lavadora,Nevera,Secadora,Estufa,Calentador",
+        "¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?": "Yo",
+        "¿Usas tarjeta de crédito regularmente para pagar servicios o compras?": "Sí",
+        "¿Qué tan cómodo te sientes usando apps o plataformas digitales?": "5",
+        "¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?": "Sí",
+        "¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?": "No",
+        "¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?": "Sí",
+        "¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?": "Sí",
+        "¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?": "Sí",
+        "¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?": "Sí",
+        "¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?": "Sí",
+        "¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?": "Sí",
+        "¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?": "Sí",
+        "¿Confías más en técnicos informales recomendados que en empresas establecidas?": "Sí",
+        "¿Qué te motivaría más a mantener tus aires acondicionados al día?": "Ahorro energía",
+        "¿Qué es más importante para ti al contratar un técnico?": "Confianza",
+        "¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?": "Sí",
+        "Si pudieras elegir, ¿qué priorizarías más?": "Tiempo",
+        "¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?": "Sí",
+        "¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?": "Sí",
+        "¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?": "Sí",
+        "Cuando necesitas un técnico, ¿qué es lo primero que haces?": "Llamar conocido",
+        "¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?": "Sí",
+        "¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?": "Sí",
+        "Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?": "Sí la usaría",
+        "¿Tienes un técnico fijo de confianza al que siempre llamas?": "No",
+        "¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?": "",
+        "Notas adicionales": "",
+        "¿Preferirías que alguien más coordinara estos mantenimientos por ti, en vez de hacerlo tú?": "Sí"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-ywSxSY7Hht"
+    },
+    {
+      "id": "i-Sdu8ySQ3ew",
+      "name": "Oscar Melo",
+      "index": 3,
+      "values": {
+        "Nombre entrevistado": "Oscar Melo",
+        "¿Cuál es tu edad?": "39",
+        "¿En qué ciudad/sector vives?": "Santo Domingo, Evaristo Morales",
+        "¿Tu vivienda es apartamento, casa o negocio/oficina?": "Apartamento",
+        "¿Cuántos aires acondicionados tienes?": "2",
+        "¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)": "Calentador,Nevera,Estufa,Lavadora,Secadora",
+        "¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?": "Yo",
+        "¿Usas tarjeta de crédito regularmente para pagar servicios o compras?": "Sí",
+        "¿Qué tan cómodo te sientes usando apps o plataformas digitales?": "5",
+        "¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?": "No",
+        "¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?": "No",
+        "¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?": "No",
+        "¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?": "No",
+        "¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?": "Sí",
+        "¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?": "No",
+        "¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?": "Sí",
+        "¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?": "Sí",
+        "¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?": "Sí",
+        "¿Confías más en técnicos informales recomendados que en empresas establecidas?": "No",
+        "¿Qué te motivaría más a mantener tus aires acondicionados al día?": "Evitar daños",
+        "¿Qué es más importante para ti al contratar un técnico?": "Calidad/garantía",
+        "¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?": "Sí",
+        "Si pudieras elegir, ¿qué priorizarías más?": "Garantía",
+        "¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?": "No",
+        "¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?": "Sí",
+        "¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?": "Sí",
+        "Cuando necesitas un técnico, ¿qué es lo primero que haces?": "Preguntar a familia/amigos",
+        "¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?": "Sí",
+        "¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?": "Sí",
+        "Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?": "Sí la usaría",
+        "¿Tienes un técnico fijo de confianza al que siempre llamas?": "Sí",
+        "¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?": "Si - los pasará por DM",
+        "Notas adicionales": "",
+        "¿Preferirías que alguien más coordinara estos mantenimientos por ti, en vez de hacerlo tú?": "Sí"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-Sdu8ySQ3ew"
+    },
+    {
+      "id": "i-OXbirztEtf",
+      "name": "Pablo del Rosario",
+      "index": 2,
+      "values": {
+        "Nombre entrevistado": "Pablo del Rosario",
+        "¿Cuál es tu edad?": "38",
+        "¿En qué ciudad/sector vives?": "Ciudad la palma",
+        "¿Tu vivienda es apartamento, casa o negocio/oficina?": "Casa",
+        "¿Cuántos aires acondicionados tienes?": "4",
+        "¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)": "Nevera,Lavadora,Secadora,Estufa,Calentador",
+        "¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?": "Yo",
+        "¿Usas tarjeta de crédito regularmente para pagar servicios o compras?": "Sí",
+        "¿Qué tan cómodo te sientes usando apps o plataformas digitales?": "5",
+        "¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?": "Sí",
+        "¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?": "No",
+        "¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?": "No",
+        "¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?": "No",
+        "¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?": "Sí",
+        "¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?": "Sí",
+        "¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?": "Sí",
+        "¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?": "No",
+        "¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?": "Sí",
+        "¿Confías más en técnicos informales recomendados que en empresas establecidas?": "No",
+        "¿Qué te motivaría más a mantener tus aires acondicionados al día?": "Evitar daños",
+        "¿Qué es más importante para ti al contratar un técnico?": "Calidad/garantía",
+        "¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?": "Sí",
+        "Si pudieras elegir, ¿qué priorizarías más?": "Garantía",
+        "¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?": "No",
+        "¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?": "Sí",
+        "¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?": "No",
+        "Cuando necesitas un técnico, ¿qué es lo primero que haces?": "Preguntar a familia/amigos",
+        "¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?": "Sí",
+        "¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?": "Sí",
+        "Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?": "Sí la usaría",
+        "¿Tienes un técnico fijo de confianza al que siempre llamas?": "No",
+        "¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?": "",
+        "Notas adicionales": "",
+        "¿Preferirías que alguien más coordinara estos mantenimientos por ti, en vez de hacerlo tú?": "Sí"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-OXbirztEtf"
+    },
+    {
+      "id": "i-B7qfCaTcOd",
+      "name": "Asirio Santana ",
+      "index": 1,
+      "values": {
+        "Nombre entrevistado": "Asirio Santana ",
+        "¿Cuál es tu edad?": "60",
+        "¿En qué ciudad/sector vives?": "Santo Domingo/ Evaristo morales ",
+        "¿Tu vivienda es apartamento, casa o negocio/oficina?": "Apartamento",
+        "¿Cuántos aires acondicionados tienes?": "2",
+        "¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)": "Nevera,Lavadora,Secadora,Estufa,Calentador",
+        "¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?": "Yo",
+        "¿Usas tarjeta de crédito regularmente para pagar servicios o compras?": "No",
+        "¿Qué tan cómodo te sientes usando apps o plataformas digitales?": "3",
+        "¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?": "Sí",
+        "¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?": "No",
+        "¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?": "No",
+        "¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?": "Sí",
+        "¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?": "Sí",
+        "¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?": "Sí",
+        "¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?": "Sí",
+        "¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?": "Sí",
+        "¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?": "No",
+        "¿Confías más en técnicos informales recomendados que en empresas establecidas?": "Sí",
+        "¿Qué te motivaría más a mantener tus aires acondicionados al día?": "Evitar gastos mayores",
+        "¿Qué es más importante para ti al contratar un técnico?": "Calidad/garantía",
+        "¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?": "Sí",
+        "Si pudieras elegir, ¿qué priorizarías más?": "Garantía",
+        "¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?": "Sí",
+        "¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?": "Sí",
+        "¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?": "Sí",
+        "Cuando necesitas un técnico, ¿qué es lo primero que haces?": "Llamar conocido",
+        "¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?": "Sí",
+        "¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?": "Sí",
+        "Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?": "Sí la usaría",
+        "¿Tienes un técnico fijo de confianza al que siempre llamas?": "Sí",
+        "¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?": "No",
+        "Notas adicionales": "",
+        "¿Preferirías que alguien más coordinara estos mantenimientos por ti, en vez de hacerlo tú?": "Sí"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-B7qfCaTcOd"
+    },
+    {
+      "id": "i-J7H_qDryii",
+      "name": "Erick Santana",
+      "index": 0,
+      "values": {
+        "Nombre entrevistado": "Erick Santana",
+        "¿Cuál es tu edad?": "35",
+        "¿En qué ciudad/sector vives?": "Punta Cana",
+        "¿Tu vivienda es apartamento, casa o negocio/oficina?": "Casa",
+        "¿Cuántos aires acondicionados tienes?": "4",
+        "¿Qué otros equipos grandes tienes en casa/oficina? (nevera, lavadora, secadora, estufa, calentador, etc.)": "Nevera,Lavadora,Secadora,Estufa,Calentador",
+        "¿Quién suele tomar la decisión de llamar al técnico en tu hogar/negocio?": "Pareja",
+        "¿Usas tarjeta de crédito regularmente para pagar servicios o compras?": "Sí",
+        "¿Qué tan cómodo te sientes usando apps o plataformas digitales?": "5",
+        "¿Le das mantenimiento preventivo a tus aires acondicionados al menos una o dos veces al año?": "Sí",
+        "¿Tienes otros equipos a los que también sueles dar mantenimiento preventivo?": "No",
+        "¿Tiendes a recordar el mantenimiento de los aires cuando empieza el calor fuerte?": "Sí",
+        "¿Has dejado de dar mantenimiento porque nunca has tenido problemas serios con el aire?": "Sí",
+        "¿Alguna vez te ha frustrado buscar y coordinar un técnico confiable?": "Sí",
+        "¿Te molesta el tiempo que pierdes coordinando llamadas y citas con técnicos?": "Sí",
+        "¿Sientes que el mercado está fragmentado y es difícil encontrar técnicos confiables?": "Sí",
+        "¿Alguna vez sentiste que un técnico intentó cobrarte de más con lenguaje técnico o con cargos sorpresa?": "Sí",
+        "¿Te ha pasado que un gasto sorpresa en un electrodoméstico desajuste tu presupuesto?": "Sí",
+        "¿Confías más en técnicos informales recomendados que en empresas establecidas?": "No",
+        "¿Qué te motivaría más a mantener tus aires acondicionados al día?": "Ahorro energía",
+        "¿Qué es más importante para ti al contratar un técnico?": "Calidad/garantía",
+        "¿Prefieres tener un solo lugar donde ver y manejar todos tus mantenimientos, aunque no ahorres tiempo ni dinero?": "Sí",
+        "Si pudieras elegir, ¿qué priorizarías más?": "Garantía",
+        "¿Alguna vez pensaste que el mantenimiento preventivo es innecesario o un gasto extra?": "Sí",
+        "¿Sientes que el día a día te deja poco tiempo o energía para pensar en mantenimientos preventivos?": "Sí",
+        "¿Te incomoda la acumulación de tareas “no urgentes pero importantes” como los mantenimientos?": "Sí",
+        "Cuando necesitas un técnico, ¿qué es lo primero que haces?": "WhatsApp/Facebook",
+        "¿Has tenido que pagar técnicos en efectivo o transferencia en vez de tarjeta?": "Sí",
+        "¿Te resultaría más cómodo pagar estos servicios automáticamente con tu tarjeta de crédito?": "Sí",
+        "Si existiera una app para esto, ¿la usarías realmente o preferirías seguir como hasta ahora?": "Sí la usaría",
+        "¿Tienes un técnico fijo de confianza al que siempre llamas?": "No",
+        "¿Conoces a alguien más que pudiera ayudarnos respondiendo esta misma encuesta?": "Gabriella Bairan",
+        "Notas adicionales": "Muy apuesto el muchacho.",
+        "¿Preferirías que alguien más coordinara estos mantenimientos por ti, en vez de hacerlo tú?": "Sí"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS/_rui-J7H_qDryii"
+    }
+  ]
+}

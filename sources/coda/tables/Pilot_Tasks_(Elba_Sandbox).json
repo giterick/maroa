@@ -1,0 +1,138 @@
+{
+  "table": {
+    "id": "grid-ORnRH1tt0V",
+    "name": "Pilot Tasks (Elba Sandbox)",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V"
+  },
+  "columns": [
+    {
+      "id": "c-06GA7GheB_",
+      "name": "Task",
+      "type": "text"
+    },
+    {
+      "id": "c-eZqAWBtIrB",
+      "name": "Owner",
+      "type": "person"
+    },
+    {
+      "id": "c-lYEuP77-Zi",
+      "name": "Status",
+      "type": "select"
+    },
+    {
+      "id": "c-9_S8vQnkwY",
+      "name": "Due date",
+      "type": "date"
+    },
+    {
+      "id": "c-IlmaHpFzG7",
+      "name": "Hipótesis",
+      "type": "text"
+    },
+    {
+      "id": "c-db6PFkuOXN",
+      "name": "Experimento",
+      "type": "select"
+    },
+    {
+      "id": "c-E7X_meu7TH",
+      "name": "Notas",
+      "type": "canvas"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-wYl4hJtyFh",
+      "name": "Formulario (Google Form o Coda) para las entrevistas de los Técnicos",
+      "index": 0,
+      "values": {
+        "Task": "Formulario (Google Form o Coda) para las entrevistas de los Técnicos",
+        "Owner": "Erick Santana",
+        "Status": "Not started",
+        "Due date": "2026-01-16T00:00:00.000-04:00",
+        "Hipótesis": "",
+        "Experimento": "",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-wYl4hJtyFh"
+    },
+    {
+      "id": "i-BAEimHEfL3",
+      "name": "Entrevista Tecnicos",
+      "index": 1,
+      "values": {
+        "Task": "Entrevista Tecnicos",
+        "Owner": "Elba Asuncion",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "",
+        "Experimento": "",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-BAEimHEfL3"
+    },
+    {
+      "id": "i-M4O89S8W2Y",
+      "name": "",
+      "index": 2,
+      "values": {
+        "Task": "",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "",
+        "Experimento": "",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-M4O89S8W2Y"
+    },
+    {
+      "id": "i-q15Jm_i2no",
+      "name": "",
+      "index": 3,
+      "values": {
+        "Task": "",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "",
+        "Experimento": "",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-q15Jm_i2no"
+    },
+    {
+      "id": "i-5SsgeWzaSR",
+      "name": "",
+      "index": 4,
+      "values": {
+        "Task": "",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "",
+        "Experimento": "",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-5SsgeWzaSR"
+    },
+    {
+      "id": "i-ffYHLfcXMU",
+      "name": "",
+      "index": 5,
+      "values": {
+        "Task": "",
+        "Owner": "",
+        "Status": "",
+        "Due date": "",
+        "Hipótesis": "",
+        "Experimento": "",
+        "Notas": ""
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V/_rui-ffYHLfcXMU"
+    }
+  ]
+}

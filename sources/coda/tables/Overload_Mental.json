@@ -1,0 +1,129 @@
+{
+  "table": {
+    "id": "grid-rJnGZgZ19n",
+    "name": "Overload Mental",
+    "type": "table",
+    "rowCount": null,
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n"
+  },
+  "columns": [
+    {
+      "id": "c-8VrGbMJCGE",
+      "name": "Pain Point (Frustración)",
+      "type": "text"
+    },
+    {
+      "id": "c-RRtwiqm2Bd",
+      "name": "Gain (Estado deseado)",
+      "type": "text"
+    },
+    {
+      "id": "c-8QAdd72W-Y",
+      "name": "JTBD (trabajo a ejecutar)",
+      "type": "text"
+    },
+    {
+      "id": "c-3YNT7j4etj",
+      "name": "Persona que sufre el Pain",
+      "type": "text"
+    },
+    {
+      "id": "c-QW7w7wR8Dr",
+      "name": "Responsable del JTBD",
+      "type": "text"
+    }
+  ],
+  "rows": [
+    {
+      "id": "i-4snI0S06Al",
+      "name": "Ansiedad de que un equipo vital falle justo cuando lo necesito.",
+      "index": 0,
+      "values": {
+        "Pain Point (Frustración)": "Ansiedad de que un equipo vital falle justo cuando lo necesito.",
+        "Gain (Estado deseado)": "Tranquilidad de que los equipos críticos siempre funcionan.",
+        "JTBD (trabajo a ejecutar)": "Monitorear ciclos de mantenimiento y coordinar servicio preventivo antes de fallos.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Sistema Maroa (alerta) → Agente (coordina)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-4snI0S06Al"
+    },
+    {
+      "id": "i-tEdlf4s0UW",
+      "name": "Falta de alarmas/recordatorios confiables.",
+      "index": 1,
+      "values": {
+        "Pain Point (Frustración)": "Falta de alarmas/recordatorios confiables.",
+        "Gain (Estado deseado)": "Recordatorios automáticos, puntuales y claros.",
+        "JTBD (trabajo a ejecutar)": "Generar y enviar notificaciones multicanal con suficiente anticipación.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Sistema Maroa"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-tEdlf4s0UW"
+    },
+    {
+      "id": "i-lyXYQwsVLr",
+      "name": "Sensación de “apagar fuegos” constantemente.",
+      "index": 2,
+      "values": {
+        "Pain Point (Frustración)": "Sensación de “apagar fuegos” constantemente.",
+        "Gain (Estado deseado)": "Sentirse proactivo: problemas resueltos antes de volverse urgentes.",
+        "JTBD (trabajo a ejecutar)": "Planificar mantenimiento anual y visualizarlo en un calendario compartido.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Agente Maroa (planifica)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-lyXYQwsVLr"
+    },
+    {
+      "id": "i-c8PsqKlJ-G",
+      "name": "Olvidar la recurrencia o desconocer el estado del equipo.",
+      "index": 3,
+      "values": {
+        "Pain Point (Frustración)": "Olvidar la recurrencia o desconocer el estado del equipo.",
+        "Gain (Estado deseado)": "Visibilidad en un dashboard “Next Service Due”.",
+        "JTBD (trabajo a ejecutar)": "Mantener historial de servicios y estado de cada activo.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Sistema Maroa"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-c8PsqKlJ-G"
+    },
+    {
+      "id": "i-s_P7iW3LBm",
+      "name": "Técnicos informales no atienden “trabajos pequeños”.",
+      "index": 4,
+      "values": {
+        "Pain Point (Frustración)": "Técnicos informales no atienden “trabajos pequeños”.",
+        "Gain (Estado deseado)": "Acceso a red de técnicos dispuestos a tareas menores.",
+        "JTBD (trabajo a ejecutar)": "Asignar proveedor adecuado según SLA y tamaño del trabajo.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Sistema (matching) + Proveedor"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-s_P7iW3LBm"
+    },
+    {
+      "id": "i-rpkoYnXyI-",
+      "name": "Procrastinar contactar al técnico; el problema permanece en el backlog mental.",
+      "index": 5,
+      "values": {
+        "Pain Point (Frustración)": "Procrastinar contactar al técnico; el problema permanece en el backlog mental.",
+        "Gain (Estado deseado)": "One-click / one-call para disparar solicitud sin fricción.",
+        "JTBD (trabajo a ejecutar)": "Ofrecer botón “Iniciar servicio” o confirmación por SMS con “Sí”.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Cliente (clic) → Sistema Maroa"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-rpkoYnXyI-"
+    },
+    {
+      "id": "i-6qB-He6LXF",
+      "name": "No tener base de datos de técnicos confiables.",
+      "index": 6,
+      "values": {
+        "Pain Point (Frustración)": "No tener base de datos de técnicos confiables.",
+        "Gain (Estado deseado)": "Directorio validado y curado por Maroa.",
+        "JTBD (trabajo a ejecutar)": "Curar y mantener base de proveedores con ratings y cobertura.",
+        "Persona que sufre el Pain": "Cliente",
+        "Responsable del JTBD": "Maroa (Ops)"
+      },
+      "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n/_rui-6qB-He6LXF"
+    }
+  ]
+}

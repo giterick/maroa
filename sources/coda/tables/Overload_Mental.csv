@@ -1,0 +1,8 @@
+Pain Point (Frustración),Gain (Estado deseado),JTBD (trabajo a ejecutar),Persona que sufre el Pain,Responsable del JTBD
+Ansiedad de que un equipo vital falle justo cuando lo necesito.,Tranquilidad de que los equipos críticos siempre funcionan.,Monitorear ciclos de mantenimiento y coordinar servicio preventivo antes de fallos.,Cliente,Sistema Maroa (alerta) → Agente (coordina)
+Falta de alarmas/recordatorios confiables.,"Recordatorios automáticos, puntuales y claros.",Generar y enviar notificaciones multicanal con suficiente anticipación.,Cliente,Sistema Maroa
+Sensación de “apagar fuegos” constantemente.,Sentirse proactivo: problemas resueltos antes de volverse urgentes.,Planificar mantenimiento anual y visualizarlo en un calendario compartido.,Cliente,Agente Maroa (planifica)
+Olvidar la recurrencia o desconocer el estado del equipo.,Visibilidad en un dashboard “Next Service Due”.,Mantener historial de servicios y estado de cada activo.,Cliente,Sistema Maroa
+Técnicos informales no atienden “trabajos pequeños”.,Acceso a red de técnicos dispuestos a tareas menores.,Asignar proveedor adecuado según SLA y tamaño del trabajo.,Cliente,Sistema (matching) + Proveedor
+Procrastinar contactar al técnico; el problema permanece en el backlog mental.,One-click / one-call para disparar solicitud sin fricción.,Ofrecer botón “Iniciar servicio” o confirmación por SMS con “Sí”.,Cliente,Cliente (clic) → Sistema Maroa
+No tener base de datos de técnicos confiables.,Directorio validado y curado por Maroa.,Curar y mantener base de proveedores con ratings y cobertura.,Cliente,Maroa (Ops)

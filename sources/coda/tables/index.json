@@ -2,145 +2,241 @@
   {
     "id": "grid-Y38W77kH-b",
     "name": "Who",
-    "json": "Who.json",
-    "csv": "Who.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 2,
+    "jsonFile": "Who_1.json",
+    "csvFile": "Who_1.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-Y38W77kH-b"
   },
   {
     "id": "grid-uGZGPjG71i",
     "name": "Table 1",
-    "json": "Table 1.json",
-    "csv": "Table 1.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 3,
+    "jsonFile": "Table_1.json",
+    "csvFile": "Table_1.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-uGZGPjG71i"
   },
   {
     "id": "grid-LrxtvHGkw0",
     "name": "Table 2",
-    "json": "Table 2.json",
-    "csv": "Table 2.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 6,
+    "jsonFile": "Table_2.json",
+    "csvFile": "Table_2.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-LrxtvHGkw0"
   },
   {
     "id": "grid-rJnGZgZ19n",
     "name": "Overload Mental",
-    "json": "Overload Mental.json",
-    "csv": "Overload Mental.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 5,
+    "jsonFile": "Overload_Mental.json",
+    "csvFile": "Overload_Mental.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-rJnGZgZ19n"
   },
   {
     "id": "grid-15Ro1WlJWF",
     "name": "Tetris de agendas",
-    "json": "Tetris de agendas.json",
-    "csv": "Tetris de agendas.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 5,
+    "jsonFile": "Tetris_de_agendas.json",
+    "csvFile": "Tetris_de_agendas.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-15Ro1WlJWF"
   },
   {
     "id": "grid-BcvDcw9fV6",
     "name": "Responsabilidades para Co-Founders de Maroa",
-    "json": "Responsabilidades para Co-Founders de Maroa.json",
-    "csv": "Responsabilidades para Co-Founders de Maroa.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 7,
+    "jsonFile": "Responsabilidades_para_Co-Founders_de_Maroa.json",
+    "csvFile": "Responsabilidades_para_Co-Founders_de_Maroa.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-BcvDcw9fV6"
   },
   {
     "id": "grid-lm--41-Obs",
     "name": "Vision, Mission and Core Values",
-    "json": "Vision, Mission and Core Values.json",
-    "csv": "Vision, Mission and Core Values.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 2,
+    "jsonFile": "Vision,_Mission_and_Core_Values.json",
+    "csvFile": "Vision,_Mission_and_Core_Values.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-lm--41-Obs"
   },
   {
     "id": "grid-0nrMF5dJxj",
     "name": "Timeline",
-    "json": "Timeline.json",
-    "csv": "Timeline.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 16,
+    "jsonFile": "Timeline_1.json",
+    "csvFile": "Timeline_1.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-0nrMF5dJxj"
   },
   {
     "id": "table-DKfG9edaa-",
     "name": "Time View of Timeline",
-    "json": "Time View of Timeline.json",
-    "csv": "Time View of Timeline.csv"
+    "type": "view",
+    "rowCount": 0,
+    "columnCount": 16,
+    "jsonFile": "Time_View_of_Timeline.json",
+    "csvFile": "Time_View_of_Timeline.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-DKfG9edaa-"
   },
   {
     "id": "grid-mZ-9AR9ZqA",
     "name": "Encuesta a Propietarios",
-    "json": "Encuesta a Propietarios.json",
-    "csv": "Encuesta a Propietarios.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 9,
+    "jsonFile": "Encuesta_a_Propietarios.json",
+    "csvFile": "Encuesta_a_Propietarios.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-mZ-9AR9ZqA"
   },
   {
     "id": "grid-6mjm5VG0r8",
-    "name": "Encuesta a T\u00e9cnicos",
-    "json": "Encuesta a T\u00e9cnicos.json",
-    "csv": "Encuesta a T\u00e9cnicos.csv"
+    "name": "Encuesta a Técnicos",
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 9,
+    "jsonFile": "Encuesta_a_Técnicos.json",
+    "csvFile": "Encuesta_a_Técnicos.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-6mjm5VG0r8"
   },
   {
     "id": "table-Eemq7tTmD3",
     "name": "View of Encuesta a Propietarios",
-    "json": "View of Encuesta a Propietarios.json",
-    "csv": "View of Encuesta a Propietarios.csv"
+    "type": "view",
+    "rowCount": 0,
+    "columnCount": 9,
+    "jsonFile": "View_of_Encuesta_a_Propietarios.json",
+    "csvFile": "View_of_Encuesta_a_Propietarios.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Eemq7tTmD3"
   },
   {
     "id": "grid-77KQ5r9npQ",
     "name": "Tabla de Suposiciones",
-    "json": "Tabla de Suposiciones.json",
-    "csv": "Tabla de Suposiciones.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 5,
+    "jsonFile": "Tabla_de_Suposiciones.json",
+    "csvFile": "Tabla_de_Suposiciones.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-77KQ5r9npQ"
   },
   {
     "id": "grid-unuW9Impgx",
     "name": "Framework de Entrevista",
-    "json": "Framework de Entrevista.json",
-    "csv": "Framework de Entrevista.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 5,
+    "jsonFile": "Framework_de_Entrevista.json",
+    "csvFile": "Framework_de_Entrevista.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-unuW9Impgx"
   },
   {
     "id": "grid-cLpFJrxFTS",
-    "name": "Encuesta Profunda v2 Validaci\u00f3n de Hip\u00f3tesis",
-    "json": "Encuesta Profunda v2 Validaci\u00f3n de Hip\u00f3tesis.json",
-    "csv": "Encuesta Profunda v2 Validaci\u00f3n de Hip\u00f3tesis.csv"
+    "name": "Encuesta Profunda v2 Validación de Hipótesis",
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 34,
+    "jsonFile": "Encuesta_Profunda_v2_Validación_de_Hipótesis.json",
+    "csvFile": "Encuesta_Profunda_v2_Validación_de_Hipótesis.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-cLpFJrxFTS"
   },
   {
     "id": "grid-7UOq4LFlbR",
     "name": "Si/No",
-    "json": "Si_No.json",
-    "csv": "Si_No.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 1,
+    "jsonFile": "Si_No_1.json",
+    "csvFile": "Si_No_1.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-7UOq4LFlbR"
   },
   {
     "id": "grid-v7PwkemeD0",
     "name": "Feature list",
-    "json": "Feature list.json",
-    "csv": "Feature list.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 7,
+    "jsonFile": "Feature_list.json",
+    "csvFile": "Feature_list.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-v7PwkemeD0"
   },
   {
     "id": "table-cNZNvUGoxy",
     "name": "Timeline 2",
-    "json": "Timeline 2.json",
-    "csv": "Timeline 2.csv"
+    "type": "view",
+    "rowCount": 0,
+    "columnCount": 6,
+    "jsonFile": "Timeline_2.json",
+    "csvFile": "Timeline_2.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-cNZNvUGoxy"
   },
   {
     "id": "grid-VYNnySLec6",
     "name": "Pilot Tasks",
-    "json": "Pilot Tasks.json",
-    "csv": "Pilot Tasks.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 7,
+    "jsonFile": "Pilot_Tasks.json",
+    "csvFile": "Pilot_Tasks.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-VYNnySLec6"
   },
   {
     "id": "table-Grfxx_6OaY",
     "name": "Kanban of Pilot Tasks",
-    "json": "Kanban of Pilot Tasks.json",
-    "csv": "Kanban of Pilot Tasks.csv"
+    "type": "view",
+    "rowCount": 0,
+    "columnCount": 7,
+    "jsonFile": "Kanban_of_Pilot_Tasks.json",
+    "csvFile": "Kanban_of_Pilot_Tasks.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tutable-Grfxx_6OaY"
   },
   {
     "id": "grid-HGDkkA5AO6",
     "name": "Table 3",
-    "json": "Table 3.json",
-    "csv": "Table 3.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 23,
+    "jsonFile": "Table_3.json",
+    "csvFile": "Table_3.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-HGDkkA5AO6"
   },
   {
     "id": "grid-ORnRH1tt0V",
     "name": "Pilot Tasks (Elba Sandbox)",
-    "json": "Pilot Tasks (Elba Sandbox).json",
-    "csv": "Pilot Tasks (Elba Sandbox).csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 7,
+    "jsonFile": "Pilot_Tasks_(Elba_Sandbox).json",
+    "csvFile": "Pilot_Tasks_(Elba_Sandbox).csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-ORnRH1tt0V"
   },
   {
     "id": "grid-gprf52VnPY",
     "name": "Table 4",
-    "json": "Table 4.json",
-    "csv": "Table 4.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 7,
+    "jsonFile": "Table_4.json",
+    "csvFile": "Table_4.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-gprf52VnPY"
   },
   {
     "id": "grid-yJ0_4urXec",
     "name": "Table 5",
-    "json": "Table 5.json",
-    "csv": "Table 5.csv"
+    "type": "table",
+    "rowCount": 0,
+    "columnCount": 8,
+    "jsonFile": "Table_5.json",
+    "csvFile": "Table_5.csv",
+    "browserLink": "https://coda.io/d/_dsssNy6mSVA#_tugrid-yJ0_4urXec"
   }
 ]
