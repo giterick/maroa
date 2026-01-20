@@ -1,0 +1,300 @@
+{
+  "table": {
+    "name": "Encuesta Profunda a Técnicos v1",
+    "description": "Tabla para registrar respuestas de entrevistas profundas a técnicos - Validación de hipótesis del piloto Maroa",
+    "type": "table"
+  },
+  "columns": [
+    {
+      "id": "c-nombre",
+      "name": "Nombre del técnico",
+      "type": "text",
+      "description": "Nombre del técnico entrevistado"
+    },
+    {
+      "id": "c-fecha",
+      "name": "Fecha entrevista",
+      "type": "date",
+      "description": "Fecha de la entrevista"
+    },
+    {
+      "id": "c-p01",
+      "name": "Categoría principal de trabajo",
+      "type": "select",
+      "options": ["A/C", "Electricidad", "Plomería", "Electrodomésticos", "Handyman", "Otros"],
+      "description": "P0.1 - Perfil"
+    },
+    {
+      "id": "c-p02",
+      "name": "Modalidad actual",
+      "type": "select",
+      "options": ["Independiente", "Trabajo con ayudante", "Equipo (2-5)", "Empresa (6+)"],
+      "description": "P0.2 - Perfil"
+    },
+    {
+      "id": "c-p03",
+      "name": "Zona principal de trabajo",
+      "type": "select",
+      "options": ["Punta Cana/Bávaro", "Verón", "Cap Cana", "Otra"],
+      "description": "P0.3 - Perfil"
+    },
+    {
+      "id": "c-p04",
+      "name": "Años de experiencia",
+      "type": "select",
+      "options": ["0-2", "3-5", "6-10", "10+"],
+      "description": "P0.4 - Perfil"
+    },
+    {
+      "id": "c-p05",
+      "name": "Disponibilidad típica",
+      "type": "select",
+      "options": ["Solo mañanas", "Solo tardes", "Día completo", "Fines de semana", "Variable"],
+      "description": "P0.5 - Perfil"
+    },
+    {
+      "id": "c-p11",
+      "name": "¿Tienes semanas donde te faltan trabajos para llenar tu agenda?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P1.1 - Capacidad - Baja utilización (9)"
+    },
+    {
+      "id": "c-p12",
+      "name": "¿Tienes al menos 2 espacios libres de 2h en una semana típica?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P1.2 - Capacidad - Encajar ventanas (1-9)"
+    },
+    {
+      "id": "c-p13",
+      "name": "En una semana típica, tu agenda está…",
+      "type": "select",
+      "options": ["0-25% llena", "26-50%", "51-75%", "76-100%"],
+      "description": "P1.3 - Capacidad - Capacidad real (9)"
+    },
+    {
+      "id": "c-p21",
+      "name": "¿Puedes comprometerte a llegar dentro de una ventana de 2h?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P2.1 - Puntualidad - Cumplimiento ventanas (1-29)"
+    },
+    {
+      "id": "c-p22",
+      "name": "¿Reprogramas citas más de 1 vez por semana?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P2.2 - Puntualidad - Frecuencia reprogramación (29)"
+    },
+    {
+      "id": "c-p23",
+      "name": "¿Confirmas ETA con el cliente antes de salir?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P2.3 - Puntualidad - Hábitos planificación (30)"
+    },
+    {
+      "id": "c-p24",
+      "name": "¿Podrías confirmar 'en camino' y 'en sitio' en cada servicio?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P2.4 - Puntualidad - Actualización estatus (8)"
+    },
+    {
+      "id": "c-p31",
+      "name": "¿Respondes mensajes operativos en menos de 10 min?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P3.1 - Comunicación - Velocidad respuesta (28)"
+    },
+    {
+      "id": "c-p32",
+      "name": "¿Te sientes cómodo comunicándote de forma profesional?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P3.2 - Comunicación - Tono profesional (27)"
+    },
+    {
+      "id": "c-p41",
+      "name": "¿Tienes smartphone con cámara y datos móviles?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P4.1 - Tecnología - Requisito mínimo (7)"
+    },
+    {
+      "id": "c-p42",
+      "name": "¿Usas WhatsApp para coordinar la mayoría de servicios?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P4.2 - Tecnología - Canal dominante (7)"
+    },
+    {
+      "id": "c-p43",
+      "name": "¿Podrías enviar 3-5 fotos por servicio de forma consistente?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P4.3 - Tecnología - Evidencia mínima (6)"
+    },
+    {
+      "id": "c-p51",
+      "name": "¿Seguirías un checklist simple si te toma menos de 3 min?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P5.1 - Calidad - Disposición protocolos (5-19)"
+    },
+    {
+      "id": "c-p52",
+      "name": "¿Aceptarías revisión QA aleatoria en algunos servicios?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P5.2 - Calidad - Tolerancia QA (5-20)"
+    },
+    {
+      "id": "c-p53",
+      "name": "Si un fallo fue por mala ejecución, ¿harías retrabajo sin costo?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P5.3 - Calidad - Retrabajos/garantía (25)"
+    },
+    {
+      "id": "c-p54",
+      "name": "¿Aceptas diferenciar 'retrabajo' vs 'nueva falla'?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P5.4 - Calidad - Alineación conceptual (26)"
+    },
+    {
+      "id": "c-p61",
+      "name": "¿Aceptarías verificación de antecedentes para residenciales?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P6.1 - Seguridad - Compliance y acceso (11)"
+    },
+    {
+      "id": "c-p62",
+      "name": "¿Usarías identificación visible (badge/camisa)?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P6.2 - Seguridad - Protocolos seguridad (12)"
+    },
+    {
+      "id": "c-p71",
+      "name": "¿Aceptarías que el cliente pague a la empresa y tú recibas después?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P7.1 - Pago - Cobro centralizado (13)"
+    },
+    {
+      "id": "c-p72",
+      "name": "¿Puedes operar si el pago tarda 7-15 días?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P7.2 - Pago - Tolerancia ciclo pago (14)"
+    },
+    {
+      "id": "c-p81",
+      "name": "Normalmente, ¿quién compra los materiales?",
+      "type": "select",
+      "options": ["Yo", "Cliente", "Depende del caso"],
+      "description": "P8.1 - Materiales - Patrón actual (15)"
+    },
+    {
+      "id": "c-p82",
+      "name": "¿Preferirías que otra parte gestione la compra de materiales?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P8.2 - Materiales - No adelantar costos (15)"
+    },
+    {
+      "id": "c-p91",
+      "name": "¿Preferirías seguir como contratista independiente?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P9.1 - Contrato - Forma de relación (17)"
+    },
+    {
+      "id": "c-p92",
+      "name": "¿Aceptarías contrato con reglas claras de cumplimiento?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P9.2 - Contrato - Tolerancia SLA (18)"
+    },
+    {
+      "id": "c-p93",
+      "name": "¿Aceptarías no negociar directo con clientes asignados?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P9.3 - Contrato - Exclusividad/no bypass (21)"
+    },
+    {
+      "id": "c-p94",
+      "name": "¿Necesitas mantener tus clientes propios?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P9.4 - Contrato - No exclusividad total (22)"
+    },
+    {
+      "id": "c-p101",
+      "name": "¿Te desplazarías en la zona del piloto sin cargos altos?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P10.1 - Cobertura - Cobertura geográfica (23)"
+    },
+    {
+      "id": "c-p102",
+      "name": "¿Conoces a 1+ técnico de confianza como backup?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "P10.2 - Cobertura - Existencia backup (24)"
+    },
+    {
+      "id": "c-a1",
+      "name": "[DISC] ¿Prefieres trabajos grandes y evitas los pequeños?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "A1 - Disconfirming - Riesgo: modelo no atractivo"
+    },
+    {
+      "id": "c-a2",
+      "name": "[DISC] ¿Te incomoda que supervisen tu documentación/fotos?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "A2 - Disconfirming - Fricción cultural QA (5-6)"
+    },
+    {
+      "id": "c-a3",
+      "name": "[DISC] ¿Has tenido conflictos frecuentes por culpa del fallo?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "A3 - Disconfirming - Riesgo disputas (25-26)"
+    },
+    {
+      "id": "c-a4",
+      "name": "[DISC] ¿Evitas trabajos en residenciales por políticas?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "A4 - Disconfirming - Riesgo acceso (11-12)"
+    },
+    {
+      "id": "c-a5",
+      "name": "[DISC] ¿Has cancelado trabajos por falta de herramientas/piezas?",
+      "type": "lookup",
+      "lookupTable": "Si/No",
+      "description": "A5 - Disconfirming - Riesgo operativo/logística"
+    },
+    {
+      "id": "c-backup-nombre",
+      "name": "Nombre del técnico backup (si aplica)",
+      "type": "text",
+      "description": "Si respondió Sí a P10.2, capturar nombre/contacto"
+    },
+    {
+      "id": "c-notas",
+      "name": "Notas adicionales",
+      "type": "canvas",
+      "description": "Observaciones del entrevistador"
+    }
+  ],
+  "rows": []
+}
