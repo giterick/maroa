@@ -44,6 +44,14 @@ This repository contains all operational documentation for the Maroa pilot in Pu
 |----------|---------|
 | [Weekly Review](rituals/weekly_review.md) | Meeting agenda, prep, actions |
 
+### Meetings & Tracking
+| Document | Purpose |
+|----------|---------|
+| [Meetings Index](meetings/README.md) | Meeting notes, templates, how to use |
+| [Decision Log](meetings/logs/decisions-log.md) | Historical record of all decisions |
+| [Project Log](meetings/logs/project-log.md) | Chronological project progress |
+| [Tasks Backlog](meetings/logs/tasks-backlog.md) | Pending tasks consolidated |
+
 ---
 
 ## Pilot Constraints
@@ -111,6 +119,8 @@ If you're new to this repo or setting up the pilot:
 6. **Tracking performance?** Use [KPI Definitions](data/kpi_definitions.md)
 7. **Weekly sync?** Follow [Weekly Review](rituals/weekly_review.md) agenda
 8. **Quick reference?** Print [Quick Reference Card](setup/quick_reference_card.md)
+9. **Recording a meeting?** Use [Meeting Template](meetings/templates/meeting-notes-template.md)
+10. **Looking for a past decision?** Check [Decision Log](meetings/logs/decisions-log.md)
 
 ---
 
@@ -139,6 +149,11 @@ maroa/
 │   └── kpi_definitions.md              # Metrics definitions
 ├── rituals/
 │   └── weekly_review.md                # Meeting structure
+├── meetings/                           # Meeting notes & tracking
+│   ├── README.md                       # Index and how to use
+│   ├── templates/                      # Reusable templates
+│   ├── logs/                           # Decision log, project log, tasks
+│   └── YYYY-MM/                        # Meeting notes by month
 ├── research/                           # Market research files
 │   └── *.docx                          # Pricing & payment research
 └── sources/
