@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Content",
+    "path": "0",
+    "depth": 0,
+    "file": "Content.md"
+  },
+  {
+    "name": "100 Startup Tasks",
+    "path": "0.1",
+    "depth": 1,
+    "file": "100 Startup Tasks.md"
+  },
+  {
+    "name": "Setup",
+    "path": "0.1.1",
+    "depth": 2,
+    "file": "Setup.md"
+  },
+  {
+    "name": "Identify Problems and Trends",
+    "path": "0.1.1.1",
+    "depth": 3,
+    "file": "Identify Problems and Trends.md"
+  },
+  {
+    "name": "Evaluate Problems and Trends",
+    "path": "0.1.1.2",
+    "depth": 3,
+    "file": "Evaluate Problems and Trends.md"
+  },
+  {
+    "name": "Select Problem to Focus on",
+    "path": "0.1.1.3",
+    "depth": 3,
+    "file": "Select Problem to Focus on.md"
+  },
+  {
+    "name": "Pinpoint Pain Points and Gains,  and Determine Jobs to be Done",
+    "path": "0.1.1.4",
+    "depth": 3,
+    "file": "Pinpoint Pain Points and Gains,  and Determine Jobs to be Done.md"
+  },
+  {
+    "name": "Define Overall Vision, Mission, and Core Values",
+    "path": "0.1.1.5",
+    "depth": 3,
+    "file": "Define Overall Vision, Mission, and Core Values.md"
+  },
+  {
+    "name": "Gather All Steps",
+    "path": "0.1.1.6",
+    "depth": 3,
+    "file": "Gather All Steps.md"
+  },
+  {
+    "name": "Entrevistas a Clientes y Técnicos",
+    "path": "0.1.1.7",
+    "depth": 3,
+    "file": "Entrevistas a Clientes y Técnicos.md"
+  },
+  {
+    "name": "IMM Startup Tasks",
+    "path": "0.2",
+    "depth": 1,
+    "file": "IMM Startup Tasks.md"
+  },
+  {
+    "name": "Phase 2",
+    "path": "0.2.1",
+    "depth": 2,
+    "file": "Phase 2.md"
+  },
+  {
+    "name": "Suposiciones",
+    "path": "0.2.1.1",
+    "depth": 3,
+    "file": "Suposiciones.md"
+  },
+  {
+    "name": "Entrevistas",
+    "path": "0.2.1.2",
+    "depth": 3,
+    "file": "Entrevistas.md"
+  },
+  {
+    "name": "Entrevistas Profundas  a Clientes v2",
+    "path": "0.2.1.2.1",
+    "depth": 4,
+    "file": "Entrevistas Profundas  a Clientes v2.md"
+  },
+  {
+    "name": "Entrevista Profunda a Técnicos v0",
+    "path": "0.2.1.2.2",
+    "depth": 4,
+    "file": "Entrevista Profunda a Técnicos v0.md"
+  },
+  {
+    "name": "Plan de Validación del Piloto Maroa",
+    "path": "0.2.1.3",
+    "depth": 3,
+    "file": "Plan de Validación del Piloto Maroa.md"
+  },
+  {
+    "name": "Tareas / Timeline",
+    "path": "0.2.1.3.1",
+    "depth": 4,
+    "file": "Tareas _ Timeline.md"
+  },
+  {
+    "name": "Definición del piloto (baseline de validación)",
+    "path": "0.2.1.3.2",
+    "depth": 4,
+    "file": "Definición del piloto (baseline de validación).md"
+  },
+  {
+    "name": "Definición del Piloto Maroa (v0.1)",
+    "path": "0.2.1.3.2.1",
+    "depth": 5,
+    "file": "Definición del Piloto Maroa (v0.1).md"
+  },
+  {
+    "name": "Matriz de validación del piloto",
+    "path": "0.2.1.3.2.2",
+    "depth": 5,
+    "file": "Matriz de validación del piloto.md"
+  },
+  {
+    "name": "Oferta y pricing (objeto de compra)",
+    "path": "0.2.1.3.3",
+    "depth": 4,
+    "file": "Oferta y pricing (objeto de compra).md"
+  },
+  {
+    "name": "Ficha de paquete del piloto",
+    "path": "0.2.1.3.3.1",
+    "depth": 5,
+    "file": "Ficha de paquete del piloto.md"
+  },
+  {
+    "name": "Beneficios exclusivos del piloto para Fundadores y Early Adopters",
+    "path": "0.2.1.3.3.2",
+    "depth": 5,
+    "file": "Beneficios exclusivos del piloto para Fundadores y Early Adopters.md"
+  },
+  {
+    "name": "Políticas del Piloto Maroa (v0.1) — Cancelación / Reprogramación / No-show + Garantía / Retrabajos",
+    "path": "0.2.1.3.3.3",
+    "depth": 5,
+    "file": "Políticas del Piloto Maroa (v0.1) — Cancelación _ Reprogramación _ No-show + Garantía _ Retrabajos.md"
+  },
+  {
+    "name": "Definición de método de pago y ciclo (mensual / anual)",
+    "path": "0.2.1.3.3.4",
+    "depth": 5,
+    "file": "Definición de método de pago y ciclo (mensual _ anual).md"
+  },
+  {
+    "name": "Operación de Concierge (experiencia “cero drama”)",
+    "path": "0.2.1.3.4",
+    "depth": 4,
+    "file": "Operación de Concierge (experiencia “cero drama”).md"
+  },
+  {
+    "name": "Flujo Operativo End-to-End — Piloto Maroa (v0.2)",
+    "path": "0.2.1.3.4.1",
+    "depth": 5,
+    "file": "Flujo Operativo End-to-End — Piloto Maroa (v0.2).md"
+  },
+  {
+    "name": "SLAs internos definidos",
+    "path": "0.2.1.3.4.2",
+    "depth": 5,
+    "file": "SLAs internos definidos.md"
+  },
+  {
+    "name": "Guiones Operativos",
+    "path": "0.2.1.3.4.3",
+    "depth": 5,
+    "file": "Guiones Operativos.md"
+  },
+  {
+    "name": "Plantillas operativas",
+    "path": "0.2.1.3.4.4",
+    "depth": 5,
+    "file": "Plantillas operativas.md"
+  },
+  {
+    "name": "Herramientas mínimas para validar",
+    "path": "0.2.1.3.5",
+    "depth": 4,
+    "file": "Herramientas mínimas para validar.md"
+  },
+  {
+    "name": "Canal Interno de Operaciones",
+    "path": "0.2.1.3.5.1",
+    "depth": 5,
+    "file": "Canal Interno de Operaciones.md"
+  },
+  {
+    "name": "Adquisición de clientes",
+    "path": "0.2.1.3.6",
+    "depth": 4,
+    "file": "Adquisición de clientes.md"
+  },
+  {
+    "name": "Kit mínimo de adquisición (copy/paste)",
+    "path": "0.2.1.3.6.1",
+    "depth": 5,
+    "file": "Kit mínimo de adquisición (copy_paste).md"
+  },
+  {
+    "name": "Cadencia minima de ejecución",
+    "path": "0.2.1.3.6.2",
+    "depth": 5,
+    "file": "Cadencia minima de ejecución.md"
+  },
+  {
+    "name": "Esquema simple de referidos + mensaje post-servicio (activación) — Piloto Maroa",
+    "path": "0.2.1.3.6.3",
+    "depth": 5,
+    "file": "Esquema simple de referidos + mensaje post-servicio (activación) — Piloto Maroa.md"
+  },
+  {
+    "name": "Definición del gancho",
+    "path": "0.2.1.3.6.4",
+    "depth": 5,
+    "file": "Definición del gancho.md"
+  },
+  {
+    "name": "Momento de pedir referido definido (al agendar y post-servicio) + script corto.",
+    "path": "0.2.1.3.6.5",
+    "depth": 5,
+    "file": "Momento de pedir referido definido (al agendar y post-servicio) + script corto..md"
+  },
+  {
+    "name": "Other Resources",
+    "path": "0.3",
+    "depth": 1,
+    "file": "Other Resources.md"
+  },
+  {
+    "name": "Long List Ideas Solution",
+    "path": "0.3.1",
+    "depth": 2,
+    "file": "Long List Ideas Solution.md"
+  },
+  {
+    "name": "Notes",
+    "path": "0.3.2",
+    "depth": 2,
+    "file": "Notes.md"
+  },
+  {
+    "name": "Maroa (Abstracted)",
+    "path": "0.3.3",
+    "depth": 2,
+    "file": "Maroa (Abstracted).md"
+  },
+  {
+    "name": "Competidores",
+    "path": "0.3.4",
+    "depth": 2,
+    "file": "Competidores.md"
+  },
+  {
+    "name": "Mantenimientos Frecuentes",
+    "path": "0.3.5",
+    "depth": 2,
+    "file": "Mantenimientos Frecuentes.md"
+  },
+  {
+    "name": "Resources",
+    "path": "0.3.6",
+    "depth": 2,
+    "file": "Resources.md"
+  },
+  {
+    "name": "Co-Founder Responsibilities",
+    "path": "0.3.7",
+    "depth": 2,
+    "file": "Co-Founder Responsibilities.md"
+  },
+  {
+    "name": "IMM Sessions",
+    "path": "0.3.8",
+    "depth": 2,
+    "file": "IMM Sessions.md"
+  }
+]
