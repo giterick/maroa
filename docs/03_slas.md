@@ -6,9 +6,9 @@
 
 | SLA | Definition | Target | Measurement | Escalation |
 |-----|------------|--------|-------------|------------|
-| **Response Time** | Time from client message to first useful response (not just "received") | <24 hours | WhatsApp timestamps → Sheet log | If >24h: mark "SLA roto", prioritize, log root cause |
+| **Response Time** | Time from client message to first useful response (not just "received") | <1 hora (durante horario operativo) | WhatsApp timestamps → Sheet log | If >1h: mark "SLA roto", prioritize, log root cause |
 | **Time to Schedule** | Time from triage complete to confirmed appointment | <48 hours | "Triage complete" timestamp → "Confirmed" timestamp | If >48h: offer 2 concrete slots, activate backup tech |
-| **Arrival Window** | Technician arrives within communicated window | 1-hour window | Confirmation message vs. "Llegue" timestamp | If outside window: proactive client notice + option to reschedule |
+| **Arrival Window** | Technician arrives within communicated window | 2-hour window | Confirmation message vs. "Llegue" timestamp | If outside window: proactive client notice + option to reschedule |
 | **Service Completion** | Service finished and logged same day | 100% | Services sheet status | If incomplete: log reason, next-day priority |
 | **Payment Confirmation** | Payment confirmed post-service | <48 hours | Bank confirmation / Sheet update | If >48h: follow-up message, log delay reason |
 
@@ -88,18 +88,21 @@ Add to **Incidencias** sheet:
 
 ## Operating Hours for SLA
 
-| Day | Hours (AST) |
-|-----|-------------|
-| Monday - Friday | 8:00 AM - 6:00 PM |
-| Saturday | 8:00 AM - 2:00 PM |
-| Sunday | Closed (emergency only) |
+| Day | Hours (AST) | Notes |
+|-----|-------------|-------|
+| Monday - Friday | 9:00 AM - 6:00 PM | Slots regulares: 9-11, 11-1, 2-4, 4-6 |
+| Saturday | 9:00 AM - 12:00 PM | Solo hasta mediodía |
+| Sunday | Closed (emergency only) | |
 
-Messages received outside hours: SLA clock starts next business day at 8:00 AM
+**Slots con surcharge:** 7-9 AM, 6-8 PM
+**Fuera de horario:** Requiere aprobación del técnico + surcharge más alto
+
+Messages received outside hours: SLA clock starts next business day at 9:00 AM. Mensajes después de 6pm se responden entre 9-10am del día siguiente.
 
 ---
 
 ## Open Questions
 
-1. Should response SLA be <12h instead of <24h for competitive advantage?
-2. Define "emergency" criteria for Sunday service?
-3. How to handle WhatsApp timestamp discrepancies (phone time vs. actual)?
+1. ~~Should response SLA be <12h instead of <24h for competitive advantage?~~ → **Resuelto 2026-01-21:** SLA es <1h durante horario operativo
+2. Define "emergency" criteria for Sunday service? → **Pendiente**
+3. How to handle WhatsApp timestamp discrepancies (phone time vs. actual)? → **Pendiente**

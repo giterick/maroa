@@ -4,13 +4,16 @@
 
 ## 1. Cancellation Policy
 
+> **Nota:** Fees de cancelación por definir en PR separado (research de mercado). Estructura acordada 2026-01-21.
+
 | Scenario | Rule | Action |
 |----------|------|--------|
-| Client cancels >24h before | Free cancellation | Reschedule with priority |
-| Client cancels <24h before | Warning issued | Log in Sheet; 2nd occurrence = deposit required |
-| Client cancels <2h before | Possible fee | Evaluate case; may charge 50% visit fee |
+| Client cancels >48h before | Free cancellation | Reschedule with priority |
+| Client cancels <48h before | Fee nivel 1 | _Fee por definir_ |
+| Client cancels <24h before | Fee nivel 2 (más alto) | _Fee por definir_ |
+| Client no-show (técnico fue, no abrieron) | Fee nivel 3 (más alto) | _Fee por definir_ |
 
-**Concierge script:** "Entendemos que surgen imprevistos. Para mantener la calidad del servicio, cancelaciones con menos de 24 horas pueden requerir un cargo parcial en futuras citas."
+**Concierge script:** "Entendemos que surgen imprevistos. Para mantener la calidad del servicio, cancelaciones con menos de 48 horas pueden requerir un cargo parcial."
 
 ---
 
@@ -83,9 +86,20 @@ Schedule rework (no charge)
 
 | Method | Priority | Notes |
 |--------|----------|-------|
-| Bank transfer | Primary | Provide account details after service |
-| Payment link | Secondary | If integrated |
-| Cash | Last resort | Technician does NOT collect cash |
+| Bank transfer | Primary | Múltiples cuentas disponibles (ver tabla abajo) |
+| Payment link | No disponible | No para el piloto |
+| Cash | **No aceptado** | Cliente debe depositar, no cash |
+
+**Cuentas Bancarias Disponibles:**
+
+| Banco | Titular | Número | Tipo |
+|-------|---------|--------|------|
+| Banco Popular | _Por agregar_ | _Por agregar_ | Personal |
+| BHD | _Por agregar_ | _Por agregar_ | Personal |
+| Qik | _Por agregar_ | _Por agregar_ | Personal |
+| Scotiabank | _Por agregar_ | _Por agregar_ | Personal |
+
+> **Nota:** Completar tabla con detalles de cuentas. Titulares: Erick Santana o Gabriella Bairan.
 
 **Rule:** Payment must be confirmed within 48h of service completion
 
@@ -126,7 +140,7 @@ Schedule rework (no charge)
 
 ## Open Questions
 
-1. Exact visit fee amount for late cancellation?
-2. Pre-payment/deposit amount for repeat offenders?
-3. Policy for clients who dispute rework eligibility?
-4. Cash handling protocol if client insists?
+1. Exact visit fee amount for late cancellation? → **Pendiente:** PR de política de cancelación (research mercado)
+2. Pre-payment/deposit amount for repeat offenders? → **Pendiente**
+3. Policy for clients who dispute rework eligibility? → **Pendiente**
+4. ~~Cash handling protocol if client insists?~~ → **Resuelto 2026-01-21:** No cash, cliente debe depositar

@@ -9,7 +9,7 @@
 ```
 Hola [Nombre], gracias por escribir a Maroa!
 
-Somos un servicio de mantenimiento de aires acondicionados en Punta Cana. Te ayudamos con el mantenimiento preventivo para que tu A/C funcione mejor y dure mas, sin drama.
+Somos un servicio de mantenimiento de aires acondicionados en Punta Cana y Ciudad La Palma. Te ayudamos con el mantenimiento preventivo para que tu A/C funcione mejor y dure mas, sin drama.
 
 Para darte mejor info, me puedes decir:
 1. Tu direccion o residencial
@@ -32,7 +32,7 @@ Solo para completar:
 - Direccion exacta (incluyendo numero de villa/apto)?
 - Alguna foto de las unidades (opcional pero ayuda)?
 
-Con esto te confirmo si estas en nuestra zona piloto y te paso opciones de fecha.
+Con esto te confirmo si estas en nuestra zona de cobertura y te paso opciones de fecha.
 ```
 
 ---
@@ -44,7 +44,7 @@ Con esto te confirmo si estas en nuestra zona piloto y te paso opciones de fecha
 ```
 Gracias por tu interes en Maroa!
 
-Por ahora estamos en una fase piloto y solo cubrimos algunas zonas de Punta Cana. Tu direccion queda fuera de nuestra cobertura actual.
+Por ahora estamos en una fase piloto y solo cubrimos Ciudad La Palma, Punta Cana Village/Resort y Cap Cana. Tu direccion queda fuera de nuestra cobertura actual.
 
 Te podemos avisar cuando expandamos a tu zona. Quieres que te guardemos en la lista de espera?
 ```
@@ -63,7 +63,7 @@ Tengo disponibilidad para:
 - [Dia 2] entre [Hora inicio] y [Hora fin]
 - [Dia 3] entre [Hora inicio] y [Hora fin]
 
-Cual te funciona mejor? Llegamos en una ventana de 1 hora.
+Cual te funciona mejor? Llegamos en una ventana de 2 horas.
 ```
 
 ---
@@ -299,6 +299,6 @@ Cual te funciona?
 
 ## Open Questions
 
-1. Should scripts be in formal "usted" or informal "tu"?
-2. Include emojis for friendlier tone?
-3. Standard response for out-of-hours messages?
+1. ~~Should scripts be in formal "usted" or informal "tu"?~~ → **Resuelto 2026-01-21:** Informal pero alegre, sin "tú" explícito (conjugar verbos sin pronombre)
+2. Include emojis for friendlier tone? → **Pendiente:** Evaluar
+3. ~~Standard response for out-of-hours messages?~~ → **Resuelto 2026-01-21:** Next morning (9-10am) + Emergency only

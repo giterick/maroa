@@ -12,53 +12,57 @@
 
 | Decision | Options | Your Choice | Notes |
 |----------|---------|-------------|-------|
-| **Tech Lead** - Who handles technician quality control? | Gabby / Erick / External hire / Split duty | _________ | Currently TBD in docs |
-| **Primary Technician** - Confirmed and committed? | Name: _________ | [ ] Yes [ ] No | |
-| **Backup Technician** - Identified and available? | Name: _________ | [ ] Yes [ ] No | Critical for no-show coverage |
-| **Concierge hours** - Who monitors WhatsApp when? | Gabby only / Erick backup / Shared schedule | _________ | |
+| **Tech Lead** - Who handles technician quality control? | Gabby / Erick / External hire / Split duty | **Erick (por ahora)** | Decidido 2026-01-21 |
+| **Primary Technician** - Confirmed and committed? | Name: _________ | [ ] Yes [x] No | Pendiente entrevistas |
+| **Backup Technician** - Identified and available? | Name: _________ | [ ] Yes [x] No | Pendiente entrevistas |
+| **Concierge hours** - Who monitors WhatsApp when? | Gabby only / Erick backup / Shared schedule | **Gabby owner, Erick backup** | Decidido 2026-01-21 |
 
 ### 2. Geography
 
 | Decision | Options | Your Choice | Notes |
 |----------|---------|-------------|-------|
-| **Pilot zone name** | _________ | | Be specific (neighborhood/residencial) |
-| **Zone boundaries** | Draw on Google Maps or list addresses | Link: _________ | Needed for intake triage |
-| **Max travel radius** | 10 min / 15 min / 20 min / Other | _________ | Affects technician scheduling |
-| **Excluded areas** | List any neighborhoods to avoid | _________ | |
+| **Pilot zone name** | _________ | **Ciudad La Palma (principal), Punta Cana Village/Resort, Cap Cana (secundarios)** | Decidido 2026-01-21 |
+| **Zone boundaries** | Draw on Google Maps or list addresses | **Las 3 zonas mencionadas arriba** | Decidido 2026-01-21 |
+| **Max travel radius** | 10 min / 15 min / 20 min / Other | **20 min (CLP/PC), 30 min (Cap Cana)** | Decidido 2026-01-21 |
+| **Excluded areas** | List any neighborhoods to avoid | **Bavaro, Veron, Uvero Alto, todo fuera de las 3 zonas** | Decidido 2026-01-21 |
 
 ### 3. Pricing
 
+> **Status:** Por definir en PR de análisis de pricing dedicado
+
 | Service Type | Price (RD$) | Technician Payout | Your Margin |
 |--------------|-------------|-------------------|-------------|
-| 1 unit (preventive) | _________ | _________ | _________ |
-| 2 units (preventive) | _________ | _________ | _________ |
-| 3 units (preventive) | _________ | _________ | _________ |
-| 4 units (preventive) | _________ | _________ | _________ |
-| Minor corrective (estimate) | _________ | _________ | _________ |
+| 1 unit (preventive) | _Por definir_ | _Por definir_ | _Por definir_ |
+| 2 units (preventive) | _Por definir_ | _Por definir_ | _Por definir_ |
+| 3 units (preventive) | _Por definir_ | _Por definir_ | _Por definir_ |
+| 4 units (preventive) | _Por definir_ | _Por definir_ | _Por definir_ |
+| Minor corrective (estimate) | _Por definir_ | _Por definir_ | _Por definir_ |
 
 **Pricing Questions:**
-- [ ] Do you charge per unit or per visit?
-- [ ] Is there a discount for multi-unit homes?
-- [ ] What's included vs. extra (filter replacement, gas refill, etc.)?
+- [x] Do you charge per unit or per visit? → **Por unidad, pero la visita tiene un cost item**
+- [ ] Is there a discount for multi-unit homes? → Sí, por definir en PR de pricing
+- [ ] What's included vs. extra (filter replacement, gas refill, etc.)? → Por definir en PR de pricing
 
 ### 4. Payments
 
 | Decision | Options | Your Choice | Notes |
 |----------|---------|-------------|-------|
-| **Bank account** | Personal / Business / New account | _________ | |
-| **Bank name** | _________ | | |
-| **Account number** | _________ | | For transfer instructions |
-| **Account holder name** | _________ | | |
-| **Payment link provider** | None / Azul / Cardnet / PayPal / Other | _________ | Backup method |
-| **Cash handling** | Technician collects / Client deposits / No cash | _________ | |
+| **Bank account** | Personal / Business / New account | **Personal (para piloto)** | Decidido 2026-01-21 |
+| **Bank name** | _________ | **Múltiples: Popular, BHD, Qik, Scotiabank** | Crear tabla con detalles |
+| **Account number** | _________ | _Ver tabla de cuentas_ | Crear tabla aparte |
+| **Account holder name** | _________ | **Erick Santana / Gabriella Bairan** | Depende de la cuenta |
+| **Payment link provider** | None / Azul / Cardnet / PayPal / Other | **Ninguno para piloto** | Decidido 2026-01-21 |
+| **Cash handling** | Technician collects / Client deposits / No cash | **No cash, cliente deposita** | Decidido 2026-01-21 |
 
 ### 5. Legal/Terms
 
+> **Status:** Por definir en PR de términos legales
+
 | Decision | Options | Your Choice | Notes |
 |----------|---------|-------------|-------|
-| **Service terms** | Verbal agreement / Written waiver / Both | _________ | |
-| **Liability coverage** | None / Basic clause / Full contract | _________ | |
-| **Photo consent** | Implicit / Explicit verbal / Written | _________ | For before/after photos |
+| **Service terms** | Verbal agreement / Written waiver / Both | _Por definir_ | PR legal pendiente |
+| **Liability coverage** | None / Basic clause / Full contract | _Por definir_ | PR legal pendiente |
+| **Photo consent** | Implicit / Explicit verbal / Written | **Implícito (en service terms)** | Decidido 2026-01-21 |
 
 ---
 
@@ -68,28 +72,28 @@
 
 | Decision | Options | Your Choice |
 |----------|---------|-------------|
-| **Where will leads come from?** | Referrals only / WhatsApp groups / Facebook / Instagram / Flyers / Cold outreach | _________ |
-| **Who owns lead generation?** | Gabby / Erick / Both / Technician referrals | _________ |
-| **Lead capture method** | Direct WhatsApp / Google Form / Both | _________ |
-| **WhatsApp number** | Personal / Business / Dedicated pilot line | _________ |
+| **Where will leads come from?** | Referrals only / WhatsApp groups / Facebook / Instagram / Flyers / Cold outreach | **Referrals + WhatsApp groups (principal). FB/IG si da tiempo. No flyers/cold outreach** |
+| **Who owns lead generation?** | Gabby / Erick / Both / Technician referrals | **Gabby** |
+| **Lead capture method** | Direct WhatsApp / Google Form / Both | **Both (crear Google Form)** |
+| **WhatsApp number** | Personal / Business / Dedicated pilot line | **+1 809 330 9492 (personal → convertir a Business)** |
 
 ### 7. Scheduling Rules
 
 | Decision | Options | Your Choice |
 |----------|---------|-------------|
-| **Operating days** | Mon-Fri / Mon-Sat / Custom | _________ |
-| **Operating hours** | _________ to _________ | |
-| **Services per day max** | 2 / 3 / 4 / No limit | _________ |
-| **Booking lead time minimum** | Same day OK / 24h / 48h | _________ |
-| **Time slots offered** | Morning (8-12) / Afternoon (12-5) / Specific hours | _________ |
+| **Operating days** | Mon-Fri / Mon-Sat / Custom | **Lun-Sab (sábados hasta mediodía)** |
+| **Operating hours** | _________ to _________ | **9AM-6PM. Slots: 9-11, 11-1, 2-4, 4-6. Surcharge: 7-9AM, 6-8PM. Fuera horario: aprobación técnico + surcharge alto** |
+| **Services per day max** | 2 / 3 / 4 / No limit | **Sin límite (para piloto)** |
+| **Booking lead time minimum** | Same day OK / 24h / 48h | **48h mínimo. <48h tiene surcharge expeditación** |
+| **Time slots offered** | Morning (8-12) / Afternoon (12-5) / Specific hours | **Ventanas de 2 horas (ver horarios arriba)** |
 
 ### 8. Communication
 
 | Decision | Options | Your Choice |
 |----------|---------|-------------|
-| **Tone in WhatsApp** | Formal (usted) / Informal (tu) / Mixed | _________ |
-| **Response time target** | <1 hour / <4 hours / <12 hours / <24 hours | _________ |
-| **After-hours messages** | Auto-reply / Next morning / Emergency only | _________ |
+| **Tone in WhatsApp** | Formal (usted) / Informal (tu) / Mixed | **Informal, alegre, sin "tú" explícito (conjugar verbos sin pronombre)** |
+| **Response time target** | <1 hour / <4 hours / <12 hours / <24 hours | **<1h durante horario (9am-6pm). Mensajes después de 6pm: respuesta entre 9-10am día siguiente** |
+| **After-hours messages** | Auto-reply / Next morning / Emergency only | **Next morning + Emergency only** |
 
 ---
 
