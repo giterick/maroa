@@ -13,21 +13,37 @@
 // CONFIGURACION DE PRECIOS (MODIFICAR AQUI)
 // ============================================
 
-const CONFIG = {
+// OPCION A: Competitivo (INICIAL - usar durante piloto)
+const CONFIG_A = {
+  nombre: 'Opcion A - Competitivo',
   // Precio al cliente
-  BASE_VISITA: 500,           // Cargo fijo por visita
-  PRIMERA_UNIDAD: 2200,       // Precio primera unidad
-  UNIDAD_2_A_4: 1800,         // Precio unidades 2-4
-  UNIDAD_5_MAS: 1500,         // Precio unidades 5+
-
+  BASE_VISITA: 500,
+  PRIMERA_UNIDAD: 2200,
+  UNIDAD_2_A_4: 1800,
+  UNIDAD_5_MAS: 1500,
   // Payout al tecnico
-  PAYOUT_BASE: 300,           // Base por visita
-  PAYOUT_POR_UNIDAD: 1200,    // Por cada unidad
-  BONO_COMPLETITUD: 200,      // Bono por servicio completo
-
-  // Objetivos
-  MARGEN_MINIMO: 0.25         // 25% margen minimo
+  PAYOUT_BASE: 300,
+  PAYOUT_POR_UNIDAD: 1200,
+  BONO_COMPLETITUD: 200
 };
+
+// OPCION B: Premium (TRANSICION - usar cuando hay demanda validada)
+const CONFIG_B = {
+  nombre: 'Opcion B - Premium',
+  // Precio al cliente (esquema con descuento progresivo)
+  BASE_VISITA: 500,
+  PRECIO_UNIDAD: 3000,
+  DESCUENTO_POR_UNIDAD: 0.10,  // 10% por unidad adicional
+  DESCUENTO_TOPE: 0.40,        // Maximo 40% descuento
+  // Payout al tecnico (65% del precio)
+  PAYOUT_PORCENTAJE: 0.65
+};
+
+// CONFIGURACION ACTIVA (cambiar aqui para switch)
+// Usar: 'A' para Opcion A (inicial), 'B' para Opcion B (premium)
+const ESQUEMA_ACTIVO = 'A';
+
+const CONFIG = CONFIG_A;  // Default a Opcion A
 
 // ============================================
 // FUNCIONES PRINCIPALES
@@ -107,6 +123,56 @@ function COTIZACION(unidades) {
 }
 
 // ============================================
+// FUNCIONES OPCION B (PREMIUM)
+// ============================================
+
+/**
+ * Calcula precio al cliente con Opcion B (descuento progresivo)
+ * @param {number} unidades - Numero de unidades
+ * @return {number} Precio total en RD$
+ * @customfunction
+ */
+function PRECIO_CLIENTE_B(unidades) {
+  if (unidades < 1) return 0;
+
+  const subtotal = unidades * CONFIG_B.PRECIO_UNIDAD;
+  const descuento = Math.min(unidades * CONFIG_B.DESCUENTO_POR_UNIDAD, CONFIG_B.DESCUENTO_TOPE);
+  const subtotalConDescuento = subtotal * (1 - descuento);
+
+  return CONFIG_B.BASE_VISITA + subtotalConDescuento;
+}
+
+/**
+ * Calcula payout al tecnico con Opcion B (65% del precio)
+ * @param {number} unidades - Numero de unidades
+ * @return {number} Payout en RD$
+ * @customfunction
+ */
+function PAYOUT_TECNICO_B(unidades) {
+  if (unidades < 1) return 0;
+  return Math.round(PRECIO_CLIENTE_B(unidades) * CONFIG_B.PAYOUT_PORCENTAJE);
+}
+
+/**
+ * Compara ambos esquemas lado a lado
+ * @param {number} unidades - Numero de unidades
+ * @return {string} Comparacion formateada
+ * @customfunction
+ */
+function COMPARAR_ESQUEMAS(unidades) {
+  const precioA = PRECIO_CLIENTE(unidades);
+  const precioB = PRECIO_CLIENTE_B(unidades);
+  const payoutA = PAYOUT_TECNICO(unidades);
+  const payoutB = PAYOUT_TECNICO_B(unidades);
+  const margenA = precioA - payoutA;
+  const margenB = precioB - payoutB;
+
+  return `${unidades} unidad(es):\n` +
+         `  Opcion A: RD$${precioA.toLocaleString()} (margen RD$${margenA.toLocaleString()})\n` +
+         `  Opcion B: RD$${precioB.toLocaleString()} (margen RD$${margenB.toLocaleString()})`;
+}
+
+// ============================================
 // TABLA RAPIDA DE REFERENCIA
 // ============================================
 
@@ -176,8 +242,12 @@ Tienes disponibilidad esta semana? Te puedo ofrecer estas opciones:
 // ============================================
 
 if (typeof module !== 'undefined') {
-  // Imprimir tabla de prueba
-  console.log('\n=== TABLA DE PRECIOS MAROA ===\n');
+  // Imprimir comparacion de ambos esquemas
+  console.log('\n' + '='.repeat(70));
+  console.log('MAROA - COMPARACION DE ESQUEMAS DE PRICING');
+  console.log('='.repeat(70));
+
+  console.log('\n--- OPCION A: COMPETITIVO (INICIAL) ---\n');
   console.log('Unidades | Cliente   | Tecnico  | Margen   | %');
   console.log('---------|-----------|----------|----------|----');
 
@@ -192,7 +262,46 @@ if (typeof module !== 'undefined') {
     );
   }
 
-  console.log('\n=== EJEMPLO COTIZACION ===\n');
+  console.log('\n--- OPCION B: PREMIUM (TRANSICION) ---\n');
+  console.log('Unidades | Cliente   | Tecnico  | Margen   | %');
+  console.log('---------|-----------|----------|----------|----');
+
+  for (let i = 1; i <= 6; i++) {
+    const precio = PRECIO_CLIENTE_B(i);
+    const payout = PAYOUT_TECNICO_B(i);
+    const margen = precio - payout;
+    const pct = Math.round((margen / precio) * 100);
+
+    console.log(
+      `${i}        | RD$${precio.toString().padStart(5)} | RD$${payout.toString().padStart(5)} | RD$${margen.toString().padStart(5)} | ${pct}%`
+    );
+  }
+
+  console.log('\n--- COMPARACION LADO A LADO ---\n');
+  console.log('Unidades | Opcion A  | Opcion B  | Diferencia');
+  console.log('---------|-----------|-----------|------------');
+
+  for (let i = 1; i <= 4; i++) {
+    const precioA = PRECIO_CLIENTE(i);
+    const precioB = PRECIO_CLIENTE_B(i);
+    const diff = precioB - precioA;
+    const diffPct = Math.round((diff / precioA) * 100);
+    const sign = diff >= 0 ? '+' : '';
+
+    console.log(
+      `${i}        | RD$${precioA.toString().padStart(5)} | RD$${precioB.toString().padStart(5)} | ${sign}RD$${diff} (${sign}${diffPct}%)`
+    );
+  }
+
+  console.log('\n--- CRITERIOS PARA TRANSICIONAR A → B ---\n');
+  console.log('Transicionar cuando se cumplan AL MENOS 3 de 5:');
+  console.log('  1. Conversion ≥30%');
+  console.log('  2. <20% dicen "caro"');
+  console.log('  3. ≥5 leads en espera');
+  console.log('  4. ≥2 referidos organicos');
+  console.log('  5. Tecnico sin quejas en 5+ servicios');
+
+  console.log('\n--- EJEMPLO COTIZACION (OPCION A) ---\n');
   console.log(MENSAJE_COTIZACION('Juan', 3));
 
   module.exports = {
@@ -202,6 +311,11 @@ if (typeof module !== 'undefined') {
     MARGEN_PORCENTAJE,
     COTIZACION,
     TABLA_PRECIOS,
-    MENSAJE_COTIZACION
+    MENSAJE_COTIZACION,
+    PRECIO_CLIENTE_B,
+    PAYOUT_TECNICO_B,
+    COMPARAR_ESQUEMAS,
+    CONFIG_A,
+    CONFIG_B
   };
 }

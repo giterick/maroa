@@ -210,19 +210,87 @@ Estas variables NO se incluyen en el piloto para mantener simplicidad, pero se p
 
 ---
 
-## 7. Decision Requerida
+## 7. Estrategia Hibrida de Pricing (Decision Final)
 
-**Pregunta para Erick:**
+### 7.1 Resumen Ejecutivo
 
-¿Cual esquema prefieres para el piloto?
+**Iniciamos con Opcion A (competitivo), con plan de transicion a Opcion B (premium) si las senales lo justifican.**
 
-| Opcion | Precio 1 unidad | Precio 4 unidades | Margen |
-|--------|-----------------|-------------------|--------|
-| A) Propuesta revisada (este doc) | RD$2,700 | RD$8,100 | 35% |
-| B) Propuesta original (tu doc) | RD$3,500 | RD$7,700 | 35% |
-| C) Mas agresivo (competir por precio) | RD$2,200 | RD$6,500 | 25% |
+### 7.2 Los Dos Esquemas
 
-**Mi recomendacion:** Opcion A - balancea competitividad con margen.
+#### OPCION A: Competitivo (INICIAL)
+
+```
+Base visita: RD$500
+1ra unidad: RD$2,200
+Unidades 2-4: RD$1,800/unidad
+Unidades 5+: RD$1,500/unidad
+```
+
+| Unidades | Precio Cliente | Margen |
+|----------|----------------|--------|
+| 1 | RD$2,700 | 37% |
+| 2 | RD$4,500 | 36% |
+| 3 | RD$6,300 | 35% |
+| 4 | RD$8,100 | 35% |
+
+**Cuando usar:** Piloto inicial, primeros 10 servicios, cuando estamos validando demanda.
+
+#### OPCION B: Premium (TRANSICION)
+
+```
+Base visita: RD$500
+Precio por unidad: RD$3,000
+Descuento: 10% x N (tope 40%)
+```
+
+| Unidades | Precio Cliente | Margen |
+|----------|----------------|--------|
+| 1 | RD$3,500 | 35% |
+| 2 | RD$5,300 | 35% |
+| 3 | RD$6,800 | 35% |
+| 4 | RD$7,700 | 35% |
+
+**Cuando usar:** Cuando hay demanda validada y podemos justificar el premium.
+
+### 7.3 Criterios para Transicionar de A → B
+
+**Transicionar a Opcion B cuando se cumplan AL MENOS 3 de estas 5 condiciones:**
+
+| # | Senal | Metrica | Umbral |
+|---|-------|---------|--------|
+| 1 | **Alta conversion** | % leads que pagan | ≥30% |
+| 2 | **Sin resistencia al precio** | Clientes que dicen "caro" o piden descuento | <20% de cotizaciones |
+| 3 | **Demanda excede capacidad** | Leads en espera | ≥5 leads sin poder atender |
+| 4 | **Clientes refieren** | Referidos organicos | ≥2 referidos en piloto |
+| 5 | **Tecnico satisfecho** | Tecnico no se queja del payout | Sin quejas en 5+ servicios |
+
+### 7.4 Criterios para BAJAR precios (Opcion C de emergencia)
+
+**Solo considerar si en los primeros 5 servicios:**
+
+| Senal de Alarma | Accion |
+|-----------------|--------|
+| 0 conversiones de 10+ leads | Bajar 1ra unidad a RD$1,800 |
+| >50% dicen "muy caro" | Bajar 1ra unidad a RD$1,800 |
+| Tecnico rechaza trabajos por pago bajo | Subir payout a 70% |
+
+### 7.5 Tabla Comparativa Final
+
+| Metrica | Opcion A (Inicial) | Opcion B (Premium) | Opcion C (Emergencia) |
+|---------|--------------------|--------------------|----------------------|
+| Precio 1 unidad | RD$2,700 | RD$3,500 | RD$2,300 |
+| Precio 4 unidades | RD$8,100 | RD$7,700 | RD$6,500 |
+| Margen promedio | 35% | 35% | 25% |
+| Posicionamiento | Competitivo | Premium | Agresivo |
+| Riesgo | Margen bajo si costos suben | Rechazo por precio | Insostenible largo plazo |
+
+### 7.6 Decision Documentada
+
+**Fecha:** 2026-01-21
+**Decision:** Iniciar piloto con Opcion A
+**Responsable de monitorear:** Erick
+**Revisar transicion:** Despues de servicio #10 o semana 2, lo que ocurra primero
 
 ---
 
