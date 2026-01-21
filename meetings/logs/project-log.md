@@ -11,8 +11,12 @@
 
 #### 2026-01-21
 - [ ] Reunion con mentor IMM (Luis Santiago)
-- [ ] Reunion de sync con equipo (Gabriella + Elba)
-- [Decisiones tomadas: ver Decision Log]
+- [x] Reunion de sync con equipo (Gabriella + Elba)
+  - Revisado repositorio y estructura
+  - **19 decisiones tomadas** (ver Decision Log)
+  - Definidas zonas piloto: Ciudad La Palma, PC, Cap Cana
+  - Definidos horarios, pagos, comunicacion
+  - Creados 6 backlog items para agentes
 
 #### 2026-01-20
 - Preparacion de repositorio para demo
@@ -39,7 +43,7 @@
 
 | Milestone | Target Date | Status | Notes |
 |-----------|-------------|--------|-------|
-| Decisiones criticas completadas | TBD | Pendiente | Ver `docs/04_pilot_decisions_checklist.md` |
+| Decisiones criticas completadas | TBD | **En progreso** | 19 decisiones tomadas 2026-01-21. Faltan: pricing, legal, tecnicos |
 | Google Sheets configurado | TBD | Pendiente | |
 | Primer tecnico onboarded | TBD | Pendiente | |
 | Primer servicio real | TBD | Pendiente | |
@@ -53,7 +57,7 @@
 | Riesgo | Probabilidad | Impacto | Mitigacion | Owner |
 |--------|--------------|---------|------------|-------|
 | No encontrar tecnico confiable | Media | Alto | Entrevistas activas via surveys | Gabby |
-| Zona piloto muy grande/pequena | Media | Medio | Definir boundaries claros | Erick |
+| ~~Zona piloto muy grande/pequena~~ | ~~Media~~ | ~~Medio~~ | **Resuelto:** CLP, PC, Cap Cana | Erick |
 | Pricing incorrecto | Media | Alto | Research completado, validar en mercado | Erick |
 
 ---
@@ -76,4 +80,4 @@
 
 ---
 
-**Ultima actualizacion:** 2026-01-20
+**Ultima actualizacion:** 2026-01-21

@@ -12,7 +12,7 @@ Validate demand, operations, and unit economics for A/C maintenance services in 
 
 | Dimension | In Scope | Out of Scope |
 |-----------|----------|--------------|
-| **Geography** | Punta Cana pilot zone (defined residentials) | Other cities/zones |
+| **Geography** | Ciudad La Palma (principal), Punta Cana Village/Resort, Cap Cana (secundarios) | Bavaro, Veron, Uvero Alto, otras zonas |
 | **Service Type** | A/C preventive maintenance, minor correctives | Major repairs, installations, other appliances |
 | **Clients** | Residential homes (1-4 A/C units) | Commercial, industrial |
 | **Channels** | WhatsApp Business, referrals, community groups | Paid ads, landing pages |
@@ -53,15 +53,15 @@ Validate demand, operations, and unit economics for A/C maintenance services in 
 
 | Role | Owner |
 |------|-------|
-| Operations / Concierge | Gabby |
+| Operations / Concierge | Gabby (owner), Erick (backup) |
 | Systems / Data | Erick |
-| Technical Lead | TBD / Backup |
+| Technical Lead | Erick (por ahora) |
 
 ---
 
 ## Open Questions
 
-1. Exact boundaries of pilot zone (which residentials/neighborhoods)?
-2. Pricing for 2/3/4 unit homes confirmed?
-3. Backup technician identified and onboarded?
-4. Legal waiver/terms template ready?
+1. ~~Exact boundaries of pilot zone (which residentials/neighborhoods)?~~ → **Resuelto 2026-01-21:** Ciudad La Palma, Punta Cana Village/Resort, Cap Cana
+2. Pricing for 2/3/4 unit homes confirmed? → **Pendiente:** PR de análisis de pricing
+3. Backup technician identified and onboarded? → **Pendiente:** Después de entrevistas
+4. Legal waiver/terms template ready? → **Pendiente:** PR de términos legales
