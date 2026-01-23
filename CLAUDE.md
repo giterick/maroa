@@ -95,11 +95,44 @@ Este repositorio incluye skills de Claude Code para gestión empresarial:
 | `/meeting` | Asistente de reuniones - Notas, acciones, seguimiento |
 | `/report` | Generador de reportes - Métricas, dashboards, análisis |
 
+## Flujo de Git (OBLIGATORIO)
+
+**NUNCA hacer push directo a main.** Siempre seguir este flujo:
+
+1. **Crear branch desde main:**
+   ```bash
+   git checkout main && git pull
+   git checkout -b feature/descripcion-corta
+   ```
+
+2. **Hacer commits en el branch:**
+   ```bash
+   git add [archivos]
+   git commit -m "Mensaje descriptivo"
+   ```
+
+3. **Push del branch (NO de main):**
+   ```bash
+   git push -u origin feature/descripcion-corta
+   ```
+
+4. **Crear Pull Request:**
+   ```bash
+   gh pr create --title "Título" --body "Descripción"
+   ```
+
+5. **Esperar aprobación** antes de merge.
+
+### Antes de cualquier commit, SIEMPRE preguntar:
+- "¿Estoy en un branch o en main?"
+- "¿Debo crear un PR para estos cambios?"
+
 ## Contexto para Claude
 
 Cuando trabajes en este repositorio:
-1. Siempre consulta la documentación existente antes de proponer cambios
-2. Mantén el tono profesional pero accesible (somos startup)
-3. Prioriza soluciones simples que funcionen con WhatsApp + Sheets
-4. Los KPIs son la brújula - toda decisión debe considerar su impacto
-5. El piloto es para **validar**, no para escalar prematuramente
+1. **NUNCA push directo a main** - siempre crear branch y PR
+2. Siempre consulta la documentación existente antes de proponer cambios
+3. Mantén el tono profesional pero accesible (somos startup)
+4. Prioriza soluciones simples que funcionen con WhatsApp + Sheets
+5. Los KPIs son la brújula - toda decisión debe considerar su impacto
+6. El piloto es para **validar**, no para escalar prematuramente
