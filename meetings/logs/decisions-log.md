@@ -40,6 +40,16 @@
 | DEC-20260121-18 | 2026-01-21 | After-hours: next morning 9-10am | Team Sync | Gabby | Activa |
 | DEC-20260121-19 | 2026-01-21 | Dailies: horario fijo 10-11am | Team Sync | Erick | Activa |
 
+### Febrero 2026
+
+| ID | Fecha | Decision | Reunion | Responsable | Estado |
+|----|-------|----------|---------|-------------|--------|
+| DEC-20260218-01 | 2026-02-18 | Marcia Diaz se integra como Gerente de Operaciones y Administracion | Decision Erick | Erick | Activa |
+| DEC-20260218-02 | 2026-02-18 | Gabby Bairan pasa a rol de backup operativo | Decision Erick | Erick | Activa |
+| DEC-20260218-03 | 2026-02-18 | Nuevo numero de WhatsApp Business para Marcia (por definir) | Decision Erick | Marcia | Activa |
+| DEC-20260218-04 | 2026-02-18 | Escalacion: Marcia L1+L2, Erick solo L3 | Decision Erick | Erick | Activa |
+| DEC-20260218-05 | 2026-02-18 | Pre-piloto: 2-3 servicios en casas de familia antes de piloto publico | Decision Erick | Marcia | Activa |
+
 ---
 
 ## Decisiones por Categoria
@@ -55,12 +65,14 @@
 | ID | Decision | Fecha | Estado |
 |----|----------|-------|--------|
 | DEC-20260121-01 | Tech Lead: Erick (por ahora) | 2026-01-21 | Activa |
-| DEC-20260121-02 | Concierge: Gabby owner, Erick backup | 2026-01-21 | Activa |
+| DEC-20260121-02 | Concierge: Gabby owner, Erick backup | 2026-01-21 | Superseded by DEC-20260218-01 |
 | DEC-20260121-12 | Horario: 9AM-6PM, Sab hasta mediodía | 2026-01-21 | Activa |
 | DEC-20260121-13 | Slots 2h: 9-11, 11-1, 2-4, 4-6 | 2026-01-21 | Activa |
 | DEC-20260121-14 | Surcharge slots: 7-9AM, 6-8PM | 2026-01-21 | Activa |
 | DEC-20260121-15 | Booking mínimo 48h, <48h surcharge | 2026-01-21 | Activa |
 | DEC-20260121-19 | Dailies: horario fijo 10-11am | 2026-01-21 | Activa |
+| DEC-20260218-01 | Marcia = Gerente Ops, Gabby = backup | 2026-02-18 | Activa |
+| DEC-20260218-04 | Escalacion: Marcia L1+L2, Erick L3 | 2026-02-18 | Activa |
 
 ### Tecnicos
 
@@ -96,7 +108,7 @@
 
 | Fecha | Decision Original | Nueva Decision | Razon |
 |-------|-------------------|----------------|-------|
-| | | | |
+| 2026-02-18 | DEC-20260121-02: Concierge Gabby owner | DEC-20260218-01: Marcia Gerente Ops, Gabby backup | Marcia se integra al equipo como operadora principal |
 
 ---
 
@@ -137,6 +149,7 @@
 |----|----------|-------|--------|
 | DEC-20260121-10 | Lead gen owner: Gabby | 2026-01-21 | Activa |
 | DEC-20260121-11 | WhatsApp: +1 809 330 9492 → Business | 2026-01-21 | Activa |
+| DEC-20260218-03 | Nuevo WhatsApp Business para Marcia | 2026-02-18 | Activa |
 
 ### Communication
 
@@ -148,4 +161,4 @@
 
 ---
 
-**Ultima actualizacion:** 2026-01-21
+**Ultima actualizacion:** 2026-02-18

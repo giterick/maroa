@@ -19,8 +19,9 @@
 
 | Role | Name | Phone |
 |------|------|-------|
-| Operations Lead | Gabby | _________ |
-| Systems Lead | Erick | _________ |
+| Gerente de Operaciones | Marcia | _________ |
+| Director / Sistemas | Erick | _________ |
+| Backup Operativo | Gabby | _________ |
 | Primary Technician | _________ | _________ |
 | Backup Technician | _________ | _________ |
 
@@ -110,9 +111,9 @@
 
 | Level | Who | When |
 |-------|-----|------|
-| 1 | Concierge (Gabby) | Normal issues |
-| 2 | Operations Lead | >2h delay, complaints |
-| 3 | Pilot Lead (Erick) | Safety, major failures |
+| 1 | Concierge (Marcia) | Normal issues |
+| 2 | Operations Lead (Marcia) | >2h delay, complaints |
+| 3 | Director (Erick) | Safety, major failures |
 
 ---
 

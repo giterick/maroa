@@ -12,8 +12,9 @@ Maroa es un servicio de mantenimiento de A/C (aire acondicionado) en Punta Cana,
 
 | Rol | Responsable |
 |-----|-------------|
-| Operations Lead | Gabby - Concierge, SLAs, comunicación con clientes |
-| Systems Lead | Erick - Data, sheets, métricas, reportes |
+| Director / Estrategia y Sistemas | Erick Santana - Estrategia, sistemas, datos, métricas, decisiones |
+| Gerente de Operaciones y Administración | Marcia Diaz - Operaciones día a día, concierge, clientes, técnicos |
+| Backup Operativo | Gabby Bairan - Respaldo operativo cuando Marcia no esté disponible |
 | Tech Lead | Por definir - Calidad de servicio, coordinación técnicos |
 
 ## KPIs Principales (Go/Pivot/Stop)
@@ -62,6 +63,11 @@ tools/          → Scripts de utilidad
 - **Checklist Concierge:** `ops/concierge_checklists.md`
 - **Revisión Semanal:** `rituals/weekly_review.md`
 - **Log de Decisiones:** `meetings/logs/decisions-log.md`
+- **Job Description Operaciones:** `docs/06_job_description_gerente_operaciones.md`
+- **Onboarding Marcia:** `setup/onboarding_marcia.md`
+- **Scripts Reclutamiento Técnicos:** `templates/scripts_reclutamiento_tecnicos.md`
+- **Scripts Redes Sociales:** `templates/scripts_redes_sociales.md`
+- **Plan Pre-Piloto:** `setup/plan_pre_piloto_marcia.md`
 
 ## Restricciones del Piloto
 
