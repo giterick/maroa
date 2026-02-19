@@ -9,7 +9,7 @@
 ```
 Hola [Nombre], gracias por escribir a Maroa!
 
-Somos un servicio de mantenimiento de aires acondicionados en Punta Cana y Ciudad La Palma. Te ayudamos con el mantenimiento preventivo para que tu A/C funcione mejor y dure mas, sin drama.
+Somos un servicio de mantenimiento de aires acondicionados en Punta Cana y Ciudad La Palma. Coordinamos todo por ti: tecnico verificado, horario que te funcione, fotos del trabajo y garantia de 7 dias. Tranquilidad cero drama.
 
 Para darte mejor info, me puedes decir:
 1. Tu direccion o residencial
@@ -293,6 +293,36 @@ Te agendo una visita de revision sin costo adicional. Tengo disponibilidad:
 - [Opcion 2]
 
 Cual te funciona?
+```
+
+---
+
+## 19. Subscription Offer (Post-First-Service — IMM Experiment #1)
+
+**Trigger:** 3-5 days after first service, if client satisfaction was positive
+
+> **Context:** This script supports IMM Experiment #1 (subscription preference validation). See `imm-doulab/08-experimentacion-y-pruebas.md`. Track responses in LEADS sheet column "Interes_Suscripcion". Success threshold: >=50% conversion within 7 days.
+
+```
+Hola [Nombre]! Como van los aires despues del mantenimiento? Todo bien?
+
+Queria contarte que tenemos un Plan Piloto Maroa para clientes como tu: 2 mantenimientos al ano, coordinacion total con tecnicos verificados, y prioridad si surge algo urgente. Todo por un pago mensual fijo.
+
+Te interesa que te cuente los detalles?
+```
+
+**If client says yes:**
+
+```
+El Plan Piloto Maroa incluye:
+
+- 2 mantenimientos preventivos al ano (cada 6 meses)
+- Prioridad en correctivos (respuesta en menos de 48h)
+- Tecnico asignado que ya conoce tus equipos
+- Pago mensual fijo por transferencia
+- Garantia en cada visita
+
+El precio del plan depende de cuantos aires tienes. Te paso la cotizacion?
 ```
 
 ---
