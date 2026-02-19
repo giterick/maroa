@@ -49,6 +49,7 @@ research/       → Análisis de mercado
 sources/        → Datos extraídos (Coda, PDFs)
 surveys/        → Feedback de clientes
 tools/          → Scripts de utilidad
+imm-doulab/     → Programa IMM Doulab Phase 02 (innovación, customer discovery, OKRs)
 ```
 
 ## Documentos Clave
@@ -67,6 +68,8 @@ tools/          → Scripts de utilidad
 - **Onboarding Marcia:** `setup/onboarding_marcia.md`
 - **Scripts Reclutamiento Técnicos:** `templates/scripts_reclutamiento_tecnicos.md`
 - **Scripts Redes Sociales:** `templates/scripts_redes_sociales.md`
+- **IMM Doulab README:** `imm-doulab/README.md`
+- **Reporte Programa Innovación:** `imm-doulab/REPORTE_PROGRAMA_INNOVACION.md`
 - **Plan Pre-Piloto:** `setup/plan_pre_piloto_marcia.md`
 
 ## Restricciones del Piloto
