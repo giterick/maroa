@@ -208,6 +208,10 @@ Estas variables NO se incluyen en el piloto para mantener simplicidad, pero se p
 1. "Te cotizo RD$2,700 por mantenimiento de tu mini-split. Incluye limpieza completa, garantia de 7 dias, y reporte fotografico. Que te parece?"
 2. "Tienes 3 aires. Te puedo hacer los 3 por RD$6,300 en la misma visita. Te interesa?"
 
+### 6.4 IMM Research Context
+
+The IMM Doulab program identified subscription willingness as a key uncertainty (see `imm-doulab/08-experimentacion-y-pruebas.md`, Experiment #1). The monthly subscription model (auto-pay post-first-service) should be tested during the pilot with a >=50% conversion threshold. Customer segments have different price sensitivity profiles — homeowners vs. Airbnb hosts vs. small businesses may respond differently to the same price point (see `imm-doulab/01-team-activity-overview.md` for segment profiles).
+
 ---
 
 ## 7. Estrategia Hibrida de Pricing (Decision Final)

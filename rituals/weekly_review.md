@@ -61,6 +61,30 @@ Review pilot performance, identify issues, make data-driven decisions, and align
 
 ---
 
+### 1b. Hypothesis & Assumption Check (5 min)
+
+**Track progress on pilot hypotheses (from IMM research — see `imm-doulab/README.md`):**
+
+| Hypothesis | Status | Evidence This Week |
+|-----------|--------|-------------------|
+| H1: Clients will pay for A/C maintenance | Pending/Validating/Validated/Invalidated | |
+| H2: Concierge delivers "cero drama" | Pending/Validating/Validated/Invalidated | |
+| H3: Technicians deliver consistent quality | Pending/Validating/Validated/Invalidated | |
+| H4: Unit economics viable (>=20%) | Pending/Validating/Validated/Invalidated | |
+| H5: Clients recommend and return | Pending/Validating/Validated/Invalidated | |
+
+**3 Key Experiments (from IMM 08):**
+
+| Experiment | Status | Learning |
+|-----------|--------|----------|
+| Subscription preference (post-first-service) | Not started | |
+| Technician integration (standards + commissions) | Not started | |
+| Trust in assigned technicians (ficha + proactive comms) | Not started | |
+
+**Question to answer:** What evidence do we have this week for/against our hypotheses?
+
+---
+
 ### 2. Incidents & Issues Review (10 min)
 
 **Go through INCIDENCIAS sheet:**

@@ -1,5 +1,7 @@
 # Policies - Maroa Pilot (v0.1)
 
+> **Context:** These policies support Maroa's transforming purpose of delivering "tranquilidad y confianza" through organized, preventive maintenance (see `imm-doulab/05-refinando-proposito-transformador.md`). Each policy aims to reduce the "drama" that customers currently experience with informal technicians — one of the core pain points identified in the IMM program.
+
 ---
 
 ## 1. Cancellation Policy
