@@ -18,7 +18,7 @@
 | **Threshold - Pivot** | 10-19% |
 | **Threshold - Stop** | < 10% |
 | **Target** | 25% |
-| **Owner** | Gabby (measurement), Erick (operation) |
+| **Owner** | Marcia (measurement), Erick (operation) |
 
 ---
 
@@ -36,7 +36,7 @@
 | **Threshold - Pivot** | 75-89% |
 | **Threshold - Stop** | < 75% |
 | **Target** | 92% |
-| **Owner** | Gabby |
+| **Owner** | Marcia |
 
 ---
 
@@ -55,7 +55,7 @@
 | **Threshold - Pivot** | 80-89% |
 | **Threshold - Stop** | < 80% |
 | **Target** | 92% |
-| **Owner** | Gabby (measurement), Erick (operation until Tech Lead assigned) |
+| **Owner** | Marcia (measurement), Erick (operation until Tech Lead assigned) |
 
 ---
 
@@ -91,7 +91,7 @@
 | **Threshold - Pivot** | 40-59% |
 | **Threshold - Stop** | < 40% |
 | **Target** | 70% |
-| **Owner** | Gabby |
+| **Owner** | Marcia |
 
 ---
 

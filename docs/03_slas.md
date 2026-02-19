@@ -74,7 +74,7 @@ Add to **Incidencias** sheet:
 - Notify client proactively
 - Document in Sheet
 
-### Level 2: Operations Lead (Gabby)
+### Level 2: Operations Lead (Marcia)
 - Repeated SLA breach (2+ same week)
 - Client complaint
 - Technician pattern issue

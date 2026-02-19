@@ -53,7 +53,7 @@ Validate demand, operations, and unit economics for A/C maintenance services in 
 
 | Role | Owner |
 |------|-------|
-| Operations / Concierge | Gabby (owner), Erick (backup) |
+| Operations / Concierge | Marcia (owner), Gabby (backup), Erick (soporte) |
 | Systems / Data | Erick |
 | Technical Lead | Erick (por ahora) |
 

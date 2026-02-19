@@ -15,14 +15,14 @@ Review pilot performance, identify issues, make data-driven decisions, and align
 | **Frequency** | Weekly |
 | **Day/Time** | Friday 4:00 PM (or Saturday morning) |
 | **Duration** | 45-60 minutes max |
-| **Attendees** | Gabby (Ops), Erick (Systems), Tech Lead (optional) |
+| **Attendees** | Marcia (Ops), Erick (Systems), Gabby (Backup - opcional), Tech Lead (optional) |
 | **Format** | Video call or in-person |
 
 ---
 
 ## Pre-Meeting Prep (DoD: Ready by Thursday EOD)
 
-### Owner: Gabby
+### Owner: Marcia
 - [ ] Update all LEADS statuses
 - [ ] Close all completed SERVICES
 - [ ] Log any missing INCIDENCIAS
