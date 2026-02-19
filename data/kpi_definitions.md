@@ -2,6 +2,20 @@
 
 ---
 
+## Strategic OKR Alignment
+
+The pilot KPIs connect to the strategic OKRs defined during the IMM Doulab Phase 02 program (see `imm-doulab/03-definicion-problema-okr.md`).
+
+| IMM OKR | Pilot KPI(s) | Connection |
+|---------|-------------|------------|
+| **O1:** Convertir mantenimiento preventivo en "piloto automatico" | KPI-5 (Retention Intent) | Validates willingness to adopt preventive model |
+| **O2:** Ninguna emergencia rompe la operacion | KPI-2 (SLA Compliance), KPI-3 (FTFR) | Validates operational reliability and quality |
+| **O3:** Transparencia radical | KPI-4 (Gross Margin), KPI-9 (Evidence Compliance) | Validates trust through visible pricing and documentation |
+
+> **Note:** The pilot KPIs are simpler than the full IMM OKRs by design. The pilot validates fundamentals; the OKRs guide the scaled operation.
+
+---
+
 ## Primary KPIs (Go/No-Go Decisions)
 
 ### KPI-1: Conversion Rate (Demand Validation)
