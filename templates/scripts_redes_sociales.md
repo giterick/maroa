@@ -275,6 +275,23 @@ escribanos por WhatsApp al [NUMERO]. Ahi le resolvemos todo.
 
 ---
 
+---
+
+## 11. IMM Marketing Funnel Reference
+
+The IMM Doulab program defined a complete marketing funnel for Maroa (see `imm-doulab/06-marketing-compromiso-ventas.md`):
+
+- **Campaign concept:** "Tranquilidad cero drama" — story of a home whose AC fails during a heatwave, contrasting reactive culture vs. Maroa's preventive plan
+- **CTA:** "Escribe TRANKI por WhatsApp o completa el formulario en 30 segundos"
+- **Channel strategy:** Instagram + Facebook for awareness, WhatsApp for conversion
+- **Resonance metrics:** >=3% contact rate from reached people, >=70% form completion, >=50% pre-qualified to subscription conversion
+- **Tone by segment:**
+  - Homeowners in residentials → Instagram (close, aspirational, peace-of-mind)
+  - Community/condo owners → Facebook + resident groups (community, reliable, security)
+  - Already interested → WhatsApp Business (concierge, personal, conversion)
+
+---
+
 ## Open Questions
 
 1. Crear cuenta de Instagram para Maroa?
