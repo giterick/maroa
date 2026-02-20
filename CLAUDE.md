@@ -71,6 +71,7 @@ imm-doulab/     → Programa IMM Doulab Phase 02 (innovación, customer discover
 - **IMM Doulab README:** `imm-doulab/README.md`
 - **Reporte Programa Innovación:** `imm-doulab/REPORTE_PROGRAMA_INNOVACION.md`
 - **Plan Pre-Piloto:** `setup/plan_pre_piloto_marcia.md`
+- **Business Model Canvas:** `docs/business_model_canvas.md`
 
 ## Restricciones del Piloto
 
@@ -103,6 +104,7 @@ Este repositorio incluye skills de Claude Code para gestión empresarial:
 | `/sales` | Sales Manager - Pipeline, conversión, scripts |
 | `/meeting` | Asistente de reuniones - Notas, acciones, seguimiento |
 | `/report` | Generador de reportes - Métricas, dashboards, análisis |
+| `/bmc` | Business Model Analyst - Modelo de negocio, canvas, estrategia |
 
 ## Flujo de Git (OBLIGATORIO)
 
