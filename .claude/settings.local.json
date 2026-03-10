@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)",
+      "Bash(git add:*)",
+      "Bash(ls -la \"C:\\\\Users\\\\erick\\\\Projects\\\\maroa\\\\maroa\\\\.claude\"\" 2>/dev/null || echo \"Directory not found \")"
+    ]
+  }
+}

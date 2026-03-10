@@ -15,6 +15,7 @@ Invoca cualquier skill escribiendo su comando:
 /sales        → Sales Manager
 /meeting      → Asistente de reuniones
 /report       → Generador de reportes
+/bmc          → Business Model Analyst
 ```
 
 ## Estructura de Skills
@@ -29,7 +30,8 @@ skills/
 ├── marketing/SKILL.md  # Marketing Manager
 ├── sales/SKILL.md      # Sales Manager
 ├── meeting/SKILL.md    # Asistente de reuniones
-└── report/SKILL.md     # Generador de reportes
+├── report/SKILL.md     # Generador de reportes
+└── bmc/SKILL.md        # Business Model Analyst
 ```
 
 ## Roles Prioritarios
@@ -60,6 +62,11 @@ Toma notas estructuradas, genera acciones, actualiza el decision log.
 ### /report - Generador de Reportes
 Genera reportes semanales, dashboards de KPIs, análisis de métricas.
 
+## Estrategia
+
+### /bmc - Business Model Analyst
+Modelo de negocio, Business Model Canvas (Osterwalder), análisis de coherencia entre bloques, identificación de gaps.
+
 ## Archivos de Referencia por Rol
 
 | Skill | Archivos Principales |
@@ -72,6 +79,7 @@ Genera reportes semanales, dashboards de KPIs, análisis de métricas.
 | sales | `templates/whatsapp_scripts.md`, `data/pipeline_states_and_sheet_schema.md` |
 | meeting | `meetings/templates/`, `meetings/logs/` |
 | report | `data/kpi_definitions.md`, `rituals/weekly_review.md` |
+| bmc | `docs/business_model_canvas.md`, `docs/00_pilot_definition.md`, `imm-doulab/REPORTE_PROGRAMA_INNOVACION.md` |
 
 ## Personalización
 
