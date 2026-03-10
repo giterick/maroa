@@ -29,11 +29,7 @@ Maroa es un servicio de mantenimiento de A/C (aire acondicionado) en Punta Cana,
 
 ## Hipótesis a Validar
 
-1. **H1 - Demanda:** Clientes pagarán por mantenimiento de A/C
-2. **H2 - Operación:** Modelo concierge puede entregar experiencia "cero drama"
-3. **H3 - Calidad:** Técnicos pueden entregar calidad consistente
-4. **H4 - Economía:** Unit economics son viables (margen >=20%)
-5. **H5 - Retención:** Clientes recomendarán y volverán
+5 hipótesis (H1-H5): Demanda, Operación, Calidad, Economía, Retención. Detalle en `docs/00_pilot_definition.md`.
 
 ## Estructura del Repositorio
 
@@ -71,6 +67,16 @@ imm-doulab/     → Programa IMM Doulab Phase 02 (innovación, customer discover
 - **IMM Doulab README:** `imm-doulab/README.md`
 - **Reporte Programa Innovación:** `imm-doulab/REPORTE_PROGRAMA_INNOVACION.md`
 - **Plan Pre-Piloto:** `setup/plan_pre_piloto_marcia.md`
+- **Business Model Canvas:** `docs/business_model_canvas.md`
+- **Sistema de Precios:** `docs/05_pricing_system.md`
+- **Checklist Decisiones Piloto:** `docs/04_pilot_decisions_checklist.md`
+- **Evidencia Técnicos:** `ops/tech_evidence_requirements.md`
+- **Plan Lanzamiento 2 Días:** `setup/2_day_launch_plan.md`
+- **Setup Google Sheets:** `setup/google_sheets_setup.md`
+- **Tarjeta Referencia Rápida:** `setup/quick_reference_card.md`
+- **Project Log:** `meetings/logs/project-log.md`
+- **Backlog de Tareas:** `meetings/logs/tasks-backlog.md`
+- **Tracking Costos:** `meetings/logs/costs-tracking.md`
 
 ## Restricciones del Piloto
 
@@ -89,6 +95,17 @@ imm-doulab/     → Programa IMM Doulab Phase 02 (innovación, customer discover
 | Google Sheets | CRM, tracking servicios, métricas |
 | Google Drive | Almacenamiento de fotos |
 
+## Herramientas y Scripts
+
+| Herramienta | Ubicación | Uso |
+|-------------|-----------|-----|
+| Cotizador Sheets | `tools/google-sheets-cotizador/` | Calculadora visual de precios para Google Sheets |
+| Pricing Calculator | `tools/pricing_calculator.js` | Cálculos de pricing por servicio |
+| Extract Coda | `extract_coda.py` | Extrae datos de Coda export |
+| Extract PDF | `extract_pdf_refined.py` | Extrae texto de PDFs de investigación |
+
+**Nota:** `sources/coda/` contiene 60+ páginas exportadas de Coda — material de referencia, no editar manualmente.
+
 ## Skills Disponibles
 
 Este repositorio incluye skills de Claude Code para gestión empresarial:
@@ -103,21 +120,24 @@ Este repositorio incluye skills de Claude Code para gestión empresarial:
 | `/sales` | Sales Manager - Pipeline, conversión, scripts |
 | `/meeting` | Asistente de reuniones - Notas, acciones, seguimiento |
 | `/report` | Generador de reportes - Métricas, dashboards, análisis |
+| `/bmc` | Business Model Analyst - Modelo de negocio, canvas, estrategia |
 
 ## Flujo de Git (OBLIGATORIO)
 
 **NUNCA hacer push directo a main.** Siempre seguir este flujo:
 
-1. **Crear branch desde main:**
+1. **Crear branch desde main** (usar prefijo según tipo de cambio):
    ```bash
    git checkout main && git pull
-   git checkout -b feature/descripcion-corta
+   git checkout -b <prefijo>/descripcion-corta
    ```
+
+   Prefijos: `feature/` (funcionalidad), `docs/` (documentación), `fix/` (correcciones)
 
 2. **Hacer commits en el branch:**
    ```bash
    git add [archivos]
-   git commit -m "Mensaje descriptivo"
+   git commit -m "Mensaje descriptivo en inglés"
    ```
 
 3. **Push del branch (NO de main):**
@@ -136,6 +156,14 @@ Este repositorio incluye skills de Claude Code para gestión empresarial:
 - "¿Estoy en un branch o en main?"
 - "¿Debo crear un PR para estos cambios?"
 
+## Gotchas
+
+- `sources/coda/` tiene 60+ archivos exportados — referencia solamente, no editar
+- Python scripts en raíz requieren `pip install -r requirements.txt`
+- `.claude/settings.local.json` está trackeado en git (intencional)
+- Worktree CLAUDE.md puede quedar desincronizado de main — verificar al crear worktree
+- `imm-doulab/` contiene 10 worksheets del programa IMM — ver `imm-doulab/README.md` para índice
+
 ## Contexto para Claude
 
 Cuando trabajes en este repositorio:
@@ -145,3 +173,4 @@ Cuando trabajes en este repositorio:
 4. Prioriza soluciones simples que funcionen con WhatsApp + Sheets
 5. Los KPIs son la brújula - toda decisión debe considerar su impacto
 6. El piloto es para **validar**, no para escalar prematuramente
+7. **Idioma:** Documentación y respuestas en español. Commit messages en inglés
