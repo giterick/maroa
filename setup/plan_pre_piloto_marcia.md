@@ -47,6 +47,8 @@ Seguir la guia de onboarding (`setup/onboarding_marcia.md`) dias 1-5:
 
 ### 1.3 Buscar y Evaluar Tecnicos (Empezar desde Dia 3, en paralelo)
 
+> **Tracker:** Usar `ops/technician_recruitment_tracker.md` para registrar cada candidato y su progreso.
+
 | Tarea | Referencia | Criterio de Exito |
 |-------|-----------|-------------------|
 | Identificar canales de busqueda (referidos, FB, ferreterias) | `templates/scripts_reclutamiento_tecnicos.md` Seccion 1 | Lista de 5-10 candidatos potenciales |
@@ -133,6 +135,12 @@ Llenar esta tabla con 2-3 casas de familia o amigos cercanos:
 
 **Importante:** Aunque sean familia/amigos, ejecutar el flujo COMPLETO como si fueran clientes reales. El objetivo es probar el proceso, no hacer un favor.
 
+> **Documentos de apoyo para cada servicio:**
+> - `ops/daily_operations_log.md` — Registrar actividad diaria
+> - `ops/photo_workflow.md` — Proceso de fotos WhatsApp → Drive
+> - `ops/incident_severity_guide.md` — Clasificar cualquier incidencia
+> - `ops/backup_handoff_checklist.md` — Si Gabby necesita cubrir
+
 ### 3.2 Ejecutar Cada Servicio de Prueba
 
 Para CADA servicio, seguir este checklist completo:
@@ -208,6 +216,12 @@ Despues de cada servicio, pedirle al familiar/amigo que responda honestamente:
 | Trato profesional con cliente? | Si/No | Si/No | Si/No |
 | Intento cobrar directo al cliente? | Si/No | Si/No | Si/No |
 | Nota general | | | |
+
+---
+
+### 3.5 Check-in Semanal
+
+> Usar `rituals/pre_pilot_weekly_checkin.md` para la reunion semanal Marcia-Erick durante el pre-piloto.
 
 ---
 
