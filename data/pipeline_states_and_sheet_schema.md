@@ -82,6 +82,7 @@ AGENDADO ──> CONFIRMADO ──> EN RUTA ──> EN SITIO ──> COMPLETADO 
 | Fecha_Proxima | Date | Yes | When to do it |
 | Notas | Text | No | Additional notes |
 | Owner | Dropdown | Yes | Gabby / Erick |
+| Interes_Suscripcion | Dropdown | No | Si / No / Pendiente — Registrar si el cliente muestra interes en plan de suscripcion (ver Script #19) |
 
 ### Sheet 2: SERVICES
 
